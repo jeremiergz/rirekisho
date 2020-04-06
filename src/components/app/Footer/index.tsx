@@ -3,6 +3,7 @@ import Img from 'gatsby-image';
 import React from 'react';
 import FlexBox from '../../primitives/FlexBox';
 import Text from '../../primitives/Text';
+import HeartIcon from '../../svg/Heart';
 
 const Footer = () => {
   const {
@@ -58,9 +59,11 @@ const Footer = () => {
         justifyContent="center"
         marginBottom={{ _: 3, tablet: 2 }}
       >
-        <Text marginBottom={{ _: 2, tablet: 0 }} marginX={{ _: 0, tablet: 3 }}>
-          Powered by
-        </Text>
+        <FlexBox alignItems="center" marginBottom={{ _: 2, tablet: 0 }} marginX={{ _: 0, tablet: 3 }}>
+          <Text marginRight={1}>Made with</Text>
+          <HeartIcon height={16} />
+          <Text marginLeft={1}>using</Text>
+        </FlexBox>
         <FlexBox>
           {techs.map(tech => (
             <Text
