@@ -12,9 +12,9 @@
     "sortOrder": 1
   },
   {
-    "img": "toolbox_mongodb.png",
+    "img": "toolbox_mongo.png",
     "link": "https://www.mongodb.com",
-    "name": "mongodb",
+    "name": "mongo",
     "sortOrder": 2
   },
   {
