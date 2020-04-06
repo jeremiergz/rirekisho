@@ -26,8 +26,8 @@ const Skills = forwardRef<HTMLDivElement>((_, ref) => {
     <Layout.Section ref={ref} title="skills">
       <Layout.Content
         justifyContent={{ _: 'space-around', laptopL: 'space-between' }}
-        marginX={-3}
-        width="calc(100% + 32px)"
+        marginX={{ _: 0, tablet: -3 }}
+        width={{ _: 'auto', tablet: 'calc(100% + 32px)' }}
       >
         {skills
           .sort((a, b) => a.sortOrder - b.sortOrder)
