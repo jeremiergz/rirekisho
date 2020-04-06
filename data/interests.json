@@ -1,0 +1,32 @@
+[
+  {
+    "img": "interest_coding.png",
+    "name": "coding",
+    "sortOrder": 0
+  },
+  {
+    "img": "interest_tech.png",
+    "name": "tech",
+    "sortOrder": 1
+  },
+  {
+    "img": "interest_sports.png",
+    "name": "sports",
+    "sortOrder": 2
+  },
+  {
+    "img": "interest_movies.png",
+    "name": "movies",
+    "sortOrder": 3
+  },
+  {
+    "img": "interest_music.png",
+    "name": "music",
+    "sortOrder": 4
+  },
+  {
+    "img": "interest_nature.png",
+    "name": "nature",
+    "sortOrder": 5
+  }
+]

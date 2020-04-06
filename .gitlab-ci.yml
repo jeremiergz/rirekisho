@@ -1,0 +1,63 @@
+stages:
+  - "build"
+  - "quality"
+  - "deploy"
+
+image: "node:12"
+
+variables:
+  DOCKER_DRIVER: "overlay2"
+  DOCKER_IMAGE_TAG_CI: "${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_NAME}"
+  DOCKER_TLS_CERTDIR: "/certs"
+
+cache:
+  key: "$CI_BUILD_REF_NAME"
+  untracked: true
+  paths:
+    - "node_modules/"
+
+build:npm:
+  stage: "build"
+  before_script:
+    - "npm install"
+  script:
+    - "npm run build"
+  artifacts:
+    paths:
+      - "public"
+
+build:docker:
+  stage: "build"
+  image: "docker:stable"
+  services:
+    - "docker:dind"
+  before_script:
+    - "echo ${CI_JOB_TOKEN} | docker login --username ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY}"
+  script:
+    - docker build
+      --build-arg GIT_COMMIT=${CI_COMMIT_SHA}
+      --build-arg VERSION=${CI_COMMIT_SHORT_SHA}
+      --tag ${DOCKER_IMAGE_TAG_CI} .
+    - "docker push ${DOCKER_IMAGE_TAG_CI}"
+  cache: {}
+  only:
+    - "develop"
+
+quality:lint:
+  stage: "quality"
+  before_script:
+    - "npm install"
+  script:
+    - "npm run lint"
+  allow_failure: true
+
+pages:
+  stage: "deploy"
+  script:
+    - "ls -lh public"
+  artifacts:
+    paths:
+      - "public"
+  cache: {}
+  only:
+    - "tags"

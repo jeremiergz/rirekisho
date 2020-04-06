@@ -1,0 +1,97 @@
+{
+  "name": "rirekisho",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yet Another Resume Website. This time it's mine though.",
+  "keywords": [
+    "cv",
+    "gatsby",
+    "react",
+    "resume",
+    "rirekisho",
+    "styled-components",
+    "typescript"
+  ],
+  "homepage": "https://cv.jeremierodriguez.com",
+  "bugs": {
+    "url": "https://gitlab.com/jeremiergz/rirekisho/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jeremiergz/rirekisho.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Jeremie Rodriguez <contact@jeremierodriguez.com> (https://gitlab.com/jeremiergz)",
+  "files": [
+    "public/"
+  ],
+  "scripts": {
+    "build": "run-s clean compile",
+    "clean": "rimraf .cache coverage dist out public",
+    "compile": "gatsby build",
+    "lint": "eslint --ext ts,tsx src",
+    "lint:tsc": "tsc --noEmit",
+    "prerelease": "run-s build lint lint:tsc",
+    "release": "node release.js",
+    "start": "gatsby serve",
+    "start:w": "gatsby develop",
+    "version": "node --print process.env.npm_package_version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "gatsby": "2.20.12",
+    "gatsby-image": "2.3.1",
+    "gatsby-plugin-google-analytics": "2.2.2",
+    "gatsby-plugin-google-fonts": "1.0.1",
+    "gatsby-plugin-manifest": "2.3.3",
+    "gatsby-plugin-offline": "3.1.2",
+    "gatsby-plugin-react-helmet-async": "1.0.16",
+    "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-sharp": "2.5.4",
+    "gatsby-plugin-sitemap": "2.3.1",
+    "gatsby-plugin-styled-components": "3.2.1",
+    "gatsby-plugin-typescript": "2.3.1",
+    "gatsby-source-filesystem": "2.2.2",
+    "gatsby-transformer-json": "2.3.1",
+    "gatsby-transformer-sharp": "2.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-helmet-async": "1.0.4",
+    "react-to-print": "2.6.3",
+    "styled-components": "5.0.1",
+    "styled-system": "5.1.5"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@kobionic/eslint-config-typescript-react": "^1.0.4",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-helmet": "^5.0.15",
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-gatsby": "^0.3.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
