@@ -6,7 +6,7 @@ const Degree: FunctionComponent<DegreeProps> = ({ city, countryCode, name, schoo
     <>
       <Text
         color="primary"
-        fontSize={14}
+        fontSize={{ _: 18, tablet: 14 }}
         fontWeight="bold"
         marginY={1}
         maxWidth={{ _: 'unset', tablet: '75%' }}
@@ -15,10 +15,10 @@ const Degree: FunctionComponent<DegreeProps> = ({ city, countryCode, name, schoo
       >
         {name}
       </Text>
-      <Text color="text" fontSize={12} fontWeight="bold" maxWidth="80%" textAlign="center">
+      <Text color="text" fontSize={{ _: 16, tablet: 12 }} fontWeight="bold" maxWidth="80%" textAlign="center">
         {school}
       </Text>
-      <Text color="text" fontSize={10} fontWeight="bold" maxWidth="80%" textAlign="center">
+      <Text color="text" fontSize={{ _: 14, tablet: 10 }} fontWeight="bold" maxWidth="80%" textAlign="center">
         {city.toUpperCase()} - {countryCode}
       </Text>
     </>
