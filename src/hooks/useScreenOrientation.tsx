@@ -1,12 +1,18 @@
 import { useCallback, useEffect, useState } from 'react';
 
-const defaultOrientation = { type: 'portrait-primary' };
+const defaultOrientation: Partial<ScreenOrientation> = { type: 'portrait-primary' };
+
+function getOrientation() {
+  if (typeof window !== 'undefined') {
+    const { height, orientation, width } = window.screen;
+    return orientation ? orientation : { type: height > width ? 'portrait-primary' : 'landscape-primary' };
+  }
+  return defaultOrientation;
+}
 
 function useScreenOrientation() {
-  const [orientation, setOrientation] = useState(
-    typeof window !== 'undefined' ? window.screen.orientation : defaultOrientation,
-  );
-  const handleOrientationChange = useCallback(() => setOrientation(window.screen.orientation), []);
+  const [orientation, setOrientation] = useState(getOrientation());
+  const handleOrientationChange = useCallback(() => setOrientation(getOrientation()), []);
   useEffect(() => {
     window.addEventListener('orientationchange', handleOrientationChange);
     return () => window.removeEventListener('orientationchange', handleOrientationChange);
