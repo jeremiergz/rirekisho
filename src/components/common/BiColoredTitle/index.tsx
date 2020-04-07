@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react';
 import Box, { BoxProps } from '../../primitives/Box';
 import Text from '../../primitives/Text';
-import Button from '../Button';
 
 const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(({ onClick, title, variant, ...rest }, ref) => {
   const firstThreeChars = title && title.substring(0, 3);
@@ -18,10 +17,8 @@ const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(({ onClic
       textAlign={{ _: 'center', tablet: 'left' }}
       {...rest}
     >
-      <Button variant="cursor-only">
-        <Text color="secondary">{firstThreeChars}</Text>
-        <Text color="primary">{remainingChars}</Text>
-      </Button>
+      <Text color="secondary">{firstThreeChars}</Text>
+      <Text color="primary">{remainingChars}</Text>
     </Box>
   );
 });

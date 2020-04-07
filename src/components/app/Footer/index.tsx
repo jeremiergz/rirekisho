@@ -52,6 +52,7 @@ const Footer = () => {
       height={{ _: 204, tablet: 168 }}
       justifyContent="center"
       marginTop={5}
+      position="relative"
     >
       <FlexBox
         alignItems="center"

@@ -29,9 +29,14 @@ const Text = styled.span<TextProps>`
     typography,
     zIndex,
     system({
+      cursor: true,
+      pointerEvents: true,
       textDecoration: true,
       textTransform: true,
+      transform: true,
+      transformOrigin: true,
       whiteSpace: true,
+      writingMode: true,
     }),
   )}
 `;
@@ -48,9 +53,14 @@ export type TextProps = StyledSystemProps<
     TimeHTMLAttributes<unknown> &
     TypographyProps &
     ZIndexProps & {
+      cursor?: CSSProperties['cursor'];
+      pointerEvents?: CSSProperties['pointerEvents'];
       textDecoration?: CSSProperties['textDecoration'];
       textTransform?: CSSProperties['textTransform'];
+      transform?: CSSProperties['transform'];
+      transformOrigin?: CSSProperties['transformOrigin'];
       whiteSpace?: CSSProperties['whiteSpace'];
+      writingMode?: CSSProperties['writingMode'];
     }
 >;
 export default Text;

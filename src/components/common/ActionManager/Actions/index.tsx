@@ -31,6 +31,7 @@ const Actions: FunctionComponent<ActionsProps> = ({
       marginRight={isPortrait ? 0 : 2}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      pointerEvents={opened ? 'all' : 'none'}
       position="absolute"
       right={isPortrait ? 0 : 64}
       width={isPortrait ? '100%' : 'auto'}
