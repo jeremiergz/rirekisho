@@ -48,7 +48,7 @@
     ]
   },
   "dependencies": {
-    "gatsby": "2.20.12",
+    "gatsby": "2.20.13",
     "gatsby-image": "2.3.1",
     "gatsby-plugin-google-analytics": "2.2.2",
     "gatsby-plugin-google-fonts": "1.0.1",
@@ -67,7 +67,7 @@
     "react-dom": "16.13.1",
     "react-helmet-async": "1.0.4",
     "react-to-print": "2.6.3",
-    "styled-components": "5.0.1",
+    "styled-components": "5.1.0",
     "styled-system": "5.1.5"
   },
   "devDependencies": {
@@ -87,7 +87,7 @@
     "eslint-plugin-react": "^7.19.0",
     "husky": "^4.2.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.3",
+    "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
   },
