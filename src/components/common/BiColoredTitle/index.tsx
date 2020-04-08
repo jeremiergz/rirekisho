@@ -3,8 +3,8 @@ import Box, { BoxProps } from '../../primitives/Box';
 import Text from '../../primitives/Text';
 
 const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(({ onClick, title, variant, ...rest }, ref) => {
-  const firstThreeChars = title && title.substring(0, 3);
-  const remainingChars = title && title.substring(3, title.length);
+  const firstThreeChars = title.substring(0, 3);
+  const remainingChars = title.substring(3, title.length);
   return (
     <Box
       borderBottom={variant === 'no-border' ? 0 : '2px solid'}
