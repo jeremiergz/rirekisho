@@ -27,7 +27,7 @@ const ActionButton: FunctionComponent<ActionButtonProps> = ({ Icon, label, opene
   const handleMouseEnter = () => setHovered(true);
   const handleMouseLeave = (e: MouseEvent<HTMLElement>) => {
     const target = e.relatedTarget;
-    const isOutsideTooltip = target !== buttonRef.current && target !== tooltipRef.current;
+    const isOutsideTooltip = target !== buttonRef.current && !tooltipRef.current.contains(target as Node);
     if (isOutsideTooltip) setHovered(false);
   };
   return (
