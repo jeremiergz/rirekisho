@@ -1,7 +1,7 @@
 import React, { ComponentType, FunctionComponent, MouseEvent, RefObject, useRef, useState } from 'react';
 import useScreenOrientation from '../../../../../hooks/useScreenOrientation';
+import Button from '../../../../common/Button';
 import Box, { BoxProps } from '../../../../primitives/Box';
-import Button from '../../../Button';
 import Tooltip from './Tooltip';
 
 const ActionButton: FunctionComponent<ActionButtonProps> = ({ Icon, label, opened, openingDelayInMs, to, ...rest }) => {

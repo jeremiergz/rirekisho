@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import useScreenOrientation from '../../../../../../hooks/useScreenOrientation';
+import BiColoredTitle from '../../../../../common/BiColoredTitle';
 import FlexBox, { FlexBoxProps } from '../../../../../primitives/FlexBox';
-import BiColoredTitle from '../../../../BiColoredTitle';
 
 type StyleMapping = {
   landscape: (hovered: boolean) => Record<string, number | string>;

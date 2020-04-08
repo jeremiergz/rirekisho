@@ -1,10 +1,10 @@
 import React, { FunctionComponent, useRef } from 'react';
+import ActionManager from '../components/app/ActionManager';
 import Details from '../components/app/Details';
 import Education from '../components/app/Education';
 import Interests from '../components/app/Interests';
 import Skills from '../components/app/Skills';
 import Toolbox from '../components/app/Toolbox';
-import ActionManager from '../components/common/ActionManager';
 import Layout from '../components/common/Layout';
 import ChevronBottomIcon from '../components/svg/ChevronBottom';
 import ChevronTopIcon from '../components/svg/ChevronTop';
