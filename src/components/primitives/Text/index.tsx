@@ -10,6 +10,7 @@ import {
   DisplayProps,
   layout,
   LayoutProps,
+  ResponsiveValue,
   space,
   SpaceProps,
   system,
@@ -53,14 +54,14 @@ export type TextProps = StyledSystemProps<
     TimeHTMLAttributes<unknown> &
     TypographyProps &
     ZIndexProps & {
-      cursor?: CSSProperties['cursor'];
-      pointerEvents?: CSSProperties['pointerEvents'];
-      textDecoration?: CSSProperties['textDecoration'];
-      textTransform?: CSSProperties['textTransform'];
-      transform?: CSSProperties['transform'];
-      transformOrigin?: CSSProperties['transformOrigin'];
-      whiteSpace?: CSSProperties['whiteSpace'];
-      writingMode?: CSSProperties['writingMode'];
+      cursor?: ResponsiveValue<CSSProperties['cursor']>;
+      pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+      textDecoration?: ResponsiveValue<CSSProperties['textDecoration']>;
+      textTransform?: ResponsiveValue<CSSProperties['textTransform']>;
+      transform?: ResponsiveValue<CSSProperties['transform']>;
+      transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+      whiteSpace?: ResponsiveValue<CSSProperties['whiteSpace']>;
+      writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
     }
 >;
 export default Text;

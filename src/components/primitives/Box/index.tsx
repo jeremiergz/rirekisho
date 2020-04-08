@@ -12,6 +12,7 @@ import {
   LayoutProps,
   position,
   PositionProps,
+  ResponsiveValue,
   space,
   SpaceProps,
   system,
@@ -57,14 +58,14 @@ export type BoxProps = StyledSystemProps<
     TimeHTMLAttributes<unknown> &
     TypographyProps &
     ZIndexProps & {
-      animation?: CSSProperties['animation'];
-      cursor?: CSSProperties['cursor'];
-      boxSizing?: CSSProperties['boxSizing'];
-      pointerEvents?: CSSProperties['pointerEvents'];
-      transform?: CSSProperties['transform'];
-      transformOrigin?: CSSProperties['transformOrigin'];
-      transition?: CSSProperties['transition'];
-      writingMode?: CSSProperties['writingMode'];
+      animation?: ResponsiveValue<CSSProperties['animation']>;
+      cursor?: ResponsiveValue<CSSProperties['cursor']>;
+      boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
+      pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+      transform?: ResponsiveValue<CSSProperties['transform']>;
+      transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+      transition?: ResponsiveValue<CSSProperties['transition']>;
+      writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
     }
 >;
 export default Box;
