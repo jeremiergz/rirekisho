@@ -38,6 +38,7 @@ const SEO: FunctionComponent<SEOProps> = ({ description = '', keywords = [], lan
   const metaImageURL = `${siteUrl}${banner.childImageSharp.fixed.src}`;
   const metaKeywords = keywords || siteKeywords;
   const metaURL = `${siteUrl}${path}`;
+  const fullTitle = `${title} | ${siteTitle}`;
   return (
     <Helmet htmlAttributes={{ lang }} title={title} titleTemplate={`%s | ${siteTitle}`}>
       <link rel="canonical" href={metaURL} />
@@ -46,14 +47,14 @@ const SEO: FunctionComponent<SEOProps> = ({ description = '', keywords = [], lan
       <meta name="keywords" content={metaKeywords.join(', ')} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={metaImageURL} />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={fullTitle} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={metaURL} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content={metaImageURL} />
-      <meta name="twitter:title" content={title} />
+      <meta name="twitter:title" content={fullTitle} />
     </Helmet>
   );
 };
