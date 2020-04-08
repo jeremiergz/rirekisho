@@ -4,14 +4,14 @@ import FlexBox from '../../../primitives/FlexBox';
 import ActionButton from './ActionButton';
 
 const Actions: FunctionComponent<ActionsProps> = ({
-  actions,
   onMouseEnter,
   onMouseLeave,
   onOrientationChange,
   opened,
+  sections,
 }) => {
   const orientation = useScreenOrientation();
-  let delayStart = opened ? actions.length * 25 + 25 : 0;
+  let delayStart = opened ? sections.length * 25 + 25 : 0;
   const isPortrait = orientation === 'portrait' || (typeof screen !== 'undefined' && screen.height >= 616);
   useEffect(() => {
     window.addEventListener('orientationchange', onOrientationChange);
@@ -36,16 +36,16 @@ const Actions: FunctionComponent<ActionsProps> = ({
       right={isPortrait ? 0 : 64}
       width={isPortrait ? '100%' : 'auto'}
     >
-      {actions.map(action => (
+      {sections.map(section => (
         <ActionButton
-          Icon={action.Icon}
-          key={action.title}
-          label={action.title}
+          Icon={section.Icon}
+          key={section.title}
+          label={section.title}
           marginBottom={isPortrait ? 1 : 0}
           marginRight={isPortrait ? 0 : 1}
           opened={opened}
           openingDelayInMs={opened ? (delayStart -= 25) : (delayStart += 25)}
-          to={action.ref}
+          to={section.ref}
         />
       ))}
     </FlexBox>
@@ -55,10 +55,10 @@ const Actions: FunctionComponent<ActionsProps> = ({
 Actions.displayName = 'Actions';
 
 export type ActionsProps = {
-  actions: Models.Action[];
   onMouseEnter: (e: MouseEvent<HTMLElement>) => void;
   onMouseLeave: (e: MouseEvent<HTMLElement>) => void;
   onOrientationChange: () => void;
   opened: boolean;
+  sections: Models.Section[];
 };
 export default Actions;

@@ -19,22 +19,23 @@ const IndexPage: FunctionComponent = () => {
   const toolboxRef = useRef<HTMLDivElement>();
   const interestsRef = useRef<HTMLDivElement>();
   const educationRef = useRef<HTMLDivElement>();
-  const actions: Models.Action[] = [
+  const sections: Models.Section[] = [
     { Icon: ChevronTopIcon, ref: 'top', title: 'top' },
-    { Icon: SkillsIcon, ref: skillsRef, title: 'skills' },
-    { Icon: ToolboxIcon, ref: toolboxRef, title: 'toolbox' },
-    { Icon: InterestsIcon, ref: interestsRef, title: 'interests' },
-    { Icon: EducationIcon, ref: educationRef, title: 'education' },
+    { Component: Skills, Icon: SkillsIcon, ref: skillsRef, title: 'skills' },
+    { Component: Toolbox, Icon: ToolboxIcon, ref: toolboxRef, title: 'toolbox' },
+    { Component: Interests, Icon: InterestsIcon, ref: interestsRef, title: 'interests' },
+    { Component: Education, Icon: EducationIcon, ref: educationRef, title: 'education' },
     { Icon: ChevronBottomIcon, ref: 'bottom', title: 'bottom' },
   ];
   return (
     <Layout.Base ref={printableRef} path="/" title="CV">
       <Details />
-      <Skills ref={skillsRef} />
-      <Toolbox ref={toolboxRef} />
-      <Interests ref={interestsRef} />
-      <Education ref={educationRef} />
-      <ActionManager actions={actions} position="bottom-right" />
+      {sections
+        .filter(b => !!b.Component)
+        .map(b => (
+          <b.Component key={b.title} ref={b.ref} />
+        ))}
+      <ActionManager sections={sections} position="bottom-right" />
     </Layout.Base>
   );
 };

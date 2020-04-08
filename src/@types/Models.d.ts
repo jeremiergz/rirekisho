@@ -1,5 +1,6 @@
 declare module Models {
-  type Action = {
+  type Section = {
+    Component?: React.ForwardRefExoticComponent;
     Icon: React.ComponentType;
     ref: React.RefObject<HTMLElement> | 'top' | 'bottom';
     title: string;

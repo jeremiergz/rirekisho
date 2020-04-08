@@ -24,7 +24,7 @@ const positionMapping = {
   },
 };
 
-const ActionManager: FunctionComponent<ActionManagerProps> = ({ actions, position }) => {
+const ActionManager: FunctionComponent<ActionManagerProps> = ({ sections, position }) => {
   const actionsRef = useRef<HTMLDivElement>();
   const buttonRef = useRef();
   const [hovered, setHovered] = useState(false);
@@ -45,7 +45,7 @@ const ActionManager: FunctionComponent<ActionManagerProps> = ({ actions, positio
   return (
     <Box height={64} position="fixed" width={64} zIndex={1} {...positioning}>
       <Actions
-        actions={actions}
+        sections={sections}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onOrientationChange={handleCloseMenu}
@@ -72,7 +72,7 @@ const ActionManager: FunctionComponent<ActionManagerProps> = ({ actions, positio
 ActionManager.displayName = 'ActionManager';
 
 type ActionManagerProps = {
-  actions: Models.Action[];
   position: 'bottom-left' | 'bottom-right' | 'top-left' | 'top-right';
+  sections: Models.Section[];
 };
 export default ActionManager;
