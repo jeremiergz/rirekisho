@@ -37,7 +37,7 @@ const Education = forwardRef<HTMLDivElement>((_, ref) => {
               marginBottom={{ _: 4, tablet: 0 }}
               position="relative"
             >
-              <Text color="secondary" fontSize={16} fontWeight="bold">
+              <Text color="secondary" fontSize={{ _: 20, tablet: 16 }} fontWeight="bold">
                 {degree.issueDate.substring(0, 4)}
               </Text>
               <TimelineDot />
