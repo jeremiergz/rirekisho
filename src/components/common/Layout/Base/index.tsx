@@ -1,10 +1,9 @@
-import React, { forwardRef } from 'react';
+import React, { FunctionComponent } from 'react';
 import { createGlobalStyle } from 'styled-components';
 import useTheme from '../../../../hooks/useTheme';
 import Footer from '../../../app/Footer';
 import Header from '../../../app/Header';
-import Box, { BoxProps } from '../../../primitives/Box';
-import Grid from '../../../primitives/Grid';
+import Grid, { GridProps } from '../../../primitives/Grid';
 import SEO, { SEOProps } from '../../SEO';
 
 const GlobalStyle = createGlobalStyle`
@@ -45,35 +44,31 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const Base = forwardRef<HTMLDivElement, BaseProps>(
-  ({ children, description, keywords, lang, path, title, ...rest }, ref) => {
-    const theme = useTheme();
-    return (
-      <>
-        <GlobalStyle />
-        <SEO description={description} keywords={keywords} lang={lang} path={path} title={title} />
-        <Box ref={ref}>
-          <Header />
-          <Grid
-            as="main"
-            gridColumnGap={{ _: 32, tablet: 64 }}
-            gridTemplateColumns="auto auto"
-            margin="auto"
-            maxWidth={theme.breakpoints['laptopM']}
-            paddingX={{ _: 3, tablet: 4, laptopS: 48 }}
-            variant="container"
-            {...rest}
-          >
-            {children}
-          </Grid>
-        </Box>
-        <Footer />
-      </>
-    );
-  },
-);
+const Base: FunctionComponent<BaseProps> = ({ children, description, keywords, lang, path, title, ...rest }) => {
+  const theme = useTheme();
+  return (
+    <>
+      <GlobalStyle />
+      <SEO description={description} keywords={keywords} lang={lang} path={path} title={title} />
+      <Header />
+      <Grid
+        as="main"
+        gridColumnGap={{ _: 32, tablet: 64 }}
+        gridTemplateColumns="auto auto"
+        margin="auto"
+        maxWidth={theme.breakpoints['laptopM']}
+        paddingX={{ _: 3, tablet: 4, laptopS: 48 }}
+        variant="container"
+        {...rest}
+      >
+        {children}
+      </Grid>
+      <Footer />
+    </>
+  );
+};
 
 Base.displayName = 'Base';
 
-export type BaseProps = BoxProps & SEOProps;
+export type BaseProps = Omit<GridProps, 'variant'> & SEOProps;
 export default Base;

@@ -16,7 +16,6 @@ import SkillsIcon from '../components/svg/Skills';
 import ToolboxIcon from '../components/svg/Toolbox';
 
 const IndexPage: FunctionComponent = () => {
-  const printableRef = useRef<HTMLDivElement>();
   const experiencesRef = useRef<HTMLDivElement>();
   const skillsRef = useRef<HTMLDivElement>();
   const toolboxRef = useRef<HTMLDivElement>();
@@ -32,7 +31,7 @@ const IndexPage: FunctionComponent = () => {
     { Icon: ChevronBottomIcon, ref: 'bottom', title: 'bottom' },
   ];
   return (
-    <Layout.Base ref={printableRef} path="/" title="CV">
+    <Layout.Base path="/" title="CV">
       <Details />
       {sections
         .filter(b => !!b.Component)

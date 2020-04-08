@@ -6,7 +6,7 @@ const SEO: FunctionComponent<SEOProps> = ({
   description = '',
   keywords = [],
   lang = 'en',
-  path = '/',
+  path = '',
   title = 'CV',
 }) => {
   const {
