@@ -2,7 +2,13 @@ import * as Gatsby from 'gatsby';
 import React, { FunctionComponent } from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const SEO: FunctionComponent<SEOProps> = ({ description = '', keywords = [], lang = 'en', path = '/', title }) => {
+const SEO: FunctionComponent<SEOProps> = ({
+  description = '',
+  keywords = [],
+  lang = 'en',
+  path = '/',
+  title = 'CV',
+}) => {
   const {
     banner,
     site: {
