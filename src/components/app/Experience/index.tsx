@@ -4,12 +4,12 @@ import Layout from '../../common/Layout';
 import ExperienceBlock from './ExperienceBlock';
 import Grid from '../../primitives/Grid';
 
-const Experiences = forwardRef<HTMLDivElement>((_, ref) => {
+const Experience = forwardRef<HTMLDivElement>((_, ref) => {
   const {
-    xpNodes: { nodes: experiences },
-  } = useStaticQuery<GraphQL.ExperiencesData>(graphql`
-    query ExperiencesData {
-      xpNodes: allExperiencesJson {
+    experienceNodes: { nodes: experiences },
+  } = useStaticQuery<GraphQL.ExperienceData>(graphql`
+    query ExperienceData {
+      experienceNodes: allExperiencesJson {
         nodes {
           company
           companySector
@@ -29,7 +29,7 @@ const Experiences = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   return (
-    <Layout.Section ref={ref} title="education">
+    <Layout.Section ref={ref} title="experience">
       <Layout.Content columnDirection="column-reverse">
         <Grid gridColumnGap={{ _: 32, tablet: 64 }} gridTemplateColumns="auto auto" variant="container">
           {experiences
@@ -43,6 +43,6 @@ const Experiences = forwardRef<HTMLDivElement>((_, ref) => {
   );
 });
 
-Experiences.displayName = 'Experiences';
+Experience.displayName = 'Experience';
 
-export default Experiences;
+export default Experience;

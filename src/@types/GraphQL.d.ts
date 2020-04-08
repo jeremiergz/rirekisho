@@ -19,8 +19,8 @@ declare module GraphQL {
     };
   };
 
-  type ExperiencesData = {
-    xpNodes: {
+  type ExperienceData = {
+    experienceNodes: {
       nodes: Models.Experience[];
     };
   };

@@ -2,7 +2,7 @@ import React, { FunctionComponent, useRef } from 'react';
 import ActionManager from '../components/app/ActionManager';
 import Details from '../components/app/Details';
 import Education from '../components/app/Education';
-import Experiences from '../components/app/Experiences';
+import Experience from '../components/app/Experience';
 import Interests from '../components/app/Interests';
 import Skills from '../components/app/Skills';
 import Toolbox from '../components/app/Toolbox';
@@ -24,7 +24,7 @@ const IndexPage: FunctionComponent = () => {
   const educationRef = useRef<HTMLDivElement>();
   const sections: Models.Section[] = [
     { Icon: ChevronTopIcon, ref: 'top', title: 'top' },
-    { Component: Experiences, Icon: ExperienceIcon, ref: experiencesRef, title: 'experiences' },
+    { Component: Experience, Icon: ExperienceIcon, ref: experiencesRef, title: 'experience' },
     { Component: Skills, Icon: SkillsIcon, ref: skillsRef, title: 'skills' },
     { Component: Toolbox, Icon: ToolboxIcon, ref: toolboxRef, title: 'toolbox' },
     { Component: Interests, Icon: InterestsIcon, ref: interestsRef, title: 'interests' },
