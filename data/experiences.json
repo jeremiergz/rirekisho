@@ -14,14 +14,7 @@
           "Engineering of a generic MySQL DB for 3 different web portals",
           "Web portal development in PHP using the Symfony 3 framework"
         ],
-        "technologies": [
-          "PHP",
-          "Symfony 3",
-          "JavaScript",
-          "MySQL",
-          "Apache Server",
-          "Let's Encrypt"
-        ]
+        "technologies": ["PHP", "Symfony 3", "JavaScript", "MySQL"]
       }
     ],
     "startDate": "2016-07-01"
@@ -33,16 +26,6 @@
     "img": "company_sqli.png",
     "projects": [
       {
-        "client": "Pierre Fabre S.A",
-        "clientSector": "Pharmaceutical & Cosmetics",
-        "description": "POC of a technology trends analyzer using Big Data",
-        "name": null,
-        "tasks": [
-          "Front-end engineering & development using Angular v2 & Materialize.css"
-        ],
-        "technologies": ["Angular", "TypeScript", "SASS", "Materialize.css"]
-      },
-      {
         "client": "Omnium Finance",
         "clientSector": "Financial Services",
         "description": "Client base management Web interface for tablets and PCs",
@@ -52,14 +35,15 @@
           "Front-end development using Angular.js, Bootstrap & SASS",
           "Docker initiation & Spring Boot container creation"
         ],
-        "technologies": [
-          "Angular.js",
-          "JavaScript",
-          "SASS",
-          "Docker",
-          "Spring Boot",
-          "JPA"
-        ]
+        "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
+      },
+      {
+        "client": "Pierre Fabre",
+        "clientSector": "Pharmaceutical & Cosmetics",
+        "description": "POC of a technology trends analyzer using Big Data",
+        "name": null,
+        "tasks": ["Front-end engineering & development using Angular v2 & Materialize.css"],
+        "technologies": ["Angular", "TypeScript"]
       }
     ],
     "startDate": "2016-11-01"
@@ -102,15 +86,7 @@
           "Micro-services dockerization",
           "CLI utilities development"
         ],
-        "technologies": [
-          "Node.js",
-          "TypeScript",
-          "Angular",
-          "Docker",
-          "PostgreSQL",
-          "Java 8",
-          "Spring Boot"
-        ]
+        "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
       }
     ],
     "startDate": "2017-06-01"
@@ -132,14 +108,7 @@
           "Maintenance of the Architectural Design Document",
           "Deployment industrialization using Docker"
         ],
-        "technologies": [
-          "React.js",
-          "Redux",
-          "Node.js",
-          "TypeScript",
-          "Docker",
-          "MaterialUI"
-        ]
+        "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
       }
     ],
     "startDate": "2018-06-01"
@@ -153,29 +122,21 @@
       {
         "client": null,
         "clientSector": null,
-        "description": "Features development & maintenance of Web platforms",
-        "name": null,
-        "tasks": ["Back-end & front-end engineering & development"],
-        "technologies": ["Node.js", "React", "JavaScript", "SASS", "Docker"]
-      },
-      {
-        "client": null,
-        "clientSector": null,
-        "description": "Kubernetization & move to GCP of all Web platforms",
+        "description": "Kubernetization & move to GCP of Web platforms",
         "name": "XDoG",
         "tasks": [
           "Migrate web platforms to Kubernetes on Google Cloud Platform",
           "Adapt APIs for K8s: health probes, Prometheus metrics, etc"
         ],
-        "technologies": [
-          "Docker",
-          "JavaScript",
-          "Kubernetes",
-          "GCP",
-          "Istio",
-          "Ansible",
-          "Kustomize"
-        ]
+        "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+      },
+      {
+        "client": null,
+        "clientSector": null,
+        "description": "Features development & maintenance of Web platforms",
+        "name": null,
+        "tasks": ["Back-end & front-end engineering & development"],
+        "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
       }
     ],
     "startDate": "2018-10-01"

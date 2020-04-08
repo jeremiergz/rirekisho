@@ -19,6 +19,12 @@ declare module GraphQL {
     };
   };
 
+  type ExperiencesData = {
+    xpNodes: {
+      nodes: Models.Experience[];
+    };
+  };
+
   type FooterData = {
     gatsbyImg: {
       fluid: import('gatsby-image').FluidObject;
