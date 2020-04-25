@@ -31,7 +31,7 @@ const IndexPage: FunctionComponent = () => {
     { Icon: ChevronBottomIcon, ref: 'bottom', title: 'bottom' },
   ];
   return (
-    <Layout.Base path="/" title="CV">
+    <Layout path="/" title="CV">
       <Details />
       {sections
         .filter(b => !!b.Component)
@@ -39,7 +39,7 @@ const IndexPage: FunctionComponent = () => {
           <b.Component key={b.title} ref={b.ref} />
         ))}
       <ActionManager sections={sections} position="bottom-right" />
-    </Layout.Base>
+    </Layout>
   );
 };
 
