@@ -36,6 +36,7 @@ const Contacts: FunctionComponent<ContactsProps> = ({ items, order }) => {
       flexDirection={{ _: 'row', tablet: 'column' }}
       justifyContent="center"
       marginY={3}
+      maxHeight={{ _: 32, tablet: 'unset' }}
       minWidth={224}
       order={order}
       textAlign="center"

@@ -31,6 +31,7 @@ const PortraitAndJobTitle: FunctionComponent<PortraitAndJobTitleProps> = ({ jobT
         backgroundColor="white"
         borderRadius="50%"
         height={{ _: 184, laptopL: 224 }}
+        minHeight={{ _: 184, laptopL: 224 }}
         position="relative"
         width={{ _: 184, laptopL: 224 }}
       >
