@@ -43,7 +43,7 @@ const ActionManager: FunctionComponent<ActionManagerProps> = ({ sections, positi
   const handleCloseMenu = () => setOpened(false);
   const positioning = positionMapping[position];
   return (
-    <Box height={64} position="fixed" width={64} zIndex={1} {...positioning}>
+    <Box height={64} position="fixed" print={false} width={64} zIndex={1} {...positioning}>
       <Actions
         sections={sections}
         onMouseEnter={handleMouseEnter}

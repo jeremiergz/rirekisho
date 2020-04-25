@@ -1,5 +1,5 @@
 import { CSSProperties, TimeHTMLAttributes } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import {
   border,
   BorderProps,
@@ -43,6 +43,14 @@ const Box = styled.div<BoxProps>`
       writingMode: true,
     }),
   )}
+  @media print {
+    ${({ print = true }) =>
+      print
+        ? null
+        : css`
+            display: none;
+          `}
+  }
 `;
 
 Box.displayName = 'Box';
@@ -62,6 +70,7 @@ export type BoxProps = StyledSystemProps<
       cursor?: ResponsiveValue<CSSProperties['cursor']>;
       boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
       pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+      print?: boolean;
       transform?: ResponsiveValue<CSSProperties['transform']>;
       transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
       transition?: ResponsiveValue<CSSProperties['transition']>;

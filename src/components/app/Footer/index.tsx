@@ -53,6 +53,7 @@ const Footer = () => {
       justifyContent="center"
       marginTop={5}
       position="relative"
+      print={false}
     >
       <FlexBox
         alignItems="center"
