@@ -36,14 +36,6 @@
           "Docker initiation & Spring Boot container creation"
         ],
         "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
-      },
-      {
-        "client": "Pierre Fabre",
-        "clientSector": "Pharmaceutical & Cosmetics",
-        "description": "POC of a technology trends analyzer using Big Data",
-        "name": null,
-        "tasks": ["Front-end engineering & development using Angular v2 & Materialize.css"],
-        "technologies": ["Angular", "TypeScript"]
       }
     ],
     "startDate": "2016-11-01"
