@@ -16,7 +16,7 @@ const Contacts: FunctionComponent<ContactsProps> = ({ items, order }) => {
     contactImgNodes: { nodes: contactImgs },
   } = useStaticQuery<GraphQL.ContactsData>(graphql`
     query ContactsData {
-      contactImgNodes: allImageSharp(filter: { fixed: { originalName: { regex: "/contact/" } } }) {
+      contactImgNodes: allImageSharp(filter: { fixed: { originalName: { regex: "/^contact_.+/" } } }) {
         nodes {
           fixed(height: 32, width: 32) {
             originalName

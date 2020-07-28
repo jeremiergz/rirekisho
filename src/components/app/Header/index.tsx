@@ -11,7 +11,7 @@ const Header: FunctionComponent = () => {
     languageNodes: { nodes: languages },
   } = useStaticQuery<GraphQL.HeaderData>(graphql`
     query HeaderData {
-      flagImgNodes: allImageSharp(filter: { fluid: { originalName: { regex: "/flag/" } } }) {
+      flagImgNodes: allImageSharp(filter: { fluid: { originalName: { regex: "/^flag_.+/" } } }) {
         nodes {
           fluid {
             originalName
