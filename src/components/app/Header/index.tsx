@@ -11,7 +11,7 @@ const Header: FunctionComponent = () => {
     languageNodes: { nodes: languages },
   } = useStaticQuery<GraphQL.HeaderData>(graphql`
     query HeaderData {
-      flagImgNodes: allImageSharp(filter: { fluid: { originalName: { regex: "/^flag_.+/" } } }) {
+      flagImgNodes: allImageSharp {
         nodes {
           fluid {
             originalName
@@ -31,7 +31,7 @@ const Header: FunctionComponent = () => {
   `);
   const theme = useTheme();
   const flagsIndex = flagImgs.reduce((acc, flag) => {
-    acc[flag.fluid.originalName] = flag.fluid;
+    if (flag.fluid.originalName.includes('flag_')) acc[flag.fluid.originalName] = flag.fluid;
     return acc;
   }, {});
   return (

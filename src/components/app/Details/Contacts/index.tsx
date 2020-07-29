@@ -16,7 +16,7 @@ const Contacts: FunctionComponent<ContactsProps> = ({ items, order }) => {
     contactImgNodes: { nodes: contactImgs },
   } = useStaticQuery<GraphQL.ContactsData>(graphql`
     query ContactsData {
-      contactImgNodes: allImageSharp(filter: { fixed: { originalName: { regex: "/^contact_.+/" } } }) {
+      contactImgNodes: allImageSharp {
         nodes {
           fixed(height: 32, width: 32) {
             originalName
@@ -27,7 +27,7 @@ const Contacts: FunctionComponent<ContactsProps> = ({ items, order }) => {
     }
   `);
   const contactImgsIndex = contactImgs.reduce((acc, img) => {
-    acc[img.fixed.originalName] = img.fixed;
+    if (img.fixed.originalName.includes('contact_')) acc[img.fixed.originalName] = img.fixed;
     return acc;
   }, {});
   return (
