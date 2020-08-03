@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Experience: FunctionComponent<ExperienceProps> = props => {
+const Experience: React.FC<ExperienceProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M0 0h24v24H0z" fill="none"></path>
@@ -8,6 +8,8 @@ const Experience: FunctionComponent<ExperienceProps> = props => {
     </svg>
   );
 };
+
+Experience.displayName = 'Experience';
 
 export type ExperienceProps = ComponentProps<'svg'>;
 export default Experience;

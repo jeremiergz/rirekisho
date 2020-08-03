@@ -1,21 +1,21 @@
-import React, { FunctionComponent, useRef } from 'react';
-import ActionManager from '../components/app/ActionManager';
-import Details from '../components/app/Details';
-import Education from '../components/app/Education';
-import Experience from '../components/app/Experience';
-import Interests from '../components/app/Interests';
-import Skills from '../components/app/Skills';
-import Toolbox from '../components/app/Toolbox';
-import Layout from '../components/common/Layout';
-import ChevronBottomIcon from '../components/svg/ChevronBottom';
-import ChevronTopIcon from '../components/svg/ChevronTop';
-import EducationIcon from '../components/svg/Education';
-import ExperienceIcon from '../components/svg/Experience';
-import InterestsIcon from '../components/svg/Interests';
-import SkillsIcon from '../components/svg/Skills';
-import ToolboxIcon from '../components/svg/Toolbox';
+import ActionManager from 'components/ActionManager';
+import Layout from 'components/Layout';
+import Details from 'components/sections/Details';
+import Education from 'components/sections/Education';
+import Experience from 'components/sections/Experience';
+import Interests from 'components/sections/Interests';
+import Skills from 'components/sections/Skills';
+import Toolbox from 'components/sections/Toolbox';
+import ChevronBottomIcon from 'components/svg/ChevronBottom';
+import ChevronTopIcon from 'components/svg/ChevronTop';
+import EducationIcon from 'components/svg/Education';
+import ExperienceIcon from 'components/svg/Experience';
+import InterestsIcon from 'components/svg/Interests';
+import SkillsIcon from 'components/svg/Skills';
+import ToolboxIcon from 'components/svg/Toolbox';
+import React, { useRef } from 'react';
 
-const IndexPage: FunctionComponent = () => {
+const IndexPage: React.FC = () => {
   const experiencesRef = useRef<HTMLDivElement>();
   const skillsRef = useRef<HTMLDivElement>();
   const toolboxRef = useRef<HTMLDivElement>();

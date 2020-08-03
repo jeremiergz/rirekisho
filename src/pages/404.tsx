@@ -1,8 +1,8 @@
+import SEO from 'components/SEO';
 import { navigate } from 'gatsby';
-import React, { FunctionComponent, useEffect } from 'react';
-import SEO from '../components/common/SEO';
+import React, { useEffect } from 'react';
 
-const NotFoundPage: FunctionComponent = () => {
+const NotFoundPage: React.FC = () => {
   useEffect(() => {
     navigate('/');
   }, []);

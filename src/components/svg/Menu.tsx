@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Menu: FunctionComponent<MenuProps> = props => {
+const Menu: React.FC<MenuProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M0 0h24v24H0z" fill="none"></path>
@@ -8,6 +8,8 @@ const Menu: FunctionComponent<MenuProps> = props => {
     </svg>
   );
 };
+
+Menu.displayName = 'Menu';
 
 export type MenuProps = ComponentProps<'svg'>;
 export default Menu;

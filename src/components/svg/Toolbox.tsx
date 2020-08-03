@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Toolbox: FunctionComponent<ToolboxProps> = props => {
+const Toolbox: React.FC<ToolboxProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M0 0h24v24H0z" fill="none"></path>
@@ -8,6 +8,8 @@ const Toolbox: FunctionComponent<ToolboxProps> = props => {
     </svg>
   );
 };
+
+Toolbox.displayName = 'Toolbox';
 
 export type ToolboxProps = ComponentProps<'svg'>;
 export default Toolbox;

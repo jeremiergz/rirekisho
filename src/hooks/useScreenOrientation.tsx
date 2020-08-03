@@ -10,6 +10,9 @@ function getOrientation() {
   return defaultOrientation;
 }
 
+/**
+ * Returns screen orientation.
+ */
 function useScreenOrientation() {
   const [orientation, setOrientation] = useState(getOrientation());
   const handleOrientationChange = useCallback(() => setOrientation(getOrientation()), []);

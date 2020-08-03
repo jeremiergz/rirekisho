@@ -1,5 +1,5 @@
+import Box, { BoxProps } from 'components/primitives/Box';
 import React, { forwardRef } from 'react';
-import Box, { BoxProps } from '../Box';
 
 const FlexBox = forwardRef<HTMLDivElement, FlexBoxProps>(({ children, ...rest }, ref) => {
   return (

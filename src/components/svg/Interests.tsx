@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Interests: FunctionComponent<InterestsProps> = props => {
+const Interests: React.FC<InterestsProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M0 0h24v24H0z" fill="none"></path>
@@ -8,6 +8,8 @@ const Interests: FunctionComponent<InterestsProps> = props => {
     </svg>
   );
 };
+
+Interests.displayName = 'Interests';
 
 export type InterestsProps = ComponentProps<'svg'>;
 export default Interests;

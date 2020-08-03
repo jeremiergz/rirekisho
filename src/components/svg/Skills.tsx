@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Skills: FunctionComponent<SkillsProps> = props => {
+const Skills: React.FC<SkillsProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M0 0h24v24H0V0z" fill="none"></path>
@@ -8,6 +8,8 @@ const Skills: FunctionComponent<SkillsProps> = props => {
     </svg>
   );
 };
+
+Skills.displayName = 'Skills';
 
 export type SkillsProps = ComponentProps<'svg'>;
 export default Skills;

@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from 'react';
+import Box, { BoxProps } from 'components/primitives/Box';
+import React from 'react';
 import styled from 'styled-components';
 import { compose, grid, GridProps as StyledGridProps, variant } from 'styled-system';
-import Box, { BoxProps } from '../Box';
 
 const BaseGrid = styled(Box)`
   ${compose(grid)};
@@ -17,7 +17,7 @@ const BaseGrid = styled(Box)`
   })}
 `;
 
-const Grid: FunctionComponent<GridProps> = ({ children, ...rest }) => {
+const Grid: React.FC<GridProps> = ({ children, ...rest }) => {
   return <BaseGrid {...rest}>{children}</BaseGrid>;
 };
 

@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const ChevronTop: FunctionComponent<ChevronTopProps> = props => {
+const ChevronTop: React.FC<ChevronTopProps> = props => {
   return (
     <svg fill="#fff" height="24" width="24" {...props}>
       <path d="M-1-1h582v402H-1z" fill="none"></path>
@@ -8,6 +8,8 @@ const ChevronTop: FunctionComponent<ChevronTopProps> = props => {
     </svg>
   );
 };
+
+ChevronTop.displayName = 'ChevronTop';
 
 export type ChevronTopProps = ComponentProps<'svg'>;
 export default ChevronTop;

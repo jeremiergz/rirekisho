@@ -1,6 +1,6 @@
-import React, { ComponentProps, FunctionComponent } from 'react';
+import React, { ComponentProps } from 'react';
 
-const Heart: FunctionComponent<HeartProps> = props => {
+const Heart: React.FC<HeartProps> = props => {
   return (
     <svg fill="#fff" viewBox="0 0 455 455" {...props}>
       <path
@@ -19,6 +19,8 @@ const Heart: FunctionComponent<HeartProps> = props => {
     </svg>
   );
 };
+
+Heart.displayName = 'Heart';
 
 export type HeartProps = ComponentProps<'svg'>;
 export default Heart;
