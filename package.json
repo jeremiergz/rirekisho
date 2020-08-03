@@ -55,6 +55,9 @@
       "**/*/*.{ts,tsx}",
       "!**/*/*.d.ts"
     ],
+    "coveragePathIgnorePatterns": [
+      ".cache"
+    ],
     "globals": {
       "__PATH_PREFIX__": ""
     },

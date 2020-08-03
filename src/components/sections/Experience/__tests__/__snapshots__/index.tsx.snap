@@ -1,0 +1,1105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
+<section
+  className="sc-AxjAm sc-AxirZ jFiolx"
+>
+  <div
+    className="sc-AxjAm eiESPf"
+    fontSize={28}
+    fontWeight="bold"
+  >
+    <span
+      className="sc-AxiKw ggvGYh"
+      color="secondary"
+    >
+      exp
+    </span>
+    <span
+      className="sc-AxiKw jncuiT"
+      color="primary"
+    >
+      erience
+    </span>
+  </div>
+  <div
+    className="sc-AxjAm fhEmi"
+    display="flex"
+    width="100%"
+  >
+    <div
+      className="sc-AxjAm sc-AxirZ cusFct"
+    >
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              OCT 2018
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              PRESENT
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              Sigfox
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              Wireless Networks
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm gFKxpe"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                XDoG
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Kubernetization & move to GCP of Web platforms
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                Docker | JavaScript | Kubernetes | GCP | Istio
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Migrate web platforms to Kubernetes on Google Cloud Platform
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Adapt APIs for K8s: health probes, Prometheus metrics, etc
+          </span>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Features development & maintenance of Web platforms
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                Node.js | React | JavaScript | Styled-Components | Gatsby.js
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Back-end & front-end engineering & development
+          </span>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              JUN 2018
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              SEP 2018
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              Capgemini
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              IT Services
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Client
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                Airbus Defence & Space
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Space Systems
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                NemEO - DiginEO
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Web framework - Web portal
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                React.js | Redux | Node.js | TypeScript | Docker
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Technical manager of a 3 developer team
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Front-end development: React.js & Redux
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Maintenance of the Architectural Design Document
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Deployment industrialization using Docker
+          </span>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              JUN 2017
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              JUN 2018
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              CS
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              Aerospace Industry
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Client
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                Airbus Defence & Space
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Space Systems
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                Pulsar
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Ground-Segment simulators, validation & testing web interface
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                Node.js | TypeScript | Angular | Docker | PostgreSQL | Java 8 | Spring Boot
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Use case supervisor on Postgres DB engineering & implementation
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Micro-services dockerization
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            CLI utilities development
+          </span>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              JAN 2017
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              MAY 2017
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              CS
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              Aerospace Industry
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Client
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                CNES
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                French Space Agency
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                Trafic
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Customizable transfer tool using native File System, FTP & SFTP
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                Java 6 | JsCh | Jenkins
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Development of a new transfer protocol using native File System
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Maintenance & quality controls: refactoring of several classes
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Jenkins CI/CD project integration
+          </span>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              NOV 2016
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              DEC 2016
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              SQLI
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              IT Services
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Client
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                Omnium Finance
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Financial Services
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Client base management Web interface for tablets and PCs
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                Angular.js | JavaScript | Docker | Spring Boot
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Back-end development using Java 8 with Spring Boot & JPA
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Front-end development using Angular.js, Bootstrap & SASS
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Docker initiation & Spring Boot container creation
+          </span>
+        </div>
+      </div>
+      <div
+        className="sc-AxjAm sc-AxirZ jnaqMB"
+      >
+        <div
+          className="sc-AxjAm rtJDQ"
+          display="flex"
+        >
+          <div
+            className="sc-AxjAm lpbfZv"
+            color="primary"
+            fontSize={18}
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              JUL 2016
+               - 
+            </span>
+            <span
+              className="sc-AxiKw fYurIJ"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileM": "inline",
+                }
+              }
+            >
+              OCT 2016
+            </span>
+          </div>
+          <div
+            className="sc-AxjAm gGvlbv"
+            color="secondary"
+            fontWeight="bold"
+          >
+            <span
+              className="sc-AxiKw gTWeri"
+              fontSize={18}
+            >
+              PragmaNTIC
+            </span>
+             |
+             
+            <span
+              className="sc-AxiKw kEolGq"
+              fontSize={16}
+              fontStyle="italic"
+            >
+              Startup
+            </span>
+          </div>
+        </div>
+        <div
+          className="sc-AxjAm diSKPk"
+        >
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Client
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw cBoXSN"
+              >
+                RoboCARE Lab
+                 | 
+              </span>
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Home Robotics Services
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Project
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw bZBxFE"
+                color="normal"
+                fontStyle="italic"
+              >
+                Client base management Web interface for tablets and PCs
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-AxjAm exrHeN"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw hOsDPP"
+              fontWeight="bold"
+            >
+              Techs
+              :
+            </span>
+            <div
+              className="sc-AxjAm fwkkgR"
+              fontWeight="bolder"
+            >
+              <span
+                className="sc-AxiKw jVbjRr"
+                color="secondary"
+                fontStyle="italic"
+              >
+                PHP | Symfony 3 | JavaScript | MySQL
+              </span>
+            </div>
+          </div>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Engineering of a generic MySQL DB for 3 different web portals
+          </span>
+          <span
+            className="sc-AxiKw kzTKyK"
+            color="#575757"
+            display="block"
+            fontWeight="bolder"
+          >
+            • 
+            Web portal development in PHP using the Symfony 3 framework
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

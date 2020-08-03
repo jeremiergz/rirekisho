@@ -1,14 +1,21 @@
+import * as Gatsby from 'gatsby';
 import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import theme from 'theme';
-import Anchor from '..';
+import Skills from '..';
+import mockData from './mock.json';
 
-describe('components/common/Anchor Test Suite', () => {
+describe('components/sections/Skills Test Suite', () => {
+  beforeAll(() => {
+    jest.spyOn(Gatsby, 'graphql').mockImplementation(() => '');
+    jest.spyOn(Gatsby, 'useStaticQuery').mockImplementation(() => mockData);
+  });
+
   it('matches snapshot', () => {
     const jsx = (
       <ThemeProvider theme={theme}>
-        <Anchor>Anchor Component</Anchor>
+        <Skills />
       </ThemeProvider>
     );
     expect(ReactTestRenderer.create(jsx).toJSON()).toMatchSnapshot();

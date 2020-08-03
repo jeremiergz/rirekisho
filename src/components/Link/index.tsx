@@ -1,7 +1,7 @@
 import Anchor, { AnchorProps } from 'components/Anchor';
+import withoutStylingProps from 'components/hocs/withoutStylingProps';
 import { Link as BaseGatsbyLink } from 'gatsby';
 import { OutboundLink as BaseOutboundLink } from 'gatsby-plugin-google-analytics';
-import withoutStylingProps from 'hocs/withoutStylingProps';
 import useTheme from 'hooks/useTheme';
 import React from 'react';
 

@@ -1,0 +1,140 @@
+{
+  "experienceNodes": {
+    "nodes": [
+      {
+        "company": "PragmaNTIC",
+        "companySector": "Startup",
+        "endDate": "2016-10-31",
+        "img": "company_pragmantic.png",
+        "projects": [
+          {
+            "client": "RoboCARE Lab",
+            "clientSector": "Home Robotics Services",
+            "description": "Client base management Web interface for tablets and PCs",
+            "name": null,
+            "tasks": [
+              "Engineering of a generic MySQL DB for 3 different web portals",
+              "Web portal development in PHP using the Symfony 3 framework"
+            ],
+            "technologies": ["PHP", "Symfony 3", "JavaScript", "MySQL"]
+          }
+        ],
+        "startDate": "2016-07-01"
+      },
+      {
+        "company": "SQLI",
+        "companySector": "IT Services",
+        "endDate": "2016-12-31",
+        "img": "company_sqli.png",
+        "projects": [
+          {
+            "client": "Omnium Finance",
+            "clientSector": "Financial Services",
+            "description": "Client base management Web interface for tablets and PCs",
+            "name": null,
+            "tasks": [
+              "Back-end development using Java 8 with Spring Boot & JPA",
+              "Front-end development using Angular.js, Bootstrap & SASS",
+              "Docker initiation & Spring Boot container creation"
+            ],
+            "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
+          }
+        ],
+        "startDate": "2016-11-01"
+      },
+      {
+        "company": "CS",
+        "companySector": "Aerospace Industry",
+        "endDate": "2017-05-31",
+        "img": "company_cs.png",
+        "projects": [
+          {
+            "client": "CNES",
+            "clientSector": "French Space Agency",
+            "description": "Customizable transfer tool using native File System, FTP & SFTP",
+            "name": "Trafic",
+            "tasks": [
+              "Development of a new transfer protocol using native File System",
+              "Maintenance & quality controls: refactoring of several classes",
+              "Jenkins CI/CD project integration"
+            ],
+            "technologies": ["Java 6", "JsCh", "Jenkins"]
+          }
+        ],
+        "startDate": "2017-01-01"
+      },
+      {
+        "company": "CS",
+        "companySector": "Aerospace Industry",
+        "endDate": "2018-06-30",
+        "img": "company_cs.png",
+        "projects": [
+          {
+            "client": "Airbus Defence & Space",
+            "clientSector": "Space Systems",
+            "description": "Ground-Segment simulators, validation & testing web interface",
+            "name": "Pulsar",
+            "tasks": [
+              "Use case supervisor on Postgres DB engineering & implementation",
+              "Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6",
+              "Micro-services dockerization",
+              "CLI utilities development"
+            ],
+            "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
+          }
+        ],
+        "startDate": "2017-06-01"
+      },
+      {
+        "company": "Capgemini",
+        "companySector": "IT Services",
+        "endDate": "2018-09-30",
+        "img": "company_capgemini.png",
+        "projects": [
+          {
+            "client": "Airbus Defence & Space",
+            "clientSector": "Space Systems",
+            "description": "Web framework - Web portal",
+            "name": "NemEO - DiginEO",
+            "tasks": [
+              "Technical manager of a 3 developer team",
+              "Front-end development: React.js & Redux",
+              "Maintenance of the Architectural Design Document",
+              "Deployment industrialization using Docker"
+            ],
+            "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
+          }
+        ],
+        "startDate": "2018-06-01"
+      },
+      {
+        "company": "Sigfox",
+        "companySector": "Wireless Networks",
+        "endDate": null,
+        "img": "company_sigfox.png",
+        "projects": [
+          {
+            "client": null,
+            "clientSector": null,
+            "description": "Kubernetization & move to GCP of Web platforms",
+            "name": "XDoG",
+            "tasks": [
+              "Migrate web platforms to Kubernetes on Google Cloud Platform",
+              "Adapt APIs for K8s: health probes, Prometheus metrics, etc"
+            ],
+            "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+          },
+          {
+            "client": null,
+            "clientSector": null,
+            "description": "Features development & maintenance of Web platforms",
+            "name": null,
+            "tasks": ["Back-end & front-end engineering & development"],
+            "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
+          }
+        ],
+        "startDate": "2018-10-01"
+      }
+    ]
+  }
+}

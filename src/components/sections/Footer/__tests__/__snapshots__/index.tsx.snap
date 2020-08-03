@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
+<footer
+  className="sc-AxjAm gFGULz"
+  color="white"
+  display="flex"
+  height={
+    Object {
+      "_": 204,
+      "tablet": 168,
+    }
+  }
+>
+  <div
+    className="sc-AxjAm gHjjnZ"
+    display="flex"
+  >
+    <div
+      className="sc-AxjAm hVCUTG"
+      display="flex"
+    >
+      <span
+        className="sc-AxirZ bYDoBb"
+      >
+        Made with
+      </span>
+      <svg
+        fill="#fff"
+        height={16}
+        viewBox="0 0 455 455"
+      >
+        <path
+          d="M455.111 164.089c0 137.956-163.556 228.978-213.333 253.156-8.533 4.267-19.911 4.267-28.444 0C163.556 393.067 0 304.889 0 164.089 0 92.978 52.622 34.667 116.622 34.667c51.2 0 93.867 35.556 109.511 85.333 15.644-49.778 59.733-85.333 109.511-85.333 66.845 0 119.467 58.311 119.467 129.422z"
+          fill="#f44336"
+        />
+        <path
+          d="M455.111 164.089c0 137.956-163.556 228.978-213.333 253.156-8.533 4.267-19.911 4.267-29.867 0-22.756-9.956-65.422-34.133-108.089-68.267h1.422c135.111 0 243.2-109.511 243.2-243.2 0-24.178-4.267-48.356-11.378-71.111 66.845 1.422 118.045 58.311 118.045 129.422z"
+          fill="#e53935"
+        />
+        <path
+          d="M109.511 142.756c-22.756 5.689-44.089-2.844-48.356-18.489-2.844-17.067 11.378-34.134 34.134-39.823s44.089 2.844 48.356 18.489c4.266 17.067-11.378 34.134-34.134 39.823z"
+          fill="#fff"
+          opacity="0.2"
+        />
+      </svg>
+      <span
+        className="sc-AxirZ fLbiiM"
+      >
+        using
+      </span>
+    </div>
+    <div
+      className="sc-AxjAm jxgjIo"
+      display="flex"
+    >
+      <a
+        className="sc-AxirZ lkRvpS"
+        height={64}
+        href="https://www.gatsbyjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+        textDecoration="none"
+        width={64}
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADT0lEQVQ4y5WSWWxMURjHb+9EpBEhqSWRNhE7CeJFKELDtGqKklBStSQay0w7tEwF9WJNiLR31FIGQWutNDzVmtgbkvIgjUTbIF4ExVSnM/dOr983czEz+uIk//y/8y3/833nHEVhleYcU1yZXjGFVcVa2MWuTK3VPfe4uQmw/wA8JY4qWyRu11QrT4lbFClxCXZtAL5XRZlHTOyDFOSBpWAvewNug9Nia4piReWE3449y31JiL0msRXfCGKF4CqoAy58w4g9IafFnX0k2RJLUhIXCTaLt1JoFmV5R8E3yuafM0vmnYqgbP55GbuBnDLxY++SGqdds8V1SLGydlbFb+EWEsvhFTtzL5tOu7cDW8bUnWBzdjX3ecJ0zz0mgs1bc6r+vUeX1TI8EHxB4CU8hpMfljp8UhiUroEI+51RhBndz35IrEai4BDwkcR7iDYwxlBEH5fMO2kWZx2lW+0pGA3kOgrICcBp/wjGzk/gPXBTRIG3ietIw360xXFaBD8DHaFtxFaDH6WOqp6/jlysFTgkY1k+V0Q02umDHbmXZOxPHDIS0XfYvh4fZePsyj8tF2d5+5L8FTywklcRu0PBKK6iHLHhcC3xEPZg6yHjv407uyrxY48HPxD6HPnUdq0Gbox+cO0te3mQKXGT2bW/gl1dXUmBzoBqmqayPqNCtb5SCsU+8E2uIPrK2k9Quz3Plyo5hTMOq5aostkRbUrp7u5WY7tFNCl/0r4/Ps+iE308i6sn0MFYuY6E3AjvLjwb/yCdnZ0poVAow+/397ESbc0v3ve6f72pd6LAZNWpGrqxBHuA+AzDsIXDYZV6BbYpGA6cz0ENuMf4Q2NFfn4PJushY2GC8DMmG9xTt3JCG6LTxdZ1Pbujo6MfbMdfCQqwCyhu5yA7tgeeQHE9sWr2hfAcOpuZnp4uHa4Rwa/WXU4DD0m6QOA2di58NxAIeLCl8/XkvoEl7yaxfCBTnYfr4APwGRG8aITD14LBYBaOx3TrgW/RRQZ8h/tdiV1H54PIvYKvHsH78CJwjQaWwevw6RzWX2lvb+9N4nZdN84QXCzdIpqD7yj7DQiNo2ABvonsD8JTieWCQ+x3Sj7xcrBf6WnJt1H+YyGailgjB6XI/heB0KCWLjFuqAAAAABJRU5ErkJggg=="
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 512px) 100vw, 512px"
+              srcSet="/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
+/static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 512px) 100vw, 512px"
+              src="/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png"
+              srcSet="/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
+/static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
+/static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
+/static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" src=\\"/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+      <a
+        className="sc-AxirZ lkRvpS"
+        height={64}
+        href="https://styled-components.com"
+        rel="noopener noreferrer"
+        target="_blank"
+        textDecoration="none"
+        width={64}
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAACrElEQVQ4y2P4//9/GRDb/Pv3zw1Iu2DDQDk4DcNo4iC9VkBcyAAyjIFKAGiWKQPIdBAHSLMCBZhgGMgHYxj/97MvzEAarvnZ7UfMSOpZoQbagwgXKAckwQjCIP6nO5/AGh/OOcl4MHcZM4j9qmiP9Nnqzev7omrlQfxLW04ww/RCaVtkA1ngTv/3G2zo14NTmFC8VHuCY2/x0nWtkaViSN4EOYIZw0CogOz/f/9C//3/z74UKnY05D/HsdqjVYeqT9icazpmsyZ7igNI/M+vPwFA9WbYXOgG5TgDwywVaJgwwgIj8aerao8db2z4f7hm+o19KTNXbwtapw+Su9hzkBmoPgioLwbJQSgGgpJAyr8/X0TA/OthQn/O+Fz5f8b9/7eDtt8ud+T/35I2YRdM8+9fv0WABkYD9fiiG4jsZZl/f3+GgNift6kb/D8JTFpnHf//P2oJxGn/L/XrloDkuhkYQOHmDsTqUH3M2CKFFTkCPm43EP1x0Kz+2RKZll9nQ9v/nzMs+b+KgQ2s9u0kRiRHMOGKZXiy2Ywn8f7dCaGB3oUnMRQDQdkHyUCG3x9ugNgMLzdaM/w54878ZqMJ87ej3sy/TzgxP5wGSVlvd3iA9MEMxpkOwTkBZDMkLf5l/PfrE4T94TDDq0KoF78WMjxbJIWe5ZiwRgqSAmQ2M7IY1EUo6tANdIVygFH5Pw6IgdH6H5Qc/IAYlHg9YTkJFsZIGKuXYQa6AyUjgHQyEPsDcRIQhwGxIa4IgoUjrjCUAWJlIDYGYgOgYkUgrQQV0wRiDSDWBsmBNILkYN7GlfWCgTgfikuAuBmIq6DsPCAuh+JsKD8ZaCkX1OtsUBeDiy8rHIWlIHpiJ6KANQYRhaCSFojtgNgaVIJDvWQBLdZtsGBrqJwtFNtDgyoHAPZcCMWNFSW7AAAAAElFTkSuQmCC"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 512px) 100vw, 512px"
+              srcSet="/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 512px) 100vw, 512px"
+              src="/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png"
+              srcSet="/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" src=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    className="sc-AxjAm bFKLMz"
+    color="grey"
+    display="flex"
+  >
+    <span
+      className="sc-AxirZ dVRjgl"
+    >
+      rirekisho v20.07.3
+    </span>
+    <a
+      className="sc-AxirZ jPaTot"
+      color="grey"
+      fontSize={12}
+      href="https://gitlab.com/jeremiergz/rirekisho/-/tree/20.07.3"
+      rel="noopener noreferrer"
+      target="_blank"
+      textDecoration="none"
+    >
+      source code
+    </a>
+  </div>
+</footer>
+`;

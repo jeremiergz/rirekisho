@@ -1,0 +1,903 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/sections/Details Test Suite matches snapshot 1`] = `
+<section
+  className="sc-AxjAm sc-AxirZ cKYmCP"
+>
+  <div
+    className="sc-AxjAm djQnrn"
+    display="flex"
+    width="100%"
+  >
+    <div
+      className="sc-AxjAm DwQPW"
+      display="flex"
+      order={
+        Object {
+          "_": 2,
+          "tablet": 1,
+        }
+      }
+    >
+      <div
+        className="sc-AxjAm kJlEdH"
+        display="flex"
+      >
+        <label
+          className="sc-AxiKw eEbAMH"
+          color="secondary"
+          fontSize={14}
+          fontWeight="bold"
+        >
+          nationality
+        </label>
+        <span
+          className="sc-AxiKw gRfuZf"
+          color="primary"
+          fontSize={22}
+          fontWeight="bold"
+        >
+          french
+        </span>
+      </div>
+      <div
+        className="sc-AxjAm kJlEdH"
+        display="flex"
+      >
+        <label
+          className="sc-AxiKw eEbAMH"
+          color="secondary"
+          fontSize={14}
+          fontWeight="bold"
+        >
+          birth date
+        </label>
+        <span
+          className="sc-AxiKw gRfuZf"
+          color="primary"
+          fontSize={22}
+          fontWeight="bold"
+        >
+          3-27-1987
+        </span>
+      </div>
+      <div
+        className="sc-AxjAm kJlEdH"
+        display="flex"
+      >
+        <label
+          className="sc-AxiKw eEbAMH"
+          color="secondary"
+          fontSize={14}
+          fontWeight="bold"
+        >
+          civil status
+        </label>
+        <span
+          className="sc-AxiKw gRfuZf"
+          color="primary"
+          fontSize={22}
+          fontWeight="bold"
+        >
+          single
+        </span>
+      </div>
+      <div
+        className="sc-AxjAm fthWpI"
+        display="flex"
+      >
+        <label
+          className="sc-AxiKw eEbAMH"
+          color="secondary"
+          fontSize={14}
+          fontWeight="bold"
+        >
+          driver licenses
+        </label>
+        <span
+          className="sc-AxiKw gRfuZf"
+          color="primary"
+          fontSize={22}
+          fontWeight="bold"
+        >
+          car | motorcycle
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm bgPHfQ"
+      display="flex"
+      order={
+        Object {
+          "_": 1,
+          "tablet": 2,
+        }
+      }
+    >
+      <div
+        className="sc-AxjAm igXREv"
+        height={
+          Object {
+            "_": 184,
+            "laptopL": 224,
+          }
+        }
+        width={
+          Object {
+            "_": 184,
+            "laptopL": 224,
+          }
+        }
+      >
+        <div
+          className="sc-AxjAm hGyeb"
+          width={
+            Object {
+              "_": 152,
+              "laptopL": 192,
+            }
+          }
+        >
+          <div
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "maxHeight": null,
+                "maxWidth": null,
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              style={
+                Object {
+                  "paddingBottom": "100%",
+                  "width": "100%",
+                }
+              }
+            />
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAAFQ0lEQVQ4y02Ue0xURxTGL0ktlhVEqzwLWi00VkXbYrQFg6VYoy1IFURXcdG1QR7SBBFBBEEeIlWB7YKkIEUrgg8WhH3v3ruwD1gQrdJW08ZsxcS+jDH9+96dr3NX2HSSyUwmd353znfO+RiTycSIQ6fTMg8eTPmI+6dPnklsNqtMq9WoBgcHpm/dusH39nTztwdU03a7XXXnzqSsvv6MRPzWZrP5qNUaD0Ov13tWxmQy+jAzw253SAeHbrv2SjMQH/8R1q5dhWVvR9IZgdgPYpAl24uenm5QsEur1Uln7+l0Op8ZmGn2jDGzJoXFwmLr1s3wff01fkFgAB8SstgdFhpEwulcsDDA7ev7Gr9wwXy+rOwERkdHQaNQ/A/KMCxr9pANBoNiamoKSmWzEBggERYHB5Gw8BASHh5MQoMXkRVLQklsVARZFhZE/PzeIPSKUFRUKNy/f59CtR6o0Wj0vlJqt9voHx3C1wV5bn+/OYhZHkHeXRpK1r23DIXpm9F5XI7Bmly0Zm8nsdGRIhAxq1e76asEh8MBur4K32g0SViWdVmtI7BYOOGzpE2QJawmluZSsO1nMXa1Gc+5Hrx03MYTfRcedp5Exe5PEeDvR/z9JejoaBfE0GlCXBqNRsJwHCdzOp2wcByvNxhI6pZNRFOXjafaDrx0qvHvmBp/s714ZuymwCt42NOA9iNpiFuxBMFBb5LOzk4yPDzMW61WUNlkjMViUYlACuZNZpYcyEghqko5fh9Q4i/zdTwf7sc/3A28sNzAn1wvHvY2wliTjaOpGxG9NIwoW1vIyIiVp2UmAlUicFqk0+S4rXY7yZNn4kqRFNaLVfiptxV/GK5herATfTVFqM/dh+6KfGiqcnApPw3R4YtwuuIkcdjtbrPZLAKnRSBPJ2hiiH10jNSWl6B2/zZkbo7Drg2rYGs8hqmuOpzbk4j9W+JRmJqAm2Vy9BRnImPjWlzNTif6q13EbBmG0WDgvUDWbCbDVhu51taE1rwdaDiUigb5Tky2VeLxdQXutlditK0K43S9d7kGutpcVGckob9gD2EHVMTEcjAaKZBq5wmZY1k3y1mIbqAPmnOF+K33PB5drsejHy7gcW8LfrlUi2c09BdsH37uaYT+bD5qdn2C/oojhCaU3uW8IavGx8ephqz4UjI0NEhuni3Ck/52/NhSjnvKSow1VYI9lYNH7dX4tbsZzvZTUFUdRN62OKL+TklYGiVtRbF0PEmRTUxMvAJyHFFrteRKQwmcylIMFMtQ8Hkc0j+OwZ6EWFRkbYe2LhcTHWW4kJOCXHkmsdodhOo/C5QxNDsSCnVR14DZZBKojuhoOkO09TnYlxiLrSujcC7jC5xP24a02JUoy0rGQEMBkmIiSXV5KcacToE+hOpnfFXY4qA6SsVapHBhxGp1X6duUiZLJoe2bCCKrFQ0yjPQcng3ugqkOJIcTxLWvEPWRYfh26pjbtYyIjjHxmCk7cvM+tkMVDE5OSmWj+AYHRXyDx8i61csJTvjY8jupPUkJ3kjkSZ+SDbERJPA+fPIxSKpUJC2SSg+UY67k5MecxgcUvtQt2G99kX3CrEvZztneVQUHxm22F0h30G++jKJzF8Y6JbMk/BH0xP5iYvHkBy3Bn6BwV77amxs8oK8BkutSEqT5CoqLkHcmmgkUt0kfnMxd64voiOCUXcwBTZFIb4/IXNFvRXiNdjT1bU+s/rNmCvLqFT9nkMAEmbOPFlqwvsqVnl8uuZgCl+SkcS3FaRNa2tzVH01ObKOygOeBGhaK33yj5Z6GA0N3zD/AbkhiFp3PZcoAAAAAElFTkSuQmCC"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
+                }
+              }
+            />
+            <picture>
+              <source
+                sizes="(max-width: 256px) 100vw, 256px"
+                srcSet="/static/341a8605d32c50e08417d89b8a0972c2/ea22a/portrait.png 64w,
+/static/341a8605d32c50e08417d89b8a0972c2/2c344/portrait.png 128w,
+/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png 256w,
+/static/341a8605d32c50e08417d89b8a0972c2/6a040/portrait.png 384w,
+/static/341a8605d32c50e08417d89b8a0972c2/0a8d8/portrait.png 400w"
+              />
+              <img
+                alt=""
+                loading="lazy"
+                onLoad={[Function]}
+                sizes="(max-width: 256px) 100vw, 256px"
+                src="/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png"
+                srcSet="/static/341a8605d32c50e08417d89b8a0972c2/ea22a/portrait.png 64w,
+/static/341a8605d32c50e08417d89b8a0972c2/2c344/portrait.png 128w,
+/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png 256w,
+/static/341a8605d32c50e08417d89b8a0972c2/6a040/portrait.png 384w,
+/static/341a8605d32c50e08417d89b8a0972c2/0a8d8/portrait.png 400w"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "opacity": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "transition": "opacity 500ms",
+                    "width": "100%",
+                  }
+                }
+              />
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/341a8605d32c50e08417d89b8a0972c2/ea22a/portrait.png 64w,
+/static/341a8605d32c50e08417d89b8a0972c2/2c344/portrait.png 128w,
+/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png 256w,
+/static/341a8605d32c50e08417d89b8a0972c2/6a040/portrait.png 384w,
+/static/341a8605d32c50e08417d89b8a0972c2/0a8d8/portrait.png 400w\\" sizes=\\"(max-width: 256px) 100vw, 256px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 256px) 100vw, 256px\\" srcset=\\"/static/341a8605d32c50e08417d89b8a0972c2/ea22a/portrait.png 64w,
+/static/341a8605d32c50e08417d89b8a0972c2/2c344/portrait.png 128w,
+/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png 256w,
+/static/341a8605d32c50e08417d89b8a0972c2/6a040/portrait.png 384w,
+/static/341a8605d32c50e08417d89b8a0972c2/0a8d8/portrait.png 400w\\" src=\\"/static/341a8605d32c50e08417d89b8a0972c2/714e6/portrait.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <span
+        className="sc-AxiKw JqVUA"
+        color="secondary"
+        fontSize={40}
+        fontWeight="bold"
+      >
+        Full Stack Engineer
+      </span>
+    </div>
+    <div
+      className="sc-AxjAm ejunjS"
+      display="flex"
+      order={3}
+    >
+      <div
+        className="sc-AxjAm AXWDY"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="tel:+33681516442"
+          rel="noopener noreferrer"
+          target="_self"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              +33 6 81 51 64 42
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADGElEQVQ4y21Vy0tUURi/0zKE6E/oKdJjXotWQUSbih7UIoIShShw2SrSHjYzKilmjjpzfevgE9NEpAfVyk0QLipdJQilgoYRpOncO+fr+53HnWt64eN+59zz/c7ve14rFLctPHiHYvYure8OxdPFwZg9yvpCMG7nWATriyzjLKUsBTgbjKUDrAcMhgELWJanX2OZi9T2ECSUaCNeK2E98rRb7cfteb7kps9OYTALy7fZgMPh6g4KJ2yH1w4zADO/yH2cidT2Aji9BZQNjJsN0fo+4rUbSbS6RY+axbEnKQmyAygDpV0Aw4bfKeO+5yaYAYyZ5Q4/bKKr9rA4Vd9DRytT0l3+Zlz3gSrGkTrJtESBxZAAe066wMwAVtIzLoifoU8ztK/8OfbzccyLAo3Zbri6HesfLHvArljGjW8qetwsLqeGxHrWAR79dRy6Yg8T7+P7NtBgnqmj43kHgKMyo4lW5+CDpLg78laBadC2qWnaX95I0Z1Z5t1WmZ8A4ALKgRkIMDzf1O+Bff/1m840ZIiTs53d1pjmwjWdYDxroWjNB06IQAxfzXyTgKtr63Qu2U+FvBetUgwRTz7nB/WSxFgblrfg0gAg4nWhZYDWNrMS9MvCMp2o6ZCgxxngQEWj1E2ifCUFwE1LtpPqBllvOMixpHtj78g8XxeX6Wyyj07WdVPm42e6lZmQcT1S2SJDxXbS5RBcRm+inXQH5EErklT9esoD/flnjeZWVqUuhKCR6Vk6/awXdSrC+aRMArBULxyfCzJOAL3/8gOtZ7MesF+/0TkmtPumbMqQlAKWeRQ2b7h+UOP+xZZBesOJMmBuTlDZwKRMIJohXNXONvYS2+xVA4Knhr7B8SfJgHJfE4wvpQaZ8Xu63v5CHOK1jl82WpeB7W3L39CYGno4YMK4ppRM9nUFCG5FUcgXgJkEU8Ohy5s2/83CFBpd96ajJWdqjRnluGMcjDa4qZl1efYxO7DTgC1BoyMEssdVOUiBrgavDM+S56Yfw/cLCJgbMDXQ6OhN1FYwnt5A0UJHaSCbQZ0Aaef9AtLWPyXBVeRc9DsCAAAAAElFTkSuQmCC"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
+/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
+/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png"
+                    srcSet="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
+/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
+/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
+/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
+/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
+/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
+/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x\\" src=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-AxjAm AXWDY"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="https://linkedin.com/in/jeremiergz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              /jeremiergz
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADlUlEQVQ4y3WVWUhUURjH7/hUmUtZOnegp3rJasxsFsenHnqwqJgmzXHuLDkFJiqV9RBFZDVlDy2oGJktRIsaNDAQkkIU9BCJEZSWkEtEZovQStS993x937n32IzUhc/5PHPO7/7Pt42U51AkevKcClka9x1KOvphtDjaRK4zwHCNoT+Jlsh1BKL4mUF78TsL+hbBEDCLJE37ftkdHLOVVIG1eBvkOYNoimlBsLoj5rryGi2SdM4ipVDpbY5As4ybs1ZWwNzlW1T8jozhOqkTZqy7QgbYobSnQHFzmvlPs1yyHbJXblXXhg9pW2qbWE5R5TRsBhTwqhqBrZ4oqW03BVmEMr/NUwWZ9jK1NNrIVE0HfNjepsswZ5kPMARJ1/4LFYpJKb4gKmSmI3DM5onAnPzNWnR/C4fRn7YbPTA7fzMsKolwqOwOgQ3NfAGq5lCNro9Xp+RlU5bCVjcPskrXIjtw+hqcvZKAxWt2QMaKMg4lpfQ5a6mX4gtWl2JCAyBU4udOUhinzNFiTpGfLUHI7lgHHEToinV1UFp1GE5djEPDiUsQ2ncGdh3r4GsYa1howAiqclEO5Q4BJ3g5uIIs017Oin17QTy+2pNwsv02/OuhcMwrrBBx1PNcYfJfSLxoMcAEzCooZ07vHvj6/Sc/tLE6Bo2tndzXdR00tKkv36ehSsNpCgXDmIokqZLZASnAHz9/8QObqo/DkdYu7k9OfQFvzXGwr6+H4fEJvna+8+5MoEYKJ8WV/wU83GIo7H8+wq+YWVAO9x8P8rWL3X2UICa7gjrPtFMZphpM8HZyBVUTyJKBjSbw6ctxLB+sNyyVhwMv+VpHdy+kE9AdVImB4nooKVFKuQkEAn77IWKICptvcn9gaBRsxWFYsLoSHvQP8bULXb2MSggViuKuI4UZaK9l3JxlL9fcvgaqal7Y3pomiJ27xQ8Pjb4Fm8cAPn72ihf/1fg9VOjT6SwKe4/5yJHMcRWRsfWojws31LMngyPw5t1HtjZyCOqPXoCPU58h3vcIFYZg4eoAXE88YB8+fYZYWzfLsJf9tpVEjaIW88zs53YZG52KdH5hhUYJwMMMFTH0Wc4q//SAQJ8SpC8o8v82z1w1WamzkKBGPHnGxPjSkwaCTi/krUbjC28lYCnTZgY0ijbBwdRORgcYRhBzwOKe92g7/ztgaUG8Af1sign1JrWTqZTm3zBaD+6rEwlAX0r+CfgDfk7HO/yDxm0AAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
+/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
+/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png"
+                    srcSet="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
+/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
+/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
+/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
+/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
+/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
+/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x\\" src=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-AxjAm AXWDY"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="https://twitter.com/JeremieRgz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              @JeremieRgz
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADQ0lEQVQ4y4VVW0tUURQ+PguC9A+SMkubmz30EAU+9NRjGAQ+DCURBRJBD5ma42imdpnxMpc0dZBuiA+JNUlSBvoQSRZEFKXTxZgy8TpOM+fs1fr22WcaRWjBYq/ZZ+9vfWuvy2j2hqAG4TUHquxcVretIThi9wQW2CaozRNY5DXKWsl23hb3tAyYpmXsctYZZ0sfOa/2kt0bAphgcAEbe86WfmJHMd6vyLqXsxWYH0COpm6wSfNvHWCKnQR2mHtpR9Mtcrb2Yy+8ATSLrt91bYD4ggSyACQ7T0A4vKZdfLlTOnB6QzrO4o4Fms3yGJjBc1FdBwAALFdl067aDiqpD9Chtj6xh0G3V/tod50ETyumbgssly/NOK90E3vXj4YGydUYFgzMa0hqEYOVhwfp9dc4za8kaOz9LJ17MCrODz5lh0Ed4TPOHGs+AN0yAd5QGl4nP38XLz5+oX18aPtFHxXWtlNpY5hm5hdpswy//SRwbi+/t8tkeUZjDyMyc/wmBdU+cXtiWh6O/V6i5ugEHfYN0PGeIUrpOgkhSDcMua6n0nQi8pDwREiUfDJPMMoMuc64HPBm+HhhaIxWkqkMiwRf/LG0KoEgBoNBfi6vUSmzK6nvwjsaKuxZTRWtYIZUUO0XvZNv5AUApBWIJWBmGCbg9Le4TJJVCRaOpmpMbsDb/uYeGuc3BBOh1LIhCB1yc+wlE/DhqcS/WmVA2U7MDqD4yCyp4/nUBlaWWIznVxN0sK0PVWGVlxVyDAyjssVUV3BWhYsddI2/ooW1ZCZ8ixnk7N3HtOOSH+ys6HSFMQrAShf3JlrNwQeOdN4TJyPDFByfkpnMlsVEkqruP9kMRlnFXaVx0+eBqqKsn77ziJ59iIm1PylaXk/K8N7N/aIAOyi7EdkKzLA3yrtx1m2yW/hjBQoTLHfWtIvCmnZyecOi7Ho/HWjtldnE23LLZcBsKqtsp1xtEdinNkwb/hBGo6NjUKhc/QAQxbLOzISpBGSYSTBzOEQy8zB7fLHXMJiq8NNqVBlZU8dQyUsjTMUs8r+Z6Eaj45HN2SjBpcoZiDY1ExDPhLkJbKu/gHw0OnrT1hCYNdlJlpjSo2xXWQnA/ey/gL/G/JIKxy7TrAAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png"
+                    srcSet="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
+/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x\\" src=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-AxjAm AXWDY"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="https://gitlab.com/jeremiergz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              gitlab/jeremiergz
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAuJAAALiQE3ycutAAADiElEQVQ4y3VUa0hUURBeo8g0V7OH6xb0I8LM0ox0daPoQVFEDzVtq/WxapZGL+iBFWQQPX4U4o/KoIdERUVYUYZmVBAk+qfXjyjIQgoStBIR23t3pvmO91zWogPDmXvOzHdnvjMzjkkZmx1YCZn+CNEjoCd6Cp3yXSHfTbL3iJAIi/SKNMt5lctTGAdb+MBXYWT4HTaYw1quTH+xAHa5sgPsyiphC4g1KM5wJzbf8FPtJ2AR/4CJXp8gDrFzfAAwREyJgCAAs3acGcomKwC7hjD/CMekzKE0JbL6iZ4AT1u8xdh/6rIZBkBhEZL1A9538pI5fUlFED4aVHYbudg9v4zHzlpvrAgcocGgwemrd1Fc2gYWruy0XR4/x6f7KHl5JQ0M/ubcquMUNTMvOHl+Oe4rFZhE6JQ/dk32lvDoGTnmifO3WRZtrznHY5Jz2Z1VZANCx1lZdZ2yqb18jyOTc0Pu7GJk0y02ExBdBUgGL0il481HgvXDZx0ck5rPU7zFnJhVqAR6zOx8vv3oBUz47YcvhAzgCwzB2g3AJrc3wM7UfHPRpmoyQyFl/KOvn5OWbeOR09eACo4WGZW0lqcuLOXu3l+s18rSGgJVbm8pAFtQRz0IWdKl4+duqeiChqmM7z9p59or9/js9SY+e61J9Pvc+LhN3RmWzemLjRSZnCNplyDSTw79iuPnbqS2V++VkWmGmIj4fwt3OpPX7ztpwrxNuhJC6AqkS0sLDynbcDDohmkOE32vQE0FSqvKj4ISAs8OIbU3Top0ge8A9fzsI52OBtXOWvSZTrl/YJCW+A+GnGk+PFwnOGxOlEeJTSsw01fvpOft7+xcrQiGgSFVrb8UijLW7SFnaoGJRxGsVnBYZfWmIaAcL1yeunDH5is8Wh0V1plLd3midA184GuVzV4AxolIo6taUy2HF1+79Rh//tptRTrEH9bX7z2cv+OkFHSOakHxCcHXmkoJuvWkuFXIQby6O7uIo1LySPqaG1te2lE9eNrBM6Q2o2bmKhurt4PwVUWt55kF2uDylilQkRAc4uf6CK93+MxVqqm7QdIlNE56GXewUWDiI7437eFgz7Eh8Ab1N91Owg1qC6DRKXmqzuRMjS+kaWV1U2TEsFH410ysFOm2B6ynCKRDCLoesIqzDCvNv8DsAz3CMTXAiXy3yP4JkVmd0CnTqRWvKXuClZU9U2V3/AEDMRaiVXeM5QAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png"
+                    srcSet="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
+/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x\\" src=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-AxjAm AXWDY"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="https://github.com/jeremiergz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              github/jeremiergz
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMABWgaAAVoGgF5pqvOAAACuklEQVQ4y4VUTWgTQRTeGOvPQTwI7VmKKFbI7qYRe9CLPz1JDx4KFb0oePMiXgShkKSxSWrRHtxNamMqBa0i4kkUPah4Lv4UBUFExIuCQW1DtBm/b+eNmQaDCx8z+96bb9588944iXTg8OPoZsI1Ml8PHAXuAJ+AZiIdAsFn4C5wHNjIWK4xHJg7NpmZHwYW/fGK8gtV5WbLCr6mmwmabrak/Pw1RR9i3gJHDBHmMZssJvO0X5hV/ZNzyrswo9x0UIevoQlDJfM6fcmLcypZvE7iguO0ErOPeT41dYsBo8AB4KFfnNVZarJonoQNvsfAIHAudXme/1lzfMN8UI6xBPRaO54CRoABNx3uwTgMnDTHw9gNLFMGjENmEUVd8MZnlBY/2L9qt398xgdJfGpLCbDuDbCOziEP2WH8TdFh3Gc2khuM603teWBk2gH8oMaS5TCNVT9fUWIo/y87K8u4kOaim9frb9LwjqXh5a7SMChB8YSpqQ6fleVub2xaybEXYEAp6KP+BPokKGaKtQOZY13MVq51x8rkqDmmJPDTADxLv45kdiFj3AasaJ6SoqGGnxXWGLI9EQVlcFvUKVty7EzbOqpLxhHqR9kw/0DDc+rn5aZpeA1sENG7jE6SkV1mhmwt8IJrPV3HT2kclRZa7r90g+MzoKftRlut1cq2B3ggDVGXDsrTsV00fC9dUCM5UGRNWloZor3AJPCF5Ybxl3UPCRN0JTUV9eQZYCdFHqjc5/+iZBiziB+xf3kBbAZWSXIiOmHVTn8z8FHS7kXgJozHWGPa3yKEb16OyapoSMvyzew2ZKbi+9hGwDfgELDFBK164jLh7ehWM+GSdMd3IGlzIfgvKWvqFY/E9w6LnphWNIR4de7Rp8sseAnsaiPTN+i2MmVZnKboQMkEW+/mBPAVOBu9LhYZuf4ANxMgxOF/0lQAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png"
+                    srcSet="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
+/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x\\" src=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="sc-AxjAm eNiSaH"
+        display="flex"
+      >
+        <a
+          className="sc-AxjAm sc-AxhCb fzLRoJ"
+          fontWeight="semi-bold"
+          href="mailto:contact@jeremierodriguez.com"
+          rel="noopener noreferrer"
+          target="_self"
+        >
+          <div
+            className="sc-AxjAm dfJEBz"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw orrEG"
+              color="primary"
+              display={
+                Object {
+                  "_": "none",
+                  "tablet": "block",
+                }
+              }
+              fontSize={18}
+              fontWeight="bold"
+            >
+              contact@jeremierodriguez.com
+            </span>
+            <div
+              className="sc-AxjAm gkFHjp"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "height": 32,
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADI0lEQVQ4y41US0xTQRRtWRJNkEJ5FWNUNCrxx+f1F6NgVPzEaNxQoKWlBUNRYmTlxq2JxrBwYWKDiaALoiElREPUGBdu3LpRSZRP+BpBaOmXaed677wPlABxkvNm3sy955258+YYSqxuAzXqzXJTHo2xz0f4EGGcn0FwHHPsZxFDiABim8iT3UYcGzUOjcxoMOhjFyaPSo4WkOw+KLF6EG4VHjFHa/g+jmTeNXlGQw6rouyxCLY1UwJTwXXIomdmaxOjGJU4lEOKjzydzBkQRJLVnUHwLQAUI2IxB3NDOSpxwkVfw54VVrq4qaoBEFq/Hlxbo1jKUXP9msx8xChtwWL3ZA6fD8K+mlZeVtMKB860bQhao5hyjLXYmzNmpc50eAVE6NPU7XQ08/43n3kskYTpuXn4NTELY5O/YXxKAY1pbgrXKGbwwxe+y+mDYlUlcgWJMKycppsVVzdy/CLcfdgL0VgCNmvxZBrudb+EUocXKEfU0i4I3xLhjITbLThRz49dusVfhD+BfK0LzFj4+09eQwKTtZZKM3jUE6ZtQsWV29A78BFj73DMzUp2LxF+I0Iu2Tywo6KeH714k7NMRiQ/x+CDZ9sFel69F+/ldR2wv/YGhPrfiRjOuUYoOEgpnbBK6BKEfxYiuqL0CoPuZ4Ow+6QfSrFWD54OQCK1qnhhKZpDSOdACmdpyxrh/GJUJ9PacjyZU9N0ekX0i5EYyFeVLVuULY+QwiGLs4VqyI5f7uSxeJLDfzaqr+16FxEyi9NPCodJYcDi8NMPy8pq2+DrjzGeSKbg79IyLEVjAouRZQHtndbiiRR8/znJD51rB1NlAyMO5OokhdsRE7TtourGzJ5TAThyoUP8tOV1mwDXKGbv6QAUVTVm6VIgxxzCpN0Wr/pjMgzghRUuca0QsAnEGsVizoqkqAvm2A65hm4ONmEOsKU52NxZQabk9KmegA9r01ovDG1gX1nVXAlZYV8y2Rd6o6KsbyNPNK7xRD9iWjFYIveuGix54KrBUs2COpm8zmCJVFNLrkE1obtJ1wmDmapsBPthOk2EOADM0QXRlv8BYLbe7Juyei0AAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    srcSet="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
+/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
+/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x"
+                  />
+                  <img
+                    alt=""
+                    height={32}
+                    loading="lazy"
+                    onLoad={[Function]}
+                    src="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png"
+                    srcSet="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
+/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
+/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                    width={32}
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
+/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
+/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
+/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
+/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x\\" src=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

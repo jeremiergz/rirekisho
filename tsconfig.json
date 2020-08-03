@@ -9,6 +9,7 @@
     "module": "commonjs",
     "noEmit": true,
     "noUnusedLocals": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
     "target": "es2015",
