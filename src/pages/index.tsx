@@ -13,6 +13,7 @@ import ExperienceIcon from 'components/svg/Experience';
 import InterestsIcon from 'components/svg/Interests';
 import SkillsIcon from 'components/svg/Skills';
 import ToolboxIcon from 'components/svg/Toolbox';
+import useInstallPWA from 'hooks/useInstallPWA';
 import React, { useRef } from 'react';
 
 const IndexPage: React.FC = () => {
@@ -30,6 +31,7 @@ const IndexPage: React.FC = () => {
     { Component: Education, Icon: EducationIcon, ref: educationRef, title: 'education' },
     { Icon: ChevronBottomIcon, ref: 'bottom', title: 'bottom' },
   ];
+  useInstallPWA();
   return (
     <Layout path="/" title="CV">
       <Details />
