@@ -14,14 +14,14 @@
   ],
   "homepage": "https://cv.jeremierodriguez.com",
   "bugs": {
-    "url": "https://gitlab.com/jeremiergz/rirekisho/issues"
+    "url": "https://github.com/jeremiergz/rirekisho/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/jeremiergz/rirekisho.git"
+    "url": "git+https://github.com/jeremiergz/rirekisho.git"
   },
   "license": "Apache-2.0",
-  "author": "Jeremie Rodriguez <contact@jeremierodriguez.com> (https://gitlab.com/jeremiergz)",
+  "author": "Jeremie Rodriguez <contact@jeremierodriguez.com> (https://github.com/jeremiergz)",
   "files": [
     "public/"
   ],
