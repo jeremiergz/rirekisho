@@ -40,7 +40,7 @@
         "sortOrder": 1
       },
       {
-        "name": "<GitLab|Travis>CI",
+        "name": "<GitHub|GitLab>CI",
         "proficiencyLevel": 7,
         "sortOrder": 2
       },
