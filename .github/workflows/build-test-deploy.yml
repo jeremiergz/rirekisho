@@ -110,3 +110,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_USER: ${{ secrets.GIT_USER }}
+          NODE_DEBUG: gh-pages
