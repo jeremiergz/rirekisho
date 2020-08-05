@@ -29,7 +29,7 @@
     "build": "run-s clean compile",
     "clean": "rimraf .cache coverage dist out public",
     "compile": "gatsby build",
-    "deploy": "echo gh-pages --dist public --repo https://${GH_TOKEN}@github.com/jeremiergz/rirekisho.git --user \\\"${GIT_USER}\\\"",
+    "deploy": "gh-pages --dist public --repo https://${GH_TOKEN}@github.com/jeremiergz/rirekisho.git --user \\\"${GIT_USER}\\\"",
     "lint": "eslint --ext ts,tsx src",
     "lint:tsc": "tsc --noEmit",
     "prerelease": "run-s build lint lint:tsc",
