@@ -18,6 +18,7 @@ declare module Models {
     company: string;
     companySector: string;
     endDate: string;
+    img: string;
     projects: Project[];
     startDate: string;
   };

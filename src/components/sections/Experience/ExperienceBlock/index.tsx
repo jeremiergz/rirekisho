@@ -2,6 +2,7 @@ import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
 import Grid, { GridProps } from 'components/primitives/Grid';
 import Text from 'components/primitives/Text';
+import Img, { FixedObject } from 'gatsby-image';
 import React from 'react';
 import ProjectBlock from './ProjectBlock';
 
@@ -25,7 +26,7 @@ function getFormattedDate(dateString: string) {
   return dateString ? `${months[date.getMonth()]} ${date.getFullYear()}` : 'PRESENT';
 }
 
-const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ item, ...rest }) => {
+const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...rest }) => {
   const endDate = getFormattedDate(item.endDate);
   const startDate = getFormattedDate(item.startDate);
   return (
@@ -37,22 +38,32 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ item, ...rest }) => {
       variant="item"
       {...rest}
     >
-      <FlexBox alignItems="flex-start" justifyContent="space-between" marginBottom={2}>
+      <FlexBox
+        flexDirection={{ _: 'column', tablet: 'row' }}
+        alignItems="flex-start"
+        justifyContent="space-between"
+        marginBottom={2}
+      >
         <Box color="primary" fontSize={18} fontWeight="bold" marginRight={3}>
-          <Text display={{ _: 'block', mobileM: 'inline' }} whiteSpace="nowrap">
+          <Text whiteSpace="nowrap">
             {startDate}
             {' - '}
           </Text>
-          <Text display={{ _: 'block', mobileM: 'inline' }} whiteSpace="nowrap">
-            {endDate}
-          </Text>
+          <Text whiteSpace="nowrap">{endDate}</Text>
         </Box>
-        <Box color="secondary" fontWeight="bold" textAlign="right">
-          <Text fontSize={18}>{item.company}</Text> |{' '}
+        <FlexBox
+          alignItems="center"
+          color="secondary"
+          fontWeight="bold"
+          marginY={{ _: 2, tablet: 0 }}
+          textAlign={{ _: 'left', tablet: 'right' }}
+        >
+          {companyImg ? <Img fixed={companyImg} /> : <Text fontSize={18}>{item.company}</Text>}
+          <Text marginX={2}>|</Text>
           <Text fontSize={16} fontStyle="italic">
             {item.companySector}
           </Text>
-        </Box>
+        </FlexBox>
       </FlexBox>
       {item.projects.map((project, index) => (
         <ProjectBlock
@@ -68,6 +79,7 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ item, ...rest }) => {
 ExperienceBlock.displayName = 'ExperienceBlock';
 
 export type ExperienceBlockProps = Omit<GridProps, 'variant'> & {
+  companyImg?: FixedObject;
   item: Models.Experience;
 };
 export default ExperienceBlock;

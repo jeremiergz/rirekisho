@@ -20,6 +20,13 @@ declare module GraphQL {
   };
 
   type ExperienceData = {
+    companyImgNodes: {
+      nodes: {
+        fixed: import('gatsby-image').FixedObject & {
+          originalName: string;
+        };
+      }[];
+    };
     experienceNodes: {
       nodes: Models.Experience[];
     };

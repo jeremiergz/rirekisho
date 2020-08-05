@@ -10,8 +10,8 @@ const ProjectBlock: React.FC<ProjectBlockProps> = ({
   return (
     <Box marginLeft={2} {...rest}>
       {client && <Detail details={clientSector} label="Client" information={client} />}
-      <Detail details={description} label="Project" information={name} />
-      <Detail details={technologies.join(' | ')} emphasize label="Techs" />
+      {description && <Detail details={description} label="Project" information={name} />}
+      {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize label="Techs" />}
       {tasks.map(task => (
         <Text color="#575757" display="block" fontWeight="bolder" key={task} marginTop={1}>
           • {task}
