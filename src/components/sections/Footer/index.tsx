@@ -37,7 +37,7 @@ const Footer = () => {
   `);
   const applicationInfo = `${appName.toLowerCase()} v${version}`;
   const repositoryURL = repository.url.replace(/git\+|\.git/g, '');
-  const sourceCodeURL = `${repositoryURL}/-/tree/${version}`;
+  const sourceCodeURL = `${repositoryURL}/tree/${version}`;
   const techs = [
     { img: gatsbyImg.fluid, url: 'https://www.gatsbyjs.org' },
     { img: styledComponentsImg.fluid, url: 'https://styled-components.com' },
