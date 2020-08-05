@@ -12,6 +12,7 @@ const eventName = 'beforeinstallprompt';
 function useInstallPWA() {
   useEffect(() => {
     const handler = (e: BeforeInstallPromptEvent) => {
+      e.preventDefault();
       e.prompt().catch(() => {});
     };
     window.addEventListener(eventName, handler);
