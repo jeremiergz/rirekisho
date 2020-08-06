@@ -1,9 +1,9 @@
 # Rirekisho
 
-[![build status](https://github.com/jeremiergz/rirekisho/workflows/Build%20&%20Test/badge.svg)](https://github.com/jeremiergz/rirekisho/actions)
+[![pipeline status](https://github.com/jeremiergz/rirekisho/workflows/Build%20&%20Test%20&%20Deploy/badge.svg?branch=master)](https://github.com/jeremiergz/rirekisho/actions)
 [![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/jeremiergz/rirekisho/blob/master/LICENSE)
 [![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
-[![pages](https://img.shields.io/badge/pages-cv.jeremierodriguez.com-fc6d27)](https://cv.jeremierodriguez.com)
+[![pages](https://img.shields.io/badge/pages-cv.jeremierodriguez.com-17365c)](https://cv.jeremierodriguez.com)
 
 Yet Another Resume Website. This time it's mine though.
 
