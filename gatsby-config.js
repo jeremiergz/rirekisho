@@ -55,12 +55,7 @@ module.exports = {
         theme_color: appColor,
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        debug: true,
-      },
-    },
+    'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
