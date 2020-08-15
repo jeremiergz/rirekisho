@@ -10,7 +10,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
     experienceNodes: { nodes: experiences },
   } = useStaticQuery<GraphQL.ExperienceData>(graphql`
     query ExperienceData {
-      companyImgNodes: allImageSharp {
+      companyImgNodes: allImageSharp(filter: { original: { src: { regex: "/company/" } } }) {
         nodes {
           fixed(height: 28) {
             originalName
