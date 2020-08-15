@@ -54,8 +54,6 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
-      - name: Install Dependencies
-        run: npm ci
       - name: Run linter
         run: npm run lint
 
@@ -73,8 +71,6 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
-      - name: Install Dependencies
-        run: npm ci
       - name: Run tests
         run: npm test
 
