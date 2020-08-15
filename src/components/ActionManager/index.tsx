@@ -63,7 +63,7 @@ const ActionManager: React.FC<ActionManagerProps> = ({ sections, position }) => 
         variant="cursor-only"
         width="100%"
       >
-        <MenuIcon />
+        <MenuIcon fill="white" height={24} width={24} />
       </Button>
     </Box>
   );

@@ -41,7 +41,19 @@ declare module Models {
     label: string;
     link: string;
     sortOrder: number;
-    type: 'email' | 'github' | 'gitlab' | 'linkedin' | 'phone' | 'twitter';
+    type:
+      | 'email'
+      | 'facebook'
+      | 'github'
+      | 'gitlab'
+      | 'instagram'
+      | 'linkedin'
+      | 'messenger'
+      | 'phone'
+      | 'reddit'
+      | 'skype'
+      | 'twitter'
+      | 'whatsapp';
   };
 
   type PersonalDetails = {

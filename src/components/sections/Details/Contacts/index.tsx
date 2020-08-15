@@ -3,22 +3,34 @@ import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
 import Text from 'components/primitives/Text';
 import Email from 'components/svg/Email';
+import Facebook from 'components/svg/Facebook';
 import GitHub from 'components/svg/GitHub';
 import GitLab from 'components/svg/GitLab';
+import Instagram from 'components/svg/Instagram';
 import LinkedIn from 'components/svg/LinkedIn';
+import Messenger from 'components/svg/Messenger';
 import Phone from 'components/svg/Phone';
+import Reddit from 'components/svg/Reddit';
+import Skype from 'components/svg/Skype';
 import Twitter from 'components/svg/Twitter';
+import Whatsapp from 'components/svg/Whatsapp';
 import useTheme from 'hooks/useTheme';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 
 const Icons: Record<Models.PersonalContact['type'], React.FC<React.SVGProps<SVGSVGElement>>> = {
   email: Email,
+  facebook: Facebook,
   github: GitHub,
   gitlab: GitLab,
+  instagram: Instagram,
   linkedin: LinkedIn,
+  messenger: Messenger,
   phone: Phone,
+  reddit: Reddit,
+  skype: Skype,
   twitter: Twitter,
+  whatsapp: Whatsapp,
 };
 
 function isHTTPLink(link: string) {

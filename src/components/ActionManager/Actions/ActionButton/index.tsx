@@ -1,7 +1,7 @@
 import Button from 'components/Button';
 import Box, { BoxProps } from 'components/primitives/Box';
 import useScreenOrientation from 'hooks/useScreenOrientation';
-import React, { ComponentType, MouseEvent, RefObject, useRef, useState } from 'react';
+import React, { MouseEvent, RefObject, useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 
 const ActionButton: React.FC<ActionButtonProps> = ({ Icon, label, opened, openingDelayInMs, to, ...rest }) => {
@@ -61,7 +61,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({ Icon, label, opened, openin
         variant="cursor-only"
         width="100%"
       >
-        <Icon />
+        <Icon fill="white" height={24} width={24} />
       </Button>
       <Tooltip
         label={label}
@@ -77,7 +77,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({ Icon, label, opened, openin
 ActionButton.displayName = 'ActionButton';
 
 export type ActionButtonProps = BoxProps & {
-  Icon: ComponentType;
+  Icon: React.FC<React.SVGProps<SVGSVGElement>>;
   label: string;
   opened: boolean;
   openingDelayInMs: number;
