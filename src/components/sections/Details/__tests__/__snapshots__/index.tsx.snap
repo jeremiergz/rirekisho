@@ -10,8 +10,9 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
     width="100%"
   >
     <div
-      className="sc-AxjAm DwQPW"
+      className="sc-AxjAm nYZHI"
       display="flex"
+      height="100%"
       order={
         Object {
           "_": 2,
@@ -239,12 +240,13 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       </span>
     </div>
     <div
-      className="sc-AxjAm ejunjS"
+      className="sc-AxjAm aaaFU"
       display="flex"
+      height="100%"
       order={3}
     >
       <div
-        className="sc-AxjAm AXWDY"
+        className="sc-AxjAm EnBDI"
         display="flex"
       >
         <a
@@ -275,85 +277,30 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#31859a"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADGElEQVQ4y21Vy0tUURi/0zKE6E/oKdJjXotWQUSbih7UIoIShShw2SrSHjYzKilmjjpzfevgE9NEpAfVyk0QLipdJQilgoYRpOncO+fr+53HnWt64eN+59zz/c7ve14rFLctPHiHYvYure8OxdPFwZg9yvpCMG7nWATriyzjLKUsBTgbjKUDrAcMhgELWJanX2OZi9T2ECSUaCNeK2E98rRb7cfteb7kps9OYTALy7fZgMPh6g4KJ2yH1w4zADO/yH2cidT2Aji9BZQNjJsN0fo+4rUbSbS6RY+axbEnKQmyAygDpV0Aw4bfKeO+5yaYAYyZ5Q4/bKKr9rA4Vd9DRytT0l3+Zlz3gSrGkTrJtESBxZAAe066wMwAVtIzLoifoU8ztK/8OfbzccyLAo3Zbri6HesfLHvArljGjW8qetwsLqeGxHrWAR79dRy6Yg8T7+P7NtBgnqmj43kHgKMyo4lW5+CDpLg78laBadC2qWnaX95I0Z1Z5t1WmZ8A4ALKgRkIMDzf1O+Bff/1m840ZIiTs53d1pjmwjWdYDxroWjNB06IQAxfzXyTgKtr63Qu2U+FvBetUgwRTz7nB/WSxFgblrfg0gAg4nWhZYDWNrMS9MvCMp2o6ZCgxxngQEWj1E2ifCUFwE1LtpPqBllvOMixpHtj78g8XxeX6Wyyj07WdVPm42e6lZmQcT1S2SJDxXbS5RBcRm+inXQH5EErklT9esoD/flnjeZWVqUuhKCR6Vk6/awXdSrC+aRMArBULxyfCzJOAL3/8gOtZ7MesF+/0TkmtPumbMqQlAKWeRQ2b7h+UOP+xZZBesOJMmBuTlDZwKRMIJohXNXONvYS2+xVA4Knhr7B8SfJgHJfE4wvpQaZ8Xu63v5CHOK1jl82WpeB7W3L39CYGno4YMK4ppRM9nUFCG5FUcgXgJkEU8Ohy5s2/83CFBpd96ajJWdqjRnluGMcjDa4qZl1efYxO7DTgC1BoyMEssdVOUiBrgavDM+S56Yfw/cLCJgbMDXQ6OhN1FYwnt5A0UJHaSCbQZ0Aaef9AtLWPyXBVeRc9DsCAAAAAElFTkSuQmCC"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <circle
+                  cx="150.001"
+                  cy="226.085"
+                  r="11.718"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
-/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
-/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png"
-                    srcSet="/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
-/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
-/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
-/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
-/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png 1x,
-/static/87b52b3b809770004773df8d4809560b/aff39/contact_phone_icon.png 1.5x,
-/static/87b52b3b809770004773df8d4809560b/ea22a/contact_phone_icon.png 2x\\" src=\\"/static/87b52b3b809770004773df8d4809560b/c1598/contact_phone_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
+                <path
+                  d="M182.691 68.248h-65.382c-3.665 0-6.647 2.843-6.647 6.331v123.592c0 3.491 2.98 6.331 6.647 6.331h65.382c3.665 0 6.647-2.843 6.647-6.331V74.579c-.002-3.491-2.982-6.331-6.647-6.331z"
                 />
-              </div>
+                <path
+                  d="M149.996 0C67.157 0 .001 67.161.001 149.997.001 232.833 67.157 300 149.996 300s150.003-67.163 150.003-150.003C299.999 67.157 232.835 0 149.996 0zm58.358 224.021c0 11.458-9.29 20.749-20.749 20.749h-75.214c-11.458 0-20.749-9.29-20.749-20.749V75.323c0-11.458 9.29-20.749 20.749-20.749h75.214c11.458 0 20.749 9.29 20.749 20.749z"
+                />
+              </svg>
             </div>
           </div>
         </a>
       </div>
       <div
-        className="sc-AxjAm AXWDY"
+        className="sc-AxjAm EnBDI"
         display="flex"
       >
         <a
@@ -384,85 +331,22 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#17365c"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADlUlEQVQ4y3WVWUhUURjH7/hUmUtZOnegp3rJasxsFsenHnqwqJgmzXHuLDkFJiqV9RBFZDVlDy2oGJktRIsaNDAQkkIU9BCJEZSWkEtEZovQStS993x937n32IzUhc/5PHPO7/7Pt42U51AkevKcClka9x1KOvphtDjaRK4zwHCNoT+Jlsh1BKL4mUF78TsL+hbBEDCLJE37ftkdHLOVVIG1eBvkOYNoimlBsLoj5rryGi2SdM4ipVDpbY5As4ybs1ZWwNzlW1T8jozhOqkTZqy7QgbYobSnQHFzmvlPs1yyHbJXblXXhg9pW2qbWE5R5TRsBhTwqhqBrZ4oqW03BVmEMr/NUwWZ9jK1NNrIVE0HfNjepsswZ5kPMARJ1/4LFYpJKb4gKmSmI3DM5onAnPzNWnR/C4fRn7YbPTA7fzMsKolwqOwOgQ3NfAGq5lCNro9Xp+RlU5bCVjcPskrXIjtw+hqcvZKAxWt2QMaKMg4lpfQ5a6mX4gtWl2JCAyBU4udOUhinzNFiTpGfLUHI7lgHHEToinV1UFp1GE5djEPDiUsQ2ncGdh3r4GsYa1howAiqclEO5Q4BJ3g5uIIs017Oin17QTy+2pNwsv02/OuhcMwrrBBx1PNcYfJfSLxoMcAEzCooZ07vHvj6/Sc/tLE6Bo2tndzXdR00tKkv36ehSsNpCgXDmIokqZLZASnAHz9/8QObqo/DkdYu7k9OfQFvzXGwr6+H4fEJvna+8+5MoEYKJ8WV/wU83GIo7H8+wq+YWVAO9x8P8rWL3X2UICa7gjrPtFMZphpM8HZyBVUTyJKBjSbw6ctxLB+sNyyVhwMv+VpHdy+kE9AdVImB4nooKVFKuQkEAn77IWKICptvcn9gaBRsxWFYsLoSHvQP8bULXb2MSggViuKuI4UZaK9l3JxlL9fcvgaqal7Y3pomiJ27xQ8Pjb4Fm8cAPn72ihf/1fg9VOjT6SwKe4/5yJHMcRWRsfWojws31LMngyPw5t1HtjZyCOqPXoCPU58h3vcIFYZg4eoAXE88YB8+fYZYWzfLsJf9tpVEjaIW88zs53YZG52KdH5hhUYJwMMMFTH0Wc4q//SAQJ8SpC8o8v82z1w1WamzkKBGPHnGxPjSkwaCTi/krUbjC28lYCnTZgY0ijbBwdRORgcYRhBzwOKe92g7/ztgaUG8Af1sign1JrWTqZTm3zBaD+6rEwlAX0r+CfgDfk7HO/yDxm0AAAAASUVORK5CYII="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <path
+                  d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm-74.39 387h-62.348V199.426h62.347zm-31.173-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.402-35.274 32.402zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
-/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
-/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png"
-                    srcSet="/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
-/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
-/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
-/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
-/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png 1x,
-/static/4744a5974fac02b4c4a095018dae549c/aff39/contact_linkedin_icon.png 1.5x,
-/static/4744a5974fac02b4c4a095018dae549c/ea22a/contact_linkedin_icon.png 2x\\" src=\\"/static/4744a5974fac02b4c4a095018dae549c/c1598/contact_linkedin_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
-                />
-              </div>
+              </svg>
             </div>
           </div>
         </a>
       </div>
       <div
-        className="sc-AxjAm AXWDY"
+        className="sc-AxjAm EnBDI"
         display="flex"
       >
         <a
@@ -493,85 +377,22 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#31859a"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADQ0lEQVQ4y4VVW0tUURQ+PguC9A+SMkubmz30EAU+9NRjGAQ+DCURBRJBD5ma42imdpnxMpc0dZBuiA+JNUlSBvoQSRZEFKXTxZgy8TpOM+fs1fr22WcaRWjBYq/ZZ+9vfWuvy2j2hqAG4TUHquxcVretIThi9wQW2CaozRNY5DXKWsl23hb3tAyYpmXsctYZZ0sfOa/2kt0bAphgcAEbe86WfmJHMd6vyLqXsxWYH0COpm6wSfNvHWCKnQR2mHtpR9Mtcrb2Yy+8ATSLrt91bYD4ggSyACQ7T0A4vKZdfLlTOnB6QzrO4o4Fms3yGJjBc1FdBwAALFdl067aDiqpD9Chtj6xh0G3V/tod50ETyumbgssly/NOK90E3vXj4YGydUYFgzMa0hqEYOVhwfp9dc4za8kaOz9LJ17MCrODz5lh0Ed4TPOHGs+AN0yAd5QGl4nP38XLz5+oX18aPtFHxXWtlNpY5hm5hdpswy//SRwbi+/t8tkeUZjDyMyc/wmBdU+cXtiWh6O/V6i5ugEHfYN0PGeIUrpOgkhSDcMua6n0nQi8pDwREiUfDJPMMoMuc64HPBm+HhhaIxWkqkMiwRf/LG0KoEgBoNBfi6vUSmzK6nvwjsaKuxZTRWtYIZUUO0XvZNv5AUApBWIJWBmGCbg9Le4TJJVCRaOpmpMbsDb/uYeGuc3BBOh1LIhCB1yc+wlE/DhqcS/WmVA2U7MDqD4yCyp4/nUBlaWWIznVxN0sK0PVWGVlxVyDAyjssVUV3BWhYsddI2/ooW1ZCZ8ixnk7N3HtOOSH+ys6HSFMQrAShf3JlrNwQeOdN4TJyPDFByfkpnMlsVEkqruP9kMRlnFXaVx0+eBqqKsn77ziJ59iIm1PylaXk/K8N7N/aIAOyi7EdkKzLA3yrtx1m2yW/hjBQoTLHfWtIvCmnZyecOi7Ho/HWjtldnE23LLZcBsKqtsp1xtEdinNkwb/hBGo6NjUKhc/QAQxbLOzISpBGSYSTBzOEQy8zB7fLHXMJiq8NNqVBlZU8dQyUsjTMUs8r+Z6Eaj45HN2SjBpcoZiDY1ExDPhLkJbKu/gHw0OnrT1hCYNdlJlpjSo2xXWQnA/ey/gL/G/JIKxy7TrAAAAABJRU5ErkJggg=="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <path
+                  d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm116.887 199.602c.113 2.52.168 5.05.168 7.593 0 77.645-59.102 167.18-167.184 167.184h.004-.004c-33.184 0-64.062-9.727-90.066-26.395 4.597.543 9.277.813 14.015.813 27.532 0 52.867-9.39 72.98-25.152-25.722-.477-47.41-17.465-54.894-40.813a58.481 58.481 0 0011.043 1.063c5.363 0 10.559-.723 15.496-2.07-26.886-5.384-47.14-29.145-47.14-57.598 0-.266 0-.504.008-.75a58.354 58.354 0 0026.613 7.347c-15.777-10.527-26.148-28.523-26.148-48.91a58.597 58.597 0 017.957-29.535c28.976 35.555 72.28 58.937 121.117 61.394a58.708 58.708 0 01-1.528-13.398c0-32.437 26.317-58.754 58.766-58.754 16.902 0 32.168 7.145 42.89 18.567a117.855 117.855 0 0037.313-14.262c-4.394 13.715-13.707 25.222-25.84 32.5 11.887-1.422 23.215-4.574 33.742-9.254a119.412 119.412 0 01-29.308 30.43zm0 0"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png"
-                    srcSet="/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png 1x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/aff39/contact_twitter_icon.png 1.5x,
-/static/83dbfadc34fe60bd5d4891ef62983f2b/ea22a/contact_twitter_icon.png 2x\\" src=\\"/static/83dbfadc34fe60bd5d4891ef62983f2b/c1598/contact_twitter_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
-                />
-              </div>
+              </svg>
             </div>
           </div>
         </a>
       </div>
       <div
-        className="sc-AxjAm AXWDY"
+        className="sc-AxjAm EnBDI"
         display="flex"
       >
         <a
@@ -602,85 +423,22 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#17365c"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAuJAAALiQE3ycutAAADiElEQVQ4y3VUa0hUURBeo8g0V7OH6xb0I8LM0ox0daPoQVFEDzVtq/WxapZGL+iBFWQQPX4U4o/KoIdERUVYUYZmVBAk+qfXjyjIQgoStBIR23t3pvmO91zWogPDmXvOzHdnvjMzjkkZmx1YCZn+CNEjoCd6Cp3yXSHfTbL3iJAIi/SKNMt5lctTGAdb+MBXYWT4HTaYw1quTH+xAHa5sgPsyiphC4g1KM5wJzbf8FPtJ2AR/4CJXp8gDrFzfAAwREyJgCAAs3acGcomKwC7hjD/CMekzKE0JbL6iZ4AT1u8xdh/6rIZBkBhEZL1A9538pI5fUlFED4aVHYbudg9v4zHzlpvrAgcocGgwemrd1Fc2gYWruy0XR4/x6f7KHl5JQ0M/ubcquMUNTMvOHl+Oe4rFZhE6JQ/dk32lvDoGTnmifO3WRZtrznHY5Jz2Z1VZANCx1lZdZ2yqb18jyOTc0Pu7GJk0y02ExBdBUgGL0il481HgvXDZx0ck5rPU7zFnJhVqAR6zOx8vv3oBUz47YcvhAzgCwzB2g3AJrc3wM7UfHPRpmoyQyFl/KOvn5OWbeOR09eACo4WGZW0lqcuLOXu3l+s18rSGgJVbm8pAFtQRz0IWdKl4+duqeiChqmM7z9p59or9/js9SY+e61J9Pvc+LhN3RmWzemLjRSZnCNplyDSTw79iuPnbqS2V++VkWmGmIj4fwt3OpPX7ztpwrxNuhJC6AqkS0sLDynbcDDohmkOE32vQE0FSqvKj4ISAs8OIbU3Top0ge8A9fzsI52OBtXOWvSZTrl/YJCW+A+GnGk+PFwnOGxOlEeJTSsw01fvpOft7+xcrQiGgSFVrb8UijLW7SFnaoGJRxGsVnBYZfWmIaAcL1yeunDH5is8Wh0V1plLd3midA184GuVzV4AxolIo6taUy2HF1+79Rh//tptRTrEH9bX7z2cv+OkFHSOakHxCcHXmkoJuvWkuFXIQby6O7uIo1LySPqaG1te2lE9eNrBM6Q2o2bmKhurt4PwVUWt55kF2uDylilQkRAc4uf6CK93+MxVqqm7QdIlNE56GXewUWDiI7437eFgz7Eh8Ab1N91Owg1qC6DRKXmqzuRMjS+kaWV1U2TEsFH410ysFOm2B6ynCKRDCLoesIqzDCvNv8DsAz3CMTXAiXy3yP4JkVmd0CnTqRWvKXuClZU9U2V3/AEDMRaiVXeM5QAAAABJRU5ErkJggg=="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <path
+                  d="M256 0A256 256 0 000 256a256 256 0 00256 256 256 256 0 00256-256A256 256 0 00256 0zm109.32422 94.802734c2.76229-.113738 5.58539 1.416019 6.61914 4.597657l38.81641 119.460939 19.58593 60.27344-.00195.00195a13.323818 13.323818 0 01-4.8457 14.91797L255.99414 417.20312 86.488281 294.04883c-.946726-.68776-1.754552-1.51184-2.478515-2.39453a13.309895 13.309895 0 01-2.365235-12.51953l11.382813-35.01758 8.203126-25.25 38.81445-119.455081a6.5045845 6.5045845 0 011.54883-2.490234c2.49213-2.639698 6.74639-2.677427 9.35547-.199219.2506.23947.53476.489708.75195.779297a7.6517972 7.6517972 0 011.03711 2.136719l13.09375 40.548828 25.71875 79.60938h128.88867l38.81836-119.927739c.49565-1.51754 1.39792-3.12406 2.51172-3.892579 1.05637-.73093 2.2991-1.122128 3.55469-1.173828z"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png"
-                    srcSet="/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png 1x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/aff39/contact_gitlab_icon.png 1.5x,
-/static/659039ceaf2f8334a5e7c9d95aeb2631/ea22a/contact_gitlab_icon.png 2x\\" src=\\"/static/659039ceaf2f8334a5e7c9d95aeb2631/c1598/contact_gitlab_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
-                />
-              </div>
+              </svg>
             </div>
           </div>
         </a>
       </div>
       <div
-        className="sc-AxjAm AXWDY"
+        className="sc-AxjAm EnBDI"
         display="flex"
       >
         <a
@@ -711,79 +469,16 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#31859a"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMABWgaAAVoGgF5pqvOAAACuklEQVQ4y4VUTWgTQRTeGOvPQTwI7VmKKFbI7qYRe9CLPz1JDx4KFb0oePMiXgShkKSxSWrRHtxNamMqBa0i4kkUPah4Lv4UBUFExIuCQW1DtBm/b+eNmQaDCx8z+96bb9588944iXTg8OPoZsI1Ml8PHAXuAJ+AZiIdAsFn4C5wHNjIWK4xHJg7NpmZHwYW/fGK8gtV5WbLCr6mmwmabrak/Pw1RR9i3gJHDBHmMZssJvO0X5hV/ZNzyrswo9x0UIevoQlDJfM6fcmLcypZvE7iguO0ErOPeT41dYsBo8AB4KFfnNVZarJonoQNvsfAIHAudXme/1lzfMN8UI6xBPRaO54CRoABNx3uwTgMnDTHw9gNLFMGjENmEUVd8MZnlBY/2L9qt398xgdJfGpLCbDuDbCOziEP2WH8TdFh3Gc2khuM603teWBk2gH8oMaS5TCNVT9fUWIo/y87K8u4kOaim9frb9LwjqXh5a7SMChB8YSpqQ6fleVub2xaybEXYEAp6KP+BPokKGaKtQOZY13MVq51x8rkqDmmJPDTADxLv45kdiFj3AasaJ6SoqGGnxXWGLI9EQVlcFvUKVty7EzbOqpLxhHqR9kw/0DDc+rn5aZpeA1sENG7jE6SkV1mhmwt8IJrPV3HT2kclRZa7r90g+MzoKftRlut1cq2B3ggDVGXDsrTsV00fC9dUCM5UGRNWloZor3AJPCF5Ybxl3UPCRN0JTUV9eQZYCdFHqjc5/+iZBiziB+xf3kBbAZWSXIiOmHVTn8z8FHS7kXgJozHWGPa3yKEb16OyapoSMvyzew2ZKbi+9hGwDfgELDFBK164jLh7ehWM+GSdMd3IGlzIfgvKWvqFY/E9w6LnphWNIR4de7Rp8sseAnsaiPTN+i2MmVZnKboQMkEW+/mBPAVOBu9LhYZuf4ANxMgxOF/0lQAAAAASUVORK5CYII="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <path
+                  d="M343.718 509.152c-2.493.922-5.001 2.036-7.567 2.497-9.829 1.799-16.12-3.404-16.178-13.705-.13-19.132-.13-38.233.174-57.365.319-22-.174-43.718-16.512-61.869 9.713-1.783 18.353-3.032 26.804-5.024 55.986-13.185 85.067-49.397 88.778-109.497 1.899-30.592-3.421-58.657-23.253-82.754-1.435-1.694-1.507-5.544-.826-8.012 5.277-19.92 3.74-39.378-2.406-58.851-1.523-4.861-4.045-6.362-8.727-6.05-16.44.936-31.502 6.853-44.78 15.95-12.801 8.815-24.718 10.733-39.925 7.165-33.487-7.745-67.192-5.485-100.607 2.453-3.783.921-8.872-.312-12.336-2.393-15.686-9.425-31.371-18.582-49.463-22.239-13.99-2.794-15.207-2.08-18.918 11.788-4.668 17.482-5.132 34.978-.363 52.563.682 2.557-.029 6.66-1.696 8.548-37.068 42.41-23.644 122.548 1.334 153.245 19.425 23.843 45.23 34.576 73.875 40.15 5.001.952 9.974 1.68 14.975 2.572-4.29 11.446-8.147 22.253-12.51 32.882-.856 2.051-3.567 3.775-5.785 4.638-28.094 11.178-52.246 2.958-68.323-23.19-8.596-13.944-19.628-24.364-36.067-27.382-.522-.104-1.059-.386-1.537-.312-4.421 1.19-8.8 2.438-13.206 3.657 2.478 3.538 4.233 8.295 7.552 10.42 13.932 9.038 22.992 21.927 28.98 37.134 9.408 23.843 27.673 34.472 51.404 36.553 11.583.966 23.282.149 35.967.149 0 14.805.522 31.707-.218 48.534-.377 9.068-9.263 12.695-19.904 8.979-28.225-9.9-54.391-24.097-76.992-44.046C13.861 394.26-17.598 303.136 9.526 196.48 36.562 90.163 107.031 24.95 212.393 4.48c145.793-28.274 283.903 80.598 298.37 232.357 11.424 119.634-57.247 231.583-167.045 272.314zM206.275 377.759c-.087.208-.145.357-.232.565.261.045.522.09.797.134.203.015.377.386-.565-.699zm-65.96 47.286c2.276 1.442 4.45 3.27 6.915 4.058.899.298 2.566-1.798 5.509-4.028-4.088-1.59-6.495-2.988-9.032-3.345-.985-.119-2.261 2.156-3.392 3.315zm20.774 3.657c.333 1.56 3.363 3.508 5.146 3.478 1.725-.03 3.407-2.378 5.132-3.716-1.566-1.472-3.131-2.899-7.944-7.343-1.044 3.092-2.769 5.589-2.334 7.58zm25.485-6.288c-2.145.52-3.957 2.557-5.915 3.954 1.146 1.487 2.29 2.869 4.132 5.203 2.537-2.379 4.262-4.029 6.002-5.634-1.45-1.293-3.146-3.79-4.219-3.523zm-63.176-8.815c1.188 2.304 3.03 4.296 5.523 7.551 1.667-2.794 3.479-4.935 3.16-5.366-1.58-2.126-3.726-3.865-5.842-5.455-.145-.12-3.088 2.764-2.841 3.27z"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png"
-                    srcSet="/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png 1x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/aff39/contact_github_icon.png 1.5x,
-/static/1ccfe0006b965fbdaa3dec62f590dedf/ea22a/contact_github_icon.png 2x\\" src=\\"/static/1ccfe0006b965fbdaa3dec62f590dedf/c1598/contact_github_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
-                />
-              </div>
+              </svg>
             </div>
           </div>
         </a>
@@ -820,79 +515,19 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             <div
               className="sc-AxjAm gkFHjp"
             >
-              <div
-                className=" gatsby-image-wrapper"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "height": 32,
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "width": 32,
-                  }
-                }
+              <svg
+                fill="#17365c"
+                height={32}
+                viewBox="0 0 512 512"
+                width={32}
               >
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAADI0lEQVQ4y41US0xTQRRtWRJNkEJ5FWNUNCrxx+f1F6NgVPzEaNxQoKWlBUNRYmTlxq2JxrBwYWKDiaALoiElREPUGBdu3LpRSZRP+BpBaOmXaed677wPlABxkvNm3sy955258+YYSqxuAzXqzXJTHo2xz0f4EGGcn0FwHHPsZxFDiABim8iT3UYcGzUOjcxoMOhjFyaPSo4WkOw+KLF6EG4VHjFHa/g+jmTeNXlGQw6rouyxCLY1UwJTwXXIomdmaxOjGJU4lEOKjzydzBkQRJLVnUHwLQAUI2IxB3NDOSpxwkVfw54VVrq4qaoBEFq/Hlxbo1jKUXP9msx8xChtwWL3ZA6fD8K+mlZeVtMKB860bQhao5hyjLXYmzNmpc50eAVE6NPU7XQ08/43n3kskYTpuXn4NTELY5O/YXxKAY1pbgrXKGbwwxe+y+mDYlUlcgWJMKycppsVVzdy/CLcfdgL0VgCNmvxZBrudb+EUocXKEfU0i4I3xLhjITbLThRz49dusVfhD+BfK0LzFj4+09eQwKTtZZKM3jUE6ZtQsWV29A78BFj73DMzUp2LxF+I0Iu2Tywo6KeH714k7NMRiQ/x+CDZ9sFel69F+/ldR2wv/YGhPrfiRjOuUYoOEgpnbBK6BKEfxYiuqL0CoPuZ4Ow+6QfSrFWD54OQCK1qnhhKZpDSOdACmdpyxrh/GJUJ9PacjyZU9N0ekX0i5EYyFeVLVuULY+QwiGLs4VqyI5f7uSxeJLDfzaqr+16FxEyi9NPCodJYcDi8NMPy8pq2+DrjzGeSKbg79IyLEVjAouRZQHtndbiiRR8/znJD51rB1NlAyMO5OokhdsRE7TtourGzJ5TAThyoUP8tOV1mwDXKGbv6QAUVTVm6VIgxxzCpN0Wr/pjMgzghRUuca0QsAnEGsVizoqkqAvm2A65hm4ONmEOsKU52NxZQabk9KmegA9r01ovDG1gX1nVXAlZYV8y2Rd6o6KsbyNPNK7xRD9iWjFYIveuGix54KrBUs2COpm8zmCJVFNLrkE1obtJ1wmDmapsBPthOk2EOADM0QXRlv8BYLbe7Juyei0AAAAASUVORK5CYII="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 1,
-                      "position": "absolute",
-                      "top": 0,
-                      "transitionDelay": "500ms",
-                      "width": "100%",
-                    }
-                  }
+                <path
+                  d="M257 210c-24.814 0-45 20.186-45 45s20.186 45 45 45 45-20.186 45-45-20.186-45-45-45z"
                 />
-                <picture>
-                  <source
-                    srcSet="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
-/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
-/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x"
-                  />
-                  <img
-                    alt=""
-                    height={32}
-                    loading="lazy"
-                    onLoad={[Function]}
-                    src="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png"
-                    srcSet="/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
-/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
-/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x"
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "objectFit": "cover",
-                        "objectPosition": "center",
-                        "opacity": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "transition": "opacity 500ms",
-                        "width": "100%",
-                      }
-                    }
-                    width={32}
-                  />
-                </picture>
-                <noscript
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<picture><source srcset=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
-/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
-/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x\\" /><img loading=\\"lazy\\" width=\\"32\\" height=\\"32\\" srcset=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png 1x,
-/static/bf93e4f312e432d9c763cae27220c4a0/aff39/contact_email_icon.png 1.5x,
-/static/bf93e4f312e432d9c763cae27220c4a0/ea22a/contact_email_icon.png 2x\\" src=\\"/static/bf93e4f312e432d9c763cae27220c4a0/c1598/contact_email_icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                    }
-                  }
+                <path
+                  d="M255 0C114.39 0 0 114.39 0 255s114.39 257 255 257 257-116.39 257-257S395.61 0 255 0zm107 330c-20.273 0-38.152-10.161-49.017-25.596C299.23 319.971 279.354 330 257 330c-41.353 0-75-33.647-75-75s33.647-75 75-75c16.948 0 32.426 5.865 45 15.383V195c0-8.291 6.709-15 15-15s15 6.709 15 15v75c0 16.538 13.462 30 30 30s30-13.462 30-30c0-100.391-66.432-150-135-150-74.443 0-135 60.557-135 135s60.557 135 135 135c30 0 58.374-9.609 82.061-27.803 15.822-12.078 33.94 11.765 18.281 23.789C328.353 408.237 293.665 420 257 420c-90.981 0-165-74.019-165-165S166.019 90 257 90c82.897 0 165 61.135 165 180 0 33.091-26.909 60-60 60z"
                 />
-              </div>
+              </svg>
             </div>
           </div>
         </a>

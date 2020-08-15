@@ -1,14 +1,4 @@
 declare module GraphQL {
-  type ContactsData = {
-    contactImgNodes: {
-      nodes: {
-        fixed: import('gatsby-image').FixedObject & {
-          originalName: string;
-        };
-      }[];
-    };
-  };
-
   type DetailsData = {
     details: Models.PersonalDetails;
   };

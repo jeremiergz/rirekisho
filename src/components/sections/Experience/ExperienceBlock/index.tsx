@@ -60,9 +60,11 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
         >
           {companyImg ? <Img fixed={companyImg} /> : <Text fontSize={18}>{item.company}</Text>}
           <Text marginX={2}>|</Text>
-          <Text fontSize={16} fontStyle="italic">
-            {item.companySector}
-          </Text>
+          <FlexBox flex={1}>
+            <Text fontSize={16} fontStyle="italic">
+              {item.companySector}
+            </Text>
+          </FlexBox>
         </FlexBox>
       </FlexBox>
       {item.projects.map((project, index) => (

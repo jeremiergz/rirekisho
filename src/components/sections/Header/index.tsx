@@ -36,39 +36,45 @@ const Header: React.FC = () => {
   }, {});
   return (
     <FlexBox
-      alignItems="center"
       as="header"
       backgroundColor="primary"
       color="white"
-      flexDirection={{ _: 'column', tablet: 'row' }}
       fontFamily={theme.fonts.title}
       height={{ _: 168, tablet: 96 }}
-      justifyContent={{ _: 'center', tablet: 'space-between' }}
+      justifyContent="center"
       paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
     >
-      <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }} paddingTop={2}>
-        <Text
-          fontSize={32}
-          letterSpacing={{ _: -2, laptopL: 0 }}
-          lineHeight="32px"
-          textAlign="center"
-          textTransform="uppercase"
-          whiteSpace="nowrap"
-        >
-          Jeremie Rodriguez
-        </Text>
-      </FlexBox>
-      <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
-        {languages
-          .sort((a, b) => a.sortOrder - b.sortOrder)
-          .map((item, index) => (
-            <Language
-              dense={index === 0 || index === languages.length - 1}
-              key={item.name}
-              img={flagsIndex[item.img]}
-              item={item}
-            />
-          ))}
+      <FlexBox
+        alignItems="center"
+        flexDirection={{ _: 'column', tablet: 'row' }}
+        justifyContent={{ _: 'center', tablet: 'space-between' }}
+        maxWidth={theme.breakpoints['laptopM']}
+        width="100%"
+      >
+        <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }} paddingTop={2}>
+          <Text
+            fontSize={32}
+            letterSpacing={{ _: -2, laptopL: 0 }}
+            lineHeight="32px"
+            textAlign="center"
+            textTransform="uppercase"
+            whiteSpace="nowrap"
+          >
+            Jeremie Rodriguez
+          </Text>
+        </FlexBox>
+        <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
+          {languages
+            .sort((a, b) => a.sortOrder - b.sortOrder)
+            .map((item, index) => (
+              <Language
+                dense={index === 0 || index === languages.length - 1}
+                key={item.name}
+                img={flagsIndex[item.img]}
+                item={item}
+              />
+            ))}
+        </FlexBox>
       </FlexBox>
     </FlexBox>
   );

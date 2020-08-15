@@ -9,8 +9,9 @@ const Information: React.FC<InformationProps> = ({ items, order }) => {
     <FlexBox
       flex={1}
       flexDirection="column"
-      justifyContent={{ _: 'center', tablet: 'space-between' }}
-      marginY={4}
+      height="100%"
+      justifyContent="center"
+      marginY={3}
       minWidth={224}
       order={order}
       textAlign={{ _: 'center', tablet: 'left' }}

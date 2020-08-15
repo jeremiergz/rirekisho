@@ -13,10 +13,10 @@ const Details: React.FC = () => {
     query DetailsData {
       details: personalDetailsJson {
         contacts {
-          img
           label
           link
           sortOrder
+          type
         }
         jobTitle
         personalInformation {

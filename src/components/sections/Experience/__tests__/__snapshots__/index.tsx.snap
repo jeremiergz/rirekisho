@@ -139,13 +139,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              Wireless Networks
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                Wireless Networks
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -395,13 +400,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              IT Services
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                IT Services
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -638,13 +648,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              Aerospace Industry
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                Aerospace Industry
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -881,13 +896,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              Aerospace Industry
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                Aerospace Industry
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -1115,13 +1135,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              IT Services
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                IT Services
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -1343,13 +1368,18 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             >
               |
             </span>
-            <span
-              className="sc-AxiKw kEolGq"
-              fontSize={16}
-              fontStyle="italic"
+            <div
+              className="sc-AxjAm eRsvub"
+              display="flex"
             >
-              Startup
-            </span>
+              <span
+                className="sc-AxiKw kEolGq"
+                fontSize={16}
+                fontStyle="italic"
+              >
+                Startup
+              </span>
+            </div>
           </div>
         </div>
         <div

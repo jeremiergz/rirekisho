@@ -10,7 +10,6 @@ import Section from './Section';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
-    background-color: ${({ theme }) => theme['colors'].background};
     height: 100%;
     width: 100%;
     margin: 0;

@@ -38,10 +38,10 @@ declare module Models {
   };
 
   type PersonalContact = {
-    img: string;
     label: string;
     link: string;
     sortOrder: number;
+    type: 'email' | 'github' | 'gitlab' | 'linkedin' | 'phone' | 'twitter';
   };
 
   type PersonalDetails = {
