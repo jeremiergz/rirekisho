@@ -8,11 +8,11 @@ import Skills from 'components/sections/Skills';
 import Toolbox from 'components/sections/Toolbox';
 import ChevronBottomIcon from 'components/svg/ChevronBottom';
 import ChevronTopIcon from 'components/svg/ChevronTop';
-import EducationIcon from 'components/svg/Education';
-import ExperienceIcon from 'components/svg/Experience';
-import InterestsIcon from 'components/svg/Interests';
-import SkillsIcon from 'components/svg/Skills';
-import ToolboxIcon from 'components/svg/Toolbox';
+import EducationIcon from 'components/svg/sections/Education';
+import ExperienceIcon from 'components/svg/sections/Experience';
+import InterestsIcon from 'components/svg/sections/Interests';
+import SkillsIcon from 'components/svg/sections/Skills';
+import ToolboxIcon from 'components/svg/sections/Toolbox';
 import useInstallPWA from 'hooks/useInstallPWA';
 import React, { useRef } from 'react';
 
