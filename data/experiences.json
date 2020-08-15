@@ -1,25 +1,5 @@
 [
   {
-    "company": "PragmaNTIC",
-    "companySector": "Startup",
-    "endDate": "2016-10-31",
-    "img": "company_pragmantic.png",
-    "projects": [
-      {
-        "client": "RoboCARE Lab",
-        "clientSector": "Home Robotics Services",
-        "description": "Client base management Web interface for tablets and PCs",
-        "name": null,
-        "tasks": [
-          "Engineering of a generic MySQL DB for 3 different web portals",
-          "Web portal development in PHP using the Symfony 3 framework"
-        ],
-        "technologies": ["PHP", "Symfony 3", "JavaScript", "MySQL"]
-      }
-    ],
-    "startDate": "2016-07-01"
-  },
-  {
     "company": "SQLI",
     "companySector": "IT Services",
     "endDate": "2016-12-31",
