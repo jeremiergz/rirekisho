@@ -14,7 +14,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
         nodes {
           fixed(height: 28) {
             originalName
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp
           }
         }
       }

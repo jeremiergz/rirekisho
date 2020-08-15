@@ -13,7 +13,7 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
     query PortraitData {
       imageSharp(fluid: { originalName: { eq: "portrait.png" } }) {
         fluid(maxHeight: 256, maxWidth: 256) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

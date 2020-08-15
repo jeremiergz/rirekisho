@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         nodes {
           fluid {
             originalName
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

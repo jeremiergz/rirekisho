@@ -16,7 +16,7 @@ const Footer = () => {
     query FooterData {
       gatsbyImg: imageSharp(fluid: { originalName: { eq: "tech_gatsby.png" } }) {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
       site {
@@ -30,7 +30,7 @@ const Footer = () => {
       }
       styledComponentsImg: imageSharp(fluid: { originalName: { eq: "tech_styled_components.png" } }) {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

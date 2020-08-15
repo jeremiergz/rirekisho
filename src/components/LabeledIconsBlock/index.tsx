@@ -28,7 +28,7 @@ const LabeledIconsBlock: React.FC<LabeledIconsBlockProps> = ({ items }) => {
         nodes {
           fixed(height: 48, width: 48) {
             originalName
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp
           }
         }
       }
