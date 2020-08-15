@@ -24,7 +24,7 @@ declare module Models {
   };
 
   type LabeledItem = {
-    img: string;
+    img?: string;
     link?: string;
     name: string;
     sortOrder: number;

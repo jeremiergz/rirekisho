@@ -10,7 +10,6 @@ const Interests = forwardRef<HTMLDivElement>((_, ref) => {
     query InterestsData {
       interestNodes: allInterestsJson {
         nodes {
-          img
           name
           sortOrder
         }

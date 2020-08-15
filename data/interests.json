@@ -1,32 +1,8 @@
 [
-  {
-    "img": "interest_coding.png",
-    "name": "coding",
-    "sortOrder": 0
-  },
-  {
-    "img": "interest_tech.png",
-    "name": "tech",
-    "sortOrder": 1
-  },
-  {
-    "img": "interest_sports.png",
-    "name": "sports",
-    "sortOrder": 2
-  },
-  {
-    "img": "interest_movies.png",
-    "name": "movies",
-    "sortOrder": 3
-  },
-  {
-    "img": "interest_music.png",
-    "name": "music",
-    "sortOrder": 4
-  },
-  {
-    "img": "interest_nature.png",
-    "name": "nature",
-    "sortOrder": 5
-  }
+  { "name": "coding", "sortOrder": 0 },
+  { "name": "tech", "sortOrder": 1 },
+  { "name": "sports", "sortOrder": 2 },
+  { "name": "movies", "sortOrder": 3 },
+  { "name": "music", "sortOrder": 4 },
+  { "name": "nature", "sortOrder": 5 }
 ]
