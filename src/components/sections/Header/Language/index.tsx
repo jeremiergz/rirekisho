@@ -11,7 +11,7 @@ const Language: React.FC<LanguageProps> = ({ dense = false, img, item }) => {
   const halfStarsNumber = [...Array(Math.round(maxStarsDifference % 1)).keys()];
   const emptyStarsNumber = [...Array(Math.floor(maxStarsDifference)).keys()];
   return (
-    <FlexBox alignItems="center" flexDirection="column" justifyContent="center" marginX={!dense && '12px'}>
+    <FlexBox alignItems="center" flexDirection="column" justifyContent="center" marginLeft={!dense && '12px'}>
       <Box width={{ _: 40, tablet: 48 }}>
         <Img fluid={img} imgStyle={{ borderRadius: 4, height: '100%', width: '100%' }} />
       </Box>

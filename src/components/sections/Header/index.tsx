@@ -67,12 +67,7 @@ const Header: React.FC = () => {
           {languages
             .sort((a, b) => a.sortOrder - b.sortOrder)
             .map((item, index) => (
-              <Language
-                dense={index === 0 || index === languages.length - 1}
-                key={item.name}
-                img={flagsIndex[item.img]}
-                item={item}
-              />
+              <Language dense={index === 0} key={item.name} img={flagsIndex[item.img]} item={item} />
             ))}
         </FlexBox>
       </FlexBox>

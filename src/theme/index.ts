@@ -24,7 +24,7 @@ const colors = {
 
 const fonts = {
   main: "'Open Sans', sans-serif",
-  title: "'Baloo Bhaina', cursive",
+  title: "'Baloo Bhaina 2', cursive",
 } as const;
 
 const fontWeights = {
