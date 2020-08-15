@@ -1,7 +1,7 @@
 declare module Models {
   type Section = {
     Component?: React.ForwardRefExoticComponent;
-    Icon: React.ComponentType;
+    Icon: React.FC<React.SVGProps<SVGSVGElement>>;
     ref: React.RefObject<HTMLElement> | 'top' | 'bottom';
     title: string;
   };
