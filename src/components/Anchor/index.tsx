@@ -6,15 +6,9 @@ import { variant } from 'styled-system';
 const A = styled(Box)`
   color: inherit;
   text-decoration: none;
-  transition: color 100ms ease-in-out;
-  .gatsby-image-wrapper {
-    transition: filter 100ms ease-in-out;
-  }
+  transition: color 125ms ease, filter 125ms ease;
   &:hover {
-    color: ${({ theme }) => theme.colors.primary};
-    .gatsby-image-wrapper {
-      filter: brightness(0.75);
-    }
+    filter: brightness(0.75);
   }
   ${variant({
     variants: {

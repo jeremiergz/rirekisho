@@ -35,6 +35,7 @@ const Box = styled.div<BoxProps>`
     system({
       animation: true,
       cursor: true,
+      boxShadow: true,
       boxSizing: true,
       pointerEvents: true,
       transform: true,
@@ -68,6 +69,7 @@ export type BoxProps = StyledSystemProps<
     ZIndexProps & {
       animation?: ResponsiveValue<CSSProperties['animation']>;
       cursor?: ResponsiveValue<CSSProperties['cursor']>;
+      boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
       boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
       pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
       print?: boolean;

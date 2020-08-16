@@ -18,6 +18,10 @@ const BaseButton = styled(Box)<ButtonProps>`
         outline: 'none',
         padding: 0,
         textDecoration: 'none',
+        transition: 'filter ease 125ms',
+        '&:hover': {
+          filter: 'brightness(0.75)',
+        },
       },
     },
   })}

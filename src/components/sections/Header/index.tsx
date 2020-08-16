@@ -1,11 +1,14 @@
+import Button from 'components/Button';
 import FlexBox from 'components/primitives/FlexBox';
 import Text from 'components/primitives/Text';
+import MenuIcon from 'components/svg/Menu';
 import { graphql, useStaticQuery } from 'gatsby';
 import useTheme from 'hooks/useTheme';
 import React from 'react';
 import Language from './Language';
+import Fab from 'components/Fab';
 
-const Header: React.FC = () => {
+const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
   const {
     flagImgNodes: { nodes: flagImgs },
     languageNodes: { nodes: languages },
@@ -34,6 +37,9 @@ const Header: React.FC = () => {
     if (flag.fluid.originalName.includes('flag_')) acc[flag.fluid.originalName] = flag.fluid;
     return acc;
   }, {});
+  const handleMenuClick = (e: React.MouseEvent) => {
+    if (typeof onMenuClick === 'function') onMenuClick(e);
+  };
   return (
     <FlexBox
       as="header"
@@ -51,11 +57,21 @@ const Header: React.FC = () => {
         maxWidth={theme.breakpoints['laptopM']}
         width="100%"
       >
-        <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }} paddingTop={2}>
+        <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }}>
+          <Button
+            // FIXME: experiment other ways to remove !important
+            display={{ _: 'none !important', tablet: 'flex !important' }}
+            marginRight="24px"
+            onClick={handleMenuClick}
+            variant="cursor-only"
+          >
+            <MenuIcon fill="white" height={32} width={32} />
+          </Button>
           <Text
             fontSize={32}
             letterSpacing={{ _: -2, laptopL: 0 }}
             lineHeight="32px"
+            paddingTop={2}
             textAlign="center"
             textTransform="uppercase"
             whiteSpace="nowrap"
@@ -71,10 +87,16 @@ const Header: React.FC = () => {
             ))}
         </FlexBox>
       </FlexBox>
+      <Fab display={{ _: 'block', tablet: 'none' }} onClick={handleMenuClick} position="bottom-right">
+        <MenuIcon fill="white" height={32} width={32} />
+      </Fab>
     </FlexBox>
   );
 };
 
 Header.displayName = 'Header';
 
+export type HeaderProps = {
+  onMenuClick?: (event: React.MouseEvent) => void;
+};
 export default Header;

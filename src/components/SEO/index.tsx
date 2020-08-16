@@ -2,7 +2,7 @@ import * as Gatsby from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const SEO: React.FC<SEOProps> = ({ description = '', keywords = [], lang = 'en', path = '', title = 'CV' }) => {
+const SEO: React.FC<SEOProps> = ({ description = '', keywords = [], lang = 'en', path = '/', title = 'CV' }) => {
   const {
     banner,
     site: {
@@ -66,6 +66,6 @@ export type SEOProps = {
   keywords?: string[];
   lang?: string;
   path?: string;
-  title: string;
+  title?: string;
 };
 export default SEO;

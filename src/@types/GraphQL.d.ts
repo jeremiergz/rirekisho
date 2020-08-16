@@ -53,6 +53,15 @@ declare module GraphQL {
     };
   };
 
+  type IndexData = {
+    site: {
+      siteMetadata: {
+        description: string;
+        keywords: string[];
+      };
+    };
+  };
+
   type InterestsData = {
     interestNodes: {
       nodes: Models.LabeledItem[];

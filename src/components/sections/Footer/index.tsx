@@ -4,6 +4,7 @@ import HeartIcon from 'components/svg/Heart';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
+import Anchor from 'components/Anchor';
 
 const Footer = () => {
   const {
@@ -68,35 +69,18 @@ const Footer = () => {
         </FlexBox>
         <FlexBox>
           {techs.map(tech => (
-            <Text
-              as="a"
-              height={64}
-              href={tech.url}
-              key={tech.url}
-              marginX={3}
-              rel="noopener noreferrer"
-              target="_blank"
-              textDecoration="none"
-              width={64}
-            >
+            <Anchor external height={64} href={tech.url} key={tech.url} marginX={3} width={64}>
               <Img fluid={tech.img} />
-            </Text>
+            </Anchor>
           ))}
         </FlexBox>
       </FlexBox>
       <FlexBox alignItems="center" color="grey" flexDirection="column" justifyContent="center" marginTop={3}>
         <Text>{applicationInfo}</Text>
-        <Text
-          as="a"
-          borderBottom="1px dotted grey"
-          color="grey"
-          fontSize={12}
-          href={sourceCodeURL}
-          rel="noopener noreferrer"
-          target="_blank"
-          textDecoration="none"
-        >
-          source code
+        <Text borderBottom="1px dotted grey" color="grey" fontSize={12}>
+          <Anchor external href={sourceCodeURL}>
+            source code
+          </Anchor>
         </Text>
       </FlexBox>
     </FlexBox>

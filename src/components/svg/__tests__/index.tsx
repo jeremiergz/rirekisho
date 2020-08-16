@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
+import ArrowLeft from '../ArrowLeft';
 import ChevronBottom from '../ChevronBottom';
+import ChevronRight from '../ChevronRight';
 import ChevronTop from '../ChevronTop';
 import Email from '../contacts/Email';
 import Facebook from '../contacts/Facebook';
@@ -29,9 +31,23 @@ import Skills from '../sections/Skills';
 import Toolbox from '../sections/Toolbox';
 
 describe('components/svg Test Suite', () => {
+  describe('components/svg/ArrowLeft Test Suite', () => {
+    it('matches snapshot', () => {
+      const jsx = <ArrowLeft />;
+      expect(ReactTestRenderer.create(jsx).toJSON()).toMatchSnapshot();
+    });
+  });
+
   describe('components/svg/ChevronBottom Test Suite', () => {
     it('matches snapshot', () => {
       const jsx = <ChevronBottom />;
+      expect(ReactTestRenderer.create(jsx).toJSON()).toMatchSnapshot();
+    });
+  });
+
+  describe('components/svg/ChevronRight Test Suite', () => {
+    it('matches snapshot', () => {
+      const jsx = <ChevronRight />;
       expect(ReactTestRenderer.create(jsx).toJSON()).toMatchSnapshot();
     });
   });
