@@ -37,7 +37,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://code.visualstudio.com"
@@ -137,7 +137,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://www.npmjs.com"
@@ -237,7 +237,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://www.mongodb.com"
@@ -337,7 +337,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://redis.io"
@@ -437,7 +437,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://cloud.google.com"
@@ -537,7 +537,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           href="https://www.raspberrypi.org"

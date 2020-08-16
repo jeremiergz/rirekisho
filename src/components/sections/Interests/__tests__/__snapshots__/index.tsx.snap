@@ -37,7 +37,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"
@@ -136,7 +136,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"
@@ -235,7 +235,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"
@@ -334,7 +334,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"
@@ -433,7 +433,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"
@@ -532,7 +532,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
-          className="sc-AxjAm sc-AxirZ QSiPf"
+          className="sc-AxjAm sc-AxirZ bcuvrm"
           fontWeight="semi-bold"
           height={48}
           rel="noopener noreferrer"

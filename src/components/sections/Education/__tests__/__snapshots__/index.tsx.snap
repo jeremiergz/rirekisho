@@ -2,7 +2,7 @@
 
 exports[`components/sections/Education Test Suite matches snapshot 1`] = `
 <section
-  className="sc-AxjAm sc-AxirZ jFiolx"
+  className="sc-AxjAm sc-AxiKw eLvMVB"
 >
   <div
     className="sc-AxjAm eiESPf"
@@ -10,13 +10,13 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxiKw ggvGYh"
+      className="sc-AxirZ kdRzbx"
       color="secondary"
     >
       edu
     </span>
     <span
-      className="sc-AxiKw jncuiT"
+      className="sc-AxirZ kNgwCP"
       color="primary"
     >
       cation
@@ -32,7 +32,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxiKw fTGmHp"
+        className="sc-AxirZ csskKh"
         color="secondary"
         fontSize={
           Object {
@@ -75,7 +75,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw ixfJwg"
+        className="sc-AxirZ dGIeaA"
         color="primary"
         fontSize={
           Object {
@@ -88,7 +88,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         Intermediate Japanese Certificate
       </span>
       <span
-        className="sc-AxiKw cvZxEn"
+        className="sc-AxirZ dmSGaH"
         color="text"
         fontSize={
           Object {
@@ -101,7 +101,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         Sendagaya Japanese Institute
       </span>
       <span
-        className="sc-AxiKw bCbFrX"
+        className="sc-AxirZ hxDIbn"
         color="text"
         fontSize={
           Object {
@@ -121,7 +121,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxiKw fTGmHp"
+        className="sc-AxirZ csskKh"
         color="secondary"
         fontSize={
           Object {
@@ -183,7 +183,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw ixfJwg"
+        className="sc-AxirZ dGIeaA"
         color="primary"
         fontSize={
           Object {
@@ -196,7 +196,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         Japanese Language Bachelor Degree
       </span>
       <span
-        className="sc-AxiKw cvZxEn"
+        className="sc-AxirZ dmSGaH"
         color="text"
         fontSize={
           Object {
@@ -209,7 +209,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         University of Jean-Jaures
       </span>
       <span
-        className="sc-AxiKw bCbFrX"
+        className="sc-AxirZ hxDIbn"
         color="text"
         fontSize={
           Object {
@@ -229,7 +229,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxiKw fTGmHp"
+        className="sc-AxirZ csskKh"
         color="secondary"
         fontSize={
           Object {
@@ -291,7 +291,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw ixfJwg"
+        className="sc-AxirZ dGIeaA"
         color="primary"
         fontSize={
           Object {
@@ -304,7 +304,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         Import-Export Degree
       </span>
       <span
-        className="sc-AxiKw cvZxEn"
+        className="sc-AxirZ dmSGaH"
         color="text"
         fontSize={
           Object {
@@ -317,7 +317,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         AFPA
       </span>
       <span
-        className="sc-AxiKw bCbFrX"
+        className="sc-AxirZ hxDIbn"
         color="text"
         fontSize={
           Object {
@@ -337,7 +337,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxiKw fTGmHp"
+        className="sc-AxirZ csskKh"
         color="secondary"
         fontSize={
           Object {
@@ -380,7 +380,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw ixfJwg"
+        className="sc-AxirZ dGIeaA"
         color="primary"
         fontSize={
           Object {
@@ -393,7 +393,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         Computer Programming Bachelor Degree
       </span>
       <span
-        className="sc-AxiKw cvZxEn"
+        className="sc-AxirZ dmSGaH"
         color="text"
         fontSize={
           Object {
@@ -406,7 +406,7 @@ exports[`components/sections/Education Test Suite matches snapshot 1`] = `
         AFPA
       </span>
       <span
-        className="sc-AxiKw bCbFrX"
+        className="sc-AxirZ hxDIbn"
         color="text"
         fontSize={
           Object {

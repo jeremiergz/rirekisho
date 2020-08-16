@@ -2,10 +2,10 @@
 
 exports[`components/sections/Header Test Suite matches snapshot 1`] = `
 <header
-  className="sc-AxjAm lduLtJ"
+  className="sc-AxjAm cIGrHz"
   color="white"
   display="flex"
-  fontFamily="'Baloo Bhaina', cursive"
+  fontFamily="'Baloo Bhaina 2', cursive"
   height={
     Object {
       "_": 168,
@@ -19,11 +19,32 @@ exports[`components/sections/Header Test Suite matches snapshot 1`] = `
     width="100%"
   >
     <div
-      className="sc-AxjAm bECtet"
+      className="sc-AxjAm hkypPr"
       display="flex"
     >
+      <button
+        className="sc-AxjAm sc-AxirZ zgOmg"
+        display={
+          Object {
+            "_": "none !important",
+            "tablet": "flex !important",
+          }
+        }
+        onClick={[Function]}
+      >
+        <svg
+          fill="white"
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        >
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </button>
       <span
-        className="sc-AxirZ kPWidN"
+        className="sc-AxiKw iMNQsj"
         fontSize={32}
         letterSpacing={
           Object {
@@ -243,7 +264,7 @@ exports[`components/sections/Header Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm dioVlT"
+        className="sc-AxjAm ftcyfC"
         display="flex"
       >
         <div
@@ -452,7 +473,7 @@ exports[`components/sections/Header Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm ggaXpg"
+        className="sc-AxjAm ftcyfC"
         display="flex"
       >
         <div
@@ -655,6 +676,37 @@ exports[`components/sections/Header Test Suite matches snapshot 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="sc-AxjAm czqgKN"
+    display={
+      Object {
+        "_": "block",
+        "tablet": "none",
+      }
+    }
+    height={64}
+    width={64}
+  >
+    <button
+      className="sc-AxjAm sc-AxirZ eUBbmg"
+      height="100%"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      width="100%"
+    >
+      <svg
+        fill="white"
+        height={24}
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </button>
   </div>
 </header>
 `;

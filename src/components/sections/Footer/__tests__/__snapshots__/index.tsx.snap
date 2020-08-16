@@ -55,12 +55,12 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <a
-        className="sc-AxirZ lkRvpS"
+        className="sc-AxjAm sc-AxiKw eokTxa"
+        fontWeight="semi-bold"
         height={64}
         href="https://www.gatsbyjs.org"
         rel="noopener noreferrer"
         target="_blank"
-        textDecoration="none"
         width={64}
       >
         <div
@@ -146,12 +146,12 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
         </div>
       </a>
       <a
-        className="sc-AxirZ lkRvpS"
+        className="sc-AxjAm sc-AxiKw eokTxa"
+        fontWeight="semi-bold"
         height={64}
         href="https://styled-components.com"
         rel="noopener noreferrer"
         target="_blank"
-        textDecoration="none"
         width={64}
       >
         <div
@@ -248,17 +248,21 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
     >
       rirekisho v20.07.3
     </span>
-    <a
-      className="sc-AxirZ jPaTot"
+    <span
+      className="sc-AxirZ hNemHo"
       color="grey"
       fontSize={12}
-      href="https://gitlab.com/jeremiergz/rirekisho/tree/20.07.3"
-      rel="noopener noreferrer"
-      target="_blank"
-      textDecoration="none"
     >
-      source code
-    </a>
+      <a
+        className="sc-AxjAm sc-AxiKw evqqrk"
+        fontWeight="semi-bold"
+        href="https://gitlab.com/jeremiergz/rirekisho/tree/20.07.3"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        source code
+      </a>
+    </span>
   </div>
 </footer>
 `;

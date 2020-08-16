@@ -2,7 +2,7 @@
 
 exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
 <section
-  className="sc-AxjAm sc-AxirZ jFiolx"
+  className="sc-AxjAm sc-AxiKw eLvMVB"
 >
   <div
     className="sc-AxjAm eiESPf"
@@ -10,13 +10,13 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxiKw ggvGYh"
+      className="sc-AxirZ kdRzbx"
       color="secondary"
     >
       ski
     </span>
     <span
-      className="sc-AxiKw jncuiT"
+      className="sc-AxirZ kNgwCP"
       color="primary"
     >
       lls
@@ -37,7 +37,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
       width="100%"
     >
       <label
-        className="sc-AxiKw eEbAMH"
+        className="sc-AxirZ jtalun"
         color="secondary"
         fontSize={14}
         fontWeight="bold"
@@ -49,14 +49,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           &lt;Java|Type&gt;Script
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -122,14 +122,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Node.js
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -195,14 +195,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Golang
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -268,14 +268,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           HTML5|CSS3
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -342,7 +342,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
       width="100%"
     >
       <label
-        className="sc-AxiKw eEbAMH"
+        className="sc-AxirZ jtalun"
         color="secondary"
         fontSize={14}
         fontWeight="bold"
@@ -354,14 +354,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Kubernetes
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -427,14 +427,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Docker
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -500,14 +500,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           &lt;GitLab|Travis&gt;CI
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -573,14 +573,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Ansible
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -647,7 +647,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
       width="100%"
     >
       <label
-        className="sc-AxiKw eEbAMH"
+        className="sc-AxirZ jtalun"
         color="secondary"
         fontSize={14}
         fontWeight="bold"
@@ -659,14 +659,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           &lt;Koa|Express&gt;.js
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -732,14 +732,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           React.js
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -805,14 +805,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Jest|Mocha|Chai
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
@@ -878,14 +878,14 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <span
-          className="sc-AxiKw jdQhgZ"
+          className="sc-AxirZ jyzOOp"
           fontSize={18}
           fontWeight="bold"
         >
           Gatsby.js|Next.js
         </span>
         <span
-          className="sc-AxiKw dieZVZ"
+          className="sc-AxirZ jYZGPh"
           color="secondary"
           display={
             Object {
