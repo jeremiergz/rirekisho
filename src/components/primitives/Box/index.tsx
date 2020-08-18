@@ -19,7 +19,7 @@ import {
   typography,
   TypographyProps,
   zIndex,
-  ZIndexProps,
+  ZIndexProps
 } from 'styled-system';
 
 const Box = styled.div<BoxProps>`
@@ -41,6 +41,7 @@ const Box = styled.div<BoxProps>`
       transform: true,
       transformOrigin: true,
       transition: true,
+      willChange: true,
       writingMode: true,
     }),
   )}
@@ -76,6 +77,7 @@ export type BoxProps = StyledSystemProps<
       transform?: ResponsiveValue<CSSProperties['transform']>;
       transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
       transition?: ResponsiveValue<CSSProperties['transition']>;
+      willChange?: ResponsiveValue<CSSProperties['willChange']>;
       writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
     }
 >;

@@ -25,6 +25,7 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
       transform={`translate3d(${isOpened ? 0 : 'calc(-100% - 1px)'}, 0, 0)`}
       transition="box-shadow ease 250ms, transform ease 250ms"
       width={{ _: '100%', tablet: 224 }}
+      willChange="box-shadow, transform"
       zIndex={100}
     >
       <FlexBox height={96} justifyContent="flex-end">
