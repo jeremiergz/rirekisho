@@ -10,7 +10,7 @@ import TimelineLine from './TimelineLine';
 const Education = forwardRef<HTMLDivElement>((_, ref) => {
   const {
     degreeNodes: { nodes: education },
-  } = useStaticQuery<GraphQL.EducationData>(graphql`
+  } = useStaticQuery<GraphQL.EducationDataQuery>(graphql`
     query EducationData {
       degreeNodes: allEducationJson {
         nodes {

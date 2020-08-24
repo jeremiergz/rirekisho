@@ -1,9 +1,9 @@
 import Box from 'components/primitives/Box';
-import useTheme from 'hooks/useTheme';
+import { useTheme } from 'components/providers/ThemeProvider';
 import React from 'react';
 
 const TimelineLine: React.FC = ({ children }) => {
-  const theme = useTheme();
+  const { theme } = useTheme();
   return (
     <Box
       as="svg"

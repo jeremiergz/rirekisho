@@ -9,10 +9,10 @@ import { ResponsiveValue } from 'styled-system';
 const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, order }) => {
   const {
     imageSharp: { fluid: portrait },
-  } = useStaticQuery<GraphQL.PortraitData>(graphql`
+  } = useStaticQuery<GraphQL.PortraitDataQuery>(graphql`
     query PortraitData {
       imageSharp(fluid: { originalName: { eq: "portrait.png" } }) {
-        fluid(maxHeight: 256, maxWidth: 256) {
+        fluid(maxHeight: 256, maxWidth: 256, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
@@ -24,11 +24,11 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
       flex={1}
       flexDirection="column"
       justifyContent="space-between"
-      marginTop={-64}
+      marginTop={{ _: -40, tablet: -24 }}
       order={order}
     >
       <Box
-        backgroundColor="white"
+        backgroundColor="background"
         borderRadius="50%"
         height={{ _: 184, laptopL: 224 }}
         minHeight={{ _: 184, laptopL: 224 }}

@@ -1,8 +1,7 @@
+import ThemeProvider from 'components/providers/ThemeProvider';
 import * as Gatsby from 'gatsby';
 import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
-import { ThemeProvider } from 'styled-components';
-import theme from 'theme';
 import Experience from '..';
 import mockData from './mock.json';
 
@@ -16,7 +15,7 @@ describe('components/sections/Experience Test Suite', () => {
 
   it('matches snapshot', () => {
     const jsx = (
-      <ThemeProvider theme={theme}>
+      <ThemeProvider>
         <Experience />
       </ThemeProvider>
     );

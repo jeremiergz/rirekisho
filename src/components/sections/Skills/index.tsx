@@ -6,7 +6,7 @@ import SkillBlock from './SkillBlock';
 const Skills = forwardRef<HTMLDivElement>((_, ref) => {
   const {
     skillNodes: { nodes: skills },
-  } = useStaticQuery<GraphQL.SkillsData>(graphql`
+  } = useStaticQuery<GraphQL.SkillsDataQuery>(graphql`
     query SkillsData {
       skillNodes: allSkillsJson {
         nodes {
@@ -32,7 +32,7 @@ const Skills = forwardRef<HTMLDivElement>((_, ref) => {
         {skills
           .sort((a, b) => a.sortOrder - b.sortOrder)
           .map(item => (
-            <SkillBlock key={item.name} items={item.items} marginX={3} title={item.name} />
+            <SkillBlock key={item.name} items={item.items as Models.Skill[]} marginX={3} title={item.name} />
           ))}
       </Layout.Content>
     </Layout.Section>

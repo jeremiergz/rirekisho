@@ -5,6 +5,7 @@ import Text from 'components/primitives/Text';
 import Img, { FixedObject } from 'gatsby-image';
 import React from 'react';
 import ProjectBlock from './ProjectBlock';
+import { useTheme } from 'components/providers/ThemeProvider';
 
 const months = {
   0: 'JAN',
@@ -27,6 +28,7 @@ function getFormattedDate(dateString: string) {
 }
 
 const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...rest }) => {
+  const { theme } = useTheme();
   const endDate = getFormattedDate(item.endDate);
   const startDate = getFormattedDate(item.startDate);
   return (
@@ -40,7 +42,7 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
     >
       <FlexBox
         flexDirection={{ _: 'column', tablet: 'row' }}
-        alignItems="flex-start"
+        alignItems={{ _: 'flex-start', tablet: 'center' }}
         justifyContent="space-between"
         marginBottom={2}
       >
@@ -58,7 +60,20 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
           marginY={{ _: 2, tablet: 0 }}
           textAlign={{ _: 'left', tablet: 'right' }}
         >
-          {companyImg ? <Img fixed={companyImg} /> : <Text fontSize={18}>{item.company}</Text>}
+          <FlexBox
+            backgroundColor={theme.type === 'dark' ? 'text' : 'none'}
+            borderRadius={16}
+            paddingX={2}
+            paddingY={1}
+          >
+            {companyImg ? (
+              <Img fixed={companyImg} />
+            ) : (
+              <Text color="dark" fontSize={18}>
+                {item.company}
+              </Text>
+            )}
+          </FlexBox>
           <Text marginX={2}>|</Text>
           <FlexBox flex={1}>
             <Text fontSize={16} fontStyle="italic">

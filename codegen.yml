@@ -1,0 +1,23 @@
+overwrite: true
+hooks:
+  afterAllFileWrite:
+    - "eslint --fix"
+    - "prettier --write"
+documents:
+  - "./src/**/*.{ts,tsx}"
+  - "./node_modules/gatsby-*/**/*.js"
+generates:
+  ./@types/GraphQL.d.ts:
+    schema: "http://localhost:8000/___graphql"
+    plugins:
+      - add:
+          content: "declare module GraphQL {"
+      - add:
+          placement: "append"
+          content: "}"
+      - "typescript"
+      - "typescript-operations"
+    config:
+      noExport: true
+      skipTypename: true
+      useTypeImports: true

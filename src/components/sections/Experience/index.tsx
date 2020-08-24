@@ -8,11 +8,11 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
   const {
     companyImgNodes: { nodes: companyImgs },
     experienceNodes: { nodes: experiences },
-  } = useStaticQuery<GraphQL.ExperienceData>(graphql`
+  } = useStaticQuery<GraphQL.ExperienceDataQuery>(graphql`
     query ExperienceData {
       companyImgNodes: allImageSharp(filter: { original: { src: { regex: "/company/" } } }) {
         nodes {
-          fixed(height: 28) {
+          fixed(height: 28, quality: 100) {
             originalName
             ...GatsbyImageSharpFixed_withWebp
           }
@@ -54,7 +54,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
                   companyImg={img}
                   key={item.startDate}
                   gridColumn={{ _: 'span 2', laptopS: 'span 1' }}
-                  item={item}
+                  item={item as Models.Experience}
                 />
               );
             })}

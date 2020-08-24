@@ -6,7 +6,7 @@ import React, { forwardRef } from 'react';
 const Toolbox = forwardRef<HTMLDivElement>((_, ref) => {
   const {
     toolNodes: { nodes: tools },
-  } = useStaticQuery<GraphQL.ToolboxData>(graphql`
+  } = useStaticQuery<GraphQL.ToolboxDataQuery>(graphql`
     query ToolboxData {
       toolNodes: allToolboxJson {
         nodes {
@@ -21,7 +21,7 @@ const Toolbox = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="toolbox">
       <Layout.Content alignItems="center" marginBottom={4}>
-        <LabeledIconsBlock items={tools} />
+        <LabeledIconsBlock items={tools as Models.LabeledItem[]} />
       </Layout.Content>
     </Layout.Section>
   );

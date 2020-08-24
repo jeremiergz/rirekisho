@@ -1,32 +1,34 @@
 import LabeledIcon from 'components/LabeledIcon';
 import FlexBox from 'components/primitives/FlexBox';
-import Coding from 'components/svg/interests/Coding';
-import Movies from 'components/svg/interests/Movies';
-import Music from 'components/svg/interests/Music';
-import Nature from 'components/svg/interests/Nature';
-import Sports from 'components/svg/interests/Sports';
-import Tech from 'components/svg/interests/Tech';
+import { SVGProps } from 'components/SVG';
+import CodingIcon from 'components/svgs/interests/Coding';
+import MoviesIcon from 'components/svgs/interests/Movies';
+import MusicIcon from 'components/svgs/interests/Music';
+import NatureIcon from 'components/svgs/interests/Nature';
+import SportsIcon from 'components/svgs/interests/Sports';
+import TechIcon from 'components/svgs/interests/Tech';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
+import { useTheme } from 'components/providers/ThemeProvider';
 
-const Icons: Record<string, React.FC<React.SVGProps<SVGSVGElement>>> = {
-  coding: Coding,
-  tech: Tech,
-  sports: Sports,
-  movies: Movies,
-  music: Music,
-  nature: Nature,
+const Icons: Record<string, React.FC<SVGProps>> = {
+  coding: CodingIcon,
+  tech: TechIcon,
+  sports: SportsIcon,
+  movies: MoviesIcon,
+  music: MusicIcon,
+  nature: NatureIcon,
 };
 
 const LabeledIconsBlock: React.FC<LabeledIconsBlockProps> = ({ items }) => {
   const {
     imgNodes: { nodes: imgs },
-  } = useStaticQuery<GraphQL.LabeledIconsBlockData>(graphql`
+  } = useStaticQuery<GraphQL.LabeledIconsBlockDataQuery>(graphql`
     query LabeledIconsBlockData {
       imgNodes: allImageSharp(filter: { original: { src: { regex: "/toolbox/" } } }) {
         nodes {
-          fixed(height: 48, width: 48) {
+          fixed(height: 48, quality: 100, width: 48) {
             originalName
             ...GatsbyImageSharpFixed_withWebp
           }
@@ -34,6 +36,7 @@ const LabeledIconsBlock: React.FC<LabeledIconsBlockProps> = ({ items }) => {
       }
     }
   `);
+  const { theme } = useTheme();
   const imgsIndex = imgs.reduce((acc, img) => {
     acc[img.fixed.originalName] = img.fixed;
     return acc;
@@ -58,7 +61,7 @@ const LabeledIconsBlock: React.FC<LabeledIconsBlockProps> = ({ items }) => {
               marginBottom={3}
               name={item.name}
             >
-              {Icon && <Icon />}
+              {Icon && <Icon fill={theme.type === 'dark' ? 'white' : theme.colors.text} height={48} width={48} />}
             </LabeledIcon>
           );
         })}

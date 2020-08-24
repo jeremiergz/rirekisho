@@ -1,6 +1,6 @@
 import Button from 'components/Button';
 import Box, { BoxProps } from 'components/primitives/Box';
-import MenuIcon from 'components/svg/Menu';
+import MenuIcon from 'components/svgs/icons/Menu';
 import React, { useRef, useState } from 'react';
 
 const baseSpacing = '16px';
@@ -33,7 +33,7 @@ const Fab: React.FC<FabProps> = ({ onClick, position, ...rest }) => {
   };
   const positioning = positionMapping[position];
   return (
-    <Box height={64} position="fixed" print={false} width={64} zIndex={1} {...positioning} {...rest}>
+    <Box height={64} position="fixed" print={false} width={64} zIndex={10} {...positioning} {...rest}>
       <Button
         animation={hovered ? 'none' : 'pulse 1.5s infinite'}
         backgroundColor="secondary"

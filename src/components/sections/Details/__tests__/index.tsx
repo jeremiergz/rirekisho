@@ -1,8 +1,7 @@
+import ThemeProvider from 'components/providers/ThemeProvider';
 import * as Gatsby from 'gatsby';
 import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
-import { ThemeProvider } from 'styled-components';
-import theme from 'theme';
 import contactsMockData from '__tests__/contacts.mock.json';
 import Details from '..';
 import mockData from './mock.json';
@@ -20,7 +19,7 @@ describe('components/sections/Details Test Suite', () => {
 
   it('matches snapshot', () => {
     const jsx = (
-      <ThemeProvider theme={theme}>
+      <ThemeProvider>
         <Details />
       </ThemeProvider>
     );

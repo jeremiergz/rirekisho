@@ -2,35 +2,36 @@ import Anchor from 'components/Anchor';
 import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
 import Text from 'components/primitives/Text';
-import Email from 'components/svg/contacts/Email';
-import Facebook from 'components/svg/contacts/Facebook';
-import GitHub from 'components/svg/contacts/GitHub';
-import GitLab from 'components/svg/contacts/GitLab';
-import Instagram from 'components/svg/contacts/Instagram';
-import LinkedIn from 'components/svg/contacts/LinkedIn';
-import Messenger from 'components/svg/contacts/Messenger';
-import Phone from 'components/svg/contacts/Phone';
-import Reddit from 'components/svg/contacts/Reddit';
-import Skype from 'components/svg/contacts/Skype';
-import Twitter from 'components/svg/contacts/Twitter';
-import Whatsapp from 'components/svg/contacts/Whatsapp';
-import useTheme from 'hooks/useTheme';
+import { useTheme } from 'components/providers/ThemeProvider';
+import { SVGProps } from 'components/SVG';
+import EmailIcon from 'components/svgs/contacts/Email';
+import FacebookIcon from 'components/svgs/contacts/Facebook';
+import GitHubIcon from 'components/svgs/contacts/GitHub';
+import GitLabIcon from 'components/svgs/contacts/GitLab';
+import InstagramIcon from 'components/svgs/contacts/Instagram';
+import LinkedInIcon from 'components/svgs/contacts/LinkedIn';
+import MessengerIcon from 'components/svgs/contacts/Messenger';
+import PhoneIcon from 'components/svgs/contacts/Phone';
+import RedditIcon from 'components/svgs/contacts/Reddit';
+import SkypeIcon from 'components/svgs/contacts/Skype';
+import TwitterIcon from 'components/svgs/contacts/Twitter';
+import WhatsappIcon from 'components/svgs/contacts/Whatsapp';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 
-const Icons: Record<Models.PersonalContact['type'], React.FC<React.SVGProps<SVGSVGElement>>> = {
-  email: Email,
-  facebook: Facebook,
-  github: GitHub,
-  gitlab: GitLab,
-  instagram: Instagram,
-  linkedin: LinkedIn,
-  messenger: Messenger,
-  phone: Phone,
-  reddit: Reddit,
-  skype: Skype,
-  twitter: Twitter,
-  whatsapp: Whatsapp,
+const Icons: Record<Models.PersonalContact['type'], React.FC<SVGProps>> = {
+  email: EmailIcon,
+  facebook: FacebookIcon,
+  github: GitHubIcon,
+  gitlab: GitLabIcon,
+  instagram: InstagramIcon,
+  linkedin: LinkedInIcon,
+  messenger: MessengerIcon,
+  phone: PhoneIcon,
+  reddit: RedditIcon,
+  skype: SkypeIcon,
+  twitter: TwitterIcon,
+  whatsapp: WhatsappIcon,
 };
 
 function isHTTPLink(link: string) {
@@ -38,7 +39,7 @@ function isHTTPLink(link: string) {
 }
 
 const Contacts: React.FC<ContactsProps> = ({ items, order }) => {
-  const theme = useTheme();
+  const { theme } = useTheme();
   return (
     <FlexBox
       flex={1}

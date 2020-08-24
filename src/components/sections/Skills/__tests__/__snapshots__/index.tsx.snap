@@ -247,17 +247,17 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm fCwgib"
+            className="sc-AxjAm fSLWPo"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm fCwgib"
+            className="sc-AxjAm fSLWPo"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -330,7 +330,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -411,12 +411,12 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm fCwgib"
+            className="sc-AxjAm fSLWPo"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -635,7 +635,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -794,7 +794,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -867,7 +867,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />
@@ -940,7 +940,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
             width={16}
           />
           <span
-            className="sc-AxjAm hCHfNh"
+            className="sc-AxjAm eznxvS"
             height={16}
             width={16}
           />

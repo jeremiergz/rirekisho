@@ -60,9 +60,8 @@ module.exports = {
       resolve: 'gatsby-plugin-root-import',
       options: {
         components: path.join(__dirname, 'src/components'),
-        hooks: path.join(__dirname, 'src/hooks'),
         pages: path.join(__dirname, 'src/pages'),
-        theme: path.join(__dirname, 'src/theme'),
+        utils: path.join(__dirname, 'src/utils'),
       },
     },
     {
@@ -76,7 +75,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'data',
-        path: `${__dirname}/data`,
+        path: `${__dirname}/content/data`,
       },
     },
     {
@@ -84,6 +83,13 @@ module.exports = {
       options: {
         name: 'images',
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'theme',
+        path: `${__dirname}/content/theme`,
       },
     },
   ],

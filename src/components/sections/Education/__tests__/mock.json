@@ -30,5 +30,59 @@
         "school": "AFPA"
       }
     ]
+  },
+  "themeJson": {
+    "dark": {
+      "colors": {
+        "background": "#212121",
+        "body1": "#d3d3d3",
+        "body2": "#808080",
+        "caption": "#d3d3d3",
+        "dark": "#212121",
+        "error": "#f44336",
+        "info": "#2196f3",
+        "primary": "#265a99",
+        "secondary": "#50b0c7",
+        "subtitle": "#575757",
+        "success": "#4caf50",
+        "text": "#d3d3d3",
+        "white": "#ffffff"
+      },
+      "fonts": {
+        "main": "'Open Sans', sans-serif",
+        "title": "'Baloo Bhaina 2', cursive"
+      },
+      "fontWeights": {
+        "bold": 800,
+        "bolder": 600,
+        "regular": 400
+      }
+    },
+    "light": {
+      "colors": {
+        "background": "white",
+        "body1": "#262626",
+        "body2": "#575757",
+        "caption": "#808080",
+        "dark": "#212121",
+        "error": "#f44336",
+        "info": "#2196f3",
+        "primary": "#17365c",
+        "secondary": "#31859a",
+        "subtitle": "#d3d3d3",
+        "success": "#4caf50",
+        "text": "#262626",
+        "white": "#ffffff"
+      },
+      "fonts": {
+        "main": "'Open Sans', sans-serif",
+        "title": "'Baloo Bhaina 2', cursive"
+      },
+      "fontWeights": {
+        "bold": 800,
+        "bolder": 600,
+        "regular": 400
+      }
+    }
   }
 }

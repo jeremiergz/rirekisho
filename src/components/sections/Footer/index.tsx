@@ -1,10 +1,11 @@
+import Anchor from 'components/Anchor';
 import FlexBox from 'components/primitives/FlexBox';
 import Text from 'components/primitives/Text';
-import HeartIcon from 'components/svg/Heart';
+import HeartIcon from 'components/svgs/icons/Heart';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
-import Anchor from 'components/Anchor';
+import { useTheme } from 'components/providers/ThemeProvider';
 
 const Footer = () => {
   const {
@@ -13,10 +14,10 @@ const Footer = () => {
       siteMetadata: { appName, repository, version },
     },
     styledComponentsImg,
-  } = useStaticQuery<GraphQL.FooterData>(graphql`
+  } = useStaticQuery<GraphQL.FooterDataQuery>(graphql`
     query FooterData {
       gatsbyImg: imageSharp(fluid: { originalName: { eq: "tech_gatsby.png" } }) {
-        fluid {
+        fluid(quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
@@ -30,12 +31,13 @@ const Footer = () => {
         }
       }
       styledComponentsImg: imageSharp(fluid: { originalName: { eq: "tech_styled_components.png" } }) {
-        fluid {
+        fluid(quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
   `);
+  const { theme } = useTheme();
   const applicationInfo = `${appName.toLowerCase()} v${version}`;
   const repositoryURL = repository.url.replace(/git\+|\.git/g, '');
   const sourceCodeURL = `${repositoryURL}/tree/${version}`;
@@ -75,13 +77,13 @@ const Footer = () => {
           ))}
         </FlexBox>
       </FlexBox>
-      <FlexBox alignItems="center" color="grey" flexDirection="column" justifyContent="center" marginTop={3}>
+      <FlexBox alignItems="center" color="caption" flexDirection="column" justifyContent="center" marginTop={3}>
         <Text>{applicationInfo}</Text>
-        <Text borderBottom="1px dotted grey" color="grey" fontSize={12}>
-          <Anchor external href={sourceCodeURL}>
+        <Anchor external href={sourceCodeURL}>
+          <Text borderBottom={`1px dotted ${theme.colors.caption}`} fontSize={12}>
             source code
-          </Anchor>
-        </Text>
+          </Text>
+        </Anchor>
       </FlexBox>
     </FlexBox>
   );

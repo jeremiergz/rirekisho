@@ -1,4 +1,4 @@
-import * as Gatsby from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({ description = '', keywords = [], lang = 'en',
         twitterUsername,
       },
     },
-  } = Gatsby.useStaticQuery<GraphQL.SEOData>(Gatsby.graphql`
+  } = useStaticQuery<GraphQL.SeoDataQuery>(graphql`
     query SEOData {
       banner: file(relativePath: { eq: "cover.png" }) {
         childImageSharp {

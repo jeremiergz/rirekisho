@@ -1,22 +1,23 @@
 import Button from 'components/Button';
+import Fab from 'components/Fab';
+import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
 import Text from 'components/primitives/Text';
-import MenuIcon from 'components/svg/Menu';
+import { useTheme } from 'components/providers/ThemeProvider';
+import MenuIcon from 'components/svgs/icons/Menu';
 import { graphql, useStaticQuery } from 'gatsby';
-import useTheme from 'hooks/useTheme';
 import React from 'react';
 import Language from './Language';
-import Fab from 'components/Fab';
 
 const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
   const {
     flagImgNodes: { nodes: flagImgs },
     languageNodes: { nodes: languages },
-  } = useStaticQuery<GraphQL.HeaderData>(graphql`
+  } = useStaticQuery<GraphQL.HeaderDataQuery>(graphql`
     query HeaderData {
       flagImgNodes: allImageSharp(filter: { original: { src: { regex: "/flag/" } } }) {
         nodes {
-          fluid {
+          fluid(quality: 100) {
             originalName
             ...GatsbyImageSharpFluid_withWebp
           }
@@ -32,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
       }
     }
   `);
-  const theme = useTheme();
+  const { theme } = useTheme();
   const flagsIndex = flagImgs.reduce((acc, flag) => {
     if (flag.fluid.originalName.includes('flag_')) acc[flag.fluid.originalName] = flag.fluid;
     return acc;
@@ -41,56 +42,72 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
     if (typeof onMenuClick === 'function') onMenuClick(e);
   };
   return (
-    <FlexBox
-      as="header"
-      backgroundColor="primary"
-      color="white"
-      fontFamily={theme.fonts.title}
-      height={{ _: 168, tablet: 96 }}
-      justifyContent="center"
-      paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
-    >
+    <>
+      <Box
+        backgroundColor="primary"
+        display={{ _: 'none', tablet: 'inline-block' }}
+        position="sticky"
+        marginX={3}
+        marginTop={3}
+        top={0}
+        zIndex={10}
+      >
+        <Button onClick={handleMenuClick} padding={3} variant="cursor-only">
+          <MenuIcon fill="white" />
+        </Button>
+      </Box>
       <FlexBox
-        alignItems="center"
-        flexDirection={{ _: 'column', tablet: 'row' }}
-        justifyContent={{ _: 'center', tablet: 'space-between' }}
-        maxWidth={theme.breakpoints['laptopM']}
+        as="header"
+        backgroundColor="primary"
+        boxSizing="border-box"
+        color="white"
+        fontFamily={theme.fonts.title}
+        height={{ _: 168, tablet: 96 }}
+        justifyContent="center"
+        paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
+        position={{ tablet: 'absolute' }}
+        top={0}
         width="100%"
       >
-        <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }}>
-          <Button
-            // FIXME: experiment other ways to remove !important
-            display={{ _: 'none !important', tablet: 'flex !important' }}
-            marginRight="24px"
-            onClick={handleMenuClick}
-            variant="cursor-only"
-          >
-            <MenuIcon fill="white" height={32} width={32} />
-          </Button>
-          <Text
-            fontSize={32}
-            letterSpacing={{ _: -2, laptopL: 0 }}
-            lineHeight="32px"
-            paddingTop={2}
-            textAlign="center"
-            textTransform="uppercase"
-            whiteSpace="nowrap"
-          >
-            Jeremie Rodriguez
-          </Text>
+        <FlexBox
+          alignItems="center"
+          flexDirection={{ _: 'column', tablet: 'row' }}
+          justifyContent={{ _: 'center', tablet: 'space-between' }}
+          maxWidth={theme.breakpoints['laptopM']}
+          width="100%"
+        >
+          <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }}>
+            <Text
+              fontSize={32}
+              letterSpacing={-2}
+              lineHeight="32px"
+              marginLeft={{ tablet: 5, laptopS: 4 }}
+              paddingTop={2}
+              textAlign="center"
+              textTransform="uppercase"
+              whiteSpace="nowrap"
+            >
+              Jeremie Rodriguez
+            </Text>
+          </FlexBox>
+          <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
+            {languages
+              .sort((a, b) => a.sortOrder - b.sortOrder)
+              .map((item, index) => (
+                <Language
+                  dense={index === 0}
+                  key={item.name}
+                  img={flagsIndex[item.img]}
+                  item={item as Models.Language}
+                />
+              ))}
+          </FlexBox>
         </FlexBox>
-        <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
-          {languages
-            .sort((a, b) => a.sortOrder - b.sortOrder)
-            .map((item, index) => (
-              <Language dense={index === 0} key={item.name} img={flagsIndex[item.img]} item={item} />
-            ))}
-        </FlexBox>
+        <Fab display={{ _: 'block', tablet: 'none' }} onClick={handleMenuClick} position="bottom-right">
+          <MenuIcon fill="white" height={32} width={32} />
+        </Fab>
       </FlexBox>
-      <Fab display={{ _: 'block', tablet: 'none' }} onClick={handleMenuClick} position="bottom-right">
-        <MenuIcon fill="white" height={32} width={32} />
-      </Fab>
-    </FlexBox>
+    </>
   );
 };
 

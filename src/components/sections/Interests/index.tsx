@@ -6,7 +6,7 @@ import React, { forwardRef } from 'react';
 const Interests = forwardRef<HTMLDivElement>((_, ref) => {
   const {
     interestNodes: { nodes: interests },
-  } = useStaticQuery<GraphQL.InterestsData>(graphql`
+  } = useStaticQuery<GraphQL.InterestsDataQuery>(graphql`
     query InterestsData {
       interestNodes: allInterestsJson {
         nodes {
@@ -19,7 +19,7 @@ const Interests = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="interests">
       <Layout.Content alignItems="center" marginBottom={4}>
-        <LabeledIconsBlock items={interests} />
+        <LabeledIconsBlock items={interests as Models.LabeledItem[]} />
       </Layout.Content>
     </Layout.Section>
   );

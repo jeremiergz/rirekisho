@@ -23,5 +23,59 @@
       "src": "/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png",
       "srcSet": "/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,\n/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,\n/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w"
     }
+  },
+  "themeJson": {
+    "dark": {
+      "colors": {
+        "background": "#212121",
+        "body1": "#d3d3d3",
+        "body2": "#808080",
+        "caption": "#d3d3d3",
+        "dark": "#212121",
+        "error": "#f44336",
+        "info": "#2196f3",
+        "primary": "#265a99",
+        "secondary": "#50b0c7",
+        "subtitle": "#575757",
+        "success": "#4caf50",
+        "text": "#d3d3d3",
+        "white": "#ffffff"
+      },
+      "fonts": {
+        "main": "'Open Sans', sans-serif",
+        "title": "'Baloo Bhaina 2', cursive"
+      },
+      "fontWeights": {
+        "bold": 800,
+        "bolder": 600,
+        "regular": 400
+      }
+    },
+    "light": {
+      "colors": {
+        "background": "white",
+        "body1": "#262626",
+        "body2": "#575757",
+        "caption": "#808080",
+        "dark": "#212121",
+        "error": "#f44336",
+        "info": "#2196f3",
+        "primary": "#17365c",
+        "secondary": "#31859a",
+        "subtitle": "#d3d3d3",
+        "success": "#4caf50",
+        "text": "#262626",
+        "white": "#ffffff"
+      },
+      "fonts": {
+        "main": "'Open Sans', sans-serif",
+        "title": "'Baloo Bhaina 2', cursive"
+      },
+      "fontWeights": {
+        "bold": 800,
+        "bolder": 600,
+        "regular": 400
+      }
+    }
   }
 }

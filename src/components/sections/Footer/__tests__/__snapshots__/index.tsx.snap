@@ -21,14 +21,16 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxirZ bYDoBb"
+        className="sc-AxiKw cwhYsH"
       >
         Made with
       </span>
       <svg
+        className="sc-AxhCb cnYhZh"
         fill="#fff"
         height={16}
         viewBox="0 0 455 455"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M455.111 164.089c0 137.956-163.556 228.978-213.333 253.156-8.533 4.267-19.911 4.267-28.444 0C163.556 393.067 0 304.889 0 164.089 0 92.978 52.622 34.667 116.622 34.667c51.2 0 93.867 35.556 109.511 85.333 15.644-49.778 59.733-85.333 109.511-85.333 66.845 0 119.467 58.311 119.467 129.422z"
@@ -45,7 +47,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxirZ fLbiiM"
+        className="sc-AxiKw cSdxxw"
       >
         using
       </span>
@@ -55,7 +57,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <a
-        className="sc-AxjAm sc-AxiKw eokTxa"
+        className="sc-AxjAm sc-AxirZ fwPkvK"
         fontWeight="semi-bold"
         height={64}
         href="https://www.gatsbyjs.org"
@@ -146,7 +148,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
         </div>
       </a>
       <a
-        className="sc-AxjAm sc-AxiKw eokTxa"
+        className="sc-AxjAm sc-AxirZ fwPkvK"
         fontWeight="semi-bold"
         height={64}
         href="https://styled-components.com"
@@ -239,30 +241,29 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-AxjAm bFKLMz"
-    color="grey"
+    className="sc-AxjAm bGuxiZ"
+    color="caption"
     display="flex"
   >
     <span
-      className="sc-AxirZ dVRjgl"
+      className="sc-AxiKw cBoXSN"
     >
       rirekisho v20.07.3
     </span>
-    <span
-      className="sc-AxirZ hNemHo"
-      color="grey"
-      fontSize={12}
+    <a
+      className="sc-AxjAm sc-AxirZ fMUetU"
+      fontWeight="semi-bold"
+      href="https://gitlab.com/jeremiergz/rirekisho/tree/20.07.3"
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      <a
-        className="sc-AxjAm sc-AxiKw evqqrk"
-        fontWeight="semi-bold"
-        href="https://gitlab.com/jeremiergz/rirekisho/tree/20.07.3"
-        rel="noopener noreferrer"
-        target="_blank"
+      <span
+        className="sc-AxiKw eohXAP"
+        fontSize={12}
       >
         source code
-      </a>
-    </span>
+      </span>
+    </a>
   </div>
 </footer>
 `;

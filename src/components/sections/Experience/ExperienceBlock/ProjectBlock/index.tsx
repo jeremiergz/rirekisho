@@ -13,7 +13,7 @@ const ProjectBlock: React.FC<ProjectBlockProps> = ({
       {description && <Detail details={description} label="Project" information={name} />}
       {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize label="Techs" />}
       {tasks.map(task => (
-        <Text color="#575757" display="block" fontWeight="bolder" key={task} marginLeft={3} marginTop={1}>
+        <Text color="body2" display="block" fontWeight="bolder" key={task} marginLeft={3} marginTop={1}>
           • {task}
         </Text>
       ))}

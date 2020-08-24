@@ -5,7 +5,7 @@ const Bubble: React.FC<BubbleProps> = ({ empty, ...rest }) => {
   return (
     <Box
       as="span"
-      backgroundColor={empty ? 'lightgrey' : 'primary'}
+      backgroundColor={empty ? 'subtitle' : 'primary'}
       borderRadius="50%"
       height={16}
       width={16}
