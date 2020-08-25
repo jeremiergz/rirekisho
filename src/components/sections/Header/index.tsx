@@ -13,6 +13,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
   const {
     flagImgNodes: { nodes: flagImgs },
     languageNodes: { nodes: languages },
+    personalDetailsJson: { fullName },
   } = useStaticQuery<GraphQL.HeaderDataQuery>(graphql`
     query HeaderData {
       flagImgNodes: allImageSharp(filter: { original: { src: { regex: "/flag/" } } }) {
@@ -31,11 +32,14 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           sortOrder
         }
       }
+      personalDetailsJson {
+        fullName
+      }
     }
   `);
   const { theme } = useTheme();
   const flagsIndex = flagImgs.reduce((acc, flag) => {
-    if (flag.fluid.originalName.includes('flag_')) acc[flag.fluid.originalName] = flag.fluid;
+    acc[flag.fluid.originalName] = flag.fluid;
     return acc;
   }, {});
   const handleMenuClick = (e: React.MouseEvent) => {
@@ -61,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         backgroundColor="primary"
         boxSizing="border-box"
         color="white"
-        fontFamily={theme.fonts.title}
+        fontFamily="title"
         height={{ _: 168, tablet: 96 }}
         justifyContent="center"
         paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
@@ -87,7 +91,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
               textTransform="uppercase"
               whiteSpace="nowrap"
             >
-              Jeremie Rodriguez
+              {fullName}
             </Text>
           </FlexBox>
           <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
