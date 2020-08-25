@@ -9,6 +9,7 @@ const BaseButton = styled(Box)<ButtonProps>`
   outline: none;
   text-decoration: none;
   transition: filter ease 125ms;
+  padding: ${({ padding }) => (padding && padding.toString()) || 0};
   :hover {
     filter: brightness(0.75);
   }
