@@ -38,7 +38,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   const companyImgsIndex = companyImgs.reduce((acc, img) => {
-    if (img.fixed.originalName.includes('company_')) acc[img.fixed.originalName] = img.fixed;
+    acc[img.fixed.originalName] = img.fixed;
     return acc;
   }, {});
   return (
