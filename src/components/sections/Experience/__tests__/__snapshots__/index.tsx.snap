@@ -10,13 +10,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxirZ kdRzbx"
+      className="sc-AxirZ jLDFnn"
       color="secondary"
     >
       exp
     </span>
     <span
-      className="sc-AxirZ kNgwCP"
+      className="sc-AxirZ eDwHNh"
       color="primary"
     >
       erience
@@ -44,13 +44,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               OCT 2018
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               PRESENT
             </span>
@@ -140,7 +140,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -149,7 +149,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -166,7 +166,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -178,14 +178,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 XDoG
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -198,7 +198,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -210,7 +210,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -219,7 +219,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -228,7 +228,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Migrate web platforms to Kubernetes on Google Cloud Platform
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -245,7 +245,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -257,7 +257,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -270,7 +270,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -282,7 +282,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -291,7 +291,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -315,13 +315,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               JUN 2018
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               SEP 2018
             </span>
@@ -411,7 +411,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -420,7 +420,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -437,7 +437,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -449,14 +449,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 Airbus Defence & Space
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -469,7 +469,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -481,14 +481,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 NemEO - DiginEO
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -501,7 +501,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -513,7 +513,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -522,7 +522,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -531,7 +531,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Technical manager of a 3 developer team
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -540,7 +540,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Front-end development: React.js & Redux
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -549,7 +549,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Maintenance of the Architectural Design Document
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -573,13 +573,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               JUN 2017
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               JUN 2018
             </span>
@@ -669,7 +669,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -678,7 +678,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -695,7 +695,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -707,14 +707,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 Airbus Defence & Space
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -727,7 +727,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -739,14 +739,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 Pulsar
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -759,7 +759,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -771,7 +771,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -780,7 +780,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -789,7 +789,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Use case supervisor on Postgres DB engineering & implementation
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -798,7 +798,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -807,7 +807,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Micro-services dockerization
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -831,13 +831,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               JAN 2017
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               MAY 2017
             </span>
@@ -927,7 +927,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -936,7 +936,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -953,7 +953,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -965,14 +965,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 CNES
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -985,7 +985,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -997,14 +997,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 Trafic
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1017,7 +1017,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1029,7 +1029,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1038,7 +1038,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1047,7 +1047,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Development of a new transfer protocol using native File System
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1056,7 +1056,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Maintenance & quality controls: refactoring of several classes
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1080,13 +1080,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               NOV 2016
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               DEC 2016
             </span>
@@ -1176,7 +1176,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -1185,7 +1185,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -1202,7 +1202,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1214,14 +1214,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 Omnium Finance
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1234,7 +1234,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1246,7 +1246,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1259,7 +1259,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1271,7 +1271,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1280,7 +1280,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1289,7 +1289,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Back-end development using Java 8 with Spring Boot & JPA
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1298,7 +1298,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Front-end development using Angular.js, Bootstrap & SASS
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1322,13 +1322,13 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               JUL 2016
                - 
             </span>
             <span
-              className="sc-AxirZ jeUQoX"
+              className="sc-AxirZ bOdwdx"
             >
               OCT 2016
             </span>
@@ -1418,7 +1418,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ dXRkyi"
+              className="sc-AxirZ cLrWIk"
             >
               |
             </span>
@@ -1427,7 +1427,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               display="flex"
             >
               <span
-                className="sc-AxirZ fpKTGK"
+                className="sc-AxirZ eSHEaU"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -1444,7 +1444,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1456,14 +1456,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ hUWaaO"
+                className="sc-AxirZ DEpmY"
                 color="body1"
               >
                 RoboCARE Lab
                  | 
               </span>
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1476,7 +1476,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1488,7 +1488,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ eMZtBU"
+                className="sc-AxirZ fbOqfC"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1501,7 +1501,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ bXAfuI"
+              className="sc-AxirZ cTjDii"
               color="body1"
               fontWeight="bold"
             >
@@ -1513,7 +1513,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ cxCBnv"
+                className="sc-AxirZ gOyexN"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1522,7 +1522,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1531,7 +1531,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Engineering of a generic MySQL DB for 3 different web portals
           </span>
           <span
-            className="sc-AxirZ kqrXjs"
+            className="sc-AxirZ bxXmIK"
             color="body2"
             display="block"
             fontWeight="bolder"

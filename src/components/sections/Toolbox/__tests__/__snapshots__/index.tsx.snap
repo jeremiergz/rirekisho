@@ -10,13 +10,13 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxiKw ggvGYh"
+      className="sc-AxiKw ftGYeL"
       color="secondary"
     >
       too
     </span>
     <span
-      className="sc-AxiKw jncuiT"
+      className="sc-AxiKw emkGCh"
       color="primary"
     >
       lbox
@@ -124,7 +124,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -224,7 +224,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -324,7 +324,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -424,7 +424,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -524,7 +524,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -624,7 +624,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"

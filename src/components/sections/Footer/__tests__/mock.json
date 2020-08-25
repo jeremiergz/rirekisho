@@ -25,8 +25,8 @@
     }
   },
   "themeJson": {
-    "dark": {
-      "colors": {
+    "colors": {
+      "dark": {
         "background": "#212121",
         "body1": "#d3d3d3",
         "body2": "#808080",
@@ -41,18 +41,7 @@
         "text": "#d3d3d3",
         "white": "#ffffff"
       },
-      "fonts": {
-        "main": "'Open Sans', sans-serif",
-        "title": "'Baloo Bhaina 2', cursive"
-      },
-      "fontWeights": {
-        "bold": 800,
-        "bolder": 600,
-        "regular": 400
-      }
-    },
-    "light": {
-      "colors": {
+      "light": {
         "background": "white",
         "body1": "#262626",
         "body2": "#575757",
@@ -66,16 +55,16 @@
         "success": "#4caf50",
         "text": "#262626",
         "white": "#ffffff"
-      },
-      "fonts": {
-        "main": "'Open Sans', sans-serif",
-        "title": "'Baloo Bhaina 2', cursive"
-      },
-      "fontWeights": {
-        "bold": 800,
-        "bolder": 600,
-        "regular": 400
       }
+    },
+    "fontWeights": {
+      "bolder": 600,
+      "bold": 800,
+      "regular": 400
+    },
+    "fonts": {
+      "main": "'Open Sans', sans-serif",
+      "title": "'Baloo Bhaina 2', cursive"
     }
   }
 }

@@ -28,10 +28,9 @@ Array [
     </button>
   </div>,
   <header
-    className="sc-AxjAm emuCQU"
+    className="sc-AxjAm kiECts"
     color="white"
     display="flex"
-    fontFamily="title"
     height={
       Object {
         "_": 168,
@@ -50,7 +49,8 @@ Array [
         display="flex"
       >
         <span
-          className="sc-AxhCb folTfX"
+          className="sc-AxhCb fIsmcF"
+          fontFamily="title"
           fontSize={32}
           letterSpacing={-2}
         >

@@ -10,13 +10,13 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxiKw ggvGYh"
+      className="sc-AxiKw ftGYeL"
       color="secondary"
     >
       int
     </span>
     <span
-      className="sc-AxiKw jncuiT"
+      className="sc-AxiKw emkGCh"
       color="primary"
     >
       erests
@@ -123,7 +123,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -222,7 +222,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -321,7 +321,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -420,7 +420,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -519,7 +519,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -618,7 +618,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxiKw TnBuQ"
+          className="sc-AxiKw eylVgO"
           color="text"
           fontSize={12}
           fontWeight="bold"

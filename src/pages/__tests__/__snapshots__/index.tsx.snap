@@ -30,10 +30,9 @@ Array [
     </button>
   </div>,
   <header
-    className="sc-AxjAm emuCQU"
+    className="sc-AxjAm kiECts"
     color="white"
     display="flex"
-    fontFamily="title"
     height={
       Object {
         "_": 168,
@@ -52,7 +51,8 @@ Array [
         display="flex"
       >
         <span
-          className="sc-AxiKw fDoucX"
+          className="sc-AxiKw kVswd"
+          fontFamily="title"
           fontSize={32}
           letterSpacing={-2}
         >
@@ -769,7 +769,7 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw bmOvii"
+              className="sc-AxiKw egRmbo"
               color="white"
               fontFamily="title"
               fontSize={
@@ -843,7 +843,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw cBoXSN"
+                  className="sc-AxiKw esNMNr"
                 >
                   experience
                 </span>
@@ -895,7 +895,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw cBoXSN"
+                  className="sc-AxiKw esNMNr"
                 >
                   skills
                 </span>
@@ -947,7 +947,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw cBoXSN"
+                  className="sc-AxiKw esNMNr"
                 >
                   toolbox
                 </span>
@@ -999,7 +999,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw cBoXSN"
+                  className="sc-AxiKw esNMNr"
                 >
                   interests
                 </span>
@@ -1051,7 +1051,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw cBoXSN"
+                  className="sc-AxiKw esNMNr"
                 >
                   education
                 </span>
@@ -1104,7 +1104,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw lagVyb"
+            className="sc-AxiKw dlIynh"
             color="lightgray"
           >
             light
@@ -1136,7 +1136,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eEbAMH"
+              className="sc-AxiKw eioTIl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1144,7 +1144,7 @@ Array [
               nationality
             </label>
             <span
-              className="sc-AxiKw gRfuZf"
+              className="sc-AxiKw gGzLJV"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1157,7 +1157,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eEbAMH"
+              className="sc-AxiKw eioTIl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1165,7 +1165,7 @@ Array [
               birth date
             </label>
             <span
-              className="sc-AxiKw gRfuZf"
+              className="sc-AxiKw gGzLJV"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1178,7 +1178,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eEbAMH"
+              className="sc-AxiKw eioTIl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1186,7 +1186,7 @@ Array [
               civil status
             </label>
             <span
-              className="sc-AxiKw gRfuZf"
+              className="sc-AxiKw gGzLJV"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1199,7 +1199,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eEbAMH"
+              className="sc-AxiKw eioTIl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1207,7 +1207,7 @@ Array [
               driver licenses
             </label>
             <span
-              className="sc-AxiKw gRfuZf"
+              className="sc-AxiKw gGzLJV"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1342,7 +1342,7 @@ Array [
             </div>
           </div>
           <span
-            className="sc-AxiKw JqVUA"
+            className="sc-AxiKw dnTKIW"
             color="secondary"
             fontSize={40}
             fontWeight="bold"
@@ -1372,7 +1372,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1435,7 +1435,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1489,7 +1489,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1543,7 +1543,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1597,7 +1597,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1651,7 +1651,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw orrEG"
+                  className="sc-AxiKw efIJwk"
                   color="primary"
                   display={
                     Object {
@@ -1704,13 +1704,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ggvGYh"
+          className="sc-AxiKw ftGYeL"
           color="secondary"
         >
           exp
         </span>
         <span
-          className="sc-AxiKw jncuiT"
+          className="sc-AxiKw emkGCh"
           color="primary"
         >
           erience
@@ -1738,13 +1738,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   OCT 2018
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   PRESENT
                 </span>
@@ -1834,7 +1834,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -1843,7 +1843,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -1860,7 +1860,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1872,14 +1872,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     XDoG
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -1892,7 +1892,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1904,7 +1904,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -1913,7 +1913,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -1922,7 +1922,7 @@ Array [
                 Migrate web platforms to Kubernetes on Google Cloud Platform
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -1939,7 +1939,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1951,7 +1951,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -1964,7 +1964,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1976,7 +1976,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -1985,7 +1985,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2009,13 +2009,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   JUN 2018
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   SEP 2018
                 </span>
@@ -2105,7 +2105,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -2114,7 +2114,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2131,7 +2131,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2143,14 +2143,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     Airbus Defence & Space
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2163,7 +2163,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2175,14 +2175,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     NemEO - DiginEO
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2195,7 +2195,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2207,7 +2207,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2216,7 +2216,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2225,7 +2225,7 @@ Array [
                 Technical manager of a 3 developer team
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2234,7 +2234,7 @@ Array [
                 Front-end development: React.js & Redux
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2243,7 +2243,7 @@ Array [
                 Maintenance of the Architectural Design Document
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2267,13 +2267,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   JUN 2017
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   JUN 2018
                 </span>
@@ -2363,7 +2363,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -2372,7 +2372,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2389,7 +2389,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2401,14 +2401,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     Airbus Defence & Space
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2421,7 +2421,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2433,14 +2433,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     Pulsar
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2453,7 +2453,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2465,7 +2465,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2474,7 +2474,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2483,7 +2483,7 @@ Array [
                 Use case supervisor on Postgres DB engineering & implementation
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2492,7 +2492,7 @@ Array [
                 Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2501,7 +2501,7 @@ Array [
                 Micro-services dockerization
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2525,13 +2525,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   JAN 2017
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   MAY 2017
                 </span>
@@ -2621,7 +2621,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -2630,7 +2630,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2647,7 +2647,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2659,14 +2659,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     CNES
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2679,7 +2679,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2691,14 +2691,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     Trafic
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2711,7 +2711,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2723,7 +2723,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2732,7 +2732,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2741,7 +2741,7 @@ Array [
                 Development of a new transfer protocol using native File System
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2750,7 +2750,7 @@ Array [
                 Maintenance & quality controls: refactoring of several classes
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2774,13 +2774,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   NOV 2016
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   DEC 2016
                 </span>
@@ -2870,7 +2870,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -2879,7 +2879,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2896,7 +2896,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2908,14 +2908,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     Omnium Finance
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2928,7 +2928,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2940,7 +2940,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2953,7 +2953,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2965,7 +2965,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2974,7 +2974,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2983,7 +2983,7 @@ Array [
                 Back-end development using Java 8 with Spring Boot & JPA
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2992,7 +2992,7 @@ Array [
                 Front-end development using Angular.js, Bootstrap & SASS
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3016,13 +3016,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   JUL 2016
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw iusGCT"
+                  className="sc-AxiKw jrnFoF"
                 >
                   OCT 2016
                 </span>
@@ -3112,7 +3112,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw ijqgem"
+                  className="sc-AxiKw fChXtA"
                 >
                   |
                 </span>
@@ -3121,7 +3121,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw kEolGq"
+                    className="sc-AxiKw iTLDqQ"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -3138,7 +3138,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3150,14 +3150,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw bfdWji"
+                    className="sc-AxiKw aCDRA"
                     color="body1"
                   >
                     RoboCARE Lab
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -3170,7 +3170,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3182,7 +3182,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw xlODk"
+                    className="sc-AxiKw kDeHhy"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -3195,7 +3195,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw dnKfWM"
+                  className="sc-AxiKw eotKke"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3207,7 +3207,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw jVbjRr"
+                    className="sc-AxiKw laimEp"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -3216,7 +3216,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3225,7 +3225,7 @@ Array [
                 Engineering of a generic MySQL DB for 3 different web portals
               </span>
               <span
-                className="sc-AxiKw fGgpas"
+                className="sc-AxiKw cHiCtC"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3247,13 +3247,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ggvGYh"
+          className="sc-AxiKw ftGYeL"
           color="secondary"
         >
           ski
         </span>
         <span
-          className="sc-AxiKw jncuiT"
+          className="sc-AxiKw emkGCh"
           color="primary"
         >
           lls
@@ -3274,7 +3274,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eEbAMH"
+            className="sc-AxiKw eioTIl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3286,14 +3286,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;Java|Type&gt;Script
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3359,14 +3359,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Node.js
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3432,14 +3432,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Golang
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3505,14 +3505,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               HTML5|CSS3
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3579,7 +3579,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eEbAMH"
+            className="sc-AxiKw eioTIl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3591,14 +3591,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Kubernetes
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3664,14 +3664,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Docker
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3737,14 +3737,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;GitLab|Travis&gt;CI
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3810,14 +3810,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Ansible
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3884,7 +3884,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eEbAMH"
+            className="sc-AxiKw eioTIl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3896,14 +3896,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;Koa|Express&gt;.js
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -3969,14 +3969,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               React.js
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -4042,14 +4042,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Jest|Mocha|Chai
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -4115,14 +4115,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw jdQhgZ"
+              className="sc-AxiKw eUCEIz"
               fontSize={18}
               fontWeight="bold"
             >
               Gatsby.js|Next.js
             </span>
             <span
-              className="sc-AxiKw dieZVZ"
+              className="sc-AxiKw UyLlj"
               color="secondary"
               display={
                 Object {
@@ -4195,13 +4195,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ggvGYh"
+          className="sc-AxiKw ftGYeL"
           color="secondary"
         >
           too
         </span>
         <span
-          className="sc-AxiKw jncuiT"
+          className="sc-AxiKw emkGCh"
           color="primary"
         >
           lbox
@@ -4317,7 +4317,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4425,7 +4425,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4533,7 +4533,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4641,7 +4641,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4749,7 +4749,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4857,7 +4857,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4877,13 +4877,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ggvGYh"
+          className="sc-AxiKw ftGYeL"
           color="secondary"
         >
           int
         </span>
         <span
-          className="sc-AxiKw jncuiT"
+          className="sc-AxiKw emkGCh"
           color="primary"
         >
           erests
@@ -4916,7 +4916,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4941,7 +4941,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4966,7 +4966,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4991,7 +4991,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5016,7 +5016,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5041,7 +5041,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw TnBuQ"
+              className="sc-AxiKw eylVgO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5061,13 +5061,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ggvGYh"
+          className="sc-AxiKw ftGYeL"
           color="secondary"
         >
           edu
         </span>
         <span
-          className="sc-AxiKw jncuiT"
+          className="sc-AxiKw emkGCh"
           color="primary"
         >
           cation
@@ -5083,7 +5083,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw fTGmHp"
+            className="sc-AxiKw bfihDL"
             color="secondary"
             fontSize={
               Object {
@@ -5126,7 +5126,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw ixfJwg"
+            className="sc-AxiKw jgFRye"
             color="primary"
             fontSize={
               Object {
@@ -5139,7 +5139,7 @@ Array [
             Intermediate Japanese Certificate
           </span>
           <span
-            className="sc-AxiKw cvZxEn"
+            className="sc-AxiKw kpNQRt"
             color="text"
             fontSize={
               Object {
@@ -5152,7 +5152,7 @@ Array [
             Sendagaya Japanese Institute
           </span>
           <span
-            className="sc-AxiKw bCbFrX"
+            className="sc-AxiKw fWXGch"
             color="text"
             fontSize={
               Object {
@@ -5172,7 +5172,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw fTGmHp"
+            className="sc-AxiKw bfihDL"
             color="secondary"
             fontSize={
               Object {
@@ -5234,7 +5234,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw ixfJwg"
+            className="sc-AxiKw jgFRye"
             color="primary"
             fontSize={
               Object {
@@ -5247,7 +5247,7 @@ Array [
             Japanese Language Bachelor Degree
           </span>
           <span
-            className="sc-AxiKw cvZxEn"
+            className="sc-AxiKw kpNQRt"
             color="text"
             fontSize={
               Object {
@@ -5260,7 +5260,7 @@ Array [
             University of Jean-Jaures
           </span>
           <span
-            className="sc-AxiKw bCbFrX"
+            className="sc-AxiKw fWXGch"
             color="text"
             fontSize={
               Object {
@@ -5280,7 +5280,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw fTGmHp"
+            className="sc-AxiKw bfihDL"
             color="secondary"
             fontSize={
               Object {
@@ -5342,7 +5342,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw ixfJwg"
+            className="sc-AxiKw jgFRye"
             color="primary"
             fontSize={
               Object {
@@ -5355,7 +5355,7 @@ Array [
             Import-Export Degree
           </span>
           <span
-            className="sc-AxiKw cvZxEn"
+            className="sc-AxiKw kpNQRt"
             color="text"
             fontSize={
               Object {
@@ -5368,7 +5368,7 @@ Array [
             AFPA
           </span>
           <span
-            className="sc-AxiKw bCbFrX"
+            className="sc-AxiKw fWXGch"
             color="text"
             fontSize={
               Object {
@@ -5388,7 +5388,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw fTGmHp"
+            className="sc-AxiKw bfihDL"
             color="secondary"
             fontSize={
               Object {
@@ -5431,7 +5431,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw ixfJwg"
+            className="sc-AxiKw jgFRye"
             color="primary"
             fontSize={
               Object {
@@ -5444,7 +5444,7 @@ Array [
             Computer Programming Bachelor Degree
           </span>
           <span
-            className="sc-AxiKw cvZxEn"
+            className="sc-AxiKw kpNQRt"
             color="text"
             fontSize={
               Object {
@@ -5457,7 +5457,7 @@ Array [
             AFPA
           </span>
           <span
-            className="sc-AxiKw bCbFrX"
+            className="sc-AxiKw fWXGch"
             color="text"
             fontSize={
               Object {
@@ -5495,7 +5495,7 @@ Array [
         display="flex"
       >
         <span
-          className="sc-AxiKw cwhYsH"
+          className="sc-AxiKw kJBPsB"
         >
           Made with
         </span>
@@ -5521,7 +5521,7 @@ Array [
           />
         </svg>
         <span
-          className="sc-AxiKw cSdxxw"
+          className="sc-AxiKw kjWeqi"
         >
           using
         </span>
@@ -5720,7 +5720,7 @@ Array [
       display="flex"
     >
       <span
-        className="sc-AxiKw cBoXSN"
+        className="sc-AxiKw esNMNr"
       >
         rirekisho v20.07.3
       </span>
@@ -5732,7 +5732,7 @@ Array [
         target="_blank"
       >
         <span
-          className="sc-AxiKw eohXAP"
+          className="sc-AxiKw kudcPh"
           fontSize={12}
         >
           source code

@@ -25,7 +25,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <label
-          className="sc-AxirZ jtalun"
+          className="sc-AxirZ hxXihl"
           color="secondary"
           fontSize={14}
           fontWeight="bold"
@@ -33,7 +33,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
           nationality
         </label>
         <span
-          className="sc-AxirZ iLiciv"
+          className="sc-AxirZ bVyPUh"
           color="primary"
           fontSize={22}
           fontWeight="bold"
@@ -46,7 +46,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <label
-          className="sc-AxirZ jtalun"
+          className="sc-AxirZ hxXihl"
           color="secondary"
           fontSize={14}
           fontWeight="bold"
@@ -54,7 +54,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
           birth date
         </label>
         <span
-          className="sc-AxirZ iLiciv"
+          className="sc-AxirZ bVyPUh"
           color="primary"
           fontSize={22}
           fontWeight="bold"
@@ -67,7 +67,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <label
-          className="sc-AxirZ jtalun"
+          className="sc-AxirZ hxXihl"
           color="secondary"
           fontSize={14}
           fontWeight="bold"
@@ -75,7 +75,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
           civil status
         </label>
         <span
-          className="sc-AxirZ iLiciv"
+          className="sc-AxirZ bVyPUh"
           color="primary"
           fontSize={22}
           fontWeight="bold"
@@ -88,7 +88,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <label
-          className="sc-AxirZ jtalun"
+          className="sc-AxirZ hxXihl"
           color="secondary"
           fontSize={14}
           fontWeight="bold"
@@ -96,7 +96,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
           driver licenses
         </label>
         <span
-          className="sc-AxirZ iLiciv"
+          className="sc-AxirZ bVyPUh"
           color="primary"
           fontSize={22}
           fontWeight="bold"
@@ -231,7 +231,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <span
-        className="sc-AxirZ hSsBoo"
+        className="sc-AxirZ fqQLBG"
         color="secondary"
         fontSize={40}
         fontWeight="bold"
@@ -261,7 +261,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {
@@ -324,7 +324,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {
@@ -378,7 +378,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {
@@ -432,7 +432,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {
@@ -486,7 +486,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {
@@ -540,7 +540,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
             display="flex"
           >
             <span
-              className="sc-AxirZ istddW"
+              className="sc-AxirZ hQVBGw"
               color="primary"
               display={
                 Object {

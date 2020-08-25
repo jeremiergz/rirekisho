@@ -21,7 +21,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       display="flex"
     >
       <span
-        className="sc-AxiKw cwhYsH"
+        className="sc-AxiKw kJBPsB"
       >
         Made with
       </span>
@@ -47,7 +47,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw cSdxxw"
+        className="sc-AxiKw kjWeqi"
       >
         using
       </span>
@@ -246,7 +246,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
     display="flex"
   >
     <span
-      className="sc-AxiKw cBoXSN"
+      className="sc-AxiKw esNMNr"
     >
       rirekisho v20.07.3
     </span>
@@ -258,7 +258,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       target="_blank"
     >
       <span
-        className="sc-AxiKw eohXAP"
+        className="sc-AxiKw kudcPh"
         fontSize={12}
       >
         source code
