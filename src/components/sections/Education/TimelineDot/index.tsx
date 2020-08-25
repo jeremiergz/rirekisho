@@ -4,7 +4,7 @@ import React from 'react';
 const TimelineDot: React.FC = () => {
   return (
     <Box
-      backgroundColor="white"
+      backgroundColor="background"
       border="4px solid"
       borderColor="secondary"
       borderRadius="50%"
