@@ -1,12 +1,14 @@
 require('dotenv/config');
 const path = require('path');
+const personalDetailsJSON = require('./content/data/personal-details/index.json');
+const themeJSON = require('./content/theme/index.json');
 const packageJSON = require('./package.json');
 
 const { author, description, homepage, keywords, license, name, repository, version } = packageJSON;
-const appColor = '#17365c';
+const appColor = themeJSON.light.colors.primary;
 const appName = `${name.charAt(0).toUpperCase()}${name.substring(1, name.length)}`;
-const authorName = 'Jeremie Rodriguez';
-const twitterUsername = '@JeremieRgz';
+const authorName = personalDetailsJSON.fullName;
+const twitterUsername = personalDetailsJSON.twitterUsername;
 
 module.exports = {
   siteMetadata: {
