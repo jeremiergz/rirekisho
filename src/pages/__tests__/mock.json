@@ -647,6 +647,9 @@
       { "img": "flag_japan.png", "name": "Japanese", "proficiencyLevel": 3, "sortOrder": 2 }
     ]
   },
+  "personalDetailsJson": {
+    "fullName": "Jeremie Rodriguez"
+  },
   "site": {
     "siteMetadata": {
       "appName": "Rirekisho",

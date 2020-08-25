@@ -7,7 +7,7 @@ exports[`components/Fab Test Suite matches snapshot 1`] = `
   width={64}
 >
   <button
-    className="sc-AxjAm sc-AxirZ dxrOVh"
+    className="sc-AxjAm sc-AxirZ bydKTu"
     height="100%"
     onClick={[Function]}
     onMouseEnter={[Function]}

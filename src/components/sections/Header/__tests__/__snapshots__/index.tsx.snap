@@ -12,7 +12,7 @@ Array [
     }
   >
     <button
-      className="sc-AxjAm sc-AxirZ klepKt"
+      className="sc-AxjAm sc-AxirZ klyYhV"
       onClick={[Function]}
     >
       <svg
@@ -31,7 +31,7 @@ Array [
     className="sc-AxjAm emuCQU"
     color="white"
     display="flex"
-    fontFamily="'Baloo Bhaina 2', cursive"
+    fontFamily="title"
     height={
       Object {
         "_": 168,
@@ -690,7 +690,7 @@ Array [
       width={64}
     >
       <button
-        className="sc-AxjAm sc-AxirZ dxrOVh"
+        className="sc-AxjAm sc-AxirZ bydKTu"
         height="100%"
         onClick={[Function]}
         onMouseEnter={[Function]}

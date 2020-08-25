@@ -14,7 +14,7 @@ Array [
     }
   >
     <button
-      className="sc-AxjAm sc-AxgMl EGeja"
+      className="sc-AxjAm sc-AxgMl onJGm"
       onClick={[Function]}
     >
       <svg
@@ -33,7 +33,7 @@ Array [
     className="sc-AxjAm emuCQU"
     color="white"
     display="flex"
-    fontFamily="'Baloo Bhaina 2', cursive"
+    fontFamily="title"
     height={
       Object {
         "_": 168,
@@ -719,7 +719,7 @@ Array [
       width={64}
     >
       <button
-        className="sc-AxjAm sc-AxgMl byUdIC"
+        className="sc-AxjAm sc-AxgMl dTHobl"
         height="100%"
         onClick={[Function]}
         onMouseEnter={[Function]}
@@ -760,12 +760,30 @@ Array [
         className="sc-AxjAm gvJTgc"
       >
         <div
-          className="sc-AxjAm FilvT"
+          className="sc-AxjAm dWrfxd"
           display="flex"
           height={96}
         >
+          <div
+            className="sc-AxjAm iUKEOT"
+            display="flex"
+          >
+            <span
+              className="sc-AxiKw bmOvii"
+              color="white"
+              fontFamily="title"
+              fontSize={
+                Object {
+                  "_": 22,
+                  "tablet": 18,
+                }
+              }
+            >
+              MY RESUME
+            </span>
+          </div>
           <button
-            className="sc-AxjAm sc-AxgMl bRbFjh"
+            className="sc-AxjAm sc-AxgMl dvqkbm"
             onClick={[Function]}
           >
             <div
@@ -793,7 +811,7 @@ Array [
           fontSize={20}
         >
           <button
-            className="sc-AxjAm sc-AxgMl htgjYG"
+            className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
           >
@@ -845,7 +863,7 @@ Array [
             </div>
           </button>
           <button
-            className="sc-AxjAm sc-AxgMl htgjYG"
+            className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
           >
@@ -897,7 +915,7 @@ Array [
             </div>
           </button>
           <button
-            className="sc-AxjAm sc-AxgMl htgjYG"
+            className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
           >
@@ -949,7 +967,7 @@ Array [
             </div>
           </button>
           <button
-            className="sc-AxjAm sc-AxgMl htgjYG"
+            className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
           >
@@ -1001,7 +1019,7 @@ Array [
             </div>
           </button>
           <button
-            className="sc-AxjAm sc-AxgMl htgjYG"
+            className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
           >
@@ -1059,7 +1077,7 @@ Array [
         display="flex"
       >
         <button
-          className="sc-AxjAm sc-AxgMl kogDly"
+          className="sc-AxjAm sc-AxgMl gFFUWp"
           onClick={[Function]}
         >
           <svg
