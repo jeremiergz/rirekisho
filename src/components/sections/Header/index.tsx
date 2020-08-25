@@ -65,7 +65,6 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         backgroundColor="primary"
         boxSizing="border-box"
         color="white"
-        fontFamily="title"
         height={{ _: 168, tablet: 96 }}
         justifyContent="center"
         paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
@@ -82,6 +81,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         >
           <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }}>
             <Text
+              fontFamily="title"
               fontSize={32}
               letterSpacing={-2}
               lineHeight="32px"

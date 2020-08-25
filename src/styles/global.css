@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  font-weight: 400;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(49, 133, 154, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(49, 133, 154, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(49, 133, 154, 0);
+  }
+}
+@page {
+  margin: 0mm;
+  size: A4 portrait;
+}
+@media print {
+  body {
+    /* Force displaying of background elements on print */
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+}

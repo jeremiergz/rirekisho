@@ -17,28 +17,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       text: String
       white: String
     }
-    interface ThemeFontWeights {
-      bold: Int
-      bolder: Int
-      regular: Int
-    }
-    interface ThemeFonts {
-      main: String
-      title: String
-    }
-    interface Theme {
-      colors: ThemeColors
-      fontWeights: ThemeFontWeights
-      fonts: ThemeFonts
-    }
-    type ThemeJsonDarkColors implements ThemeColors
-    type ThemeJsonDarkFontWeights implements ThemeFontWeights
-    type ThemeJsonDarkFonts implements ThemeFonts
-    type ThemeJsonDark implements Theme
-    type ThemeJsonLightColors implements ThemeColors
-    type ThemeJsonLightFontWeights implements ThemeFontWeights
-    type ThemeJsonLightFonts implements ThemeFonts
-    type ThemeJsonLight implements Theme
+    type ThemeJsonColorsDark implements ThemeColors
+    type ThemeJsonColorsLight implements ThemeColors
   `;
   createTypes(typeDefs);
 };

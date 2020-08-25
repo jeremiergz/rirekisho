@@ -1,3 +1,4 @@
+import { Theme } from 'components/providers/ThemeProvider';
 import { CSSProperties, TimeHTMLAttributes } from 'react';
 import styled from 'styled-components';
 import {
@@ -21,6 +22,7 @@ import {
 } from 'styled-system';
 
 const Text = styled.span<TextProps>`
+  font-family: ${({ theme }: { theme: Theme }) => theme.fonts.main};
   ${compose(
     border,
     color,

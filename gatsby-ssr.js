@@ -1,6 +1,9 @@
-const { default: ThemeProvider } = require('components/providers/ThemeProvider');
-const React = require('react');
+import ThemeProvider from 'components/providers/ThemeProvider';
+import React from 'react';
+import 'styles/global.css';
 
-exports.wrapRootElement = ({ element }) => {
+const wrapRootElement = ({ element }) => {
   return <ThemeProvider>{element}</ThemeProvider>;
 };
+
+export { wrapRootElement };

@@ -747,13 +747,13 @@ declare module GraphQL {
     parent?: Maybe<Node>;
     children: Array<Node>;
     internal: Internal;
-    childrenLanguagesJson?: Maybe<Array<Maybe<LanguagesJson>>>;
-    childrenExperiencesJson?: Maybe<Array<Maybe<ExperiencesJson>>>;
-    childrenEducationJson?: Maybe<Array<Maybe<EducationJson>>>;
-    childrenSkillsJson?: Maybe<Array<Maybe<SkillsJson>>>;
     childrenInterestsJson?: Maybe<Array<Maybe<InterestsJson>>>;
-    childrenToolboxJson?: Maybe<Array<Maybe<ToolboxJson>>>;
+    childrenExperiencesJson?: Maybe<Array<Maybe<ExperiencesJson>>>;
+    childrenLanguagesJson?: Maybe<Array<Maybe<LanguagesJson>>>;
+    childrenSkillsJson?: Maybe<Array<Maybe<SkillsJson>>>;
+    childrenEducationJson?: Maybe<Array<Maybe<EducationJson>>>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJson>;
+    childrenToolboxJson?: Maybe<Array<Maybe<ToolboxJson>>>;
     childThemeJson?: Maybe<ThemeJson>;
   };
 
@@ -1043,49 +1043,47 @@ declare module GraphQL {
     InternalMediaType = 'internal___mediaType',
     InternalOwner = 'internal___owner',
     InternalType = 'internal___type',
-    ChildrenLanguagesJson = 'childrenLanguagesJson',
-    ChildrenLanguagesJsonId = 'childrenLanguagesJson___id',
-    ChildrenLanguagesJsonParentId = 'childrenLanguagesJson___parent___id',
-    ChildrenLanguagesJsonParentParentId = 'childrenLanguagesJson___parent___parent___id',
-    ChildrenLanguagesJsonParentParentChildren = 'childrenLanguagesJson___parent___parent___children',
-    ChildrenLanguagesJsonParentChildren = 'childrenLanguagesJson___parent___children',
-    ChildrenLanguagesJsonParentChildrenId = 'childrenLanguagesJson___parent___children___id',
-    ChildrenLanguagesJsonParentChildrenChildren = 'childrenLanguagesJson___parent___children___children',
-    ChildrenLanguagesJsonParentInternalContent = 'childrenLanguagesJson___parent___internal___content',
-    ChildrenLanguagesJsonParentInternalContentDigest = 'childrenLanguagesJson___parent___internal___contentDigest',
-    ChildrenLanguagesJsonParentInternalDescription = 'childrenLanguagesJson___parent___internal___description',
-    ChildrenLanguagesJsonParentInternalFieldOwners = 'childrenLanguagesJson___parent___internal___fieldOwners',
-    ChildrenLanguagesJsonParentInternalIgnoreType = 'childrenLanguagesJson___parent___internal___ignoreType',
-    ChildrenLanguagesJsonParentInternalMediaType = 'childrenLanguagesJson___parent___internal___mediaType',
-    ChildrenLanguagesJsonParentInternalOwner = 'childrenLanguagesJson___parent___internal___owner',
-    ChildrenLanguagesJsonParentInternalType = 'childrenLanguagesJson___parent___internal___type',
-    ChildrenLanguagesJsonChildren = 'childrenLanguagesJson___children',
-    ChildrenLanguagesJsonChildrenId = 'childrenLanguagesJson___children___id',
-    ChildrenLanguagesJsonChildrenParentId = 'childrenLanguagesJson___children___parent___id',
-    ChildrenLanguagesJsonChildrenParentChildren = 'childrenLanguagesJson___children___parent___children',
-    ChildrenLanguagesJsonChildrenChildren = 'childrenLanguagesJson___children___children',
-    ChildrenLanguagesJsonChildrenChildrenId = 'childrenLanguagesJson___children___children___id',
-    ChildrenLanguagesJsonChildrenChildrenChildren = 'childrenLanguagesJson___children___children___children',
-    ChildrenLanguagesJsonChildrenInternalContent = 'childrenLanguagesJson___children___internal___content',
-    ChildrenLanguagesJsonChildrenInternalContentDigest = 'childrenLanguagesJson___children___internal___contentDigest',
-    ChildrenLanguagesJsonChildrenInternalDescription = 'childrenLanguagesJson___children___internal___description',
-    ChildrenLanguagesJsonChildrenInternalFieldOwners = 'childrenLanguagesJson___children___internal___fieldOwners',
-    ChildrenLanguagesJsonChildrenInternalIgnoreType = 'childrenLanguagesJson___children___internal___ignoreType',
-    ChildrenLanguagesJsonChildrenInternalMediaType = 'childrenLanguagesJson___children___internal___mediaType',
-    ChildrenLanguagesJsonChildrenInternalOwner = 'childrenLanguagesJson___children___internal___owner',
-    ChildrenLanguagesJsonChildrenInternalType = 'childrenLanguagesJson___children___internal___type',
-    ChildrenLanguagesJsonInternalContent = 'childrenLanguagesJson___internal___content',
-    ChildrenLanguagesJsonInternalContentDigest = 'childrenLanguagesJson___internal___contentDigest',
-    ChildrenLanguagesJsonInternalDescription = 'childrenLanguagesJson___internal___description',
-    ChildrenLanguagesJsonInternalFieldOwners = 'childrenLanguagesJson___internal___fieldOwners',
-    ChildrenLanguagesJsonInternalIgnoreType = 'childrenLanguagesJson___internal___ignoreType',
-    ChildrenLanguagesJsonInternalMediaType = 'childrenLanguagesJson___internal___mediaType',
-    ChildrenLanguagesJsonInternalOwner = 'childrenLanguagesJson___internal___owner',
-    ChildrenLanguagesJsonInternalType = 'childrenLanguagesJson___internal___type',
-    ChildrenLanguagesJsonImg = 'childrenLanguagesJson___img',
-    ChildrenLanguagesJsonName = 'childrenLanguagesJson___name',
-    ChildrenLanguagesJsonProficiencyLevel = 'childrenLanguagesJson___proficiencyLevel',
-    ChildrenLanguagesJsonSortOrder = 'childrenLanguagesJson___sortOrder',
+    ChildrenInterestsJson = 'childrenInterestsJson',
+    ChildrenInterestsJsonId = 'childrenInterestsJson___id',
+    ChildrenInterestsJsonParentId = 'childrenInterestsJson___parent___id',
+    ChildrenInterestsJsonParentParentId = 'childrenInterestsJson___parent___parent___id',
+    ChildrenInterestsJsonParentParentChildren = 'childrenInterestsJson___parent___parent___children',
+    ChildrenInterestsJsonParentChildren = 'childrenInterestsJson___parent___children',
+    ChildrenInterestsJsonParentChildrenId = 'childrenInterestsJson___parent___children___id',
+    ChildrenInterestsJsonParentChildrenChildren = 'childrenInterestsJson___parent___children___children',
+    ChildrenInterestsJsonParentInternalContent = 'childrenInterestsJson___parent___internal___content',
+    ChildrenInterestsJsonParentInternalContentDigest = 'childrenInterestsJson___parent___internal___contentDigest',
+    ChildrenInterestsJsonParentInternalDescription = 'childrenInterestsJson___parent___internal___description',
+    ChildrenInterestsJsonParentInternalFieldOwners = 'childrenInterestsJson___parent___internal___fieldOwners',
+    ChildrenInterestsJsonParentInternalIgnoreType = 'childrenInterestsJson___parent___internal___ignoreType',
+    ChildrenInterestsJsonParentInternalMediaType = 'childrenInterestsJson___parent___internal___mediaType',
+    ChildrenInterestsJsonParentInternalOwner = 'childrenInterestsJson___parent___internal___owner',
+    ChildrenInterestsJsonParentInternalType = 'childrenInterestsJson___parent___internal___type',
+    ChildrenInterestsJsonChildren = 'childrenInterestsJson___children',
+    ChildrenInterestsJsonChildrenId = 'childrenInterestsJson___children___id',
+    ChildrenInterestsJsonChildrenParentId = 'childrenInterestsJson___children___parent___id',
+    ChildrenInterestsJsonChildrenParentChildren = 'childrenInterestsJson___children___parent___children',
+    ChildrenInterestsJsonChildrenChildren = 'childrenInterestsJson___children___children',
+    ChildrenInterestsJsonChildrenChildrenId = 'childrenInterestsJson___children___children___id',
+    ChildrenInterestsJsonChildrenChildrenChildren = 'childrenInterestsJson___children___children___children',
+    ChildrenInterestsJsonChildrenInternalContent = 'childrenInterestsJson___children___internal___content',
+    ChildrenInterestsJsonChildrenInternalContentDigest = 'childrenInterestsJson___children___internal___contentDigest',
+    ChildrenInterestsJsonChildrenInternalDescription = 'childrenInterestsJson___children___internal___description',
+    ChildrenInterestsJsonChildrenInternalFieldOwners = 'childrenInterestsJson___children___internal___fieldOwners',
+    ChildrenInterestsJsonChildrenInternalIgnoreType = 'childrenInterestsJson___children___internal___ignoreType',
+    ChildrenInterestsJsonChildrenInternalMediaType = 'childrenInterestsJson___children___internal___mediaType',
+    ChildrenInterestsJsonChildrenInternalOwner = 'childrenInterestsJson___children___internal___owner',
+    ChildrenInterestsJsonChildrenInternalType = 'childrenInterestsJson___children___internal___type',
+    ChildrenInterestsJsonInternalContent = 'childrenInterestsJson___internal___content',
+    ChildrenInterestsJsonInternalContentDigest = 'childrenInterestsJson___internal___contentDigest',
+    ChildrenInterestsJsonInternalDescription = 'childrenInterestsJson___internal___description',
+    ChildrenInterestsJsonInternalFieldOwners = 'childrenInterestsJson___internal___fieldOwners',
+    ChildrenInterestsJsonInternalIgnoreType = 'childrenInterestsJson___internal___ignoreType',
+    ChildrenInterestsJsonInternalMediaType = 'childrenInterestsJson___internal___mediaType',
+    ChildrenInterestsJsonInternalOwner = 'childrenInterestsJson___internal___owner',
+    ChildrenInterestsJsonInternalType = 'childrenInterestsJson___internal___type',
+    ChildrenInterestsJsonName = 'childrenInterestsJson___name',
+    ChildrenInterestsJsonSortOrder = 'childrenInterestsJson___sortOrder',
     ChildrenExperiencesJson = 'childrenExperiencesJson',
     ChildrenExperiencesJsonId = 'childrenExperiencesJson___id',
     ChildrenExperiencesJsonParentId = 'childrenExperiencesJson___parent___id',
@@ -1137,50 +1135,49 @@ declare module GraphQL {
     ChildrenExperiencesJsonProjectsTasks = 'childrenExperiencesJson___projects___tasks',
     ChildrenExperiencesJsonProjectsTechnologies = 'childrenExperiencesJson___projects___technologies',
     ChildrenExperiencesJsonStartDate = 'childrenExperiencesJson___startDate',
-    ChildrenEducationJson = 'childrenEducationJson',
-    ChildrenEducationJsonId = 'childrenEducationJson___id',
-    ChildrenEducationJsonParentId = 'childrenEducationJson___parent___id',
-    ChildrenEducationJsonParentParentId = 'childrenEducationJson___parent___parent___id',
-    ChildrenEducationJsonParentParentChildren = 'childrenEducationJson___parent___parent___children',
-    ChildrenEducationJsonParentChildren = 'childrenEducationJson___parent___children',
-    ChildrenEducationJsonParentChildrenId = 'childrenEducationJson___parent___children___id',
-    ChildrenEducationJsonParentChildrenChildren = 'childrenEducationJson___parent___children___children',
-    ChildrenEducationJsonParentInternalContent = 'childrenEducationJson___parent___internal___content',
-    ChildrenEducationJsonParentInternalContentDigest = 'childrenEducationJson___parent___internal___contentDigest',
-    ChildrenEducationJsonParentInternalDescription = 'childrenEducationJson___parent___internal___description',
-    ChildrenEducationJsonParentInternalFieldOwners = 'childrenEducationJson___parent___internal___fieldOwners',
-    ChildrenEducationJsonParentInternalIgnoreType = 'childrenEducationJson___parent___internal___ignoreType',
-    ChildrenEducationJsonParentInternalMediaType = 'childrenEducationJson___parent___internal___mediaType',
-    ChildrenEducationJsonParentInternalOwner = 'childrenEducationJson___parent___internal___owner',
-    ChildrenEducationJsonParentInternalType = 'childrenEducationJson___parent___internal___type',
-    ChildrenEducationJsonChildren = 'childrenEducationJson___children',
-    ChildrenEducationJsonChildrenId = 'childrenEducationJson___children___id',
-    ChildrenEducationJsonChildrenParentId = 'childrenEducationJson___children___parent___id',
-    ChildrenEducationJsonChildrenParentChildren = 'childrenEducationJson___children___parent___children',
-    ChildrenEducationJsonChildrenChildren = 'childrenEducationJson___children___children',
-    ChildrenEducationJsonChildrenChildrenId = 'childrenEducationJson___children___children___id',
-    ChildrenEducationJsonChildrenChildrenChildren = 'childrenEducationJson___children___children___children',
-    ChildrenEducationJsonChildrenInternalContent = 'childrenEducationJson___children___internal___content',
-    ChildrenEducationJsonChildrenInternalContentDigest = 'childrenEducationJson___children___internal___contentDigest',
-    ChildrenEducationJsonChildrenInternalDescription = 'childrenEducationJson___children___internal___description',
-    ChildrenEducationJsonChildrenInternalFieldOwners = 'childrenEducationJson___children___internal___fieldOwners',
-    ChildrenEducationJsonChildrenInternalIgnoreType = 'childrenEducationJson___children___internal___ignoreType',
-    ChildrenEducationJsonChildrenInternalMediaType = 'childrenEducationJson___children___internal___mediaType',
-    ChildrenEducationJsonChildrenInternalOwner = 'childrenEducationJson___children___internal___owner',
-    ChildrenEducationJsonChildrenInternalType = 'childrenEducationJson___children___internal___type',
-    ChildrenEducationJsonInternalContent = 'childrenEducationJson___internal___content',
-    ChildrenEducationJsonInternalContentDigest = 'childrenEducationJson___internal___contentDigest',
-    ChildrenEducationJsonInternalDescription = 'childrenEducationJson___internal___description',
-    ChildrenEducationJsonInternalFieldOwners = 'childrenEducationJson___internal___fieldOwners',
-    ChildrenEducationJsonInternalIgnoreType = 'childrenEducationJson___internal___ignoreType',
-    ChildrenEducationJsonInternalMediaType = 'childrenEducationJson___internal___mediaType',
-    ChildrenEducationJsonInternalOwner = 'childrenEducationJson___internal___owner',
-    ChildrenEducationJsonInternalType = 'childrenEducationJson___internal___type',
-    ChildrenEducationJsonCity = 'childrenEducationJson___city',
-    ChildrenEducationJsonCountryCode = 'childrenEducationJson___countryCode',
-    ChildrenEducationJsonIssueDate = 'childrenEducationJson___issueDate',
-    ChildrenEducationJsonName = 'childrenEducationJson___name',
-    ChildrenEducationJsonSchool = 'childrenEducationJson___school',
+    ChildrenLanguagesJson = 'childrenLanguagesJson',
+    ChildrenLanguagesJsonId = 'childrenLanguagesJson___id',
+    ChildrenLanguagesJsonParentId = 'childrenLanguagesJson___parent___id',
+    ChildrenLanguagesJsonParentParentId = 'childrenLanguagesJson___parent___parent___id',
+    ChildrenLanguagesJsonParentParentChildren = 'childrenLanguagesJson___parent___parent___children',
+    ChildrenLanguagesJsonParentChildren = 'childrenLanguagesJson___parent___children',
+    ChildrenLanguagesJsonParentChildrenId = 'childrenLanguagesJson___parent___children___id',
+    ChildrenLanguagesJsonParentChildrenChildren = 'childrenLanguagesJson___parent___children___children',
+    ChildrenLanguagesJsonParentInternalContent = 'childrenLanguagesJson___parent___internal___content',
+    ChildrenLanguagesJsonParentInternalContentDigest = 'childrenLanguagesJson___parent___internal___contentDigest',
+    ChildrenLanguagesJsonParentInternalDescription = 'childrenLanguagesJson___parent___internal___description',
+    ChildrenLanguagesJsonParentInternalFieldOwners = 'childrenLanguagesJson___parent___internal___fieldOwners',
+    ChildrenLanguagesJsonParentInternalIgnoreType = 'childrenLanguagesJson___parent___internal___ignoreType',
+    ChildrenLanguagesJsonParentInternalMediaType = 'childrenLanguagesJson___parent___internal___mediaType',
+    ChildrenLanguagesJsonParentInternalOwner = 'childrenLanguagesJson___parent___internal___owner',
+    ChildrenLanguagesJsonParentInternalType = 'childrenLanguagesJson___parent___internal___type',
+    ChildrenLanguagesJsonChildren = 'childrenLanguagesJson___children',
+    ChildrenLanguagesJsonChildrenId = 'childrenLanguagesJson___children___id',
+    ChildrenLanguagesJsonChildrenParentId = 'childrenLanguagesJson___children___parent___id',
+    ChildrenLanguagesJsonChildrenParentChildren = 'childrenLanguagesJson___children___parent___children',
+    ChildrenLanguagesJsonChildrenChildren = 'childrenLanguagesJson___children___children',
+    ChildrenLanguagesJsonChildrenChildrenId = 'childrenLanguagesJson___children___children___id',
+    ChildrenLanguagesJsonChildrenChildrenChildren = 'childrenLanguagesJson___children___children___children',
+    ChildrenLanguagesJsonChildrenInternalContent = 'childrenLanguagesJson___children___internal___content',
+    ChildrenLanguagesJsonChildrenInternalContentDigest = 'childrenLanguagesJson___children___internal___contentDigest',
+    ChildrenLanguagesJsonChildrenInternalDescription = 'childrenLanguagesJson___children___internal___description',
+    ChildrenLanguagesJsonChildrenInternalFieldOwners = 'childrenLanguagesJson___children___internal___fieldOwners',
+    ChildrenLanguagesJsonChildrenInternalIgnoreType = 'childrenLanguagesJson___children___internal___ignoreType',
+    ChildrenLanguagesJsonChildrenInternalMediaType = 'childrenLanguagesJson___children___internal___mediaType',
+    ChildrenLanguagesJsonChildrenInternalOwner = 'childrenLanguagesJson___children___internal___owner',
+    ChildrenLanguagesJsonChildrenInternalType = 'childrenLanguagesJson___children___internal___type',
+    ChildrenLanguagesJsonInternalContent = 'childrenLanguagesJson___internal___content',
+    ChildrenLanguagesJsonInternalContentDigest = 'childrenLanguagesJson___internal___contentDigest',
+    ChildrenLanguagesJsonInternalDescription = 'childrenLanguagesJson___internal___description',
+    ChildrenLanguagesJsonInternalFieldOwners = 'childrenLanguagesJson___internal___fieldOwners',
+    ChildrenLanguagesJsonInternalIgnoreType = 'childrenLanguagesJson___internal___ignoreType',
+    ChildrenLanguagesJsonInternalMediaType = 'childrenLanguagesJson___internal___mediaType',
+    ChildrenLanguagesJsonInternalOwner = 'childrenLanguagesJson___internal___owner',
+    ChildrenLanguagesJsonInternalType = 'childrenLanguagesJson___internal___type',
+    ChildrenLanguagesJsonImg = 'childrenLanguagesJson___img',
+    ChildrenLanguagesJsonName = 'childrenLanguagesJson___name',
+    ChildrenLanguagesJsonProficiencyLevel = 'childrenLanguagesJson___proficiencyLevel',
+    ChildrenLanguagesJsonSortOrder = 'childrenLanguagesJson___sortOrder',
     ChildrenSkillsJson = 'childrenSkillsJson',
     ChildrenSkillsJsonId = 'childrenSkillsJson___id',
     ChildrenSkillsJsonParentId = 'childrenSkillsJson___parent___id',
@@ -1227,90 +1224,50 @@ declare module GraphQL {
     ChildrenSkillsJsonItemsProficiencyLevel = 'childrenSkillsJson___items___proficiencyLevel',
     ChildrenSkillsJsonItemsSortOrder = 'childrenSkillsJson___items___sortOrder',
     ChildrenSkillsJsonItemsSection = 'childrenSkillsJson___items___section',
-    ChildrenInterestsJson = 'childrenInterestsJson',
-    ChildrenInterestsJsonId = 'childrenInterestsJson___id',
-    ChildrenInterestsJsonParentId = 'childrenInterestsJson___parent___id',
-    ChildrenInterestsJsonParentParentId = 'childrenInterestsJson___parent___parent___id',
-    ChildrenInterestsJsonParentParentChildren = 'childrenInterestsJson___parent___parent___children',
-    ChildrenInterestsJsonParentChildren = 'childrenInterestsJson___parent___children',
-    ChildrenInterestsJsonParentChildrenId = 'childrenInterestsJson___parent___children___id',
-    ChildrenInterestsJsonParentChildrenChildren = 'childrenInterestsJson___parent___children___children',
-    ChildrenInterestsJsonParentInternalContent = 'childrenInterestsJson___parent___internal___content',
-    ChildrenInterestsJsonParentInternalContentDigest = 'childrenInterestsJson___parent___internal___contentDigest',
-    ChildrenInterestsJsonParentInternalDescription = 'childrenInterestsJson___parent___internal___description',
-    ChildrenInterestsJsonParentInternalFieldOwners = 'childrenInterestsJson___parent___internal___fieldOwners',
-    ChildrenInterestsJsonParentInternalIgnoreType = 'childrenInterestsJson___parent___internal___ignoreType',
-    ChildrenInterestsJsonParentInternalMediaType = 'childrenInterestsJson___parent___internal___mediaType',
-    ChildrenInterestsJsonParentInternalOwner = 'childrenInterestsJson___parent___internal___owner',
-    ChildrenInterestsJsonParentInternalType = 'childrenInterestsJson___parent___internal___type',
-    ChildrenInterestsJsonChildren = 'childrenInterestsJson___children',
-    ChildrenInterestsJsonChildrenId = 'childrenInterestsJson___children___id',
-    ChildrenInterestsJsonChildrenParentId = 'childrenInterestsJson___children___parent___id',
-    ChildrenInterestsJsonChildrenParentChildren = 'childrenInterestsJson___children___parent___children',
-    ChildrenInterestsJsonChildrenChildren = 'childrenInterestsJson___children___children',
-    ChildrenInterestsJsonChildrenChildrenId = 'childrenInterestsJson___children___children___id',
-    ChildrenInterestsJsonChildrenChildrenChildren = 'childrenInterestsJson___children___children___children',
-    ChildrenInterestsJsonChildrenInternalContent = 'childrenInterestsJson___children___internal___content',
-    ChildrenInterestsJsonChildrenInternalContentDigest = 'childrenInterestsJson___children___internal___contentDigest',
-    ChildrenInterestsJsonChildrenInternalDescription = 'childrenInterestsJson___children___internal___description',
-    ChildrenInterestsJsonChildrenInternalFieldOwners = 'childrenInterestsJson___children___internal___fieldOwners',
-    ChildrenInterestsJsonChildrenInternalIgnoreType = 'childrenInterestsJson___children___internal___ignoreType',
-    ChildrenInterestsJsonChildrenInternalMediaType = 'childrenInterestsJson___children___internal___mediaType',
-    ChildrenInterestsJsonChildrenInternalOwner = 'childrenInterestsJson___children___internal___owner',
-    ChildrenInterestsJsonChildrenInternalType = 'childrenInterestsJson___children___internal___type',
-    ChildrenInterestsJsonInternalContent = 'childrenInterestsJson___internal___content',
-    ChildrenInterestsJsonInternalContentDigest = 'childrenInterestsJson___internal___contentDigest',
-    ChildrenInterestsJsonInternalDescription = 'childrenInterestsJson___internal___description',
-    ChildrenInterestsJsonInternalFieldOwners = 'childrenInterestsJson___internal___fieldOwners',
-    ChildrenInterestsJsonInternalIgnoreType = 'childrenInterestsJson___internal___ignoreType',
-    ChildrenInterestsJsonInternalMediaType = 'childrenInterestsJson___internal___mediaType',
-    ChildrenInterestsJsonInternalOwner = 'childrenInterestsJson___internal___owner',
-    ChildrenInterestsJsonInternalType = 'childrenInterestsJson___internal___type',
-    ChildrenInterestsJsonName = 'childrenInterestsJson___name',
-    ChildrenInterestsJsonSortOrder = 'childrenInterestsJson___sortOrder',
-    ChildrenToolboxJson = 'childrenToolboxJson',
-    ChildrenToolboxJsonId = 'childrenToolboxJson___id',
-    ChildrenToolboxJsonParentId = 'childrenToolboxJson___parent___id',
-    ChildrenToolboxJsonParentParentId = 'childrenToolboxJson___parent___parent___id',
-    ChildrenToolboxJsonParentParentChildren = 'childrenToolboxJson___parent___parent___children',
-    ChildrenToolboxJsonParentChildren = 'childrenToolboxJson___parent___children',
-    ChildrenToolboxJsonParentChildrenId = 'childrenToolboxJson___parent___children___id',
-    ChildrenToolboxJsonParentChildrenChildren = 'childrenToolboxJson___parent___children___children',
-    ChildrenToolboxJsonParentInternalContent = 'childrenToolboxJson___parent___internal___content',
-    ChildrenToolboxJsonParentInternalContentDigest = 'childrenToolboxJson___parent___internal___contentDigest',
-    ChildrenToolboxJsonParentInternalDescription = 'childrenToolboxJson___parent___internal___description',
-    ChildrenToolboxJsonParentInternalFieldOwners = 'childrenToolboxJson___parent___internal___fieldOwners',
-    ChildrenToolboxJsonParentInternalIgnoreType = 'childrenToolboxJson___parent___internal___ignoreType',
-    ChildrenToolboxJsonParentInternalMediaType = 'childrenToolboxJson___parent___internal___mediaType',
-    ChildrenToolboxJsonParentInternalOwner = 'childrenToolboxJson___parent___internal___owner',
-    ChildrenToolboxJsonParentInternalType = 'childrenToolboxJson___parent___internal___type',
-    ChildrenToolboxJsonChildren = 'childrenToolboxJson___children',
-    ChildrenToolboxJsonChildrenId = 'childrenToolboxJson___children___id',
-    ChildrenToolboxJsonChildrenParentId = 'childrenToolboxJson___children___parent___id',
-    ChildrenToolboxJsonChildrenParentChildren = 'childrenToolboxJson___children___parent___children',
-    ChildrenToolboxJsonChildrenChildren = 'childrenToolboxJson___children___children',
-    ChildrenToolboxJsonChildrenChildrenId = 'childrenToolboxJson___children___children___id',
-    ChildrenToolboxJsonChildrenChildrenChildren = 'childrenToolboxJson___children___children___children',
-    ChildrenToolboxJsonChildrenInternalContent = 'childrenToolboxJson___children___internal___content',
-    ChildrenToolboxJsonChildrenInternalContentDigest = 'childrenToolboxJson___children___internal___contentDigest',
-    ChildrenToolboxJsonChildrenInternalDescription = 'childrenToolboxJson___children___internal___description',
-    ChildrenToolboxJsonChildrenInternalFieldOwners = 'childrenToolboxJson___children___internal___fieldOwners',
-    ChildrenToolboxJsonChildrenInternalIgnoreType = 'childrenToolboxJson___children___internal___ignoreType',
-    ChildrenToolboxJsonChildrenInternalMediaType = 'childrenToolboxJson___children___internal___mediaType',
-    ChildrenToolboxJsonChildrenInternalOwner = 'childrenToolboxJson___children___internal___owner',
-    ChildrenToolboxJsonChildrenInternalType = 'childrenToolboxJson___children___internal___type',
-    ChildrenToolboxJsonInternalContent = 'childrenToolboxJson___internal___content',
-    ChildrenToolboxJsonInternalContentDigest = 'childrenToolboxJson___internal___contentDigest',
-    ChildrenToolboxJsonInternalDescription = 'childrenToolboxJson___internal___description',
-    ChildrenToolboxJsonInternalFieldOwners = 'childrenToolboxJson___internal___fieldOwners',
-    ChildrenToolboxJsonInternalIgnoreType = 'childrenToolboxJson___internal___ignoreType',
-    ChildrenToolboxJsonInternalMediaType = 'childrenToolboxJson___internal___mediaType',
-    ChildrenToolboxJsonInternalOwner = 'childrenToolboxJson___internal___owner',
-    ChildrenToolboxJsonInternalType = 'childrenToolboxJson___internal___type',
-    ChildrenToolboxJsonImg = 'childrenToolboxJson___img',
-    ChildrenToolboxJsonLink = 'childrenToolboxJson___link',
-    ChildrenToolboxJsonName = 'childrenToolboxJson___name',
-    ChildrenToolboxJsonSortOrder = 'childrenToolboxJson___sortOrder',
+    ChildrenEducationJson = 'childrenEducationJson',
+    ChildrenEducationJsonId = 'childrenEducationJson___id',
+    ChildrenEducationJsonParentId = 'childrenEducationJson___parent___id',
+    ChildrenEducationJsonParentParentId = 'childrenEducationJson___parent___parent___id',
+    ChildrenEducationJsonParentParentChildren = 'childrenEducationJson___parent___parent___children',
+    ChildrenEducationJsonParentChildren = 'childrenEducationJson___parent___children',
+    ChildrenEducationJsonParentChildrenId = 'childrenEducationJson___parent___children___id',
+    ChildrenEducationJsonParentChildrenChildren = 'childrenEducationJson___parent___children___children',
+    ChildrenEducationJsonParentInternalContent = 'childrenEducationJson___parent___internal___content',
+    ChildrenEducationJsonParentInternalContentDigest = 'childrenEducationJson___parent___internal___contentDigest',
+    ChildrenEducationJsonParentInternalDescription = 'childrenEducationJson___parent___internal___description',
+    ChildrenEducationJsonParentInternalFieldOwners = 'childrenEducationJson___parent___internal___fieldOwners',
+    ChildrenEducationJsonParentInternalIgnoreType = 'childrenEducationJson___parent___internal___ignoreType',
+    ChildrenEducationJsonParentInternalMediaType = 'childrenEducationJson___parent___internal___mediaType',
+    ChildrenEducationJsonParentInternalOwner = 'childrenEducationJson___parent___internal___owner',
+    ChildrenEducationJsonParentInternalType = 'childrenEducationJson___parent___internal___type',
+    ChildrenEducationJsonChildren = 'childrenEducationJson___children',
+    ChildrenEducationJsonChildrenId = 'childrenEducationJson___children___id',
+    ChildrenEducationJsonChildrenParentId = 'childrenEducationJson___children___parent___id',
+    ChildrenEducationJsonChildrenParentChildren = 'childrenEducationJson___children___parent___children',
+    ChildrenEducationJsonChildrenChildren = 'childrenEducationJson___children___children',
+    ChildrenEducationJsonChildrenChildrenId = 'childrenEducationJson___children___children___id',
+    ChildrenEducationJsonChildrenChildrenChildren = 'childrenEducationJson___children___children___children',
+    ChildrenEducationJsonChildrenInternalContent = 'childrenEducationJson___children___internal___content',
+    ChildrenEducationJsonChildrenInternalContentDigest = 'childrenEducationJson___children___internal___contentDigest',
+    ChildrenEducationJsonChildrenInternalDescription = 'childrenEducationJson___children___internal___description',
+    ChildrenEducationJsonChildrenInternalFieldOwners = 'childrenEducationJson___children___internal___fieldOwners',
+    ChildrenEducationJsonChildrenInternalIgnoreType = 'childrenEducationJson___children___internal___ignoreType',
+    ChildrenEducationJsonChildrenInternalMediaType = 'childrenEducationJson___children___internal___mediaType',
+    ChildrenEducationJsonChildrenInternalOwner = 'childrenEducationJson___children___internal___owner',
+    ChildrenEducationJsonChildrenInternalType = 'childrenEducationJson___children___internal___type',
+    ChildrenEducationJsonInternalContent = 'childrenEducationJson___internal___content',
+    ChildrenEducationJsonInternalContentDigest = 'childrenEducationJson___internal___contentDigest',
+    ChildrenEducationJsonInternalDescription = 'childrenEducationJson___internal___description',
+    ChildrenEducationJsonInternalFieldOwners = 'childrenEducationJson___internal___fieldOwners',
+    ChildrenEducationJsonInternalIgnoreType = 'childrenEducationJson___internal___ignoreType',
+    ChildrenEducationJsonInternalMediaType = 'childrenEducationJson___internal___mediaType',
+    ChildrenEducationJsonInternalOwner = 'childrenEducationJson___internal___owner',
+    ChildrenEducationJsonInternalType = 'childrenEducationJson___internal___type',
+    ChildrenEducationJsonCity = 'childrenEducationJson___city',
+    ChildrenEducationJsonCountryCode = 'childrenEducationJson___countryCode',
+    ChildrenEducationJsonIssueDate = 'childrenEducationJson___issueDate',
+    ChildrenEducationJsonName = 'childrenEducationJson___name',
+    ChildrenEducationJsonSchool = 'childrenEducationJson___school',
     ChildPersonalDetailsJsonId = 'childPersonalDetailsJson___id',
     ChildPersonalDetailsJsonParentId = 'childPersonalDetailsJson___parent___id',
     ChildPersonalDetailsJsonParentParentId = 'childPersonalDetailsJson___parent___parent___id',
@@ -1361,6 +1318,49 @@ declare module GraphQL {
     ChildPersonalDetailsJsonPersonalInformationSortOrder = 'childPersonalDetailsJson___personalInformation___sortOrder',
     ChildPersonalDetailsJsonPersonalInformationValue = 'childPersonalDetailsJson___personalInformation___value',
     ChildPersonalDetailsJsonTwitterUsername = 'childPersonalDetailsJson___twitterUsername',
+    ChildrenToolboxJson = 'childrenToolboxJson',
+    ChildrenToolboxJsonId = 'childrenToolboxJson___id',
+    ChildrenToolboxJsonParentId = 'childrenToolboxJson___parent___id',
+    ChildrenToolboxJsonParentParentId = 'childrenToolboxJson___parent___parent___id',
+    ChildrenToolboxJsonParentParentChildren = 'childrenToolboxJson___parent___parent___children',
+    ChildrenToolboxJsonParentChildren = 'childrenToolboxJson___parent___children',
+    ChildrenToolboxJsonParentChildrenId = 'childrenToolboxJson___parent___children___id',
+    ChildrenToolboxJsonParentChildrenChildren = 'childrenToolboxJson___parent___children___children',
+    ChildrenToolboxJsonParentInternalContent = 'childrenToolboxJson___parent___internal___content',
+    ChildrenToolboxJsonParentInternalContentDigest = 'childrenToolboxJson___parent___internal___contentDigest',
+    ChildrenToolboxJsonParentInternalDescription = 'childrenToolboxJson___parent___internal___description',
+    ChildrenToolboxJsonParentInternalFieldOwners = 'childrenToolboxJson___parent___internal___fieldOwners',
+    ChildrenToolboxJsonParentInternalIgnoreType = 'childrenToolboxJson___parent___internal___ignoreType',
+    ChildrenToolboxJsonParentInternalMediaType = 'childrenToolboxJson___parent___internal___mediaType',
+    ChildrenToolboxJsonParentInternalOwner = 'childrenToolboxJson___parent___internal___owner',
+    ChildrenToolboxJsonParentInternalType = 'childrenToolboxJson___parent___internal___type',
+    ChildrenToolboxJsonChildren = 'childrenToolboxJson___children',
+    ChildrenToolboxJsonChildrenId = 'childrenToolboxJson___children___id',
+    ChildrenToolboxJsonChildrenParentId = 'childrenToolboxJson___children___parent___id',
+    ChildrenToolboxJsonChildrenParentChildren = 'childrenToolboxJson___children___parent___children',
+    ChildrenToolboxJsonChildrenChildren = 'childrenToolboxJson___children___children',
+    ChildrenToolboxJsonChildrenChildrenId = 'childrenToolboxJson___children___children___id',
+    ChildrenToolboxJsonChildrenChildrenChildren = 'childrenToolboxJson___children___children___children',
+    ChildrenToolboxJsonChildrenInternalContent = 'childrenToolboxJson___children___internal___content',
+    ChildrenToolboxJsonChildrenInternalContentDigest = 'childrenToolboxJson___children___internal___contentDigest',
+    ChildrenToolboxJsonChildrenInternalDescription = 'childrenToolboxJson___children___internal___description',
+    ChildrenToolboxJsonChildrenInternalFieldOwners = 'childrenToolboxJson___children___internal___fieldOwners',
+    ChildrenToolboxJsonChildrenInternalIgnoreType = 'childrenToolboxJson___children___internal___ignoreType',
+    ChildrenToolboxJsonChildrenInternalMediaType = 'childrenToolboxJson___children___internal___mediaType',
+    ChildrenToolboxJsonChildrenInternalOwner = 'childrenToolboxJson___children___internal___owner',
+    ChildrenToolboxJsonChildrenInternalType = 'childrenToolboxJson___children___internal___type',
+    ChildrenToolboxJsonInternalContent = 'childrenToolboxJson___internal___content',
+    ChildrenToolboxJsonInternalContentDigest = 'childrenToolboxJson___internal___contentDigest',
+    ChildrenToolboxJsonInternalDescription = 'childrenToolboxJson___internal___description',
+    ChildrenToolboxJsonInternalFieldOwners = 'childrenToolboxJson___internal___fieldOwners',
+    ChildrenToolboxJsonInternalIgnoreType = 'childrenToolboxJson___internal___ignoreType',
+    ChildrenToolboxJsonInternalMediaType = 'childrenToolboxJson___internal___mediaType',
+    ChildrenToolboxJsonInternalOwner = 'childrenToolboxJson___internal___owner',
+    ChildrenToolboxJsonInternalType = 'childrenToolboxJson___internal___type',
+    ChildrenToolboxJsonImg = 'childrenToolboxJson___img',
+    ChildrenToolboxJsonLink = 'childrenToolboxJson___link',
+    ChildrenToolboxJsonName = 'childrenToolboxJson___name',
+    ChildrenToolboxJsonSortOrder = 'childrenToolboxJson___sortOrder',
     ChildThemeJsonId = 'childThemeJson___id',
     ChildThemeJsonParentId = 'childThemeJson___parent___id',
     ChildThemeJsonParentParentId = 'childThemeJson___parent___parent___id',
@@ -1399,42 +1399,37 @@ declare module GraphQL {
     ChildThemeJsonInternalMediaType = 'childThemeJson___internal___mediaType',
     ChildThemeJsonInternalOwner = 'childThemeJson___internal___owner',
     ChildThemeJsonInternalType = 'childThemeJson___internal___type',
-    ChildThemeJsonDarkColorsBackground = 'childThemeJson___dark___colors___background',
-    ChildThemeJsonDarkColorsBody1 = 'childThemeJson___dark___colors___body1',
-    ChildThemeJsonDarkColorsBody2 = 'childThemeJson___dark___colors___body2',
-    ChildThemeJsonDarkColorsCaption = 'childThemeJson___dark___colors___caption',
-    ChildThemeJsonDarkColorsDark = 'childThemeJson___dark___colors___dark',
-    ChildThemeJsonDarkColorsError = 'childThemeJson___dark___colors___error',
-    ChildThemeJsonDarkColorsInfo = 'childThemeJson___dark___colors___info',
-    ChildThemeJsonDarkColorsPrimary = 'childThemeJson___dark___colors___primary',
-    ChildThemeJsonDarkColorsSecondary = 'childThemeJson___dark___colors___secondary',
-    ChildThemeJsonDarkColorsSubtitle = 'childThemeJson___dark___colors___subtitle',
-    ChildThemeJsonDarkColorsSuccess = 'childThemeJson___dark___colors___success',
-    ChildThemeJsonDarkColorsText = 'childThemeJson___dark___colors___text',
-    ChildThemeJsonDarkColorsWhite = 'childThemeJson___dark___colors___white',
-    ChildThemeJsonDarkFontsMain = 'childThemeJson___dark___fonts___main',
-    ChildThemeJsonDarkFontsTitle = 'childThemeJson___dark___fonts___title',
-    ChildThemeJsonDarkFontWeightsBold = 'childThemeJson___dark___fontWeights___bold',
-    ChildThemeJsonDarkFontWeightsBolder = 'childThemeJson___dark___fontWeights___bolder',
-    ChildThemeJsonDarkFontWeightsRegular = 'childThemeJson___dark___fontWeights___regular',
-    ChildThemeJsonLightColorsBackground = 'childThemeJson___light___colors___background',
-    ChildThemeJsonLightColorsBody1 = 'childThemeJson___light___colors___body1',
-    ChildThemeJsonLightColorsBody2 = 'childThemeJson___light___colors___body2',
-    ChildThemeJsonLightColorsCaption = 'childThemeJson___light___colors___caption',
-    ChildThemeJsonLightColorsDark = 'childThemeJson___light___colors___dark',
-    ChildThemeJsonLightColorsError = 'childThemeJson___light___colors___error',
-    ChildThemeJsonLightColorsInfo = 'childThemeJson___light___colors___info',
-    ChildThemeJsonLightColorsPrimary = 'childThemeJson___light___colors___primary',
-    ChildThemeJsonLightColorsSecondary = 'childThemeJson___light___colors___secondary',
-    ChildThemeJsonLightColorsSubtitle = 'childThemeJson___light___colors___subtitle',
-    ChildThemeJsonLightColorsSuccess = 'childThemeJson___light___colors___success',
-    ChildThemeJsonLightColorsText = 'childThemeJson___light___colors___text',
-    ChildThemeJsonLightColorsWhite = 'childThemeJson___light___colors___white',
-    ChildThemeJsonLightFontsMain = 'childThemeJson___light___fonts___main',
-    ChildThemeJsonLightFontsTitle = 'childThemeJson___light___fonts___title',
-    ChildThemeJsonLightFontWeightsBold = 'childThemeJson___light___fontWeights___bold',
-    ChildThemeJsonLightFontWeightsBolder = 'childThemeJson___light___fontWeights___bolder',
-    ChildThemeJsonLightFontWeightsRegular = 'childThemeJson___light___fontWeights___regular',
+    ChildThemeJsonColorsDarkBackground = 'childThemeJson___colors___dark___background',
+    ChildThemeJsonColorsDarkBody1 = 'childThemeJson___colors___dark___body1',
+    ChildThemeJsonColorsDarkBody2 = 'childThemeJson___colors___dark___body2',
+    ChildThemeJsonColorsDarkCaption = 'childThemeJson___colors___dark___caption',
+    ChildThemeJsonColorsDarkDark = 'childThemeJson___colors___dark___dark',
+    ChildThemeJsonColorsDarkError = 'childThemeJson___colors___dark___error',
+    ChildThemeJsonColorsDarkInfo = 'childThemeJson___colors___dark___info',
+    ChildThemeJsonColorsDarkPrimary = 'childThemeJson___colors___dark___primary',
+    ChildThemeJsonColorsDarkSecondary = 'childThemeJson___colors___dark___secondary',
+    ChildThemeJsonColorsDarkSubtitle = 'childThemeJson___colors___dark___subtitle',
+    ChildThemeJsonColorsDarkSuccess = 'childThemeJson___colors___dark___success',
+    ChildThemeJsonColorsDarkText = 'childThemeJson___colors___dark___text',
+    ChildThemeJsonColorsDarkWhite = 'childThemeJson___colors___dark___white',
+    ChildThemeJsonColorsLightBackground = 'childThemeJson___colors___light___background',
+    ChildThemeJsonColorsLightBody1 = 'childThemeJson___colors___light___body1',
+    ChildThemeJsonColorsLightBody2 = 'childThemeJson___colors___light___body2',
+    ChildThemeJsonColorsLightCaption = 'childThemeJson___colors___light___caption',
+    ChildThemeJsonColorsLightDark = 'childThemeJson___colors___light___dark',
+    ChildThemeJsonColorsLightError = 'childThemeJson___colors___light___error',
+    ChildThemeJsonColorsLightInfo = 'childThemeJson___colors___light___info',
+    ChildThemeJsonColorsLightPrimary = 'childThemeJson___colors___light___primary',
+    ChildThemeJsonColorsLightSecondary = 'childThemeJson___colors___light___secondary',
+    ChildThemeJsonColorsLightSubtitle = 'childThemeJson___colors___light___subtitle',
+    ChildThemeJsonColorsLightSuccess = 'childThemeJson___colors___light___success',
+    ChildThemeJsonColorsLightText = 'childThemeJson___colors___light___text',
+    ChildThemeJsonColorsLightWhite = 'childThemeJson___colors___light___white',
+    ChildThemeJsonFontsMain = 'childThemeJson___fonts___main',
+    ChildThemeJsonFontsTitle = 'childThemeJson___fonts___title',
+    ChildThemeJsonFontWeightsBold = 'childThemeJson___fontWeights___bold',
+    ChildThemeJsonFontWeightsBolder = 'childThemeJson___fontWeights___bolder',
+    ChildThemeJsonFontWeightsRegular = 'childThemeJson___fontWeights___regular',
   }
 
   type FileFilterInput = {
@@ -1477,13 +1472,13 @@ declare module GraphQL {
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
-    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
-    childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
-    childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
-    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenInterestsJson?: Maybe<InterestsJsonFilterListInput>;
-    childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
+    childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
+    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
+    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
+    childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJsonFilterInput>;
+    childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
     childThemeJson?: Maybe<ThemeJsonFilterInput>;
   };
 
@@ -2610,20 +2605,20 @@ declare module GraphQL {
     allImageSharp: ImageSharpConnection;
     themeJson?: Maybe<ThemeJson>;
     allThemeJson: ThemeJsonConnection;
-    personalDetailsJson?: Maybe<PersonalDetailsJson>;
-    allPersonalDetailsJson: PersonalDetailsJsonConnection;
     toolboxJson?: Maybe<ToolboxJson>;
     allToolboxJson: ToolboxJsonConnection;
-    interestsJson?: Maybe<InterestsJson>;
-    allInterestsJson: InterestsJsonConnection;
+    personalDetailsJson?: Maybe<PersonalDetailsJson>;
+    allPersonalDetailsJson: PersonalDetailsJsonConnection;
+    educationJson?: Maybe<EducationJson>;
+    allEducationJson: EducationJsonConnection;
     skillsJson?: Maybe<SkillsJson>;
     allSkillsJson: SkillsJsonConnection;
     languagesJson?: Maybe<LanguagesJson>;
     allLanguagesJson: LanguagesJsonConnection;
-    educationJson?: Maybe<EducationJson>;
-    allEducationJson: EducationJsonConnection;
     experiencesJson?: Maybe<ExperiencesJson>;
     allExperiencesJson: ExperiencesJsonConnection;
+    interestsJson?: Maybe<InterestsJson>;
+    allInterestsJson: InterestsJsonConnection;
     siteBuildMetadata?: Maybe<SiteBuildMetadata>;
     allSiteBuildMetadata: SiteBuildMetadataConnection;
     sitePlugin?: Maybe<SitePlugin>;
@@ -2670,13 +2665,13 @@ declare module GraphQL {
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
-    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
-    childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
-    childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
-    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenInterestsJson?: Maybe<InterestsJsonFilterListInput>;
-    childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
+    childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
+    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
+    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
+    childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJsonFilterInput>;
+    childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
     childThemeJson?: Maybe<ThemeJsonFilterInput>;
   };
 
@@ -2740,14 +2735,14 @@ declare module GraphQL {
     internalComponentName?: Maybe<StringQueryOperatorInput>;
     componentChunkName?: Maybe<StringQueryOperatorInput>;
     matchPath?: Maybe<StringQueryOperatorInput>;
-    isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>;
-    pluginCreator?: Maybe<SitePluginFilterInput>;
-    pluginCreatorId?: Maybe<StringQueryOperatorInput>;
-    componentPath?: Maybe<StringQueryOperatorInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
+    isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>;
+    pluginCreator?: Maybe<SitePluginFilterInput>;
+    pluginCreatorId?: Maybe<StringQueryOperatorInput>;
+    componentPath?: Maybe<StringQueryOperatorInput>;
   };
 
   type QueryAllSitePageArgs = {
@@ -2762,6 +2757,8 @@ declare module GraphQL {
     siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
     port?: Maybe<IntQueryOperatorInput>;
     host?: Maybe<StringQueryOperatorInput>;
+    polyfill?: Maybe<BooleanQueryOperatorInput>;
+    pathPrefix?: Maybe<StringQueryOperatorInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
@@ -2800,13 +2797,32 @@ declare module GraphQL {
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
-    dark?: Maybe<ThemeJsonDarkFilterInput>;
-    light?: Maybe<ThemeJsonLightFilterInput>;
+    colors?: Maybe<ThemeJsonColorsFilterInput>;
+    fonts?: Maybe<ThemeJsonFontsFilterInput>;
+    fontWeights?: Maybe<ThemeJsonFontWeightsFilterInput>;
   };
 
   type QueryAllThemeJsonArgs = {
     filter?: Maybe<ThemeJsonFilterInput>;
     sort?: Maybe<ThemeJsonSortInput>;
+    skip?: Maybe<Scalars['Int']>;
+    limit?: Maybe<Scalars['Int']>;
+  };
+
+  type QueryToolboxJsonArgs = {
+    id?: Maybe<StringQueryOperatorInput>;
+    parent?: Maybe<NodeFilterInput>;
+    children?: Maybe<NodeFilterListInput>;
+    internal?: Maybe<InternalFilterInput>;
+    img?: Maybe<StringQueryOperatorInput>;
+    link?: Maybe<StringQueryOperatorInput>;
+    name?: Maybe<StringQueryOperatorInput>;
+    sortOrder?: Maybe<IntQueryOperatorInput>;
+  };
+
+  type QueryAllToolboxJsonArgs = {
+    filter?: Maybe<ToolboxJsonFilterInput>;
+    sort?: Maybe<ToolboxJsonSortInput>;
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
   };
@@ -2830,36 +2846,21 @@ declare module GraphQL {
     limit?: Maybe<Scalars['Int']>;
   };
 
-  type QueryToolboxJsonArgs = {
+  type QueryEducationJsonArgs = {
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
-    img?: Maybe<StringQueryOperatorInput>;
-    link?: Maybe<StringQueryOperatorInput>;
+    city?: Maybe<StringQueryOperatorInput>;
+    countryCode?: Maybe<StringQueryOperatorInput>;
+    issueDate?: Maybe<DateQueryOperatorInput>;
     name?: Maybe<StringQueryOperatorInput>;
-    sortOrder?: Maybe<IntQueryOperatorInput>;
+    school?: Maybe<StringQueryOperatorInput>;
   };
 
-  type QueryAllToolboxJsonArgs = {
-    filter?: Maybe<ToolboxJsonFilterInput>;
-    sort?: Maybe<ToolboxJsonSortInput>;
-    skip?: Maybe<Scalars['Int']>;
-    limit?: Maybe<Scalars['Int']>;
-  };
-
-  type QueryInterestsJsonArgs = {
-    id?: Maybe<StringQueryOperatorInput>;
-    parent?: Maybe<NodeFilterInput>;
-    children?: Maybe<NodeFilterListInput>;
-    internal?: Maybe<InternalFilterInput>;
-    name?: Maybe<StringQueryOperatorInput>;
-    sortOrder?: Maybe<IntQueryOperatorInput>;
-  };
-
-  type QueryAllInterestsJsonArgs = {
-    filter?: Maybe<InterestsJsonFilterInput>;
-    sort?: Maybe<InterestsJsonSortInput>;
+  type QueryAllEducationJsonArgs = {
+    filter?: Maybe<EducationJsonFilterInput>;
+    sort?: Maybe<EducationJsonSortInput>;
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
   };
@@ -2899,25 +2900,6 @@ declare module GraphQL {
     limit?: Maybe<Scalars['Int']>;
   };
 
-  type QueryEducationJsonArgs = {
-    id?: Maybe<StringQueryOperatorInput>;
-    parent?: Maybe<NodeFilterInput>;
-    children?: Maybe<NodeFilterListInput>;
-    internal?: Maybe<InternalFilterInput>;
-    city?: Maybe<StringQueryOperatorInput>;
-    countryCode?: Maybe<StringQueryOperatorInput>;
-    issueDate?: Maybe<DateQueryOperatorInput>;
-    name?: Maybe<StringQueryOperatorInput>;
-    school?: Maybe<StringQueryOperatorInput>;
-  };
-
-  type QueryAllEducationJsonArgs = {
-    filter?: Maybe<EducationJsonFilterInput>;
-    sort?: Maybe<EducationJsonSortInput>;
-    skip?: Maybe<Scalars['Int']>;
-    limit?: Maybe<Scalars['Int']>;
-  };
-
   type QueryExperiencesJsonArgs = {
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
@@ -2934,6 +2916,22 @@ declare module GraphQL {
   type QueryAllExperiencesJsonArgs = {
     filter?: Maybe<ExperiencesJsonFilterInput>;
     sort?: Maybe<ExperiencesJsonSortInput>;
+    skip?: Maybe<Scalars['Int']>;
+    limit?: Maybe<Scalars['Int']>;
+  };
+
+  type QueryInterestsJsonArgs = {
+    id?: Maybe<StringQueryOperatorInput>;
+    parent?: Maybe<NodeFilterInput>;
+    children?: Maybe<NodeFilterListInput>;
+    internal?: Maybe<InternalFilterInput>;
+    name?: Maybe<StringQueryOperatorInput>;
+    sortOrder?: Maybe<IntQueryOperatorInput>;
+  };
+
+  type QueryAllInterestsJsonArgs = {
+    filter?: Maybe<InterestsJsonFilterInput>;
+    sort?: Maybe<InterestsJsonSortInput>;
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
   };
@@ -2981,6 +2979,8 @@ declare module GraphQL {
     siteMetadata?: Maybe<SiteSiteMetadata>;
     port?: Maybe<Scalars['Int']>;
     host?: Maybe<Scalars['String']>;
+    polyfill?: Maybe<Scalars['Boolean']>;
+    pathPrefix?: Maybe<Scalars['String']>;
     id: Scalars['ID'];
     parent?: Maybe<Node>;
     children: Array<Node>;
@@ -3186,6 +3186,8 @@ declare module GraphQL {
     SiteMetadataVersion = 'siteMetadata___version',
     Port = 'port',
     Host = 'host',
+    Polyfill = 'polyfill',
+    PathPrefix = 'pathPrefix',
     Id = 'id',
     ParentId = 'parent___id',
     ParentParentId = 'parent___parent___id',
@@ -3279,6 +3281,8 @@ declare module GraphQL {
     siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
     port?: Maybe<IntQueryOperatorInput>;
     host?: Maybe<StringQueryOperatorInput>;
+    polyfill?: Maybe<BooleanQueryOperatorInput>;
+    pathPrefix?: Maybe<StringQueryOperatorInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
@@ -3300,14 +3304,14 @@ declare module GraphQL {
     internalComponentName: Scalars['String'];
     componentChunkName: Scalars['String'];
     matchPath?: Maybe<Scalars['String']>;
-    isCreatedByStatefulCreatePages?: Maybe<Scalars['Boolean']>;
-    pluginCreator?: Maybe<SitePlugin>;
-    pluginCreatorId?: Maybe<Scalars['String']>;
-    componentPath?: Maybe<Scalars['String']>;
     id: Scalars['ID'];
     parent?: Maybe<Node>;
     children: Array<Node>;
     internal: Internal;
+    isCreatedByStatefulCreatePages?: Maybe<Scalars['Boolean']>;
+    pluginCreator?: Maybe<SitePlugin>;
+    pluginCreatorId?: Maybe<Scalars['String']>;
+    componentPath?: Maybe<Scalars['String']>;
   };
 
   type SitePageConnection = {
@@ -3341,89 +3345,6 @@ declare module GraphQL {
     InternalComponentName = 'internalComponentName',
     ComponentChunkName = 'componentChunkName',
     MatchPath = 'matchPath',
-    IsCreatedByStatefulCreatePages = 'isCreatedByStatefulCreatePages',
-    PluginCreatorId = 'pluginCreator___id',
-    PluginCreatorParentId = 'pluginCreator___parent___id',
-    PluginCreatorParentParentId = 'pluginCreator___parent___parent___id',
-    PluginCreatorParentParentChildren = 'pluginCreator___parent___parent___children',
-    PluginCreatorParentChildren = 'pluginCreator___parent___children',
-    PluginCreatorParentChildrenId = 'pluginCreator___parent___children___id',
-    PluginCreatorParentChildrenChildren = 'pluginCreator___parent___children___children',
-    PluginCreatorParentInternalContent = 'pluginCreator___parent___internal___content',
-    PluginCreatorParentInternalContentDigest = 'pluginCreator___parent___internal___contentDigest',
-    PluginCreatorParentInternalDescription = 'pluginCreator___parent___internal___description',
-    PluginCreatorParentInternalFieldOwners = 'pluginCreator___parent___internal___fieldOwners',
-    PluginCreatorParentInternalIgnoreType = 'pluginCreator___parent___internal___ignoreType',
-    PluginCreatorParentInternalMediaType = 'pluginCreator___parent___internal___mediaType',
-    PluginCreatorParentInternalOwner = 'pluginCreator___parent___internal___owner',
-    PluginCreatorParentInternalType = 'pluginCreator___parent___internal___type',
-    PluginCreatorChildren = 'pluginCreator___children',
-    PluginCreatorChildrenId = 'pluginCreator___children___id',
-    PluginCreatorChildrenParentId = 'pluginCreator___children___parent___id',
-    PluginCreatorChildrenParentChildren = 'pluginCreator___children___parent___children',
-    PluginCreatorChildrenChildren = 'pluginCreator___children___children',
-    PluginCreatorChildrenChildrenId = 'pluginCreator___children___children___id',
-    PluginCreatorChildrenChildrenChildren = 'pluginCreator___children___children___children',
-    PluginCreatorChildrenInternalContent = 'pluginCreator___children___internal___content',
-    PluginCreatorChildrenInternalContentDigest = 'pluginCreator___children___internal___contentDigest',
-    PluginCreatorChildrenInternalDescription = 'pluginCreator___children___internal___description',
-    PluginCreatorChildrenInternalFieldOwners = 'pluginCreator___children___internal___fieldOwners',
-    PluginCreatorChildrenInternalIgnoreType = 'pluginCreator___children___internal___ignoreType',
-    PluginCreatorChildrenInternalMediaType = 'pluginCreator___children___internal___mediaType',
-    PluginCreatorChildrenInternalOwner = 'pluginCreator___children___internal___owner',
-    PluginCreatorChildrenInternalType = 'pluginCreator___children___internal___type',
-    PluginCreatorInternalContent = 'pluginCreator___internal___content',
-    PluginCreatorInternalContentDigest = 'pluginCreator___internal___contentDigest',
-    PluginCreatorInternalDescription = 'pluginCreator___internal___description',
-    PluginCreatorInternalFieldOwners = 'pluginCreator___internal___fieldOwners',
-    PluginCreatorInternalIgnoreType = 'pluginCreator___internal___ignoreType',
-    PluginCreatorInternalMediaType = 'pluginCreator___internal___mediaType',
-    PluginCreatorInternalOwner = 'pluginCreator___internal___owner',
-    PluginCreatorInternalType = 'pluginCreator___internal___type',
-    PluginCreatorResolve = 'pluginCreator___resolve',
-    PluginCreatorName = 'pluginCreator___name',
-    PluginCreatorVersion = 'pluginCreator___version',
-    PluginCreatorPluginOptionsDisplay = 'pluginCreator___pluginOptions___display',
-    PluginCreatorPluginOptionsFonts = 'pluginCreator___pluginOptions___fonts',
-    PluginCreatorPluginOptionsBackgroundColor = 'pluginCreator___pluginOptions___background_color',
-    PluginCreatorPluginOptionsIcon = 'pluginCreator___pluginOptions___icon',
-    PluginCreatorPluginOptionsName = 'pluginCreator___pluginOptions___name',
-    PluginCreatorPluginOptionsShortName = 'pluginCreator___pluginOptions___short_name',
-    PluginCreatorPluginOptionsStartUrl = 'pluginCreator___pluginOptions___start_url',
-    PluginCreatorPluginOptionsThemeColor = 'pluginCreator___pluginOptions___theme_color',
-    PluginCreatorPluginOptionsCacheBustingMode = 'pluginCreator___pluginOptions___cache_busting_mode',
-    PluginCreatorPluginOptionsIncludeFavicon = 'pluginCreator___pluginOptions___include_favicon',
-    PluginCreatorPluginOptionsLegacy = 'pluginCreator___pluginOptions___legacy',
-    PluginCreatorPluginOptionsThemeColorInHead = 'pluginCreator___pluginOptions___theme_color_in_head',
-    PluginCreatorPluginOptionsCacheDigest = 'pluginCreator___pluginOptions___cacheDigest',
-    PluginCreatorPluginOptionsComponents = 'pluginCreator___pluginOptions___components',
-    PluginCreatorPluginOptionsPages = 'pluginCreator___pluginOptions___pages',
-    PluginCreatorPluginOptionsUtils = 'pluginCreator___pluginOptions___utils',
-    PluginCreatorPluginOptionsAllExtensions = 'pluginCreator___pluginOptions___allExtensions',
-    PluginCreatorPluginOptionsIsTsx = 'pluginCreator___pluginOptions___isTSX',
-    PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
-    PluginCreatorPluginOptionsPathCheck = 'pluginCreator___pluginOptions___pathCheck',
-    PluginCreatorNodeApIs = 'pluginCreator___nodeAPIs',
-    PluginCreatorBrowserApIs = 'pluginCreator___browserAPIs',
-    PluginCreatorSsrApIs = 'pluginCreator___ssrAPIs',
-    PluginCreatorPluginFilepath = 'pluginCreator___pluginFilepath',
-    PluginCreatorPackageJsonName = 'pluginCreator___packageJson___name',
-    PluginCreatorPackageJsonDescription = 'pluginCreator___packageJson___description',
-    PluginCreatorPackageJsonVersion = 'pluginCreator___packageJson___version',
-    PluginCreatorPackageJsonMain = 'pluginCreator___packageJson___main',
-    PluginCreatorPackageJsonLicense = 'pluginCreator___packageJson___license',
-    PluginCreatorPackageJsonDependencies = 'pluginCreator___packageJson___dependencies',
-    PluginCreatorPackageJsonDependenciesName = 'pluginCreator___packageJson___dependencies___name',
-    PluginCreatorPackageJsonDependenciesVersion = 'pluginCreator___packageJson___dependencies___version',
-    PluginCreatorPackageJsonDevDependencies = 'pluginCreator___packageJson___devDependencies',
-    PluginCreatorPackageJsonDevDependenciesName = 'pluginCreator___packageJson___devDependencies___name',
-    PluginCreatorPackageJsonDevDependenciesVersion = 'pluginCreator___packageJson___devDependencies___version',
-    PluginCreatorPackageJsonPeerDependencies = 'pluginCreator___packageJson___peerDependencies',
-    PluginCreatorPackageJsonPeerDependenciesName = 'pluginCreator___packageJson___peerDependencies___name',
-    PluginCreatorPackageJsonPeerDependenciesVersion = 'pluginCreator___packageJson___peerDependencies___version',
-    PluginCreatorPackageJsonKeywords = 'pluginCreator___packageJson___keywords',
-    PluginCreatorId = 'pluginCreatorId',
-    ComponentPath = 'componentPath',
     Id = 'id',
     ParentId = 'parent___id',
     ParentParentId = 'parent___parent___id',
@@ -3510,6 +3431,90 @@ declare module GraphQL {
     InternalMediaType = 'internal___mediaType',
     InternalOwner = 'internal___owner',
     InternalType = 'internal___type',
+    IsCreatedByStatefulCreatePages = 'isCreatedByStatefulCreatePages',
+    PluginCreatorId = 'pluginCreator___id',
+    PluginCreatorParentId = 'pluginCreator___parent___id',
+    PluginCreatorParentParentId = 'pluginCreator___parent___parent___id',
+    PluginCreatorParentParentChildren = 'pluginCreator___parent___parent___children',
+    PluginCreatorParentChildren = 'pluginCreator___parent___children',
+    PluginCreatorParentChildrenId = 'pluginCreator___parent___children___id',
+    PluginCreatorParentChildrenChildren = 'pluginCreator___parent___children___children',
+    PluginCreatorParentInternalContent = 'pluginCreator___parent___internal___content',
+    PluginCreatorParentInternalContentDigest = 'pluginCreator___parent___internal___contentDigest',
+    PluginCreatorParentInternalDescription = 'pluginCreator___parent___internal___description',
+    PluginCreatorParentInternalFieldOwners = 'pluginCreator___parent___internal___fieldOwners',
+    PluginCreatorParentInternalIgnoreType = 'pluginCreator___parent___internal___ignoreType',
+    PluginCreatorParentInternalMediaType = 'pluginCreator___parent___internal___mediaType',
+    PluginCreatorParentInternalOwner = 'pluginCreator___parent___internal___owner',
+    PluginCreatorParentInternalType = 'pluginCreator___parent___internal___type',
+    PluginCreatorChildren = 'pluginCreator___children',
+    PluginCreatorChildrenId = 'pluginCreator___children___id',
+    PluginCreatorChildrenParentId = 'pluginCreator___children___parent___id',
+    PluginCreatorChildrenParentChildren = 'pluginCreator___children___parent___children',
+    PluginCreatorChildrenChildren = 'pluginCreator___children___children',
+    PluginCreatorChildrenChildrenId = 'pluginCreator___children___children___id',
+    PluginCreatorChildrenChildrenChildren = 'pluginCreator___children___children___children',
+    PluginCreatorChildrenInternalContent = 'pluginCreator___children___internal___content',
+    PluginCreatorChildrenInternalContentDigest = 'pluginCreator___children___internal___contentDigest',
+    PluginCreatorChildrenInternalDescription = 'pluginCreator___children___internal___description',
+    PluginCreatorChildrenInternalFieldOwners = 'pluginCreator___children___internal___fieldOwners',
+    PluginCreatorChildrenInternalIgnoreType = 'pluginCreator___children___internal___ignoreType',
+    PluginCreatorChildrenInternalMediaType = 'pluginCreator___children___internal___mediaType',
+    PluginCreatorChildrenInternalOwner = 'pluginCreator___children___internal___owner',
+    PluginCreatorChildrenInternalType = 'pluginCreator___children___internal___type',
+    PluginCreatorInternalContent = 'pluginCreator___internal___content',
+    PluginCreatorInternalContentDigest = 'pluginCreator___internal___contentDigest',
+    PluginCreatorInternalDescription = 'pluginCreator___internal___description',
+    PluginCreatorInternalFieldOwners = 'pluginCreator___internal___fieldOwners',
+    PluginCreatorInternalIgnoreType = 'pluginCreator___internal___ignoreType',
+    PluginCreatorInternalMediaType = 'pluginCreator___internal___mediaType',
+    PluginCreatorInternalOwner = 'pluginCreator___internal___owner',
+    PluginCreatorInternalType = 'pluginCreator___internal___type',
+    PluginCreatorResolve = 'pluginCreator___resolve',
+    PluginCreatorName = 'pluginCreator___name',
+    PluginCreatorVersion = 'pluginCreator___version',
+    PluginCreatorPluginOptionsDisplay = 'pluginCreator___pluginOptions___display',
+    PluginCreatorPluginOptionsFonts = 'pluginCreator___pluginOptions___fonts',
+    PluginCreatorPluginOptionsBackgroundColor = 'pluginCreator___pluginOptions___background_color',
+    PluginCreatorPluginOptionsIcon = 'pluginCreator___pluginOptions___icon',
+    PluginCreatorPluginOptionsName = 'pluginCreator___pluginOptions___name',
+    PluginCreatorPluginOptionsShortName = 'pluginCreator___pluginOptions___short_name',
+    PluginCreatorPluginOptionsStartUrl = 'pluginCreator___pluginOptions___start_url',
+    PluginCreatorPluginOptionsThemeColor = 'pluginCreator___pluginOptions___theme_color',
+    PluginCreatorPluginOptionsCacheBustingMode = 'pluginCreator___pluginOptions___cache_busting_mode',
+    PluginCreatorPluginOptionsIncludeFavicon = 'pluginCreator___pluginOptions___include_favicon',
+    PluginCreatorPluginOptionsLegacy = 'pluginCreator___pluginOptions___legacy',
+    PluginCreatorPluginOptionsThemeColorInHead = 'pluginCreator___pluginOptions___theme_color_in_head',
+    PluginCreatorPluginOptionsCacheDigest = 'pluginCreator___pluginOptions___cacheDigest',
+    PluginCreatorPluginOptionsComponents = 'pluginCreator___pluginOptions___components',
+    PluginCreatorPluginOptionsPages = 'pluginCreator___pluginOptions___pages',
+    PluginCreatorPluginOptionsStyles = 'pluginCreator___pluginOptions___styles',
+    PluginCreatorPluginOptionsUtils = 'pluginCreator___pluginOptions___utils',
+    PluginCreatorPluginOptionsAllExtensions = 'pluginCreator___pluginOptions___allExtensions',
+    PluginCreatorPluginOptionsIsTsx = 'pluginCreator___pluginOptions___isTSX',
+    PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
+    PluginCreatorPluginOptionsPathCheck = 'pluginCreator___pluginOptions___pathCheck',
+    PluginCreatorNodeApIs = 'pluginCreator___nodeAPIs',
+    PluginCreatorBrowserApIs = 'pluginCreator___browserAPIs',
+    PluginCreatorSsrApIs = 'pluginCreator___ssrAPIs',
+    PluginCreatorPluginFilepath = 'pluginCreator___pluginFilepath',
+    PluginCreatorPackageJsonName = 'pluginCreator___packageJson___name',
+    PluginCreatorPackageJsonDescription = 'pluginCreator___packageJson___description',
+    PluginCreatorPackageJsonVersion = 'pluginCreator___packageJson___version',
+    PluginCreatorPackageJsonMain = 'pluginCreator___packageJson___main',
+    PluginCreatorPackageJsonLicense = 'pluginCreator___packageJson___license',
+    PluginCreatorPackageJsonDependencies = 'pluginCreator___packageJson___dependencies',
+    PluginCreatorPackageJsonDependenciesName = 'pluginCreator___packageJson___dependencies___name',
+    PluginCreatorPackageJsonDependenciesVersion = 'pluginCreator___packageJson___dependencies___version',
+    PluginCreatorPackageJsonDevDependencies = 'pluginCreator___packageJson___devDependencies',
+    PluginCreatorPackageJsonDevDependenciesName = 'pluginCreator___packageJson___devDependencies___name',
+    PluginCreatorPackageJsonDevDependenciesVersion = 'pluginCreator___packageJson___devDependencies___version',
+    PluginCreatorPackageJsonPeerDependencies = 'pluginCreator___packageJson___peerDependencies',
+    PluginCreatorPackageJsonPeerDependenciesName = 'pluginCreator___packageJson___peerDependencies___name',
+    PluginCreatorPackageJsonPeerDependenciesVersion = 'pluginCreator___packageJson___peerDependencies___version',
+    PluginCreatorPackageJsonKeywords = 'pluginCreator___packageJson___keywords',
+    PluginCreatorId = 'pluginCreatorId',
+    ComponentPath = 'componentPath',
   }
 
   type SitePageFilterInput = {
@@ -3518,14 +3523,14 @@ declare module GraphQL {
     internalComponentName?: Maybe<StringQueryOperatorInput>;
     componentChunkName?: Maybe<StringQueryOperatorInput>;
     matchPath?: Maybe<StringQueryOperatorInput>;
-    isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>;
-    pluginCreator?: Maybe<SitePluginFilterInput>;
-    pluginCreatorId?: Maybe<StringQueryOperatorInput>;
-    componentPath?: Maybe<StringQueryOperatorInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
+    isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>;
+    pluginCreator?: Maybe<SitePluginFilterInput>;
+    pluginCreatorId?: Maybe<StringQueryOperatorInput>;
+    componentPath?: Maybe<StringQueryOperatorInput>;
   };
 
   type SitePageGroupConnection = {
@@ -3688,6 +3693,7 @@ declare module GraphQL {
     PluginOptionsCacheDigest = 'pluginOptions___cacheDigest',
     PluginOptionsComponents = 'pluginOptions___components',
     PluginOptionsPages = 'pluginOptions___pages',
+    PluginOptionsStyles = 'pluginOptions___styles',
     PluginOptionsUtils = 'pluginOptions___utils',
     PluginOptionsAllExtensions = 'pluginOptions___allExtensions',
     PluginOptionsIsTsx = 'pluginOptions___isTSX',
@@ -3821,6 +3827,7 @@ declare module GraphQL {
     cacheDigest?: Maybe<Scalars['String']>;
     components?: Maybe<Scalars['String']>;
     pages?: Maybe<Scalars['String']>;
+    styles?: Maybe<Scalars['String']>;
     utils?: Maybe<Scalars['String']>;
     allExtensions?: Maybe<Scalars['Boolean']>;
     isTSX?: Maybe<Scalars['Boolean']>;
@@ -3844,6 +3851,7 @@ declare module GraphQL {
     cacheDigest?: Maybe<StringQueryOperatorInput>;
     components?: Maybe<StringQueryOperatorInput>;
     pages?: Maybe<StringQueryOperatorInput>;
+    styles?: Maybe<StringQueryOperatorInput>;
     utils?: Maybe<StringQueryOperatorInput>;
     allExtensions?: Maybe<BooleanQueryOperatorInput>;
     isTSX?: Maybe<BooleanQueryOperatorInput>;
@@ -4088,12 +4096,6 @@ declare module GraphQL {
     glob?: Maybe<Scalars['String']>;
   };
 
-  type Theme = {
-    colors?: Maybe<ThemeColors>;
-    fontWeights?: Maybe<ThemeFontWeights>;
-    fonts?: Maybe<ThemeFonts>;
-  };
-
   type ThemeColors = {
     background?: Maybe<Scalars['String']>;
     body1?: Maybe<Scalars['String']>;
@@ -4110,24 +4112,88 @@ declare module GraphQL {
     white?: Maybe<Scalars['String']>;
   };
 
-  type ThemeFonts = {
-    main?: Maybe<Scalars['String']>;
-    title?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeFontWeights = {
-    bold?: Maybe<Scalars['Int']>;
-    bolder?: Maybe<Scalars['Int']>;
-    regular?: Maybe<Scalars['Int']>;
-  };
-
   type ThemeJson = Node & {
     id: Scalars['ID'];
     parent?: Maybe<Node>;
     children: Array<Node>;
     internal: Internal;
-    dark?: Maybe<ThemeJsonDark>;
-    light?: Maybe<ThemeJsonLight>;
+    colors?: Maybe<ThemeJsonColors>;
+    fonts?: Maybe<ThemeJsonFonts>;
+    fontWeights?: Maybe<ThemeJsonFontWeights>;
+  };
+
+  type ThemeJsonColors = {
+    dark?: Maybe<ThemeJsonColorsDark>;
+    light?: Maybe<ThemeJsonColorsLight>;
+  };
+
+  type ThemeJsonColorsDark = ThemeColors & {
+    background?: Maybe<Scalars['String']>;
+    body1?: Maybe<Scalars['String']>;
+    body2?: Maybe<Scalars['String']>;
+    caption?: Maybe<Scalars['String']>;
+    dark?: Maybe<Scalars['String']>;
+    error?: Maybe<Scalars['String']>;
+    info?: Maybe<Scalars['String']>;
+    primary?: Maybe<Scalars['String']>;
+    secondary?: Maybe<Scalars['String']>;
+    subtitle?: Maybe<Scalars['String']>;
+    success?: Maybe<Scalars['String']>;
+    text?: Maybe<Scalars['String']>;
+    white?: Maybe<Scalars['String']>;
+  };
+
+  type ThemeJsonColorsDarkFilterInput = {
+    background?: Maybe<StringQueryOperatorInput>;
+    body1?: Maybe<StringQueryOperatorInput>;
+    body2?: Maybe<StringQueryOperatorInput>;
+    caption?: Maybe<StringQueryOperatorInput>;
+    dark?: Maybe<StringQueryOperatorInput>;
+    error?: Maybe<StringQueryOperatorInput>;
+    info?: Maybe<StringQueryOperatorInput>;
+    primary?: Maybe<StringQueryOperatorInput>;
+    secondary?: Maybe<StringQueryOperatorInput>;
+    subtitle?: Maybe<StringQueryOperatorInput>;
+    success?: Maybe<StringQueryOperatorInput>;
+    text?: Maybe<StringQueryOperatorInput>;
+    white?: Maybe<StringQueryOperatorInput>;
+  };
+
+  type ThemeJsonColorsFilterInput = {
+    dark?: Maybe<ThemeJsonColorsDarkFilterInput>;
+    light?: Maybe<ThemeJsonColorsLightFilterInput>;
+  };
+
+  type ThemeJsonColorsLight = ThemeColors & {
+    background?: Maybe<Scalars['String']>;
+    body1?: Maybe<Scalars['String']>;
+    body2?: Maybe<Scalars['String']>;
+    caption?: Maybe<Scalars['String']>;
+    dark?: Maybe<Scalars['String']>;
+    error?: Maybe<Scalars['String']>;
+    info?: Maybe<Scalars['String']>;
+    primary?: Maybe<Scalars['String']>;
+    secondary?: Maybe<Scalars['String']>;
+    subtitle?: Maybe<Scalars['String']>;
+    success?: Maybe<Scalars['String']>;
+    text?: Maybe<Scalars['String']>;
+    white?: Maybe<Scalars['String']>;
+  };
+
+  type ThemeJsonColorsLightFilterInput = {
+    background?: Maybe<StringQueryOperatorInput>;
+    body1?: Maybe<StringQueryOperatorInput>;
+    body2?: Maybe<StringQueryOperatorInput>;
+    caption?: Maybe<StringQueryOperatorInput>;
+    dark?: Maybe<StringQueryOperatorInput>;
+    error?: Maybe<StringQueryOperatorInput>;
+    info?: Maybe<StringQueryOperatorInput>;
+    primary?: Maybe<StringQueryOperatorInput>;
+    secondary?: Maybe<StringQueryOperatorInput>;
+    subtitle?: Maybe<StringQueryOperatorInput>;
+    success?: Maybe<StringQueryOperatorInput>;
+    text?: Maybe<StringQueryOperatorInput>;
+    white?: Maybe<StringQueryOperatorInput>;
   };
 
   type ThemeJsonConnection = {
@@ -4147,72 +4213,6 @@ declare module GraphQL {
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
     field: ThemeJsonFieldsEnum;
-  };
-
-  type ThemeJsonDark = Theme & {
-    colors?: Maybe<ThemeJsonDarkColors>;
-    fonts?: Maybe<ThemeJsonDarkFonts>;
-    fontWeights?: Maybe<ThemeJsonDarkFontWeights>;
-  };
-
-  type ThemeJsonDarkColors = ThemeColors & {
-    background?: Maybe<Scalars['String']>;
-    body1?: Maybe<Scalars['String']>;
-    body2?: Maybe<Scalars['String']>;
-    caption?: Maybe<Scalars['String']>;
-    dark?: Maybe<Scalars['String']>;
-    error?: Maybe<Scalars['String']>;
-    info?: Maybe<Scalars['String']>;
-    primary?: Maybe<Scalars['String']>;
-    secondary?: Maybe<Scalars['String']>;
-    subtitle?: Maybe<Scalars['String']>;
-    success?: Maybe<Scalars['String']>;
-    text?: Maybe<Scalars['String']>;
-    white?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeJsonDarkColorsFilterInput = {
-    background?: Maybe<StringQueryOperatorInput>;
-    body1?: Maybe<StringQueryOperatorInput>;
-    body2?: Maybe<StringQueryOperatorInput>;
-    caption?: Maybe<StringQueryOperatorInput>;
-    dark?: Maybe<StringQueryOperatorInput>;
-    error?: Maybe<StringQueryOperatorInput>;
-    info?: Maybe<StringQueryOperatorInput>;
-    primary?: Maybe<StringQueryOperatorInput>;
-    secondary?: Maybe<StringQueryOperatorInput>;
-    subtitle?: Maybe<StringQueryOperatorInput>;
-    success?: Maybe<StringQueryOperatorInput>;
-    text?: Maybe<StringQueryOperatorInput>;
-    white?: Maybe<StringQueryOperatorInput>;
-  };
-
-  type ThemeJsonDarkFilterInput = {
-    colors?: Maybe<ThemeJsonDarkColorsFilterInput>;
-    fonts?: Maybe<ThemeJsonDarkFontsFilterInput>;
-    fontWeights?: Maybe<ThemeJsonDarkFontWeightsFilterInput>;
-  };
-
-  type ThemeJsonDarkFonts = ThemeFonts & {
-    main?: Maybe<Scalars['String']>;
-    title?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeJsonDarkFontsFilterInput = {
-    main?: Maybe<StringQueryOperatorInput>;
-    title?: Maybe<StringQueryOperatorInput>;
-  };
-
-  type ThemeJsonDarkFontWeights = ThemeFontWeights & {
-    bold?: Maybe<Scalars['Int']>;
-    bolder?: Maybe<Scalars['Int']>;
-    regular?: Maybe<Scalars['Int']>;
-  };
-
-  type ThemeJsonDarkFontWeightsFilterInput = {
-    bold?: Maybe<IntQueryOperatorInput>;
-    bolder?: Maybe<IntQueryOperatorInput>;
-    regular?: Maybe<IntQueryOperatorInput>;
   };
 
   type ThemeJsonEdge = {
@@ -4308,42 +4308,37 @@ declare module GraphQL {
     InternalMediaType = 'internal___mediaType',
     InternalOwner = 'internal___owner',
     InternalType = 'internal___type',
-    DarkColorsBackground = 'dark___colors___background',
-    DarkColorsBody1 = 'dark___colors___body1',
-    DarkColorsBody2 = 'dark___colors___body2',
-    DarkColorsCaption = 'dark___colors___caption',
-    DarkColorsDark = 'dark___colors___dark',
-    DarkColorsError = 'dark___colors___error',
-    DarkColorsInfo = 'dark___colors___info',
-    DarkColorsPrimary = 'dark___colors___primary',
-    DarkColorsSecondary = 'dark___colors___secondary',
-    DarkColorsSubtitle = 'dark___colors___subtitle',
-    DarkColorsSuccess = 'dark___colors___success',
-    DarkColorsText = 'dark___colors___text',
-    DarkColorsWhite = 'dark___colors___white',
-    DarkFontsMain = 'dark___fonts___main',
-    DarkFontsTitle = 'dark___fonts___title',
-    DarkFontWeightsBold = 'dark___fontWeights___bold',
-    DarkFontWeightsBolder = 'dark___fontWeights___bolder',
-    DarkFontWeightsRegular = 'dark___fontWeights___regular',
-    LightColorsBackground = 'light___colors___background',
-    LightColorsBody1 = 'light___colors___body1',
-    LightColorsBody2 = 'light___colors___body2',
-    LightColorsCaption = 'light___colors___caption',
-    LightColorsDark = 'light___colors___dark',
-    LightColorsError = 'light___colors___error',
-    LightColorsInfo = 'light___colors___info',
-    LightColorsPrimary = 'light___colors___primary',
-    LightColorsSecondary = 'light___colors___secondary',
-    LightColorsSubtitle = 'light___colors___subtitle',
-    LightColorsSuccess = 'light___colors___success',
-    LightColorsText = 'light___colors___text',
-    LightColorsWhite = 'light___colors___white',
-    LightFontsMain = 'light___fonts___main',
-    LightFontsTitle = 'light___fonts___title',
-    LightFontWeightsBold = 'light___fontWeights___bold',
-    LightFontWeightsBolder = 'light___fontWeights___bolder',
-    LightFontWeightsRegular = 'light___fontWeights___regular',
+    ColorsDarkBackground = 'colors___dark___background',
+    ColorsDarkBody1 = 'colors___dark___body1',
+    ColorsDarkBody2 = 'colors___dark___body2',
+    ColorsDarkCaption = 'colors___dark___caption',
+    ColorsDarkDark = 'colors___dark___dark',
+    ColorsDarkError = 'colors___dark___error',
+    ColorsDarkInfo = 'colors___dark___info',
+    ColorsDarkPrimary = 'colors___dark___primary',
+    ColorsDarkSecondary = 'colors___dark___secondary',
+    ColorsDarkSubtitle = 'colors___dark___subtitle',
+    ColorsDarkSuccess = 'colors___dark___success',
+    ColorsDarkText = 'colors___dark___text',
+    ColorsDarkWhite = 'colors___dark___white',
+    ColorsLightBackground = 'colors___light___background',
+    ColorsLightBody1 = 'colors___light___body1',
+    ColorsLightBody2 = 'colors___light___body2',
+    ColorsLightCaption = 'colors___light___caption',
+    ColorsLightDark = 'colors___light___dark',
+    ColorsLightError = 'colors___light___error',
+    ColorsLightInfo = 'colors___light___info',
+    ColorsLightPrimary = 'colors___light___primary',
+    ColorsLightSecondary = 'colors___light___secondary',
+    ColorsLightSubtitle = 'colors___light___subtitle',
+    ColorsLightSuccess = 'colors___light___success',
+    ColorsLightText = 'colors___light___text',
+    ColorsLightWhite = 'colors___light___white',
+    FontsMain = 'fonts___main',
+    FontsTitle = 'fonts___title',
+    FontWeightsBold = 'fontWeights___bold',
+    FontWeightsBolder = 'fontWeights___bolder',
+    FontWeightsRegular = 'fontWeights___regular',
   }
 
   type ThemeJsonFilterInput = {
@@ -4351,8 +4346,31 @@ declare module GraphQL {
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
-    dark?: Maybe<ThemeJsonDarkFilterInput>;
-    light?: Maybe<ThemeJsonLightFilterInput>;
+    colors?: Maybe<ThemeJsonColorsFilterInput>;
+    fonts?: Maybe<ThemeJsonFontsFilterInput>;
+    fontWeights?: Maybe<ThemeJsonFontWeightsFilterInput>;
+  };
+
+  type ThemeJsonFonts = {
+    main?: Maybe<Scalars['String']>;
+    title?: Maybe<Scalars['String']>;
+  };
+
+  type ThemeJsonFontsFilterInput = {
+    main?: Maybe<StringQueryOperatorInput>;
+    title?: Maybe<StringQueryOperatorInput>;
+  };
+
+  type ThemeJsonFontWeights = {
+    bold?: Maybe<Scalars['Int']>;
+    bolder?: Maybe<Scalars['Int']>;
+    regular?: Maybe<Scalars['Int']>;
+  };
+
+  type ThemeJsonFontWeightsFilterInput = {
+    bold?: Maybe<IntQueryOperatorInput>;
+    bolder?: Maybe<IntQueryOperatorInput>;
+    regular?: Maybe<IntQueryOperatorInput>;
   };
 
   type ThemeJsonGroupConnection = {
@@ -4362,72 +4380,6 @@ declare module GraphQL {
     pageInfo: PageInfo;
     field: Scalars['String'];
     fieldValue?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeJsonLight = Theme & {
-    colors?: Maybe<ThemeJsonLightColors>;
-    fonts?: Maybe<ThemeJsonLightFonts>;
-    fontWeights?: Maybe<ThemeJsonLightFontWeights>;
-  };
-
-  type ThemeJsonLightColors = ThemeColors & {
-    background?: Maybe<Scalars['String']>;
-    body1?: Maybe<Scalars['String']>;
-    body2?: Maybe<Scalars['String']>;
-    caption?: Maybe<Scalars['String']>;
-    dark?: Maybe<Scalars['String']>;
-    error?: Maybe<Scalars['String']>;
-    info?: Maybe<Scalars['String']>;
-    primary?: Maybe<Scalars['String']>;
-    secondary?: Maybe<Scalars['String']>;
-    subtitle?: Maybe<Scalars['String']>;
-    success?: Maybe<Scalars['String']>;
-    text?: Maybe<Scalars['String']>;
-    white?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeJsonLightColorsFilterInput = {
-    background?: Maybe<StringQueryOperatorInput>;
-    body1?: Maybe<StringQueryOperatorInput>;
-    body2?: Maybe<StringQueryOperatorInput>;
-    caption?: Maybe<StringQueryOperatorInput>;
-    dark?: Maybe<StringQueryOperatorInput>;
-    error?: Maybe<StringQueryOperatorInput>;
-    info?: Maybe<StringQueryOperatorInput>;
-    primary?: Maybe<StringQueryOperatorInput>;
-    secondary?: Maybe<StringQueryOperatorInput>;
-    subtitle?: Maybe<StringQueryOperatorInput>;
-    success?: Maybe<StringQueryOperatorInput>;
-    text?: Maybe<StringQueryOperatorInput>;
-    white?: Maybe<StringQueryOperatorInput>;
-  };
-
-  type ThemeJsonLightFilterInput = {
-    colors?: Maybe<ThemeJsonLightColorsFilterInput>;
-    fonts?: Maybe<ThemeJsonLightFontsFilterInput>;
-    fontWeights?: Maybe<ThemeJsonLightFontWeightsFilterInput>;
-  };
-
-  type ThemeJsonLightFonts = ThemeFonts & {
-    main?: Maybe<Scalars['String']>;
-    title?: Maybe<Scalars['String']>;
-  };
-
-  type ThemeJsonLightFontsFilterInput = {
-    main?: Maybe<StringQueryOperatorInput>;
-    title?: Maybe<StringQueryOperatorInput>;
-  };
-
-  type ThemeJsonLightFontWeights = ThemeFontWeights & {
-    bold?: Maybe<Scalars['Int']>;
-    bolder?: Maybe<Scalars['Int']>;
-    regular?: Maybe<Scalars['Int']>;
-  };
-
-  type ThemeJsonLightFontWeightsFilterInput = {
-    bold?: Maybe<IntQueryOperatorInput>;
-    bolder?: Maybe<IntQueryOperatorInput>;
-    regular?: Maybe<IntQueryOperatorInput>;
   };
 
   type ThemeJsonSortInput = {
@@ -4726,7 +4678,14 @@ declare module GraphQL {
   type ThemeDataQueryVariables = Exact<{ [key: string]: never }>;
 
   type ThemeDataQuery = {
-    themeJson?: Maybe<{ dark?: Maybe<Theme_ThemeJsonDark_Fragment>; light?: Maybe<Theme_ThemeJsonLight_Fragment> }>;
+    themeJson?: Maybe<{
+      colors?: Maybe<{
+        dark?: Maybe<ThemeColors_ThemeJsonColorsDark_Fragment>;
+        light?: Maybe<ThemeColors_ThemeJsonColorsLight_Fragment>;
+      }>;
+      fontWeights?: Maybe<Pick<ThemeJsonFontWeights, 'bolder' | 'bold' | 'regular'>>;
+      fonts?: Maybe<Pick<ThemeJsonFonts, 'main' | 'title'>>;
+    }>;
   };
 
   type PortraitDataQueryVariables = Exact<{ [key: string]: never }>;
@@ -4822,51 +4781,39 @@ declare module GraphQL {
 
   type IndexDataQuery = { site?: Maybe<{ siteMetadata?: Maybe<Pick<SiteSiteMetadata, 'description' | 'keywords'>> }> };
 
-  type Theme_ThemeJsonDark_Fragment = {
-    colors?: Maybe<
-      Pick<
-        ThemeJsonDarkColors,
-        | 'background'
-        | 'body1'
-        | 'body2'
-        | 'caption'
-        | 'dark'
-        | 'error'
-        | 'info'
-        | 'primary'
-        | 'secondary'
-        | 'subtitle'
-        | 'success'
-        | 'text'
-        | 'white'
-      >
-    >;
-    fontWeights?: Maybe<Pick<ThemeJsonDarkFontWeights, 'bold' | 'bolder' | 'regular'>>;
-    fonts?: Maybe<Pick<ThemeJsonDarkFonts, 'main' | 'title'>>;
-  };
+  type ThemeColors_ThemeJsonColorsDark_Fragment = Pick<
+    ThemeJsonColorsDark,
+    | 'background'
+    | 'body1'
+    | 'body2'
+    | 'caption'
+    | 'dark'
+    | 'error'
+    | 'info'
+    | 'primary'
+    | 'secondary'
+    | 'subtitle'
+    | 'success'
+    | 'text'
+    | 'white'
+  >;
 
-  type Theme_ThemeJsonLight_Fragment = {
-    colors?: Maybe<
-      Pick<
-        ThemeJsonLightColors,
-        | 'background'
-        | 'body1'
-        | 'body2'
-        | 'caption'
-        | 'dark'
-        | 'error'
-        | 'info'
-        | 'primary'
-        | 'secondary'
-        | 'subtitle'
-        | 'success'
-        | 'text'
-        | 'white'
-      >
-    >;
-    fontWeights?: Maybe<Pick<ThemeJsonLightFontWeights, 'bold' | 'bolder' | 'regular'>>;
-    fonts?: Maybe<Pick<ThemeJsonLightFonts, 'main' | 'title'>>;
-  };
+  type ThemeColors_ThemeJsonColorsLight_Fragment = Pick<
+    ThemeJsonColorsLight,
+    | 'background'
+    | 'body1'
+    | 'body2'
+    | 'caption'
+    | 'dark'
+    | 'error'
+    | 'info'
+    | 'primary'
+    | 'secondary'
+    | 'subtitle'
+    | 'success'
+    | 'text'
+    | 'white'
+  >;
 
-  type ThemeFragment = Theme_ThemeJsonDark_Fragment | Theme_ThemeJsonLight_Fragment;
+  type ThemeColorsFragment = ThemeColors_ThemeJsonColorsDark_Fragment | ThemeColors_ThemeJsonColorsLight_Fragment;
 }

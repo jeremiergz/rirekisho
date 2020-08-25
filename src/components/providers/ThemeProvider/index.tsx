@@ -6,37 +6,9 @@ import { Theme as StyledTheme } from 'styled-system';
 const GlobalStyle = createGlobalStyle`
   html, body {
     background-color: ${({ theme }: { theme: Theme }) => theme.colors.background};
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
   }
   body {
     color: ${({ theme }) => theme['colors'].text};
-    font-family: ${({ theme }) => theme['fonts'].main};
-    font-weight: 400;
-  }
-  @keyframes pulse {
-    0% {
-      box-shadow: 0 0 0 0 rgba(49, 133, 154, 0.5);
-    }
-    70% {
-      box-shadow: 0 0 0 10px rgba(49, 133, 154, 0);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(49, 133, 154, 0);
-    }
-  }
-  @page {
-    size: A4 portrait;
-    margin: 0mm;
-  }
-  @media print {
-    body {
-      /* Force displaying of background elements on print */
-      -webkit-print-color-adjust: exact !important;
-      color-adjust: exact !important;
-    }
   }
 `;
 
@@ -62,27 +34,40 @@ const ThemeProvider: React.FC = ({ children }) => {
   const { themeJson } = useStaticQuery<GraphQL.ThemeDataQuery>(graphql`
     query ThemeData {
       themeJson {
-        dark {
-          ...Theme
+        colors {
+          dark {
+            ...ThemeColors
+          }
+          light {
+            ...ThemeColors
+          }
         }
-        light {
-          ...Theme
+        fontWeights {
+          bolder
+          bold
+          regular
+        }
+        fonts {
+          main
+          title
         }
       }
     }
   `);
   const DarkTheme = useMemo(
     () => ({
-      ...themeJson.dark,
+      ...themeJson,
       breakpoints,
+      colors: { ...themeJson.colors.dark },
       type: 'dark' as const,
     }),
     [themeJson],
   );
   const LightTheme = useMemo(
     () => ({
-      ...themeJson.light,
+      ...themeJson,
       breakpoints,
+      colors: { ...themeJson.colors.light },
       type: 'light' as const,
     }),
     [themeJson],
@@ -124,9 +109,9 @@ function useTheme() {
 export { useTheme };
 export type Theme = Omit<StyledTheme, 'breakpoints' | 'colors' | 'fonts' | 'fontWeights'> & {
   breakpoints: string[];
-  colors?: GraphQL.Theme['colors'];
-  fonts?: GraphQL.Theme['fonts'];
-  fontWeights?: GraphQL.Theme['fontWeights'];
+  colors?: GraphQL.ThemeColors;
+  fonts?: GraphQL.ThemeJson['fonts'];
+  fontWeights?: GraphQL.ThemeJson['fontWeights'];
   type: 'dark' | 'light';
 };
 export type ThemeProps = {

@@ -5,7 +5,7 @@ const themeJSON = require('./content/theme/index.json');
 const packageJSON = require('./package.json');
 
 const { author, description, homepage, keywords, license, name, repository, version } = packageJSON;
-const appColor = themeJSON.light.colors.primary;
+const appColor = themeJSON.colors.light.primary;
 const appName = `${name.charAt(0).toUpperCase()}${name.substring(1, name.length)}`;
 const authorName = personalDetailsJSON.fullName;
 const twitterUsername = personalDetailsJSON.twitterUsername;
@@ -63,6 +63,7 @@ module.exports = {
       options: {
         components: path.join(__dirname, 'src/components'),
         pages: path.join(__dirname, 'src/pages'),
+        styles: path.join(__dirname, 'src/styles'),
         utils: path.join(__dirname, 'src/utils'),
       },
     },
