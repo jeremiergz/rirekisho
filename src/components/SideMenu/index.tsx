@@ -7,10 +7,23 @@ import ArrowLeftIcon from 'components/svgs/icons/ArrowLeft';
 import ChevronRightIcon from 'components/svgs/icons/ChevronRight';
 import MoonIcon from 'components/svgs/icons/Moon';
 import SunIcon from 'components/svgs/icons/Sun';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+import Img from 'gatsby-image';
 import { shadeColor } from 'utils/theme';
 
 const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
+  const {
+    imageSharp: { fixed: portrait },
+  } = useStaticQuery<GraphQL.SideMenuDataQuery>(graphql`
+    query SideMenuData {
+      imageSharp(fixed: { originalName: { eq: "portrait.png" } }) {
+        fixed(height: 32, quality: 100, width: 32) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    }
+  `);
   const { theme, toggle: handleToggleTheme } = useTheme();
   const borderStyle = `1px solid ${shadeColor(theme.colors.primary, -25)}`;
   const handleClose = (e: React.MouseEvent) => {
@@ -34,7 +47,13 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
       zIndex={100}
     >
       <Box>
-        <FlexBox height={96} justifyContent="flex-end">
+        <FlexBox height={96}>
+          <FlexBox alignItems="center" flex={1} justifyContent="center">
+            <Img fixed={portrait} />
+            <Text color="white" fontFamily="title" fontSize={{ _: 22, tablet: 18 }} marginLeft={2} paddingTop={2}>
+              MY RESUME
+            </Text>
+          </FlexBox>
           <Button onClick={handleClose} variant="cursor-only">
             <FlexBox alignItems="center" borderLeft={borderStyle} height="100%" justifyContent="center" paddingX={3}>
               <ArrowLeftIcon fill={theme.colors.secondary} height={24} width={24} />
