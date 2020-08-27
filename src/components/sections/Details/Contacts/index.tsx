@@ -67,7 +67,7 @@ const Contacts: React.FC<ContactsProps> = ({ items, order }) => {
               marginBottom={{ _: 0, tablet: index !== items.length - 1 && 20 }}
               marginX={{ _: 1, tablet: 0 }}
             >
-              <Anchor external={isHTTPLink(item.link)} href={item.link}>
+              <Anchor aria-label={`Open ${item.type} contact`} external={isHTTPLink(item.link)} href={item.link}>
                 <FlexBox alignItems="center" flexDirection={{ _: 'column-reverse', tablet: 'row' }}>
                   <Text
                     color="primary"

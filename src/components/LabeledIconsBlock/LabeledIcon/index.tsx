@@ -7,9 +7,15 @@ import React from 'react';
 const LabeledIcon: React.FC<LabeledIconProps> = ({ children, link, name, ...rest }) => {
   return (
     <FlexBox alignItems="center" flexDirection="column" justifyContent="center" {...rest}>
-      <Anchor external height={48} href={link}>
-        <Box width={48}>{children}</Box>
-      </Anchor>
+      {link ? (
+        <Anchor aria-label={`Go to ${link}`} external height={48} href={link}>
+          <Box width={48}>{children}</Box>
+        </Anchor>
+      ) : (
+        <Box height={48} width={48}>
+          {children}
+        </Box>
+      )}
       <Text color="text" fontSize={12} fontWeight="bold">
         {name}
       </Text>

@@ -54,7 +54,7 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
               MY RESUME
             </Text>
           </FlexBox>
-          <Button onClick={handleClose} variant="cursor-only">
+          <Button aria-label="Close Menu" onClick={handleClose} variant="cursor-only">
             <FlexBox
               alignItems="center"
               borderLeft={borderStyle}
@@ -80,7 +80,13 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
               if (typeof onClick === 'function') onClick(e);
             };
             return (
-              <Button key={s.title} onClick={handleClick} variant="cursor-only" width="100%">
+              <Button
+                aria-label={`Scroll to ${s.title}`}
+                key={s.title}
+                onClick={handleClick}
+                variant="cursor-only"
+                width="100%"
+              >
                 <FlexBox
                   alignItems="center"
                   borderBottom={borderStyle}
@@ -107,7 +113,7 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
         </Box>
       </Box>
       <FlexBox justifyContent="center" marginBottom={3}>
-        <Button onClick={handleToggleTheme} variant="outlined">
+        <Button aria-label="Toggle Theme mode" onClick={handleToggleTheme} variant="outlined">
           {theme.type === 'dark' ? <MoonIcon height={20} width={20} /> : <SunIcon height={20} width={20} />}
           <Text color="lightgray" marginLeft={2}>
             {theme.type}

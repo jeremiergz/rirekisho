@@ -1,5 +1,5 @@
-import LabeledIcon from 'components/LabeledIcon';
 import FlexBox from 'components/primitives/FlexBox';
+import { useTheme } from 'components/providers/ThemeProvider';
 import { SVGProps } from 'components/SVG';
 import CodingIcon from 'components/svgs/interests/Coding';
 import MoviesIcon from 'components/svgs/interests/Movies';
@@ -10,7 +10,7 @@ import TechIcon from 'components/svgs/interests/Tech';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
-import { useTheme } from 'components/providers/ThemeProvider';
+import LabeledIcon from './LabeledIcon';
 
 const Icons: Record<string, React.FC<SVGProps>> = {
   coding: CodingIcon,

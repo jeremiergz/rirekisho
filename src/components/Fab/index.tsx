@@ -36,6 +36,7 @@ const Fab: React.FC<FabProps> = ({ onClick, position, ...rest }) => {
     <Box height={64} position="fixed" print={false} width={64} zIndex={10} {...positioning} {...rest}>
       <Button
         animation={hovered ? 'none' : 'pulse 1.5s infinite'}
+        aria-label="Open Menu"
         backgroundColor="secondary"
         borderRadius="50%"
         height="100%"

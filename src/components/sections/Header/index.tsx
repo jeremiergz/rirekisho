@@ -58,7 +58,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         willChange="background-color"
         zIndex={10}
       >
-        <Button onClick={handleMenuClick} padding={3} variant="cursor-only">
+        <Button aria-label="Toggle Menu" onClick={handleMenuClick} padding={3} variant="cursor-only">
           <MenuIcon fill="white" />
         </Button>
       </Box>

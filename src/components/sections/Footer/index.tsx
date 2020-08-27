@@ -72,7 +72,7 @@ const Footer = () => {
         <FlexBox>
           {techs.map(tech => (
             <Anchor external height={64} href={tech.url} key={tech.url} marginX={3} width={64}>
-              <Img fluid={tech.img} />
+              <Img alt={`Go to ${tech.url}`} fluid={tech.img} />
             </Anchor>
           ))}
         </FlexBox>
