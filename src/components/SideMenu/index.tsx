@@ -41,9 +41,9 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
       position="fixed"
       top={0}
       transform={`translate3d(${isOpened ? 0 : 'calc(-100% - 1px)'}, 0, 0)`}
-      transition="box-shadow ease 500ms, transform ease 500ms"
+      transition="background-color 500ms ease, box-shadow ease 500ms, transform ease 500ms"
       width={{ _: '100%', tablet: 224 }}
-      willChange="box-shadow, transform"
+      willChange="background-color, box-shadow, transform"
       zIndex={100}
     >
       <Box>
@@ -55,7 +55,15 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
             </Text>
           </FlexBox>
           <Button onClick={handleClose} variant="cursor-only">
-            <FlexBox alignItems="center" borderLeft={borderStyle} height="100%" justifyContent="center" paddingX={3}>
+            <FlexBox
+              alignItems="center"
+              borderLeft={borderStyle}
+              height="100%"
+              justifyContent="center"
+              paddingX={3}
+              transition="border 500ms ease"
+              willChange="border"
+            >
               <ArrowLeftIcon fill={theme.colors.secondary} height={24} width={24} />
             </FlexBox>
           </Button>
@@ -81,7 +89,9 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
                   justifyContent="space-between"
                   paddingX={3}
                   paddingY={3}
+                  transition="border 500ms ease"
                   width="100%"
+                  willChange="border"
                 >
                   <FlexBox>
                     <FlexBox alignItems="center" marginRight={2}>

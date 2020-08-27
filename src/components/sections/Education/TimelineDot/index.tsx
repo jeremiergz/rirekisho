@@ -11,7 +11,9 @@ const TimelineDot: React.FC = () => {
       boxSizing="border-box"
       display={{ _: 'none', tablet: 'block' }}
       height={19}
+      transition="background-color 500ms ease"
       width={19}
+      willChange="background-color"
     />
   );
 };

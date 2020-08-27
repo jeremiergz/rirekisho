@@ -3,10 +3,18 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  transition: background-color 500ms ease;
   width: 100%;
 }
 body {
   font-weight: 400;
+}
+svg {
+  transition: fill 500ms ease;
+  will-change: fill;
+}
+#___gatsby {
+  position: relative;
 }
 @keyframes pulse {
   0% {
@@ -17,6 +25,14 @@ body {
   }
   100% {
     box-shadow: 0 0 0 0 rgba(49, 133, 154, 0);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 @page {

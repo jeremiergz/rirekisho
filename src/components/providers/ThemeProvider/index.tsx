@@ -1,3 +1,4 @@
+import { useReadiness } from 'components/providers/ReadinessProvider';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { createGlobalStyle, ThemeProvider as StyledThemeProvider } from 'styled-components';
@@ -54,6 +55,7 @@ const ThemeProvider: React.FC = ({ children }) => {
       }
     }
   `);
+  const { setReady } = useReadiness();
   const DarkTheme = useMemo(
     () => ({
       ...themeJson,
@@ -86,6 +88,7 @@ const ThemeProvider: React.FC = ({ children }) => {
     const storedMode = (isBrowser && (localStorage.getItem(localStorageKey) as Theme['type'])) || defaultMode;
     setMode(storedMode);
     setIsInitialized(true);
+    setReady('Theme');
   }, []);
   return (
     <ThemeContext.Provider value={{ theme, toggle }}>

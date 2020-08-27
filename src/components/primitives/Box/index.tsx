@@ -19,7 +19,7 @@ import {
   typography,
   TypographyProps,
   zIndex,
-  ZIndexProps
+  ZIndexProps,
 } from 'styled-system';
 
 const Box = styled.div<BoxProps>`
@@ -34,6 +34,7 @@ const Box = styled.div<BoxProps>`
     zIndex,
     system({
       animation: true,
+      backdropFilter: true,
       cursor: true,
       boxShadow: true,
       boxSizing: true,
@@ -69,6 +70,7 @@ export type BoxProps = StyledSystemProps<
     TypographyProps &
     ZIndexProps & {
       animation?: ResponsiveValue<CSSProperties['animation']>;
+      backdropFilter?: ResponsiveValue<CSSProperties['backdropFilter']>;
       cursor?: ResponsiveValue<CSSProperties['cursor']>;
       boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
       boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;

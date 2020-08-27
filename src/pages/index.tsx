@@ -1,4 +1,6 @@
+import LoadingOverlay from 'components/LoadingOverlay';
 import Grid from 'components/primitives/Grid';
+import { useReadiness } from 'components/providers/ReadinessProvider';
 import { useTheme } from 'components/providers/ThemeProvider';
 import Details from 'components/sections/Details';
 import Education from 'components/sections/Education';
@@ -33,6 +35,7 @@ const IndexPage: React.FC = () => {
       }
     }
   `);
+  const { isReady } = useReadiness();
   const { theme } = useTheme();
   const [isSideMenuOpened, setIsSideMenuOpened] = useState(false);
   const [originalDocTitle, setOriginalDocTitle] = useState<string>();
@@ -63,6 +66,7 @@ const IndexPage: React.FC = () => {
   return (
     <>
       <SEO description={description} keywords={keywords} />
+      <LoadingOverlay loading={!isReady} />
       <Header onMenuClick={handleToggleSideMenu} />
       <Grid
         as="main"

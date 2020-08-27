@@ -33,7 +33,9 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
         height={{ _: 184, laptopL: 224 }}
         minHeight={{ _: 184, laptopL: 224 }}
         position="relative"
+        transition="background-color 500ms ease"
         width={{ _: 184, laptopL: 224 }}
+        willChange="background-color"
       >
         <Box left={0} margin="auto" position="absolute" right={0} top={16} width={{ _: 152, laptopL: 192 }}>
           <Img fluid={portrait} />

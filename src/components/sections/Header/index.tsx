@@ -54,6 +54,8 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         marginX={3}
         marginTop={3}
         top={0}
+        transition="background-color 500ms ease"
+        willChange="background-color"
         zIndex={10}
       >
         <Button onClick={handleMenuClick} padding={3} variant="cursor-only">
@@ -70,7 +72,9 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
         position={{ tablet: 'absolute' }}
         top={0}
+        transition="background-color 500ms ease"
         width="100%"
+        willChange="background-color"
       >
         <FlexBox
           alignItems="center"
