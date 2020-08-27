@@ -5,7 +5,34 @@ exports[`pages Test Suite pages/404 Test Suite matches snapshot 1`] = `null`;
 exports[`pages Test Suite pages/404 Test Suite pages/index Test Suite matches snapshot 1`] = `
 Array [
   <div
-    className="sc-AxjAm gwsCit"
+    className="sc-AxjAm icPxYE"
+    display="flex"
+    opacity={1}
+    width="100%"
+  >
+    <div
+      className="sc-AxjAm edhdmZ"
+      color="text"
+      display="flex"
+      height="100vh"
+      width="100%"
+    >
+      <div
+        className="sc-AxjAm fyYJiN"
+        height={128}
+        width={128}
+      />
+      <span
+        className="sc-AxirZ fAzSoD"
+        fontSize={20}
+        fontWeight="bold"
+      >
+        Loading
+      </span>
+    </div>
+  </div>,
+  <div
+    className="sc-AxjAm cIUAqW"
     display={
       Object {
         "_": "none",
@@ -30,7 +57,7 @@ Array [
     </button>
   </div>,
   <header
-    className="sc-AxjAm kiECts"
+    className="sc-AxjAm jvwVML"
     color="white"
     display="flex"
     height={
@@ -51,7 +78,7 @@ Array [
         display="flex"
       >
         <span
-          className="sc-AxiKw kVswd"
+          className="sc-AxirZ itzVyF"
           fontFamily="title"
           fontSize={32}
           letterSpacing={-2}
@@ -742,10 +769,10 @@ Array [
     </div>
   </header>,
   <main
-    className="sc-AxjAm sc-AxirZ ireiXx"
+    className="sc-AxjAm sc-AxiKw gWfXNd"
   >
     <div
-      className="sc-AxjAm fdqGuY"
+      className="sc-AxjAm eITxqR"
       display="flex"
       height="100%"
       transform="translate3d(calc(-100% - 1px), 0, 0)"
@@ -769,7 +796,7 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw egRmbo"
+              className="sc-AxirZ gOcYgE"
               color="white"
               fontFamily="title"
               fontSize={
@@ -787,7 +814,7 @@ Array [
             onClick={[Function]}
           >
             <div
-              className="sc-AxjAm jXxjhX"
+              className="sc-AxjAm gAPkLQ"
               display="flex"
               height="100%"
             >
@@ -816,7 +843,7 @@ Array [
             width="100%"
           >
             <div
-              className="sc-AxjAm hPBhSv"
+              className="sc-AxjAm bSDalA"
               color="white"
               display="flex"
               width="100%"
@@ -843,7 +870,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw esNMNr"
+                  className="sc-AxirZ bXeAmz"
                 >
                   experience
                 </span>
@@ -868,7 +895,7 @@ Array [
             width="100%"
           >
             <div
-              className="sc-AxjAm kpOHwl"
+              className="sc-AxjAm kknkCG"
               color="white"
               display="flex"
               width="100%"
@@ -895,7 +922,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw esNMNr"
+                  className="sc-AxirZ bXeAmz"
                 >
                   skills
                 </span>
@@ -920,7 +947,7 @@ Array [
             width="100%"
           >
             <div
-              className="sc-AxjAm kpOHwl"
+              className="sc-AxjAm kknkCG"
               color="white"
               display="flex"
               width="100%"
@@ -947,7 +974,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw esNMNr"
+                  className="sc-AxirZ bXeAmz"
                 >
                   toolbox
                 </span>
@@ -972,7 +999,7 @@ Array [
             width="100%"
           >
             <div
-              className="sc-AxjAm kpOHwl"
+              className="sc-AxjAm kknkCG"
               color="white"
               display="flex"
               width="100%"
@@ -999,7 +1026,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw esNMNr"
+                  className="sc-AxirZ bXeAmz"
                 >
                   interests
                 </span>
@@ -1024,7 +1051,7 @@ Array [
             width="100%"
           >
             <div
-              className="sc-AxjAm kpOHwl"
+              className="sc-AxjAm kknkCG"
               color="white"
               display="flex"
               width="100%"
@@ -1051,7 +1078,7 @@ Array [
                   </svg>
                 </div>
                 <span
-                  className="sc-AxiKw esNMNr"
+                  className="sc-AxirZ bXeAmz"
                 >
                   education
                 </span>
@@ -1104,7 +1131,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw dlIynh"
+            className="sc-AxirZ ldBmHR"
             color="lightgray"
           >
             light
@@ -1113,7 +1140,7 @@ Array [
       </div>
     </div>
     <section
-      className="sc-AxjAm sc-AxirZ cKYmCP"
+      className="sc-AxjAm sc-AxiKw YgjST"
     >
       <div
         className="sc-AxjAm kYgcoq"
@@ -1136,7 +1163,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eioTIl"
+              className="sc-AxirZ hxXihl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1144,7 +1171,7 @@ Array [
               nationality
             </label>
             <span
-              className="sc-AxiKw gGzLJV"
+              className="sc-AxirZ bVyPUh"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1157,7 +1184,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eioTIl"
+              className="sc-AxirZ hxXihl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1165,7 +1192,7 @@ Array [
               birth date
             </label>
             <span
-              className="sc-AxiKw gGzLJV"
+              className="sc-AxirZ bVyPUh"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1178,7 +1205,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eioTIl"
+              className="sc-AxirZ hxXihl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1186,7 +1213,7 @@ Array [
               civil status
             </label>
             <span
-              className="sc-AxiKw gGzLJV"
+              className="sc-AxirZ bVyPUh"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1199,7 +1226,7 @@ Array [
             display="flex"
           >
             <label
-              className="sc-AxiKw eioTIl"
+              className="sc-AxirZ hxXihl"
               color="secondary"
               fontSize={14}
               fontWeight="bold"
@@ -1207,7 +1234,7 @@ Array [
               driver licenses
             </label>
             <span
-              className="sc-AxiKw gGzLJV"
+              className="sc-AxirZ bVyPUh"
               color="primary"
               fontSize={22}
               fontWeight="bold"
@@ -1227,7 +1254,7 @@ Array [
           }
         >
           <div
-            className="sc-AxjAm jsYxsb"
+            className="sc-AxjAm hELvBU"
             height={
               Object {
                 "_": 184,
@@ -1342,7 +1369,7 @@ Array [
             </div>
           </div>
           <span
-            className="sc-AxiKw dnTKIW"
+            className="sc-AxirZ fqQLBG"
             color="secondary"
             fontSize={40}
             fontWeight="bold"
@@ -1372,7 +1399,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1435,7 +1462,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1489,7 +1516,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1543,7 +1570,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1597,7 +1624,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1651,7 +1678,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw efIJwk"
+                  className="sc-AxirZ hQVBGw"
                   color="primary"
                   display={
                     Object {
@@ -1696,7 +1723,7 @@ Array [
       </div>
     </section>
     <section
-      className="sc-AxjAm sc-AxirZ jFiolx"
+      className="sc-AxjAm sc-AxiKw eLvMVB"
     >
       <div
         className="sc-AxjAm eiESPf"
@@ -1704,13 +1731,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ftGYeL"
+          className="sc-AxirZ jLDFnn"
           color="secondary"
         >
           exp
         </span>
         <span
-          className="sc-AxiKw emkGCh"
+          className="sc-AxirZ eDwHNh"
           color="primary"
         >
           erience
@@ -1722,10 +1749,10 @@ Array [
         width="100%"
       >
         <div
-          className="sc-AxjAm sc-AxirZ cusFct"
+          className="sc-AxjAm sc-AxiKw bquZTl"
         >
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -1738,13 +1765,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   OCT 2018
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   PRESENT
                 </span>
@@ -1834,7 +1861,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -1843,7 +1870,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -1860,7 +1887,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1872,14 +1899,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     XDoG
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -1892,7 +1919,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1904,7 +1931,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -1913,7 +1940,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -1922,7 +1949,7 @@ Array [
                 Migrate web platforms to Kubernetes on Google Cloud Platform
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -1939,7 +1966,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1951,7 +1978,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -1964,7 +1991,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -1976,7 +2003,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -1985,7 +2012,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -1996,7 +2023,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -2009,13 +2036,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   JUN 2018
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   SEP 2018
                 </span>
@@ -2105,7 +2132,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -2114,7 +2141,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2131,7 +2158,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2143,14 +2170,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     Airbus Defence & Space
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2163,7 +2190,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2175,14 +2202,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     NemEO - DiginEO
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2195,7 +2222,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2207,7 +2234,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2216,7 +2243,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2225,7 +2252,7 @@ Array [
                 Technical manager of a 3 developer team
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2234,7 +2261,7 @@ Array [
                 Front-end development: React.js & Redux
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2243,7 +2270,7 @@ Array [
                 Maintenance of the Architectural Design Document
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2254,7 +2281,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -2267,13 +2294,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   JUN 2017
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   JUN 2018
                 </span>
@@ -2363,7 +2390,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -2372,7 +2399,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2389,7 +2416,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2401,14 +2428,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     Airbus Defence & Space
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2421,7 +2448,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2433,14 +2460,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     Pulsar
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2453,7 +2480,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2465,7 +2492,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2474,7 +2501,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2483,7 +2510,7 @@ Array [
                 Use case supervisor on Postgres DB engineering & implementation
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2492,7 +2519,7 @@ Array [
                 Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2501,7 +2528,7 @@ Array [
                 Micro-services dockerization
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2512,7 +2539,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -2525,13 +2552,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   JAN 2017
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   MAY 2017
                 </span>
@@ -2621,7 +2648,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -2630,7 +2657,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2647,7 +2674,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2659,14 +2686,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     CNES
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2679,7 +2706,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2691,14 +2718,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     Trafic
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2711,7 +2738,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2723,7 +2750,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2732,7 +2759,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2741,7 +2768,7 @@ Array [
                 Development of a new transfer protocol using native File System
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2750,7 +2777,7 @@ Array [
                 Maintenance & quality controls: refactoring of several classes
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2761,7 +2788,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -2774,13 +2801,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   NOV 2016
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   DEC 2016
                 </span>
@@ -2870,7 +2897,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -2879,7 +2906,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -2896,7 +2923,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2908,14 +2935,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     Omnium Finance
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2928,7 +2955,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2940,7 +2967,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -2953,7 +2980,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -2965,7 +2992,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -2974,7 +3001,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2983,7 +3010,7 @@ Array [
                 Back-end development using Java 8 with Spring Boot & JPA
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -2992,7 +3019,7 @@ Array [
                 Front-end development using Angular.js, Bootstrap & SASS
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3003,7 +3030,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm sc-AxirZ jnaqMB"
+            className="sc-AxjAm sc-AxiKw coKGkF"
           >
             <div
               className="sc-AxjAm etsGrS"
@@ -3016,13 +3043,13 @@ Array [
                 fontWeight="bold"
               >
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   JUL 2016
                    - 
                 </span>
                 <span
-                  className="sc-AxiKw jrnFoF"
+                  className="sc-AxirZ bOdwdx"
                 >
                   OCT 2016
                 </span>
@@ -3112,7 +3139,7 @@ Array [
                   </div>
                 </div>
                 <span
-                  className="sc-AxiKw fChXtA"
+                  className="sc-AxirZ cLrWIk"
                 >
                   |
                 </span>
@@ -3121,7 +3148,7 @@ Array [
                   display="flex"
                 >
                   <span
-                    className="sc-AxiKw iTLDqQ"
+                    className="sc-AxirZ eSHEaU"
                     fontSize={16}
                     fontStyle="italic"
                   >
@@ -3138,7 +3165,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3150,14 +3177,14 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw aCDRA"
+                    className="sc-AxirZ DEpmY"
                     color="body1"
                   >
                     RoboCARE Lab
                      | 
                   </span>
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -3170,7 +3197,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3182,7 +3209,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw kDeHhy"
+                    className="sc-AxirZ fbOqfC"
                     color="body1"
                     fontStyle="italic"
                   >
@@ -3195,7 +3222,7 @@ Array [
                 display="flex"
               >
                 <span
-                  className="sc-AxiKw eotKke"
+                  className="sc-AxirZ cTjDii"
                   color="body1"
                   fontWeight="bold"
                 >
@@ -3207,7 +3234,7 @@ Array [
                   fontWeight="bolder"
                 >
                   <span
-                    className="sc-AxiKw laimEp"
+                    className="sc-AxirZ gOyexN"
                     color="secondary"
                     fontStyle="italic"
                   >
@@ -3216,7 +3243,7 @@ Array [
                 </div>
               </div>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3225,7 +3252,7 @@ Array [
                 Engineering of a generic MySQL DB for 3 different web portals
               </span>
               <span
-                className="sc-AxiKw cHiCtC"
+                className="sc-AxirZ bxXmIK"
                 color="body2"
                 display="block"
                 fontWeight="bolder"
@@ -3239,7 +3266,7 @@ Array [
       </div>
     </section>
     <section
-      className="sc-AxjAm sc-AxirZ jFiolx"
+      className="sc-AxjAm sc-AxiKw eLvMVB"
     >
       <div
         className="sc-AxjAm eiESPf"
@@ -3247,13 +3274,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ftGYeL"
+          className="sc-AxirZ jLDFnn"
           color="secondary"
         >
           ski
         </span>
         <span
-          className="sc-AxiKw emkGCh"
+          className="sc-AxirZ eDwHNh"
           color="primary"
         >
           lls
@@ -3274,7 +3301,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eioTIl"
+            className="sc-AxirZ hxXihl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3286,14 +3313,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;Java|Type&gt;Script
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3318,37 +3345,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fLQCnE"
+                className="sc-AxjAm dlqiH"
                 height={16}
                 width={16}
               />
@@ -3359,14 +3386,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Node.js
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3391,37 +3418,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fLQCnE"
+                className="sc-AxjAm dlqiH"
                 height={16}
                 width={16}
               />
@@ -3432,14 +3459,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Golang
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3464,37 +3491,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fSLWPo"
+                className="sc-AxjAm imTdNf"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fSLWPo"
+                className="sc-AxjAm imTdNf"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -3505,14 +3532,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               HTML5|CSS3
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3537,37 +3564,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -3579,7 +3606,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eioTIl"
+            className="sc-AxirZ hxXihl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3591,14 +3618,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Kubernetes
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3623,37 +3650,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fSLWPo"
+                className="sc-AxjAm imTdNf"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -3664,14 +3691,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Docker
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3696,37 +3723,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fLQCnE"
+                className="sc-AxjAm dlqiH"
                 height={16}
                 width={16}
               />
@@ -3737,14 +3764,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;GitLab|Travis&gt;CI
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3769,37 +3796,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fLQCnE"
+                className="sc-AxjAm dlqiH"
                 height={16}
                 width={16}
               />
@@ -3810,14 +3837,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Ansible
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3842,37 +3869,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -3884,7 +3911,7 @@ Array [
           width="100%"
         >
           <label
-            className="sc-AxiKw eioTIl"
+            className="sc-AxirZ hxXihl"
             color="secondary"
             fontSize={14}
             fontWeight="bold"
@@ -3896,14 +3923,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               &lt;Koa|Express&gt;.js
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -3928,37 +3955,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm fLQCnE"
+                className="sc-AxjAm dlqiH"
                 height={16}
                 width={16}
               />
@@ -3969,14 +3996,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               React.js
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -4001,37 +4028,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -4042,14 +4069,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Jest|Mocha|Chai
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -4074,37 +4101,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -4115,14 +4142,14 @@ Array [
             display="flex"
           >
             <span
-              className="sc-AxiKw eUCEIz"
+              className="sc-AxirZ cMMfZP"
               fontSize={18}
               fontWeight="bold"
             >
               Gatsby.js|Next.js
             </span>
             <span
-              className="sc-AxiKw UyLlj"
+              className="sc-AxirZ gfOwjT"
               color="secondary"
               display={
                 Object {
@@ -4147,37 +4174,37 @@ Array [
               }
             >
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm hqcVIO"
+                className="sc-AxjAm iWTZcR"
                 height={16}
                 width={16}
               />
               <span
-                className="sc-AxjAm eznxvS"
+                className="sc-AxjAm eTJWJh"
                 height={16}
                 width={16}
               />
@@ -4187,7 +4214,7 @@ Array [
       </div>
     </section>
     <section
-      className="sc-AxjAm sc-AxirZ jwOPTo"
+      className="sc-AxjAm sc-AxiKw iDhdmw"
     >
       <div
         className="sc-AxjAm eiESPf"
@@ -4195,13 +4222,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ftGYeL"
+          className="sc-AxirZ jLDFnn"
           color="secondary"
         >
           too
         </span>
         <span
-          className="sc-AxiKw emkGCh"
+          className="sc-AxirZ eDwHNh"
           color="primary"
         >
           lbox
@@ -4317,7 +4344,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4425,7 +4452,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4533,7 +4560,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4641,7 +4668,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4749,7 +4776,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4857,7 +4884,7 @@ Array [
               </div>
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4869,7 +4896,7 @@ Array [
       </div>
     </section>
     <section
-      className="sc-AxjAm sc-AxirZ jwOPTo"
+      className="sc-AxjAm sc-AxiKw iDhdmw"
     >
       <div
         className="sc-AxjAm eiESPf"
@@ -4877,13 +4904,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ftGYeL"
+          className="sc-AxirZ jLDFnn"
           color="secondary"
         >
           int
         </span>
         <span
-          className="sc-AxiKw emkGCh"
+          className="sc-AxirZ eDwHNh"
           color="primary"
         >
           erests
@@ -4916,7 +4943,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4941,7 +4968,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4966,7 +4993,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -4991,7 +5018,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5016,7 +5043,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5041,7 +5068,7 @@ Array [
               />
             </a>
             <span
-              className="sc-AxiKw eylVgO"
+              className="sc-AxirZ iZGctO"
               color="text"
               fontSize={12}
               fontWeight="bold"
@@ -5053,7 +5080,7 @@ Array [
       </div>
     </section>
     <section
-      className="sc-AxjAm sc-AxirZ jFiolx"
+      className="sc-AxjAm sc-AxiKw eLvMVB"
     >
       <div
         className="sc-AxjAm eiESPf"
@@ -5061,13 +5088,13 @@ Array [
         fontWeight="bold"
       >
         <span
-          className="sc-AxiKw ftGYeL"
+          className="sc-AxirZ jLDFnn"
           color="secondary"
         >
           edu
         </span>
         <span
-          className="sc-AxiKw emkGCh"
+          className="sc-AxirZ eDwHNh"
           color="primary"
         >
           cation
@@ -5083,7 +5110,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw bfihDL"
+            className="sc-AxirZ bVYDEL"
             color="secondary"
             fontSize={
               Object {
@@ -5096,7 +5123,7 @@ Array [
             2008
           </span>
           <div
-            className="sc-AxjAm cHWDIE"
+            className="sc-AxjAm CABoT"
             display={
               Object {
                 "_": "none",
@@ -5126,7 +5153,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw jgFRye"
+            className="sc-AxirZ jUJzrC"
             color="primary"
             fontSize={
               Object {
@@ -5139,7 +5166,7 @@ Array [
             Intermediate Japanese Certificate
           </span>
           <span
-            className="sc-AxiKw kpNQRt"
+            className="sc-AxirZ kquheB"
             color="text"
             fontSize={
               Object {
@@ -5152,7 +5179,7 @@ Array [
             Sendagaya Japanese Institute
           </span>
           <span
-            className="sc-AxiKw fWXGch"
+            className="sc-AxirZ lcmQCl"
             color="text"
             fontSize={
               Object {
@@ -5172,7 +5199,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw bfihDL"
+            className="sc-AxirZ bVYDEL"
             color="secondary"
             fontSize={
               Object {
@@ -5185,7 +5212,7 @@ Array [
             2010
           </span>
           <div
-            className="sc-AxjAm cHWDIE"
+            className="sc-AxjAm CABoT"
             display={
               Object {
                 "_": "none",
@@ -5234,7 +5261,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw jgFRye"
+            className="sc-AxirZ jUJzrC"
             color="primary"
             fontSize={
               Object {
@@ -5247,7 +5274,7 @@ Array [
             Japanese Language Bachelor Degree
           </span>
           <span
-            className="sc-AxiKw kpNQRt"
+            className="sc-AxirZ kquheB"
             color="text"
             fontSize={
               Object {
@@ -5260,7 +5287,7 @@ Array [
             University of Jean-Jaures
           </span>
           <span
-            className="sc-AxiKw fWXGch"
+            className="sc-AxirZ lcmQCl"
             color="text"
             fontSize={
               Object {
@@ -5280,7 +5307,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw bfihDL"
+            className="sc-AxirZ bVYDEL"
             color="secondary"
             fontSize={
               Object {
@@ -5293,7 +5320,7 @@ Array [
             2012
           </span>
           <div
-            className="sc-AxjAm cHWDIE"
+            className="sc-AxjAm CABoT"
             display={
               Object {
                 "_": "none",
@@ -5342,7 +5369,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw jgFRye"
+            className="sc-AxirZ jUJzrC"
             color="primary"
             fontSize={
               Object {
@@ -5355,7 +5382,7 @@ Array [
             Import-Export Degree
           </span>
           <span
-            className="sc-AxiKw kpNQRt"
+            className="sc-AxirZ kquheB"
             color="text"
             fontSize={
               Object {
@@ -5368,7 +5395,7 @@ Array [
             AFPA
           </span>
           <span
-            className="sc-AxiKw fWXGch"
+            className="sc-AxirZ lcmQCl"
             color="text"
             fontSize={
               Object {
@@ -5388,7 +5415,7 @@ Array [
           display="flex"
         >
           <span
-            className="sc-AxiKw bfihDL"
+            className="sc-AxirZ bVYDEL"
             color="secondary"
             fontSize={
               Object {
@@ -5401,7 +5428,7 @@ Array [
             2016
           </span>
           <div
-            className="sc-AxjAm cHWDIE"
+            className="sc-AxjAm CABoT"
             display={
               Object {
                 "_": "none",
@@ -5431,7 +5458,7 @@ Array [
             />
           </svg>
           <span
-            className="sc-AxiKw jgFRye"
+            className="sc-AxirZ jUJzrC"
             color="primary"
             fontSize={
               Object {
@@ -5444,7 +5471,7 @@ Array [
             Computer Programming Bachelor Degree
           </span>
           <span
-            className="sc-AxiKw kpNQRt"
+            className="sc-AxirZ kquheB"
             color="text"
             fontSize={
               Object {
@@ -5457,7 +5484,7 @@ Array [
             AFPA
           </span>
           <span
-            className="sc-AxiKw fWXGch"
+            className="sc-AxirZ lcmQCl"
             color="text"
             fontSize={
               Object {
@@ -5495,7 +5522,7 @@ Array [
         display="flex"
       >
         <span
-          className="sc-AxiKw kJBPsB"
+          className="sc-AxirZ lGIcF"
         >
           Made with
         </span>
@@ -5521,7 +5548,7 @@ Array [
           />
         </svg>
         <span
-          className="sc-AxiKw kjWeqi"
+          className="sc-AxirZ kFyaKS"
         >
           using
         </span>
@@ -5720,7 +5747,7 @@ Array [
       display="flex"
     >
       <span
-        className="sc-AxiKw esNMNr"
+        className="sc-AxirZ bXeAmz"
       >
         rirekisho v20.07.3
       </span>
@@ -5732,7 +5759,7 @@ Array [
         target="_blank"
       >
         <span
-          className="sc-AxiKw kudcPh"
+          className="sc-AxirZ ifyCrB"
           fontSize={12}
         >
           source code

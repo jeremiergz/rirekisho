@@ -3,7 +3,7 @@
 exports[`components/sections/Header Test Suite matches snapshot 1`] = `
 Array [
   <div
-    className="sc-AxjAm gwsCit"
+    className="sc-AxjAm cIUAqW"
     display={
       Object {
         "_": "none",
@@ -28,7 +28,7 @@ Array [
     </button>
   </div>,
   <header
-    className="sc-AxjAm kiECts"
+    className="sc-AxjAm jvwVML"
     color="white"
     display="flex"
     height={
