@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
     query HeaderData {
       flagImgNodes: allImageSharp(filter: { original: { src: { regex: "/flag/" } } }) {
         nodes {
-          fluid(quality: 100) {
+          fluid(maxWidth: 48, quality: 100) {
             originalName
             ...GatsbyImageSharpFluid_withWebp
           }

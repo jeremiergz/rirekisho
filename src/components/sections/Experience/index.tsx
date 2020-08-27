@@ -12,7 +12,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
     query ExperienceData {
       companyImgNodes: allImageSharp(filter: { original: { src: { regex: "/company/" } } }) {
         nodes {
-          fixed(height: 28, quality: 100) {
+          fixed(height: 24, quality: 100) {
             originalName
             ...GatsbyImageSharpFixed_withWebp
           }

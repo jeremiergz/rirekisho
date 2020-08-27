@@ -17,7 +17,7 @@ const Footer = () => {
   } = useStaticQuery<GraphQL.FooterDataQuery>(graphql`
     query FooterData {
       gatsbyImg: imageSharp(fluid: { originalName: { eq: "tech_gatsby.png" } }) {
-        fluid(quality: 100) {
+        fluid(maxHeight: 64, maxWidth: 64, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
@@ -31,7 +31,7 @@ const Footer = () => {
         }
       }
       styledComponentsImg: imageSharp(fluid: { originalName: { eq: "tech_styled_components.png" } }) {
-        fluid(quality: 100) {
+        fluid(maxHeight: 64, maxWidth: 64, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

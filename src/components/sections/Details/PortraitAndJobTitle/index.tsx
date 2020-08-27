@@ -12,7 +12,7 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
   } = useStaticQuery<GraphQL.PortraitDataQuery>(graphql`
     query PortraitData {
       imageSharp(fluid: { originalName: { eq: "portrait.png" } }) {
-        fluid(maxHeight: 256, maxWidth: 256, quality: 100) {
+        fluid(maxHeight: 192, maxWidth: 192, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
