@@ -10,13 +10,13 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxiKw ftGYeL"
+      className="sc-AxhCb iXGaGj"
       color="secondary"
     >
       int
     </span>
     <span
-      className="sc-AxiKw emkGCh"
+      className="sc-AxhCb fSwhJF"
       color="primary"
     >
       erests
@@ -36,94 +36,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAAA6UlEQVQ4y2NgGAVQwIiESZHDaRixgIlYBaxAvBKIA9FcBQKuQLwOiHmgfGZChoE0bgHi/0DchCQH01gClTsIxOy4DGVCordBNbThCY5KqJpDSIYyYQuz7VCFHUSEaTWSoWzohnIB8V6oggYs4YbuSpjGIqieE0AsiKyIDyoIkiwlIgZhYZYK1XMViEXRww/k7MNQBTV4vAtTnwtVex6IedEdAWNwQMMEpLAKT6RkIxnGhyumYQLs0CTxHxrwMAthluZA5c7hMwzdUC5ojEdjiQg/IN4HxMKEDCM6O5GjlhFPpDCSkeeHMwAAPycoxVfEWwkAAAAASUVORK5CYII="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
+/static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
+/static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAAA6UlEQVQ4y2NgGAVQwIiESZHDaRixgIlYBaxAvBKIA9FcBQKuQLwOiHmgfGZChoE0bgHi/0DchCQH01gClTsIxOy4DGVCordBNbThCY5KqJpDSIYyYQuz7VCFHUSEaTWSoWzohnIB8V6oggYs4YbuSpjGIqieE0AsiKyIDyoIkiwlIgZhYZYK1XMViEXRww/k7MNQBTV4vAtTnwtVex6IedEdAWNwQMMEpLAKT6RkIxnGhyumYQLs0CTxHxrwMAthluZA5c7hMwzdUC5ojEdjiQg/IN4HxMKEDCM6O5GjlhFPpDCSkeeHMwAAPycoxVfEWwkAAAAASUVORK5CYII="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png"
+                srcSet="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
+/static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
+/static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
-/static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
-/static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png"
-                  srcSet="/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
-/static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
-/static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
 /static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
 /static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png 1x,
 /static/71cfe57cd12a059b63fd2e20f94dc7e3/e5b88/interest_coding.png 1.5x,
 /static/71cfe57cd12a059b63fd2e20f94dc7e3/88b72/interest_coding.png 2x\\" src=\\"/static/71cfe57cd12a059b63fd2e20f94dc7e3/aff39/interest_coding.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -135,94 +128,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABBElEQVQ4y83UzQoBURQH8DszjbKx8hDYUixkRVaIDZLyBqxIeBBZYEk+CgtlwytYeBSSxH/q3IzbGMyMcurXzJy553Sbe+8w9ggZFItkJoTEHAzeLAItaHyhDm2IiRPzwxluNgT1s8xSsgk+CEPoDW1MAKpUW9Y3TFEyZ+GTJai2YNSwRM8uWjkzKo3NUG3RqCFPKh/MTHlR61jDwt82TH+yKKqFRcnrG2Yc2DZPi5Kk5Ba6MIQB9Ok6grGQ08b0YEO1Wd7MDR5Ymxyrju5EGNmBl/YvO8AFjiYFNaiYvD/BFfZawyjMYQETmApmsIQV3YvvJ1SribNfBN8Gkk2y0Z/bdtwBMypxQ3bB0LEAAAAASUVORK5CYII="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
+/static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
+/static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABBElEQVQ4y83UzQoBURQH8DszjbKx8hDYUixkRVaIDZLyBqxIeBBZYEk+CgtlwytYeBSSxH/q3IzbGMyMcurXzJy553Sbe+8w9ggZFItkJoTEHAzeLAItaHyhDm2IiRPzwxluNgT1s8xSsgk+CEPoDW1MAKpUW9Y3TFEyZ+GTJai2YNSwRM8uWjkzKo3NUG3RqCFPKh/MTHlR61jDwt82TH+yKKqFRcnrG2Yc2DZPi5Kk5Ba6MIQB9Ok6grGQ08b0YEO1Wd7MDR5Ymxyrju5EGNmBl/YvO8AFjiYFNaiYvD/BFfZawyjMYQETmApmsIQV3YvvJ1SribNfBN8Gkk2y0Z/bdtwBMypxQ3bB0LEAAAAASUVORK5CYII="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png"
+                srcSet="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
+/static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
+/static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
-/static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
-/static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png"
-                  srcSet="/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
-/static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
-/static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
 /static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
 /static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png 1x,
 /static/6126a2aa6a303a3e4eb1a29b1e463488/e5b88/interest_tech.png 1.5x,
 /static/6126a2aa6a303a3e4eb1a29b1e463488/88b72/interest_tech.png 2x\\" src=\\"/static/6126a2aa6a303a3e4eb1a29b1e463488/aff39/interest_tech.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -234,94 +220,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABsUlEQVQ4y6WVzytEURTH3xjK0HhIojEzD2XHPAwbCw0rK8SSzWzsZKHs1KzGEqVYKsk/oPwrkixEKBas/Bh8j75Xx533eOXUp3vveeeeOefcc+84TrDEQNwJlzhtIol2VA98kAQJMAQaQmxDIxNpAiVwBj7AIMhwfgE2QJu1p0pqOE6BS242+Mqh4RbMWXurIhNZ4YY38BoQodavh/j4knYwxvm0FY12+M5xkbajoEs7NYUt0bBorSsq5Qp1W7SZ53rbPiQ5zVMVUT+oBXdc50Ca80fQDLLgmTqpuavT9VV9ZNyn/ojrAZDi/ITfNrl+4TiuHSZZJ5+91kd9JxhhBnUgz0hFemmbo/5HhAnWKMNUOqgXo246k/p4oEUdYpY/4NHHtwxbKR9Sf6BqalI+5rcdK+WCdijX6VwdSp7664BDeQCNLItpIbFrte9jmR+XuV5TfWe3TZk2Ra53tS/T4SleO5EJlYrd2IYZ2k6CHvu26GuzpCILu3qm1qu/XT2T+iy4D3gc0pbuCSz89YzFVEtI416pQ/I4vwF7jNiJ8tDqX3N5A1z2WUGfZpQH9t9/AZ+FWIA2/tcDMQAAAABJRU5ErkJggg=="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
+/static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
+/static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABsUlEQVQ4y6WVzytEURTH3xjK0HhIojEzD2XHPAwbCw0rK8SSzWzsZKHs1KzGEqVYKsk/oPwrkixEKBas/Bh8j75Xx533eOXUp3vveeeeOefcc+84TrDEQNwJlzhtIol2VA98kAQJMAQaQmxDIxNpAiVwBj7AIMhwfgE2QJu1p0pqOE6BS242+Mqh4RbMWXurIhNZ4YY38BoQodavh/j4knYwxvm0FY12+M5xkbajoEs7NYUt0bBorSsq5Qp1W7SZ53rbPiQ5zVMVUT+oBXdc50Ca80fQDLLgmTqpuavT9VV9ZNyn/ojrAZDi/ITfNrl+4TiuHSZZJ5+91kd9JxhhBnUgz0hFemmbo/5HhAnWKMNUOqgXo246k/p4oEUdYpY/4NHHtwxbKR9Sf6BqalI+5rcdK+WCdijX6VwdSp7664BDeQCNLItpIbFrte9jmR+XuV5TfWe3TZk2Ra53tS/T4SleO5EJlYrd2IYZ2k6CHvu26GuzpCILu3qm1qu/XT2T+iy4D3gc0pbuCSz89YzFVEtI416pQ/I4vwF7jNiJ8tDqX3N5A1z2WUGfZpQH9t9/AZ+FWIA2/tcDMQAAAABJRU5ErkJggg=="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png"
+                srcSet="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
+/static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
+/static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
-/static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
-/static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png"
-                  srcSet="/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
-/static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
-/static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
 /static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
 /static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png 1x,
 /static/89568bd24775b26b298d1a84439d1b00/e5b88/interest_sports.png 1.5x,
 /static/89568bd24775b26b298d1a84439d1b00/88b72/interest_sports.png 2x\\" src=\\"/static/89568bd24775b26b298d1a84439d1b00/aff39/interest_sports.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -333,94 +312,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABE0lEQVQ4y73Uv2rCUBgF8PxxUXwFJ0dHp3RyUNClarVgLQg6uCq4uvgihW4tVLE+gbj4BM5dO7uImuZ6hBP4CNHeBDTw43o+7z1EITGMG14WJMAUM5tzme3AGX9mXis3I+bQeQvm4DBnYAbPzGl4g5E4M4EP+IIHWZYHRUsx38AWksyf3JNlHotzXVnY4HDHtcx5jnnInII979S/1tzTkoVVDo9cz5sq8Ag/8AtPUIIVeNCDArzzzIssrHH4R0rwAlld+P71UqHH1RXlfnZFiZ8POoX/UeLzUadQRXCfwnrMQu2f7MUobMvCJod7btDlioehIwudiP9bmGLwTdGHbz7oU03nvQsYGPe4LL7P4rBudlcnBfTCe0SzZMEAAAAASUVORK5CYII="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
+/static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
+/static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABE0lEQVQ4y73Uv2rCUBgF8PxxUXwFJ0dHp3RyUNClarVgLQg6uCq4uvgihW4tVLE+gbj4BM5dO7uImuZ6hBP4CNHeBDTw43o+7z1EITGMG14WJMAUM5tzme3AGX9mXis3I+bQeQvm4DBnYAbPzGl4g5E4M4EP+IIHWZYHRUsx38AWksyf3JNlHotzXVnY4HDHtcx5jnnInII979S/1tzTkoVVDo9cz5sq8Ag/8AtPUIIVeNCDArzzzIssrHH4R0rwAlld+P71UqHH1RXlfnZFiZ8POoX/UeLzUadQRXCfwnrMQu2f7MUobMvCJod7btDlioehIwudiP9bmGLwTdGHbz7oU03nvQsYGPe4LL7P4rBudlcnBfTCe0SzZMEAAAAASUVORK5CYII="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png"
+                srcSet="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
+/static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
+/static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
-/static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
-/static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png"
-                  srcSet="/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
-/static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
-/static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
 /static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
 /static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png 1x,
 /static/7f264d2258cfea85e93c9c30b6914bae/e5b88/interest_movies.png 1.5x,
 /static/7f264d2258cfea85e93c9c30b6914bae/88b72/interest_movies.png 2x\\" src=\\"/static/7f264d2258cfea85e93c9c30b6914bae/aff39/interest_movies.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -432,94 +404,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABXklEQVQ4y7XUP0vDQBgG8GtaXaTQwUFRdLFWBRGx/unqn82h4CcRB1ucRDBxFAQnv4PWQaH4KdzEwQ6C4lKHUoSCPqfPKy/HUWOjBz+SXN48ueQuMearpSCdUMqosL9q31mTsPuDClSdrZyzx7MSloUGvCf0BEM2cIYdZzANy1B0LMI6bMAqrLFuCQpwzIwVww57sN/l3WTgBh7gEZ55c2nbzFjQgRFP9kFAGfYNQhNacAF1Ppm0KjOKOjDkybRn1nIMrHlGbjgxsQLlggF4hWv1FLo2VqBen2MMvHJqYgXK+7NtE27hnjU1VRM7UB5znJOg19p5L4H93G6xvw1v3L/8TWDkBOah44xwz1laMjkVX+CBZ0GX4Q5e4KTLwt/RC1s+vVMY4bG9yRSMwhyU+E4n2F8gWzsMR/rTy/HDTvpzaHJAn20eDpVQiSj0kPpIRvdvP9iASyDo4devrzUfxsyDrlYndpMAAAAASUVORK5CYII="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
+/static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
+/static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAE69AABOvQFzamgUAAABXklEQVQ4y7XUP0vDQBgG8GtaXaTQwUFRdLFWBRGx/unqn82h4CcRB1ucRDBxFAQnv4PWQaH4KdzEwQ6C4lKHUoSCPqfPKy/HUWOjBz+SXN48ueQuMearpSCdUMqosL9q31mTsPuDClSdrZyzx7MSloUGvCf0BEM2cIYdZzANy1B0LMI6bMAqrLFuCQpwzIwVww57sN/l3WTgBh7gEZ55c2nbzFjQgRFP9kFAGfYNQhNacAF1Ppm0KjOKOjDkybRn1nIMrHlGbjgxsQLlggF4hWv1FLo2VqBen2MMvHJqYgXK+7NtE27hnjU1VRM7UB5znJOg19p5L4H93G6xvw1v3L/8TWDkBOah44xwz1laMjkVX+CBZ0GX4Q5e4KTLwt/RC1s+vVMY4bG9yRSMwhyU+E4n2F8gWzsMR/rTy/HDTvpzaHJAn20eDpVQiSj0kPpIRvdvP9iASyDo4devrzUfxsyDrlYndpMAAAAASUVORK5CYII="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png"
+                srcSet="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
+/static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
+/static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
-/static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
-/static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png"
-                  srcSet="/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
-/static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
-/static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
 /static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
 /static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png 1x,
 /static/b8bb6f26f20ef8983db0d2b5d9832f55/e5b88/interest_music.png 1.5x,
 /static/b8bb6f26f20ef8983db0d2b5d9832f55/88b72/interest_music.png 2x\\" src=\\"/static/b8bb6f26f20ef8983db0d2b5d9832f55/aff39/interest_music.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -531,94 +496,87 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         className="sc-AxjAm hpcBAq"
         display="flex"
       >
-        <a
-          className="sc-AxjAm sc-AxirZ bcuvrm"
-          fontWeight="semi-bold"
+        <div
+          className="sc-AxjAm fhTtHV"
           height={48}
-          rel="noopener noreferrer"
-          target="_blank"
+          width={48}
         >
           <div
-            className="sc-AxjAm bJiOhD"
-            width={48}
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 48,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 48,
+              }
+            }
           >
-            <div
-              className=" gatsby-image-wrapper"
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAJ17AACdewE8n3fEAAAA7klEQVQ4y2NgGG6AkVaGMVLLMFEg5qKmyy4BcT+UzUyKIUxIbJjGiUD8H4q9oGIspLoOpiECatAvKP0aiGWwWI7TkAwgZoXyDYH4M9Sgv0D8G8reT6xrSqEaSqH8ACj/DxD/Q3NpO67whAk4IIUTCNtDxTvQDP0HdS1IzAc9PGFhIAzET6CKfkLph0AsAJXfjmQoMv0GiGWxhedmNO/A6C1QeTso/x+S12HheQDdy+VQie9Qg2AY5tJ5QHwNyfUweZCB36DirTDDQtHCjRKcyAAlaoC4BIjLcOBiAvIlUDMSaVIkMUOjnBqYefCXwADTrGchE0twtwAAAABJRU5ErkJggg=="
               style={
                 Object {
-                  "display": "inline-block",
-                  "height": 48,
-                  "overflow": "hidden",
-                  "position": "relative",
-                  "width": 48,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
                 }
               }
-            >
+            />
+            <picture>
+              <source
+                srcSet="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
+/static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
+/static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x"
+              />
               <img
                 alt=""
-                aria-hidden={true}
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAJ17AACdewE8n3fEAAAA7klEQVQ4y2NgGG6AkVaGMVLLMFEg5qKmyy4BcT+UzUyKIUxIbJjGiUD8H4q9oGIspLoOpiECatAvKP0aiGWwWI7TkAwgZoXyDYH4M9Sgv0D8G8reT6xrSqEaSqH8ACj/DxD/Q3NpO67whAk4IIUTCNtDxTvQDP0HdS1IzAc9PGFhIAzET6CKfkLph0AsAJXfjmQoMv0GiGWxhedmNO/A6C1QeTso/x+S12HheQDdy+VQie9Qg2AY5tJ5QHwNyfUweZCB36DirTDDQtHCjRKcyAAlaoC4BIjLcOBiAvIlUDMSaVIkMUOjnBqYefCXwADTrGchE0twtwAAAABJRU5ErkJggg=="
+                height={48}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png"
+                srcSet="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
+/static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
+/static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x"
                 style={
                   Object {
                     "height": "100%",
                     "left": 0,
                     "objectFit": "cover",
                     "objectPosition": "center",
-                    "opacity": 1,
+                    "opacity": 0,
                     "position": "absolute",
                     "top": 0,
-                    "transitionDelay": "500ms",
+                    "transition": "opacity 500ms",
                     "width": "100%",
                   }
                 }
+                width={48}
               />
-              <picture>
-                <source
-                  srcSet="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
-/static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
-/static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x"
-                />
-                <img
-                  alt=""
-                  height={48}
-                  loading="lazy"
-                  onLoad={[Function]}
-                  src="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png"
-                  srcSet="/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
-/static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
-/static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x"
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "objectFit": "cover",
-                      "objectPosition": "center",
-                      "opacity": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "transition": "opacity 500ms",
-                      "width": "100%",
-                    }
-                  }
-                  width={48}
-                />
-              </picture>
-              <noscript
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "<picture><source srcset=\\"/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
 /static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
 /static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x\\" /><img loading=\\"lazy\\" width=\\"48\\" height=\\"48\\" srcset=\\"/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png 1x,
 /static/81b3aa34e619966b5d2e000b74c9e7ff/e5b88/interest_nature.png 1.5x,
 /static/81b3aa34e619966b5d2e000b74c9e7ff/88b72/interest_nature.png 2x\\" src=\\"/static/81b3aa34e619966b5d2e000b74c9e7ff/aff39/interest_nature.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-                  }
                 }
-              />
-            </div>
+              }
+            />
           </div>
-        </a>
+        </div>
         <span
-          className="sc-AxiKw eylVgO"
+          className="sc-AxhCb dpNivi"
           color="text"
           fontSize={12}
           fontWeight="bold"

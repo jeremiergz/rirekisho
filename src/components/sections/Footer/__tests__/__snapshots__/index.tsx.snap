@@ -111,7 +111,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
 /static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w"
             />
             <img
-              alt=""
+              alt="Go to https://www.gatsbyjs.org"
               loading="lazy"
               onLoad={[Function]}
               sizes="(max-width: 512px) 100vw, 512px"
@@ -141,7 +141,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
 /static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
 /static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
 /static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
-/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" src=\\"/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" src=\\"/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png\\" alt=\\"Go to https://www.gatsbyjs.org\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
               }
             }
           />
@@ -202,7 +202,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w"
             />
             <img
-              alt=""
+              alt="Go to https://styled-components.com"
               loading="lazy"
               onLoad={[Function]}
               sizes="(max-width: 512px) 100vw, 512px"
@@ -232,7 +232,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
-/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" src=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" src=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png\\" alt=\\"Go to https://styled-components.com\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
               }
             }
           />

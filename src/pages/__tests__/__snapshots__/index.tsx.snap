@@ -44,6 +44,7 @@ Array [
     }
   >
     <button
+      aria-label="Toggle Menu"
       className="sc-AxjAm sc-AxgMl onJGm"
       onClick={[Function]}
     >
@@ -749,6 +750,7 @@ Array [
       width={64}
     >
       <button
+        aria-label="Open Menu"
         className="sc-AxjAm sc-AxgMl dTHobl"
         height="100%"
         onClick={[Function]}
@@ -813,6 +815,7 @@ Array [
             </span>
           </div>
           <button
+            aria-label="Close Menu"
             className="sc-AxjAm sc-AxgMl dvqkbm"
             onClick={[Function]}
           >
@@ -841,6 +844,7 @@ Array [
           fontSize={20}
         >
           <button
+            aria-label="Scroll to experience"
             className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
@@ -893,6 +897,7 @@ Array [
             </div>
           </button>
           <button
+            aria-label="Scroll to skills"
             className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
@@ -945,6 +950,7 @@ Array [
             </div>
           </button>
           <button
+            aria-label="Scroll to toolbox"
             className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
@@ -997,6 +1003,7 @@ Array [
             </div>
           </button>
           <button
+            aria-label="Scroll to interests"
             className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
@@ -1049,6 +1056,7 @@ Array [
             </div>
           </button>
           <button
+            aria-label="Scroll to education"
             className="sc-AxjAm sc-AxgMl hudEyZ"
             onClick={[Function]}
             width="100%"
@@ -1107,6 +1115,7 @@ Array [
         display="flex"
       >
         <button
+          aria-label="Toggle Theme mode"
           className="sc-AxjAm sc-AxgMl gFFUWp"
           onClick={[Function]}
         >
@@ -1391,6 +1400,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open phone contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="tel:+33681516442"
@@ -1454,6 +1464,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open linkedin contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="https://linkedin.com/in/jeremiergz"
@@ -1508,6 +1519,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open twitter contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="https://twitter.com/JeremieRgz"
@@ -1562,6 +1574,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open gitlab contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="https://gitlab.com/jeremiergz"
@@ -1616,6 +1629,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open github contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="https://github.com/jeremiergz"
@@ -1670,6 +1684,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Open email contact"
               className="sc-AxjAm sc-AxhCb frRwYA"
               fontWeight="semi-bold"
               href="mailto:contact@jeremierodriguez.com"
@@ -4252,6 +4267,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://code.visualstudio.com"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4360,6 +4376,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://www.npmjs.com"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4468,6 +4485,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://www.mongodb.com"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4576,6 +4594,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://redis.io"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4684,6 +4703,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://cloud.google.com"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4792,6 +4812,7 @@ Array [
             display="flex"
           >
             <a
+              aria-label="Go to https://www.raspberrypi.org"
               className="sc-AxjAm sc-AxhCb ksutZS"
               fontWeight="semi-bold"
               height={48}
@@ -4933,18 +4954,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -4958,18 +4972,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -4983,18 +4990,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -5008,18 +5008,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -5033,18 +5026,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -5058,18 +5044,11 @@ Array [
             className="sc-AxjAm hpcBAq"
             display="flex"
           >
-            <a
-              className="sc-AxjAm sc-AxhCb ksutZS"
-              fontWeight="semi-bold"
+            <div
+              className="sc-AxjAm fhTtHV"
               height={48}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div
-                className="sc-AxjAm bJiOhD"
-                width={48}
-              />
-            </a>
+              width={48}
+            />
             <span
               className="sc-AxiKw eylVgO"
               color="text"
@@ -5615,7 +5594,7 @@ Array [
 /static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w"
               />
               <img
-                alt=""
+                alt="Go to https://www.gatsbyjs.org"
                 loading="lazy"
                 onLoad={[Function]}
                 sizes="(max-width: 512px) 100vw, 512px"
@@ -5645,7 +5624,7 @@ Array [
 /static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
 /static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/eab161f5eea431f46d042aa5def958ab/69585/tech_gatsby.png 200w,
 /static/eab161f5eea431f46d042aa5def958ab/497c6/tech_gatsby.png 400w,
-/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" src=\\"/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png 512w\\" src=\\"/static/eab161f5eea431f46d042aa5def958ab/bc59e/tech_gatsby.png\\" alt=\\"Go to https://www.gatsbyjs.org\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                 }
               }
             />
@@ -5706,7 +5685,7 @@ Array [
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w"
               />
               <img
-                alt=""
+                alt="Go to https://styled-components.com"
                 loading="lazy"
                 onLoad={[Function]}
                 sizes="(max-width: 512px) 100vw, 512px"
@@ -5736,7 +5715,7 @@ Array [
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 512px) 100vw, 512px\\" srcset=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/69585/tech_styled_components.png 200w,
 /static/7eb0e9e8f1b57b3d44cb75990ebb50ae/497c6/tech_styled_components.png 400w,
-/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" src=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png 512w\\" src=\\"/static/7eb0e9e8f1b57b3d44cb75990ebb50ae/bc59e/tech_styled_components.png\\" alt=\\"Go to https://styled-components.com\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                 }
               }
             />

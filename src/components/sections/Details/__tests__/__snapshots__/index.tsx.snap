@@ -250,6 +250,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open phone contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="tel:+33681516442"
@@ -313,6 +314,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open linkedin contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="https://linkedin.com/in/jeremiergz"
@@ -367,6 +369,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open twitter contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="https://twitter.com/JeremieRgz"
@@ -421,6 +424,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open gitlab contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="https://gitlab.com/jeremiergz"
@@ -475,6 +479,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open github contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="https://github.com/jeremiergz"
@@ -529,6 +534,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         display="flex"
       >
         <a
+          aria-label="Open email contact"
           className="sc-AxjAm sc-AxhCb frRwYA"
           fontWeight="semi-bold"
           href="mailto:contact@jeremierodriguez.com"

@@ -7,6 +7,7 @@ exports[`components/Fab Test Suite matches snapshot 1`] = `
   width={64}
 >
   <button
+    aria-label="Open Menu"
     className="sc-AxjAm sc-AxirZ bydKTu"
     height="100%"
     onClick={[Function]}
