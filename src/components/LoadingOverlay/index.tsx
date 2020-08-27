@@ -1,7 +1,7 @@
-import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
-import Text, { TextProps } from 'components/primitives/Text';
+import { TextProps } from 'components/primitives/Text';
 import React, { useEffect, useState } from 'react';
+import Dot from './Dot';
 
 const transitionDelay = 1000;
 const transitionDuration = 250;
@@ -29,21 +29,9 @@ const LoadingOverlay: React.FC<LoadingOverlayProps> = ({ loading }) => {
       zIndex={isDisplayed ? 1000 : -1000}
     >
       <FlexBox alignItems="center" color="text" height="100vh" justifyContent="center" width="100%">
-        <Box
-          animation="spin 1s infinite"
-          borderColor="text"
-          borderTop="4px solid"
-          borderRadius="50%"
-          margin={128}
-          height={128}
-          position="absolute"
-          transition={`color ${transitionDuration / 2}ms ease`}
-          width={128}
-          willChange="color"
-        />
-        <Text fontSize={20} fontWeight="bold" textTransform="uppercase">
-          Loading
-        </Text>
+        <Dot />
+        <Dot delayInMS={150} marginLeft={1} />
+        <Dot delayInMS={300} marginLeft={1} />
       </FlexBox>
     </FlexBox>
   );
