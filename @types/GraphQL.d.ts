@@ -749,10 +749,10 @@ declare module GraphQL {
     internal: Internal;
     childrenInterestsJson?: Maybe<Array<Maybe<InterestsJson>>>;
     childrenExperiencesJson?: Maybe<Array<Maybe<ExperiencesJson>>>;
-    childrenLanguagesJson?: Maybe<Array<Maybe<LanguagesJson>>>;
-    childrenSkillsJson?: Maybe<Array<Maybe<SkillsJson>>>;
     childrenEducationJson?: Maybe<Array<Maybe<EducationJson>>>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJson>;
+    childrenLanguagesJson?: Maybe<Array<Maybe<LanguagesJson>>>;
+    childrenSkillsJson?: Maybe<Array<Maybe<SkillsJson>>>;
     childrenToolboxJson?: Maybe<Array<Maybe<ToolboxJson>>>;
     childThemeJson?: Maybe<ThemeJson>;
   };
@@ -1135,95 +1135,6 @@ declare module GraphQL {
     ChildrenExperiencesJsonProjectsTasks = 'childrenExperiencesJson___projects___tasks',
     ChildrenExperiencesJsonProjectsTechnologies = 'childrenExperiencesJson___projects___technologies',
     ChildrenExperiencesJsonStartDate = 'childrenExperiencesJson___startDate',
-    ChildrenLanguagesJson = 'childrenLanguagesJson',
-    ChildrenLanguagesJsonId = 'childrenLanguagesJson___id',
-    ChildrenLanguagesJsonParentId = 'childrenLanguagesJson___parent___id',
-    ChildrenLanguagesJsonParentParentId = 'childrenLanguagesJson___parent___parent___id',
-    ChildrenLanguagesJsonParentParentChildren = 'childrenLanguagesJson___parent___parent___children',
-    ChildrenLanguagesJsonParentChildren = 'childrenLanguagesJson___parent___children',
-    ChildrenLanguagesJsonParentChildrenId = 'childrenLanguagesJson___parent___children___id',
-    ChildrenLanguagesJsonParentChildrenChildren = 'childrenLanguagesJson___parent___children___children',
-    ChildrenLanguagesJsonParentInternalContent = 'childrenLanguagesJson___parent___internal___content',
-    ChildrenLanguagesJsonParentInternalContentDigest = 'childrenLanguagesJson___parent___internal___contentDigest',
-    ChildrenLanguagesJsonParentInternalDescription = 'childrenLanguagesJson___parent___internal___description',
-    ChildrenLanguagesJsonParentInternalFieldOwners = 'childrenLanguagesJson___parent___internal___fieldOwners',
-    ChildrenLanguagesJsonParentInternalIgnoreType = 'childrenLanguagesJson___parent___internal___ignoreType',
-    ChildrenLanguagesJsonParentInternalMediaType = 'childrenLanguagesJson___parent___internal___mediaType',
-    ChildrenLanguagesJsonParentInternalOwner = 'childrenLanguagesJson___parent___internal___owner',
-    ChildrenLanguagesJsonParentInternalType = 'childrenLanguagesJson___parent___internal___type',
-    ChildrenLanguagesJsonChildren = 'childrenLanguagesJson___children',
-    ChildrenLanguagesJsonChildrenId = 'childrenLanguagesJson___children___id',
-    ChildrenLanguagesJsonChildrenParentId = 'childrenLanguagesJson___children___parent___id',
-    ChildrenLanguagesJsonChildrenParentChildren = 'childrenLanguagesJson___children___parent___children',
-    ChildrenLanguagesJsonChildrenChildren = 'childrenLanguagesJson___children___children',
-    ChildrenLanguagesJsonChildrenChildrenId = 'childrenLanguagesJson___children___children___id',
-    ChildrenLanguagesJsonChildrenChildrenChildren = 'childrenLanguagesJson___children___children___children',
-    ChildrenLanguagesJsonChildrenInternalContent = 'childrenLanguagesJson___children___internal___content',
-    ChildrenLanguagesJsonChildrenInternalContentDigest = 'childrenLanguagesJson___children___internal___contentDigest',
-    ChildrenLanguagesJsonChildrenInternalDescription = 'childrenLanguagesJson___children___internal___description',
-    ChildrenLanguagesJsonChildrenInternalFieldOwners = 'childrenLanguagesJson___children___internal___fieldOwners',
-    ChildrenLanguagesJsonChildrenInternalIgnoreType = 'childrenLanguagesJson___children___internal___ignoreType',
-    ChildrenLanguagesJsonChildrenInternalMediaType = 'childrenLanguagesJson___children___internal___mediaType',
-    ChildrenLanguagesJsonChildrenInternalOwner = 'childrenLanguagesJson___children___internal___owner',
-    ChildrenLanguagesJsonChildrenInternalType = 'childrenLanguagesJson___children___internal___type',
-    ChildrenLanguagesJsonInternalContent = 'childrenLanguagesJson___internal___content',
-    ChildrenLanguagesJsonInternalContentDigest = 'childrenLanguagesJson___internal___contentDigest',
-    ChildrenLanguagesJsonInternalDescription = 'childrenLanguagesJson___internal___description',
-    ChildrenLanguagesJsonInternalFieldOwners = 'childrenLanguagesJson___internal___fieldOwners',
-    ChildrenLanguagesJsonInternalIgnoreType = 'childrenLanguagesJson___internal___ignoreType',
-    ChildrenLanguagesJsonInternalMediaType = 'childrenLanguagesJson___internal___mediaType',
-    ChildrenLanguagesJsonInternalOwner = 'childrenLanguagesJson___internal___owner',
-    ChildrenLanguagesJsonInternalType = 'childrenLanguagesJson___internal___type',
-    ChildrenLanguagesJsonImg = 'childrenLanguagesJson___img',
-    ChildrenLanguagesJsonName = 'childrenLanguagesJson___name',
-    ChildrenLanguagesJsonProficiencyLevel = 'childrenLanguagesJson___proficiencyLevel',
-    ChildrenLanguagesJsonSortOrder = 'childrenLanguagesJson___sortOrder',
-    ChildrenSkillsJson = 'childrenSkillsJson',
-    ChildrenSkillsJsonId = 'childrenSkillsJson___id',
-    ChildrenSkillsJsonParentId = 'childrenSkillsJson___parent___id',
-    ChildrenSkillsJsonParentParentId = 'childrenSkillsJson___parent___parent___id',
-    ChildrenSkillsJsonParentParentChildren = 'childrenSkillsJson___parent___parent___children',
-    ChildrenSkillsJsonParentChildren = 'childrenSkillsJson___parent___children',
-    ChildrenSkillsJsonParentChildrenId = 'childrenSkillsJson___parent___children___id',
-    ChildrenSkillsJsonParentChildrenChildren = 'childrenSkillsJson___parent___children___children',
-    ChildrenSkillsJsonParentInternalContent = 'childrenSkillsJson___parent___internal___content',
-    ChildrenSkillsJsonParentInternalContentDigest = 'childrenSkillsJson___parent___internal___contentDigest',
-    ChildrenSkillsJsonParentInternalDescription = 'childrenSkillsJson___parent___internal___description',
-    ChildrenSkillsJsonParentInternalFieldOwners = 'childrenSkillsJson___parent___internal___fieldOwners',
-    ChildrenSkillsJsonParentInternalIgnoreType = 'childrenSkillsJson___parent___internal___ignoreType',
-    ChildrenSkillsJsonParentInternalMediaType = 'childrenSkillsJson___parent___internal___mediaType',
-    ChildrenSkillsJsonParentInternalOwner = 'childrenSkillsJson___parent___internal___owner',
-    ChildrenSkillsJsonParentInternalType = 'childrenSkillsJson___parent___internal___type',
-    ChildrenSkillsJsonChildren = 'childrenSkillsJson___children',
-    ChildrenSkillsJsonChildrenId = 'childrenSkillsJson___children___id',
-    ChildrenSkillsJsonChildrenParentId = 'childrenSkillsJson___children___parent___id',
-    ChildrenSkillsJsonChildrenParentChildren = 'childrenSkillsJson___children___parent___children',
-    ChildrenSkillsJsonChildrenChildren = 'childrenSkillsJson___children___children',
-    ChildrenSkillsJsonChildrenChildrenId = 'childrenSkillsJson___children___children___id',
-    ChildrenSkillsJsonChildrenChildrenChildren = 'childrenSkillsJson___children___children___children',
-    ChildrenSkillsJsonChildrenInternalContent = 'childrenSkillsJson___children___internal___content',
-    ChildrenSkillsJsonChildrenInternalContentDigest = 'childrenSkillsJson___children___internal___contentDigest',
-    ChildrenSkillsJsonChildrenInternalDescription = 'childrenSkillsJson___children___internal___description',
-    ChildrenSkillsJsonChildrenInternalFieldOwners = 'childrenSkillsJson___children___internal___fieldOwners',
-    ChildrenSkillsJsonChildrenInternalIgnoreType = 'childrenSkillsJson___children___internal___ignoreType',
-    ChildrenSkillsJsonChildrenInternalMediaType = 'childrenSkillsJson___children___internal___mediaType',
-    ChildrenSkillsJsonChildrenInternalOwner = 'childrenSkillsJson___children___internal___owner',
-    ChildrenSkillsJsonChildrenInternalType = 'childrenSkillsJson___children___internal___type',
-    ChildrenSkillsJsonInternalContent = 'childrenSkillsJson___internal___content',
-    ChildrenSkillsJsonInternalContentDigest = 'childrenSkillsJson___internal___contentDigest',
-    ChildrenSkillsJsonInternalDescription = 'childrenSkillsJson___internal___description',
-    ChildrenSkillsJsonInternalFieldOwners = 'childrenSkillsJson___internal___fieldOwners',
-    ChildrenSkillsJsonInternalIgnoreType = 'childrenSkillsJson___internal___ignoreType',
-    ChildrenSkillsJsonInternalMediaType = 'childrenSkillsJson___internal___mediaType',
-    ChildrenSkillsJsonInternalOwner = 'childrenSkillsJson___internal___owner',
-    ChildrenSkillsJsonInternalType = 'childrenSkillsJson___internal___type',
-    ChildrenSkillsJsonName = 'childrenSkillsJson___name',
-    ChildrenSkillsJsonSortOrder = 'childrenSkillsJson___sortOrder',
-    ChildrenSkillsJsonItems = 'childrenSkillsJson___items',
-    ChildrenSkillsJsonItemsName = 'childrenSkillsJson___items___name',
-    ChildrenSkillsJsonItemsProficiencyLevel = 'childrenSkillsJson___items___proficiencyLevel',
-    ChildrenSkillsJsonItemsSortOrder = 'childrenSkillsJson___items___sortOrder',
-    ChildrenSkillsJsonItemsSection = 'childrenSkillsJson___items___section',
     ChildrenEducationJson = 'childrenEducationJson',
     ChildrenEducationJsonId = 'childrenEducationJson___id',
     ChildrenEducationJsonParentId = 'childrenEducationJson___parent___id',
@@ -1318,6 +1229,95 @@ declare module GraphQL {
     ChildPersonalDetailsJsonPersonalInformationSortOrder = 'childPersonalDetailsJson___personalInformation___sortOrder',
     ChildPersonalDetailsJsonPersonalInformationValue = 'childPersonalDetailsJson___personalInformation___value',
     ChildPersonalDetailsJsonTwitterUsername = 'childPersonalDetailsJson___twitterUsername',
+    ChildrenLanguagesJson = 'childrenLanguagesJson',
+    ChildrenLanguagesJsonId = 'childrenLanguagesJson___id',
+    ChildrenLanguagesJsonParentId = 'childrenLanguagesJson___parent___id',
+    ChildrenLanguagesJsonParentParentId = 'childrenLanguagesJson___parent___parent___id',
+    ChildrenLanguagesJsonParentParentChildren = 'childrenLanguagesJson___parent___parent___children',
+    ChildrenLanguagesJsonParentChildren = 'childrenLanguagesJson___parent___children',
+    ChildrenLanguagesJsonParentChildrenId = 'childrenLanguagesJson___parent___children___id',
+    ChildrenLanguagesJsonParentChildrenChildren = 'childrenLanguagesJson___parent___children___children',
+    ChildrenLanguagesJsonParentInternalContent = 'childrenLanguagesJson___parent___internal___content',
+    ChildrenLanguagesJsonParentInternalContentDigest = 'childrenLanguagesJson___parent___internal___contentDigest',
+    ChildrenLanguagesJsonParentInternalDescription = 'childrenLanguagesJson___parent___internal___description',
+    ChildrenLanguagesJsonParentInternalFieldOwners = 'childrenLanguagesJson___parent___internal___fieldOwners',
+    ChildrenLanguagesJsonParentInternalIgnoreType = 'childrenLanguagesJson___parent___internal___ignoreType',
+    ChildrenLanguagesJsonParentInternalMediaType = 'childrenLanguagesJson___parent___internal___mediaType',
+    ChildrenLanguagesJsonParentInternalOwner = 'childrenLanguagesJson___parent___internal___owner',
+    ChildrenLanguagesJsonParentInternalType = 'childrenLanguagesJson___parent___internal___type',
+    ChildrenLanguagesJsonChildren = 'childrenLanguagesJson___children',
+    ChildrenLanguagesJsonChildrenId = 'childrenLanguagesJson___children___id',
+    ChildrenLanguagesJsonChildrenParentId = 'childrenLanguagesJson___children___parent___id',
+    ChildrenLanguagesJsonChildrenParentChildren = 'childrenLanguagesJson___children___parent___children',
+    ChildrenLanguagesJsonChildrenChildren = 'childrenLanguagesJson___children___children',
+    ChildrenLanguagesJsonChildrenChildrenId = 'childrenLanguagesJson___children___children___id',
+    ChildrenLanguagesJsonChildrenChildrenChildren = 'childrenLanguagesJson___children___children___children',
+    ChildrenLanguagesJsonChildrenInternalContent = 'childrenLanguagesJson___children___internal___content',
+    ChildrenLanguagesJsonChildrenInternalContentDigest = 'childrenLanguagesJson___children___internal___contentDigest',
+    ChildrenLanguagesJsonChildrenInternalDescription = 'childrenLanguagesJson___children___internal___description',
+    ChildrenLanguagesJsonChildrenInternalFieldOwners = 'childrenLanguagesJson___children___internal___fieldOwners',
+    ChildrenLanguagesJsonChildrenInternalIgnoreType = 'childrenLanguagesJson___children___internal___ignoreType',
+    ChildrenLanguagesJsonChildrenInternalMediaType = 'childrenLanguagesJson___children___internal___mediaType',
+    ChildrenLanguagesJsonChildrenInternalOwner = 'childrenLanguagesJson___children___internal___owner',
+    ChildrenLanguagesJsonChildrenInternalType = 'childrenLanguagesJson___children___internal___type',
+    ChildrenLanguagesJsonInternalContent = 'childrenLanguagesJson___internal___content',
+    ChildrenLanguagesJsonInternalContentDigest = 'childrenLanguagesJson___internal___contentDigest',
+    ChildrenLanguagesJsonInternalDescription = 'childrenLanguagesJson___internal___description',
+    ChildrenLanguagesJsonInternalFieldOwners = 'childrenLanguagesJson___internal___fieldOwners',
+    ChildrenLanguagesJsonInternalIgnoreType = 'childrenLanguagesJson___internal___ignoreType',
+    ChildrenLanguagesJsonInternalMediaType = 'childrenLanguagesJson___internal___mediaType',
+    ChildrenLanguagesJsonInternalOwner = 'childrenLanguagesJson___internal___owner',
+    ChildrenLanguagesJsonInternalType = 'childrenLanguagesJson___internal___type',
+    ChildrenLanguagesJsonImg = 'childrenLanguagesJson___img',
+    ChildrenLanguagesJsonName = 'childrenLanguagesJson___name',
+    ChildrenLanguagesJsonProficiencyLevel = 'childrenLanguagesJson___proficiencyLevel',
+    ChildrenLanguagesJsonSortOrder = 'childrenLanguagesJson___sortOrder',
+    ChildrenSkillsJson = 'childrenSkillsJson',
+    ChildrenSkillsJsonId = 'childrenSkillsJson___id',
+    ChildrenSkillsJsonParentId = 'childrenSkillsJson___parent___id',
+    ChildrenSkillsJsonParentParentId = 'childrenSkillsJson___parent___parent___id',
+    ChildrenSkillsJsonParentParentChildren = 'childrenSkillsJson___parent___parent___children',
+    ChildrenSkillsJsonParentChildren = 'childrenSkillsJson___parent___children',
+    ChildrenSkillsJsonParentChildrenId = 'childrenSkillsJson___parent___children___id',
+    ChildrenSkillsJsonParentChildrenChildren = 'childrenSkillsJson___parent___children___children',
+    ChildrenSkillsJsonParentInternalContent = 'childrenSkillsJson___parent___internal___content',
+    ChildrenSkillsJsonParentInternalContentDigest = 'childrenSkillsJson___parent___internal___contentDigest',
+    ChildrenSkillsJsonParentInternalDescription = 'childrenSkillsJson___parent___internal___description',
+    ChildrenSkillsJsonParentInternalFieldOwners = 'childrenSkillsJson___parent___internal___fieldOwners',
+    ChildrenSkillsJsonParentInternalIgnoreType = 'childrenSkillsJson___parent___internal___ignoreType',
+    ChildrenSkillsJsonParentInternalMediaType = 'childrenSkillsJson___parent___internal___mediaType',
+    ChildrenSkillsJsonParentInternalOwner = 'childrenSkillsJson___parent___internal___owner',
+    ChildrenSkillsJsonParentInternalType = 'childrenSkillsJson___parent___internal___type',
+    ChildrenSkillsJsonChildren = 'childrenSkillsJson___children',
+    ChildrenSkillsJsonChildrenId = 'childrenSkillsJson___children___id',
+    ChildrenSkillsJsonChildrenParentId = 'childrenSkillsJson___children___parent___id',
+    ChildrenSkillsJsonChildrenParentChildren = 'childrenSkillsJson___children___parent___children',
+    ChildrenSkillsJsonChildrenChildren = 'childrenSkillsJson___children___children',
+    ChildrenSkillsJsonChildrenChildrenId = 'childrenSkillsJson___children___children___id',
+    ChildrenSkillsJsonChildrenChildrenChildren = 'childrenSkillsJson___children___children___children',
+    ChildrenSkillsJsonChildrenInternalContent = 'childrenSkillsJson___children___internal___content',
+    ChildrenSkillsJsonChildrenInternalContentDigest = 'childrenSkillsJson___children___internal___contentDigest',
+    ChildrenSkillsJsonChildrenInternalDescription = 'childrenSkillsJson___children___internal___description',
+    ChildrenSkillsJsonChildrenInternalFieldOwners = 'childrenSkillsJson___children___internal___fieldOwners',
+    ChildrenSkillsJsonChildrenInternalIgnoreType = 'childrenSkillsJson___children___internal___ignoreType',
+    ChildrenSkillsJsonChildrenInternalMediaType = 'childrenSkillsJson___children___internal___mediaType',
+    ChildrenSkillsJsonChildrenInternalOwner = 'childrenSkillsJson___children___internal___owner',
+    ChildrenSkillsJsonChildrenInternalType = 'childrenSkillsJson___children___internal___type',
+    ChildrenSkillsJsonInternalContent = 'childrenSkillsJson___internal___content',
+    ChildrenSkillsJsonInternalContentDigest = 'childrenSkillsJson___internal___contentDigest',
+    ChildrenSkillsJsonInternalDescription = 'childrenSkillsJson___internal___description',
+    ChildrenSkillsJsonInternalFieldOwners = 'childrenSkillsJson___internal___fieldOwners',
+    ChildrenSkillsJsonInternalIgnoreType = 'childrenSkillsJson___internal___ignoreType',
+    ChildrenSkillsJsonInternalMediaType = 'childrenSkillsJson___internal___mediaType',
+    ChildrenSkillsJsonInternalOwner = 'childrenSkillsJson___internal___owner',
+    ChildrenSkillsJsonInternalType = 'childrenSkillsJson___internal___type',
+    ChildrenSkillsJsonName = 'childrenSkillsJson___name',
+    ChildrenSkillsJsonSortOrder = 'childrenSkillsJson___sortOrder',
+    ChildrenSkillsJsonItems = 'childrenSkillsJson___items',
+    ChildrenSkillsJsonItemsName = 'childrenSkillsJson___items___name',
+    ChildrenSkillsJsonItemsProficiencyLevel = 'childrenSkillsJson___items___proficiencyLevel',
+    ChildrenSkillsJsonItemsSortOrder = 'childrenSkillsJson___items___sortOrder',
+    ChildrenSkillsJsonItemsSection = 'childrenSkillsJson___items___section',
     ChildrenToolboxJson = 'childrenToolboxJson',
     ChildrenToolboxJsonId = 'childrenToolboxJson___id',
     ChildrenToolboxJsonParentId = 'childrenToolboxJson___parent___id',
@@ -1474,10 +1474,10 @@ declare module GraphQL {
     internal?: Maybe<InternalFilterInput>;
     childrenInterestsJson?: Maybe<InterestsJsonFilterListInput>;
     childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
-    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
-    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJsonFilterInput>;
+    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
+    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
     childThemeJson?: Maybe<ThemeJsonFilterInput>;
   };
@@ -2607,18 +2607,18 @@ declare module GraphQL {
     allThemeJson: ThemeJsonConnection;
     toolboxJson?: Maybe<ToolboxJson>;
     allToolboxJson: ToolboxJsonConnection;
-    personalDetailsJson?: Maybe<PersonalDetailsJson>;
-    allPersonalDetailsJson: PersonalDetailsJsonConnection;
-    educationJson?: Maybe<EducationJson>;
-    allEducationJson: EducationJsonConnection;
     skillsJson?: Maybe<SkillsJson>;
     allSkillsJson: SkillsJsonConnection;
     languagesJson?: Maybe<LanguagesJson>;
     allLanguagesJson: LanguagesJsonConnection;
-    experiencesJson?: Maybe<ExperiencesJson>;
-    allExperiencesJson: ExperiencesJsonConnection;
+    personalDetailsJson?: Maybe<PersonalDetailsJson>;
+    allPersonalDetailsJson: PersonalDetailsJsonConnection;
+    educationJson?: Maybe<EducationJson>;
+    allEducationJson: EducationJsonConnection;
     interestsJson?: Maybe<InterestsJson>;
     allInterestsJson: InterestsJsonConnection;
+    experiencesJson?: Maybe<ExperiencesJson>;
+    allExperiencesJson: ExperiencesJsonConnection;
     siteBuildMetadata?: Maybe<SiteBuildMetadata>;
     allSiteBuildMetadata: SiteBuildMetadataConnection;
     sitePlugin?: Maybe<SitePlugin>;
@@ -2667,10 +2667,10 @@ declare module GraphQL {
     internal?: Maybe<InternalFilterInput>;
     childrenInterestsJson?: Maybe<InterestsJsonFilterListInput>;
     childrenExperiencesJson?: Maybe<ExperiencesJsonFilterListInput>;
-    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
-    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenEducationJson?: Maybe<EducationJsonFilterListInput>;
     childPersonalDetailsJson?: Maybe<PersonalDetailsJsonFilterInput>;
+    childrenLanguagesJson?: Maybe<LanguagesJsonFilterListInput>;
+    childrenSkillsJson?: Maybe<SkillsJsonFilterListInput>;
     childrenToolboxJson?: Maybe<ToolboxJsonFilterListInput>;
     childThemeJson?: Maybe<ThemeJsonFilterInput>;
   };
@@ -2827,6 +2827,41 @@ declare module GraphQL {
     limit?: Maybe<Scalars['Int']>;
   };
 
+  type QuerySkillsJsonArgs = {
+    id?: Maybe<StringQueryOperatorInput>;
+    parent?: Maybe<NodeFilterInput>;
+    children?: Maybe<NodeFilterListInput>;
+    internal?: Maybe<InternalFilterInput>;
+    name?: Maybe<StringQueryOperatorInput>;
+    sortOrder?: Maybe<IntQueryOperatorInput>;
+    items?: Maybe<SkillsJsonItemsFilterListInput>;
+  };
+
+  type QueryAllSkillsJsonArgs = {
+    filter?: Maybe<SkillsJsonFilterInput>;
+    sort?: Maybe<SkillsJsonSortInput>;
+    skip?: Maybe<Scalars['Int']>;
+    limit?: Maybe<Scalars['Int']>;
+  };
+
+  type QueryLanguagesJsonArgs = {
+    id?: Maybe<StringQueryOperatorInput>;
+    parent?: Maybe<NodeFilterInput>;
+    children?: Maybe<NodeFilterListInput>;
+    internal?: Maybe<InternalFilterInput>;
+    img?: Maybe<StringQueryOperatorInput>;
+    name?: Maybe<StringQueryOperatorInput>;
+    proficiencyLevel?: Maybe<FloatQueryOperatorInput>;
+    sortOrder?: Maybe<IntQueryOperatorInput>;
+  };
+
+  type QueryAllLanguagesJsonArgs = {
+    filter?: Maybe<LanguagesJsonFilterInput>;
+    sort?: Maybe<LanguagesJsonSortInput>;
+    skip?: Maybe<Scalars['Int']>;
+    limit?: Maybe<Scalars['Int']>;
+  };
+
   type QueryPersonalDetailsJsonArgs = {
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
@@ -2865,37 +2900,18 @@ declare module GraphQL {
     limit?: Maybe<Scalars['Int']>;
   };
 
-  type QuerySkillsJsonArgs = {
+  type QueryInterestsJsonArgs = {
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
     internal?: Maybe<InternalFilterInput>;
     name?: Maybe<StringQueryOperatorInput>;
     sortOrder?: Maybe<IntQueryOperatorInput>;
-    items?: Maybe<SkillsJsonItemsFilterListInput>;
   };
 
-  type QueryAllSkillsJsonArgs = {
-    filter?: Maybe<SkillsJsonFilterInput>;
-    sort?: Maybe<SkillsJsonSortInput>;
-    skip?: Maybe<Scalars['Int']>;
-    limit?: Maybe<Scalars['Int']>;
-  };
-
-  type QueryLanguagesJsonArgs = {
-    id?: Maybe<StringQueryOperatorInput>;
-    parent?: Maybe<NodeFilterInput>;
-    children?: Maybe<NodeFilterListInput>;
-    internal?: Maybe<InternalFilterInput>;
-    img?: Maybe<StringQueryOperatorInput>;
-    name?: Maybe<StringQueryOperatorInput>;
-    proficiencyLevel?: Maybe<FloatQueryOperatorInput>;
-    sortOrder?: Maybe<IntQueryOperatorInput>;
-  };
-
-  type QueryAllLanguagesJsonArgs = {
-    filter?: Maybe<LanguagesJsonFilterInput>;
-    sort?: Maybe<LanguagesJsonSortInput>;
+  type QueryAllInterestsJsonArgs = {
+    filter?: Maybe<InterestsJsonFilterInput>;
+    sort?: Maybe<InterestsJsonSortInput>;
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
   };
@@ -2916,22 +2932,6 @@ declare module GraphQL {
   type QueryAllExperiencesJsonArgs = {
     filter?: Maybe<ExperiencesJsonFilterInput>;
     sort?: Maybe<ExperiencesJsonSortInput>;
-    skip?: Maybe<Scalars['Int']>;
-    limit?: Maybe<Scalars['Int']>;
-  };
-
-  type QueryInterestsJsonArgs = {
-    id?: Maybe<StringQueryOperatorInput>;
-    parent?: Maybe<NodeFilterInput>;
-    children?: Maybe<NodeFilterListInput>;
-    internal?: Maybe<InternalFilterInput>;
-    name?: Maybe<StringQueryOperatorInput>;
-    sortOrder?: Maybe<IntQueryOperatorInput>;
-  };
-
-  type QueryAllInterestsJsonArgs = {
-    filter?: Maybe<InterestsJsonFilterInput>;
-    sort?: Maybe<InterestsJsonSortInput>;
     skip?: Maybe<Scalars['Int']>;
     limit?: Maybe<Scalars['Int']>;
   };
