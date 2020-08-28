@@ -3,11 +3,17 @@
 exports[`components/sections/Header Test Suite matches snapshot 1`] = `
 Array [
   <div
-    className="sc-AxjAm cIUAqW"
+    className="sc-AxjAm hyKjJR"
     display={
       Object {
         "_": "none",
         "tablet": "inline-block",
+      }
+    }
+    transform={
+      Object {
+        "_": "unset",
+        "laptopL": "translateX(calc(-50% - 672px))",
       }
     }
   >

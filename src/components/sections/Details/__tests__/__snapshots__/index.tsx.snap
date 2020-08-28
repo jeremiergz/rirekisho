@@ -116,26 +116,26 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       }
     >
       <div
-        className="sc-AxjAm hELvBU"
+        className="sc-AxjAm hTpUei"
         height={
           Object {
             "_": 184,
-            "laptopL": 224,
+            "laptopM": 224,
           }
         }
         width={
           Object {
             "_": 184,
-            "laptopL": 224,
+            "laptopM": 224,
           }
         }
       >
         <div
-          className="sc-AxjAm hGyeb"
+          className="sc-AxjAm ehsLzV"
           width={
             Object {
               "_": 152,
-              "laptopL": 192,
+              "laptopM": 192,
             }
           }
         >
@@ -231,7 +231,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <span
-        className="sc-AxirZ fqQLBG"
+        className="sc-AxirZ bNBaRT"
         color="secondary"
         fontSize={40}
         fontWeight="bold"

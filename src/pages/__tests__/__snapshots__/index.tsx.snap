@@ -5,41 +5,43 @@ exports[`pages Test Suite pages/404 Test Suite matches snapshot 1`] = `null`;
 exports[`pages Test Suite pages/404 Test Suite pages/index Test Suite matches snapshot 1`] = `
 Array [
   <div
-    className="sc-AxjAm icPxYE"
+    className="sc-AxjAm bDwRWn"
+    color="text"
     display="flex"
     opacity={1}
-    width="100%"
   >
     <div
-      className="sc-AxjAm edhdmZ"
-      color="text"
-      display="flex"
-      height="100vh"
-      width="100%"
-    >
-      <div
-        className="sc-AxjAm cgakRl"
-        height={20}
-        width={20}
-      />
-      <div
-        className="sc-AxjAm gbGwkU"
-        height={20}
-        width={20}
-      />
-      <div
-        className="sc-AxjAm fwfAGX"
-        height={20}
-        width={20}
-      />
-    </div>
+      className="sc-AxjAm cgakRl"
+      height={20}
+      width={20}
+    />
+    <div
+      className="sc-AxjAm gbGwkU"
+      height={20}
+      width={20}
+    />
+    <div
+      className="sc-AxjAm fwfAGX"
+      height={20}
+      width={20}
+    />
   </div>,
   <div
-    className="sc-AxjAm cIUAqW"
+    className="sc-AxjAm gReMsk"
+    opacity={1}
+  />,
+  <div
+    className="sc-AxjAm hyKjJR"
     display={
       Object {
         "_": "none",
         "tablet": "inline-block",
+      }
+    }
+    transform={
+      Object {
+        "_": "unset",
+        "laptopL": "translateX(calc(-50% - 672px))",
       }
     }
   >
@@ -1266,26 +1268,26 @@ Array [
           }
         >
           <div
-            className="sc-AxjAm hELvBU"
+            className="sc-AxjAm hTpUei"
             height={
               Object {
                 "_": 184,
-                "laptopL": 224,
+                "laptopM": 224,
               }
             }
             width={
               Object {
                 "_": 184,
-                "laptopL": 224,
+                "laptopM": 224,
               }
             }
           >
             <div
-              className="sc-AxjAm hGyeb"
+              className="sc-AxjAm ehsLzV"
               width={
                 Object {
                   "_": 152,
-                  "laptopL": 192,
+                  "laptopM": 192,
                 }
               }
             >
@@ -1381,7 +1383,7 @@ Array [
             </div>
           </div>
           <span
-            className="sc-AxiKw dnTKIW"
+            className="sc-AxiKw gQJH"
             color="secondary"
             fontSize={40}
             fontWeight="bold"
