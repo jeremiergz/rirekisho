@@ -2,10 +2,10 @@ import Box from 'components/primitives/Box';
 import FlexBox from 'components/primitives/FlexBox';
 import Grid, { GridProps } from 'components/primitives/Grid';
 import Text from 'components/primitives/Text';
+import { useTheme } from 'components/providers/ThemeProvider';
 import Img, { FixedObject } from 'gatsby-image';
 import React from 'react';
 import ProjectBlock from './ProjectBlock';
-import { useTheme } from 'components/providers/ThemeProvider';
 
 const months = {
   0: 'JAN',
@@ -56,6 +56,7 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
         <FlexBox
           alignItems="center"
           color="secondary"
+          flexDirection={{ _: 'row', tablet: 'row-reverse' }}
           fontWeight="bold"
           marginY={{ _: 2, tablet: 0 }}
           textAlign={{ _: 'left', tablet: 'right' }}
