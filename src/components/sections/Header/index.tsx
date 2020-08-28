@@ -51,11 +51,14 @@ const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
         backgroundColor="primary"
         display={{ _: 'none', tablet: 'inline-block' }}
         position="sticky"
+        left={{ _: 'unset', laptopL: '50%' }}
         marginX={3}
         marginTop={3}
+        right={{ _: 'unset', laptopL: '50%' }}
         top={0}
         transition="background-color 500ms ease"
-        willChange="background-color"
+        transform={{ _: 'unset', laptopL: 'translateX(calc(-50% - 672px))' }}
+        willChange="background-color, transform"
         zIndex={10}
       >
         <Button aria-label="Toggle Menu" onClick={handleMenuClick} padding={3} variant="cursor-only">
