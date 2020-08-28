@@ -30,14 +30,14 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
       <Box
         backgroundColor="background"
         borderRadius="50%"
-        height={{ _: 184, laptopL: 224 }}
-        minHeight={{ _: 184, laptopL: 224 }}
+        height={{ _: 184, laptopM: 224 }}
+        minHeight={{ _: 184, laptopM: 224 }}
         position="relative"
         transition="background-color 500ms ease"
-        width={{ _: 184, laptopL: 224 }}
+        width={{ _: 184, laptopM: 224 }}
         willChange="background-color"
       >
-        <Box left={0} margin="auto" position="absolute" right={0} top={16} width={{ _: 152, laptopL: 192 }}>
+        <Box left={0} margin="auto" position="absolute" right={0} top={16} width={{ _: 152, laptopM: 192 }}>
           <Img fluid={portrait} />
         </Box>
       </Box>
@@ -45,7 +45,7 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
         color="secondary"
         fontSize={40}
         fontWeight="bold"
-        margin={{ _: '16px 0 0 0', tablet: '0 -16px 64px -16px' }}
+        margin={{ _: '16px 0 16px 0', tablet: '0 -16px 0 -16px' }}
         textAlign="center"
       >
         {jobTitle}
