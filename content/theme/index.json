@@ -1,15 +1,15 @@
 {
   "colors": {
     "dark": {
-      "background": "#212121",
+      "background": "#131313",
       "body1": "#d3d3d3",
-      "body2": "#808080",
+      "body2": "#999999",
       "caption": "#d3d3d3",
       "dark": "#212121",
       "error": "#f44336",
       "info": "#2196f3",
-      "primary": "#265a99",
-      "secondary": "#50b0c7",
+      "primary": "#007ac1",
+      "secondary": "#67daff",
       "subtitle": "#575757",
       "success": "#4caf50",
       "text": "#d3d3d3",
