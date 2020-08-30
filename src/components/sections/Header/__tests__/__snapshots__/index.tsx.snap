@@ -35,9 +35,8 @@ Array [
     </button>
   </div>,
   <header
-    className="sc-AxjAm jvwVML"
+    className="sc-AxjAm sc-AxhCb jKuUsp"
     color="white"
-    display="flex"
     height={
       Object {
         "_": 168,
@@ -47,16 +46,14 @@ Array [
     width="100%"
   >
     <div
-      className="sc-AxjAm ksZfWg"
-      display="flex"
+      className="sc-AxjAm sc-AxhCb cdrfWC"
       width="100%"
     >
       <div
-        className="sc-AxjAm hkypPr"
-        display="flex"
+        className="sc-AxjAm sc-AxhCb cVhBkx"
       >
         <span
-          className="sc-AxhCb fIsmcF"
+          className="sc-AxhUy ivZjGA"
           fontFamily="title"
           fontSize={32}
           letterSpacing={-2}
@@ -65,12 +62,10 @@ Array [
         </span>
       </div>
       <div
-        className="sc-AxjAm enTfgo"
-        display="flex"
+        className="sc-AxjAm sc-AxhCb aQgKC"
       >
         <div
-          className="sc-AxjAm ggaXpg"
-          display="flex"
+          className="sc-AxjAm sc-AxhCb hGGXve"
         >
           <div
             className="sc-AxjAm deKSuC"
@@ -166,8 +161,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm jqJTTW"
-            display="flex"
+            className="sc-AxjAm sc-AxhCb jwArdY"
           >
             <div
               className="sc-AxjAm UbozS"
@@ -272,8 +266,7 @@ Array [
           </div>
         </div>
         <div
-          className="sc-AxjAm ftcyfC"
-          display="flex"
+          className="sc-AxjAm sc-AxhCb kAuvAc"
         >
           <div
             className="sc-AxjAm deKSuC"
@@ -369,8 +362,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm jqJTTW"
-            display="flex"
+            className="sc-AxjAm sc-AxhCb jwArdY"
           >
             <div
               className="sc-AxjAm UbozS"
@@ -481,8 +473,7 @@ Array [
           </div>
         </div>
         <div
-          className="sc-AxjAm ftcyfC"
-          display="flex"
+          className="sc-AxjAm sc-AxhCb kAuvAc"
         >
           <div
             className="sc-AxjAm deKSuC"
@@ -578,8 +569,7 @@ Array [
             </div>
           </div>
           <div
-            className="sc-AxjAm jqJTTW"
-            display="flex"
+            className="sc-AxjAm sc-AxhCb jwArdY"
           >
             <div
               className="sc-AxjAm UbozS"

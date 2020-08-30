@@ -2,7 +2,7 @@
 
 exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
 <section
-  className="sc-AxjAm sc-AxiKw eLvMVB"
+  className="sc-AxhCb fKYVzZ"
 >
   <div
     className="sc-AxjAm eiESPf"
@@ -10,32 +10,30 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxirZ jLDFnn"
+      className="sc-AxiKw ftGYeL"
       color="secondary"
     >
       exp
     </span>
     <span
-      className="sc-AxirZ eDwHNh"
+      className="sc-AxiKw emkGCh"
       color="primary"
     >
       erience
     </span>
   </div>
   <div
-    className="sc-AxjAm fhEmi"
-    display="flex"
+    className="sc-AxjAm sc-AxirZ hirQLM"
     width="100%"
   >
     <div
-      className="sc-AxjAm sc-AxiKw bquZTl"
+      className="sc-AxhCb kLAGuF"
     >
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -44,26 +42,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               OCT 2018
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               PRESENT
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -140,16 +136,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -162,11 +157,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm gFKxpe"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -178,14 +172,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 XDoG
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -194,11 +188,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -210,7 +203,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -219,7 +212,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -228,7 +221,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Migrate web platforms to Kubernetes on Google Cloud Platform
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -241,11 +234,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -257,7 +249,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -266,11 +258,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -282,7 +273,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -291,7 +282,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -302,11 +293,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -315,26 +305,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               JUN 2018
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               SEP 2018
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -411,16 +399,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -433,11 +420,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -449,14 +435,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 Airbus Defence & Space
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -465,11 +451,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -481,14 +466,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 NemEO - DiginEO
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -497,11 +482,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -513,7 +497,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -522,7 +506,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -531,7 +515,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Technical manager of a 3 developer team
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -540,7 +524,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Front-end development: React.js & Redux
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -549,7 +533,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Maintenance of the Architectural Design Document
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -560,11 +544,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -573,26 +556,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               JUN 2017
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               JUN 2018
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -669,16 +650,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -691,11 +671,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -707,14 +686,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 Airbus Defence & Space
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -723,11 +702,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -739,14 +717,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 Pulsar
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -755,11 +733,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -771,7 +748,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -780,7 +757,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -789,7 +766,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Use case supervisor on Postgres DB engineering & implementation
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -798,7 +775,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -807,7 +784,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Micro-services dockerization
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -818,11 +795,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -831,26 +807,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               JAN 2017
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               MAY 2017
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -927,16 +901,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -949,11 +922,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -965,14 +937,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 CNES
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -981,11 +953,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -997,14 +968,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 Trafic
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1013,11 +984,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1029,7 +999,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1038,7 +1008,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1047,7 +1017,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Development of a new transfer protocol using native File System
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1056,7 +1026,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Maintenance & quality controls: refactoring of several classes
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1067,11 +1037,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -1080,26 +1049,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               NOV 2016
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               DEC 2016
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -1176,16 +1143,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -1198,11 +1164,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1214,14 +1179,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 Omnium Finance
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1230,11 +1195,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1246,7 +1210,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1255,11 +1219,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1271,7 +1234,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1280,7 +1243,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1289,7 +1252,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Back-end development using Java 8 with Spring Boot & JPA
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1298,7 +1261,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Front-end development using Angular.js, Bootstrap & SASS
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1309,11 +1272,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxiKw coKGkF"
+        className="sc-AxhCb eWXPXZ"
       >
         <div
-          className="sc-AxjAm etsGrS"
-          display="flex"
+          className="sc-AxjAm sc-AxirZ ZEcGY"
         >
           <div
             className="sc-AxjAm lpbfZv"
@@ -1322,26 +1284,24 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             fontWeight="bold"
           >
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               JUL 2016
                - 
             </span>
             <span
-              className="sc-AxirZ bOdwdx"
+              className="sc-AxiKw jrnFoF"
             >
               OCT 2016
             </span>
           </div>
           <div
-            className="sc-AxjAm jooznj"
+            className="sc-AxjAm sc-AxirZ fVHOvR"
             color="secondary"
-            display="flex"
             fontWeight="bold"
           >
             <div
-              className="sc-AxjAm huJsNp"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ lRbqz"
             >
               <div
                 className=" gatsby-image-wrapper"
@@ -1418,16 +1378,15 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               </div>
             </div>
             <span
-              className="sc-AxirZ cLrWIk"
+              className="sc-AxiKw fChXtA"
             >
               |
             </span>
             <div
-              className="sc-AxjAm eRsvub"
-              display="flex"
+              className="sc-AxjAm sc-AxirZ ibENPV"
             >
               <span
-                className="sc-AxirZ eSHEaU"
+                className="sc-AxiKw iTLDqQ"
                 fontSize={16}
                 fontStyle="italic"
               >
@@ -1440,11 +1399,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
           className="sc-AxjAm diSKPk"
         >
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1456,14 +1414,14 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ DEpmY"
+                className="sc-AxiKw aCDRA"
                 color="body1"
               >
                 RoboCARE Lab
                  | 
               </span>
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1472,11 +1430,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1488,7 +1445,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ fbOqfC"
+                className="sc-AxiKw kDeHhy"
                 color="body1"
                 fontStyle="italic"
               >
@@ -1497,11 +1454,10 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <div
-            className="sc-AxjAm exrHeN"
-            display="flex"
+            className="sc-AxjAm sc-AxirZ kqfMIT"
           >
             <span
-              className="sc-AxirZ cTjDii"
+              className="sc-AxiKw eotKke"
               color="body1"
               fontWeight="bold"
             >
@@ -1513,7 +1469,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
               fontWeight="bolder"
             >
               <span
-                className="sc-AxirZ gOyexN"
+                className="sc-AxiKw laimEp"
                 color="secondary"
                 fontStyle="italic"
               >
@@ -1522,7 +1478,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             </div>
           </div>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"
@@ -1531,7 +1487,7 @@ exports[`components/sections/Experience Test Suite matches snapshot 1`] = `
             Engineering of a generic MySQL DB for 3 different web portals
           </span>
           <span
-            className="sc-AxirZ bxXmIK"
+            className="sc-AxiKw cHiCtC"
             color="body2"
             display="block"
             fontWeight="bolder"

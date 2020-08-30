@@ -2,7 +2,7 @@
 
 exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
 <section
-  className="sc-AxjAm sc-AxhUy jQIRcp"
+  className="sc-AxgMl bstAjr"
 >
   <div
     className="sc-AxjAm eiESPf"
@@ -10,35 +10,32 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
     fontWeight="bold"
   >
     <span
-      className="sc-AxhCb iXGaGj"
+      className="sc-AxhUy ehYHFi"
       color="secondary"
     >
       too
     </span>
     <span
-      className="sc-AxhCb fSwhJF"
+      className="sc-AxhUy CxdKg"
       color="primary"
     >
       lbox
     </span>
   </div>
   <div
-    className="sc-AxjAm iSoCHO"
-    display="flex"
+    className="sc-AxjAm sc-AxirZ ePlhKo"
     width="100%"
   >
     <div
-      className="sc-AxjAm iUDjsC"
-      display="flex"
+      className="sc-AxjAm sc-AxirZ dRRMNA"
       width="100%"
     >
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://code.visualstudio.com"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://code.visualstudio.com"
@@ -125,7 +122,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -134,12 +131,11 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://www.npmjs.com"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://www.npmjs.com"
@@ -226,7 +222,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -235,12 +231,11 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://www.mongodb.com"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://www.mongodb.com"
@@ -327,7 +322,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -336,12 +331,11 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://redis.io"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://redis.io"
@@ -428,7 +422,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -437,12 +431,11 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://cloud.google.com"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://cloud.google.com"
@@ -529,7 +522,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"
@@ -538,12 +531,11 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm hpcBAq"
-        display="flex"
+        className="sc-AxjAm sc-AxirZ xjBOk"
       >
         <a
           aria-label="Go to https://www.raspberrypi.org"
-          className="sc-AxjAm sc-AxiKw dHkqaK"
+          className="sc-AxjAm sc-AxhCb ksutZS"
           fontWeight="semi-bold"
           height={48}
           href="https://www.raspberrypi.org"
@@ -630,7 +622,7 @@ exports[`components/sections/Toolbox Test Suite matches snapshot 1`] = `
           </div>
         </a>
         <span
-          className="sc-AxhCb dpNivi"
+          className="sc-AxhUy gKQXIj"
           color="text"
           fontSize={12}
           fontWeight="bold"

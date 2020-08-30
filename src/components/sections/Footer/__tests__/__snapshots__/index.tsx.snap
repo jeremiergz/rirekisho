@@ -2,9 +2,8 @@
 
 exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
 <footer
-  className="sc-AxjAm gFGULz"
+  className="sc-AxjAm sc-AxiKw hYLCzJ"
   color="white"
-  display="flex"
   height={
     Object {
       "_": 204,
@@ -13,20 +12,18 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
   }
 >
   <div
-    className="sc-AxjAm gHjjnZ"
-    display="flex"
+    className="sc-AxjAm sc-AxiKw bBjfSH"
   >
     <div
-      className="sc-AxjAm hVCUTG"
-      display="flex"
+      className="sc-AxjAm sc-AxiKw gHnMqI"
     >
       <span
-        className="sc-AxiKw kJBPsB"
+        className="sc-AxhCb CLJmV"
       >
         Made with
       </span>
       <svg
-        className="sc-AxhCb cnYhZh"
+        className="sc-AxhUy hrcegM"
         fill="#fff"
         height={16}
         viewBox="0 0 455 455"
@@ -47,14 +44,13 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
         />
       </svg>
       <span
-        className="sc-AxiKw kjWeqi"
+        className="sc-AxhCb guQFzq"
       >
         using
       </span>
     </div>
     <div
-      className="sc-AxjAm jxgjIo"
-      display="flex"
+      className="sc-AxjAm sc-AxiKw kCcFbC"
     >
       <a
         className="sc-AxjAm sc-AxirZ fwPkvK"
@@ -241,12 +237,11 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-AxjAm bGuxiZ"
+    className="sc-AxjAm sc-AxiKw duCkQD"
     color="caption"
-    display="flex"
   >
     <span
-      className="sc-AxiKw esNMNr"
+      className="sc-AxhCb XcMSX"
     >
       rirekisho v20.07.3
     </span>
@@ -258,7 +253,7 @@ exports[`components/sections/Footer Test Suite matches snapshot 1`] = `
       target="_blank"
     >
       <span
-        className="sc-AxiKw kudcPh"
+        className="sc-AxhCb cmrwhB"
         fontSize={12}
       >
         source code
