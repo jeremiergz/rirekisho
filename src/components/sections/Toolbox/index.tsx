@@ -19,7 +19,7 @@ const Toolbox = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   return (
-    <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="toolbox">
+    <Layout.Section contentVisibility="auto" gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="toolbox">
       <Layout.Content alignItems="center" marginBottom={4}>
         <LabeledIconsBlock items={tools as Models.LabeledItem[]} />
       </Layout.Content>

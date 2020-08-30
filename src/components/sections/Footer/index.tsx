@@ -51,6 +51,7 @@ const Footer = () => {
       as="footer"
       backgroundColor="primary"
       color="white"
+      contentVisibility="auto"
       flexDirection="column"
       height={{ _: 204, tablet: 168 }}
       justifyContent="center"

@@ -31,8 +31,10 @@ const SideMenu: React.FC<SideMenuProps> = ({ isOpened, onClick, sections }) => {
   };
   return (
     <FlexBox
+      as="nav"
       backgroundColor="primary"
       boxShadow={`${isOpened ? '8px 0px 8px 0px' : 0} rgba(0,0,0,0.25)`}
+      contentVisibility="auto"
       flexDirection="column"
       height="100%"
       justifyContent="space-between"

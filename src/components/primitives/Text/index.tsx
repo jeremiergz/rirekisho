@@ -21,7 +21,25 @@ import {
   ZIndexProps,
 } from 'styled-system';
 
-const Text = styled.span<TextProps>`
+type TextKnownProps = BorderProps &
+  ColorProps &
+  DisplayProps &
+  LayoutProps &
+  SpaceProps &
+  TimeHTMLAttributes<unknown> &
+  TypographyProps &
+  ZIndexProps & {
+    cursor?: ResponsiveValue<CSSProperties['cursor']>;
+    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+    textDecoration?: ResponsiveValue<CSSProperties['textDecoration']>;
+    textTransform?: ResponsiveValue<CSSProperties['textTransform']>;
+    transform?: ResponsiveValue<CSSProperties['transform']>;
+    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+    whiteSpace?: ResponsiveValue<CSSProperties['whiteSpace']>;
+    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
+  };
+
+const Text = styled.span<TextKnownProps>`
   font-family: ${({ theme }: { theme: Theme }) => theme.fonts.main};
   ${compose(
     border,
@@ -46,24 +64,5 @@ const Text = styled.span<TextProps>`
 
 Text.displayName = 'Text';
 
-export type TextProps = StyledSystemProps<
-  'span',
-  BorderProps &
-    ColorProps &
-    DisplayProps &
-    LayoutProps &
-    SpaceProps &
-    TimeHTMLAttributes<unknown> &
-    TypographyProps &
-    ZIndexProps & {
-      cursor?: ResponsiveValue<CSSProperties['cursor']>;
-      pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
-      textDecoration?: ResponsiveValue<CSSProperties['textDecoration']>;
-      textTransform?: ResponsiveValue<CSSProperties['textTransform']>;
-      transform?: ResponsiveValue<CSSProperties['transform']>;
-      transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
-      whiteSpace?: ResponsiveValue<CSSProperties['whiteSpace']>;
-      writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
-    }
->;
+export type TextProps = React.ComponentProps<typeof Text>;
 export default Text;
