@@ -5,11 +5,11 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
   className="sc-AxhCb dEFPiT"
 >
   <div
-    className="sc-AxjAm sc-AxirZ danzgs"
+    className="sc-AxjAm KeeJg"
     width="100%"
   >
     <div
-      className="sc-AxjAm sc-AxirZ dJgQS"
+      className="sc-AxjAm iMsvoe"
       height="100%"
       order={
         Object {
@@ -19,7 +19,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       }
     >
       <div
-        className="sc-AxjAm sc-AxirZ cFOMpd"
+        className="sc-AxjAm gSjZqh"
       >
         <label
           className="sc-AxiKw eioTIl"
@@ -39,7 +39,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ cFOMpd"
+        className="sc-AxjAm gSjZqh"
       >
         <label
           className="sc-AxiKw eioTIl"
@@ -59,7 +59,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ cFOMpd"
+        className="sc-AxjAm gSjZqh"
       >
         <label
           className="sc-AxiKw eioTIl"
@@ -79,7 +79,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ eWcWtG"
+        className="sc-AxjAm bXKORi"
       >
         <label
           className="sc-AxiKw eioTIl"
@@ -100,7 +100,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="sc-AxjAm sc-AxirZ jUGEqW"
+      className="sc-AxjAm iZYGVC"
       order={
         Object {
           "_": 1,
@@ -109,7 +109,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       }
     >
       <div
-        className="sc-AxjAm hTpUei"
+        className="sc-AxirZ luHwx"
         height={
           Object {
             "_": 184,
@@ -124,7 +124,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         }
       >
         <div
-          className="sc-AxjAm ehsLzV"
+          className="sc-AxirZ loTziK"
           width={
             Object {
               "_": 152,
@@ -233,23 +233,23 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
       </span>
     </div>
     <div
-      className="sc-AxjAm sc-AxirZ bidwLK"
+      className="sc-AxjAm efrDjS"
       height="100%"
       order={3}
     >
       <div
-        className="sc-AxjAm sc-AxirZ gTgFCK"
+        className="sc-AxjAm bAelDi"
       >
         <a
           aria-label="Open phone contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="tel:+33681516442"
           rel="noopener noreferrer"
           target="_self"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -266,7 +266,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               +33 6 81 51 64 42
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"
@@ -300,18 +300,18 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ gTgFCK"
+        className="sc-AxjAm bAelDi"
       >
         <a
           aria-label="Open linkedin contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="https://linkedin.com/in/jeremiergz"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -328,7 +328,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               /jeremiergz
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"
@@ -353,18 +353,18 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ gTgFCK"
+        className="sc-AxjAm bAelDi"
       >
         <a
           aria-label="Open twitter contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="https://twitter.com/JeremieRgz"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -381,7 +381,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               @JeremieRgz
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"
@@ -406,18 +406,18 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ gTgFCK"
+        className="sc-AxjAm bAelDi"
       >
         <a
           aria-label="Open gitlab contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="https://gitlab.com/jeremiergz"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -434,7 +434,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               gitlab/jeremiergz
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"
@@ -459,18 +459,18 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ gTgFCK"
+        className="sc-AxjAm bAelDi"
       >
         <a
           aria-label="Open github contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="https://github.com/jeremiergz"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -487,7 +487,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               github/jeremiergz
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"
@@ -512,18 +512,18 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ eYZGuJ"
+        className="sc-AxjAm bLYJel"
       >
         <a
           aria-label="Open email contact"
-          className="sc-AxjAm sc-AxhUy cgJNMh"
+          className="sc-AxirZ sc-AxhUy cgJNMh"
           fontWeight="semi-bold"
           href="mailto:contact@jeremierodriguez.com"
           rel="noopener noreferrer"
           target="_self"
         >
           <div
-            className="sc-AxjAm sc-AxirZ elunnZ"
+            className="sc-AxjAm jvKRQN"
           >
             <span
               className="sc-AxiKw efIJwk"
@@ -540,7 +540,7 @@ exports[`components/sections/Details Test Suite matches snapshot 1`] = `
               contact@jeremierodriguez.com
             </span>
             <div
-              className="sc-AxjAm gkFHjp"
+              className="sc-AxirZ chyNJO"
             >
               <svg
                 className="sc-AxgMl fLtXfG"

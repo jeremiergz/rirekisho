@@ -5,7 +5,7 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
   className="sc-AxgMl bstAjr"
 >
   <div
-    className="sc-AxjAm eiESPf"
+    className="sc-AxiKw fJTxEc"
     fontSize={28}
     fontWeight="bold"
   >
@@ -23,18 +23,18 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
     </span>
   </div>
   <div
-    className="sc-AxjAm sc-AxirZ ePlhKo"
+    className="sc-AxjAm jSaCJA"
     width="100%"
   >
     <div
-      className="sc-AxjAm sc-AxirZ dRRMNA"
+      className="sc-AxjAm jbbUGE"
       width="100%"
     >
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >
@@ -122,10 +122,10 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >
@@ -213,10 +213,10 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >
@@ -304,10 +304,10 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >
@@ -395,10 +395,10 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >
@@ -486,10 +486,10 @@ exports[`components/sections/Interests Test Suite matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ xjBOk"
+        className="sc-AxjAm cCFUIA"
       >
         <div
-          className="sc-AxjAm fhTtHV"
+          className="sc-AxiKw fWdOQy"
           height={48}
           width={48}
         >

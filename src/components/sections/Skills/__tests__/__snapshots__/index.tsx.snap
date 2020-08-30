@@ -5,7 +5,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
   className="sc-AxhCb ipofvh"
 >
   <div
-    className="sc-AxjAm eiESPf"
+    className="sc-AxirZ bLeYFs"
     fontSize={28}
     fontWeight="bold"
   >
@@ -23,7 +23,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
     </span>
   </div>
   <div
-    className="sc-AxjAm sc-AxirZ gHgkew"
+    className="sc-AxjAm eSgDAg"
     width={
       Object {
         "_": "auto",
@@ -32,7 +32,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
     }
   >
     <div
-      className="sc-AxjAm bzrfkz"
+      className="sc-AxirZ clLqNQ"
       width="100%"
     >
       <label
@@ -44,7 +44,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         programming
       </label>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -70,7 +70,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -79,44 +79,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm dlqiH"
+            className="sc-AxirZ kFNaJk"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -142,7 +142,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -151,44 +151,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm dlqiH"
+            className="sc-AxirZ kFNaJk"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -214,7 +214,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -223,44 +223,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm imTdNf"
+            className="sc-AxirZ cihBLs"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm imTdNf"
+            className="sc-AxirZ cihBLs"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -286,7 +286,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -295,37 +295,37 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
@@ -333,7 +333,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="sc-AxjAm bzrfkz"
+      className="sc-AxirZ clLqNQ"
       width="100%"
     >
       <label
@@ -345,7 +345,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         devops
       </label>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -371,7 +371,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -380,44 +380,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm imTdNf"
+            className="sc-AxirZ cihBLs"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -443,7 +443,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -452,44 +452,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm dlqiH"
+            className="sc-AxirZ kFNaJk"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -515,7 +515,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -524,44 +524,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm dlqiH"
+            className="sc-AxirZ kFNaJk"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -587,7 +587,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -596,37 +596,37 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
@@ -634,7 +634,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="sc-AxjAm bzrfkz"
+      className="sc-AxirZ clLqNQ"
       width="100%"
     >
       <label
@@ -646,7 +646,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
         frameworks
       </label>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -672,7 +672,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -681,44 +681,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm dlqiH"
+            className="sc-AxirZ kFNaJk"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -744,7 +744,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -753,44 +753,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -816,7 +816,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -825,44 +825,44 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
         </div>
       </div>
       <div
-        className="sc-AxjAm sc-AxirZ fEONJw"
+        className="sc-AxjAm ikStGQ"
       >
         <span
           className="sc-AxiKw eUCEIz"
@@ -888,7 +888,7 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           10
         </span>
         <div
-          className="sc-AxjAm sc-AxirZ kzggab"
+          className="sc-AxjAm hcQnsb"
           display={
             Object {
               "_": "none",
@@ -897,37 +897,37 @@ exports[`components/sections/Skills Test Suite matches snapshot 1`] = `
           }
         >
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm iWTZcR"
+            className="sc-AxirZ jPxvnW"
             height={16}
             width={16}
           />
           <span
-            className="sc-AxjAm eTJWJh"
+            className="sc-AxirZ ksRrQS"
             height={16}
             width={16}
           />
