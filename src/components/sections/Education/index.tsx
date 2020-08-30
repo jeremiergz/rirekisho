@@ -24,7 +24,7 @@ const Education = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   return (
-    <Layout.Section contentVisibility="auto" ref={ref} title="education">
+    <Layout.Section ref={ref} title="education">
       <Layout.Content columnDirection="column-reverse">
         {education
           .sort((a, b) => a.issueDate.localeCompare(b.issueDate))

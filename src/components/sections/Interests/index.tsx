@@ -17,7 +17,7 @@ const Interests = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   return (
-    <Layout.Section contentVisibility="auto" gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="interests">
+    <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="interests">
       <Layout.Content alignItems="center" marginBottom={4}>
         <LabeledIconsBlock items={interests as Models.LabeledItem[]} />
       </Layout.Content>

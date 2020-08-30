@@ -23,7 +23,7 @@ const Skills = forwardRef<HTMLDivElement>((_, ref) => {
     }
   `);
   return (
-    <Layout.Section contentVisibility="auto" ref={ref} title="skills">
+    <Layout.Section ref={ref} title="skills">
       <Layout.Content
         justifyContent={{ _: 'space-around', laptopL: 'space-between' }}
         marginX={{ _: 0, tablet: -3 }}
