@@ -1,21 +1,21 @@
-import Anchor from 'components/Anchor';
-import Box from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
-import { useTheme } from 'components/providers/ThemeProvider';
-import { SVGProps } from 'components/SVG';
-import EmailIcon from 'components/svgs/contacts/Email';
-import FacebookIcon from 'components/svgs/contacts/Facebook';
-import GitHubIcon from 'components/svgs/contacts/GitHub';
-import GitLabIcon from 'components/svgs/contacts/GitLab';
-import InstagramIcon from 'components/svgs/contacts/Instagram';
-import LinkedInIcon from 'components/svgs/contacts/LinkedIn';
-import MessengerIcon from 'components/svgs/contacts/Messenger';
-import PhoneIcon from 'components/svgs/contacts/Phone';
-import RedditIcon from 'components/svgs/contacts/Reddit';
-import SkypeIcon from 'components/svgs/contacts/Skype';
-import TwitterIcon from 'components/svgs/contacts/Twitter';
-import WhatsappIcon from 'components/svgs/contacts/Whatsapp';
+import Anchor from '@common/Anchor';
+import { SVGProps } from '@common/SVG';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
+import { useTheme } from '@providers/ThemeProvider';
+import EmailIcon from '@svgs/contacts/Email';
+import FacebookIcon from '@svgs/contacts/Facebook';
+import GitHubIcon from '@svgs/contacts/GitHub';
+import GitLabIcon from '@svgs/contacts/GitLab';
+import InstagramIcon from '@svgs/contacts/Instagram';
+import LinkedInIcon from '@svgs/contacts/LinkedIn';
+import MessengerIcon from '@svgs/contacts/Messenger';
+import PhoneIcon from '@svgs/contacts/Phone';
+import RedditIcon from '@svgs/contacts/Reddit';
+import SkypeIcon from '@svgs/contacts/Skype';
+import TwitterIcon from '@svgs/contacts/Twitter';
+import WhatsappIcon from '@svgs/contacts/Whatsapp';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 
@@ -45,7 +45,7 @@ const Contacts: React.FC<ContactsProps> = ({ items, order }) => {
       flex={1}
       flexDirection={{ _: 'row', tablet: 'column' }}
       height="100%"
-      justifyContent="center"
+      justifyContent="space-evenly"
       marginY={3}
       maxHeight={{ _: 32, tablet: 'unset' }}
       minWidth={224}

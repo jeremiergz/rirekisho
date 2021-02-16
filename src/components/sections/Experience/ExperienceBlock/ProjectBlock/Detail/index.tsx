@@ -1,6 +1,6 @@
-import Box from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
 import React from 'react';
 
 const Detail: React.FC<DetailProps> = ({ details, emphasize, information, label }) => {

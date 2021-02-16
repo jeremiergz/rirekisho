@@ -1,10 +1,11 @@
-import SVG, { SVGProps } from 'components/SVG';
+import SVG, { SVGProps } from '@common/SVG';
 import React from 'react';
 
 const Toolbox: React.FC<ToolboxProps> = props => {
   return (
     <SVG {...props}>
-      <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12zm-2-9H8v2h11V8zm0 4H8v2h11v-2zM7 8H5v2h2V8zm0 4H5v2h2v-2z" />
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 16h-2v-1H8v1H6v-1H2v5h20v-5h-4zm2-8h-3V6c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v4h4v-2h2v2h8v-2h2v2h4v-4c0-1.1-.9-2-2-2zm-5 0H9V6h6v2z" />
     </SVG>
   );
 };

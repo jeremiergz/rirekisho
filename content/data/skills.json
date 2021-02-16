@@ -45,8 +45,8 @@
         "sortOrder": 2
       },
       {
-        "name": "Ansible",
-        "proficiencyLevel": 6,
+        "name": "Ansible|Terraform",
+        "proficiencyLevel": 5,
         "sortOrder": 3
       }
     ]

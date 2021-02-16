@@ -1,4 +1,4 @@
-import { Theme } from 'components/providers/ThemeProvider';
+import { Theme } from '@providers/ThemeProvider';
 import { CSSProperties, TimeHTMLAttributes } from 'react';
 import styled from 'styled-components';
 import {
@@ -21,25 +21,7 @@ import {
   ZIndexProps,
 } from 'styled-system';
 
-type TextKnownProps = BorderProps &
-  ColorProps &
-  DisplayProps &
-  LayoutProps &
-  SpaceProps &
-  TimeHTMLAttributes<unknown> &
-  TypographyProps &
-  ZIndexProps & {
-    cursor?: ResponsiveValue<CSSProperties['cursor']>;
-    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
-    textDecoration?: ResponsiveValue<CSSProperties['textDecoration']>;
-    textTransform?: ResponsiveValue<CSSProperties['textTransform']>;
-    transform?: ResponsiveValue<CSSProperties['transform']>;
-    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
-    whiteSpace?: ResponsiveValue<CSSProperties['whiteSpace']>;
-    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
-  };
-
-const Text = styled.span<TextKnownProps>`
+const Text = styled.span<TextProps>`
   font-family: ${({ theme }: { theme: Theme }) => theme.fonts.main};
   ${compose(
     border,
@@ -64,5 +46,23 @@ const Text = styled.span<TextKnownProps>`
 
 Text.displayName = 'Text';
 
-export type TextProps = React.ComponentProps<typeof Text>;
+export type TextProps = BorderProps &
+  ColorProps &
+  DisplayProps &
+  LayoutProps &
+  SpaceProps &
+  TimeHTMLAttributes<unknown> &
+  TypographyProps &
+  ZIndexProps & {
+    cursor?: ResponsiveValue<CSSProperties['cursor']>;
+    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+    textDecoration?: ResponsiveValue<CSSProperties['textDecoration']>;
+    textTransform?: ResponsiveValue<CSSProperties['textTransform']>;
+    transform?: ResponsiveValue<CSSProperties['transform']>;
+    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+    whiteSpace?: ResponsiveValue<CSSProperties['whiteSpace']>;
+    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
+  } & {
+    as?: keyof JSX.IntrinsicElements | React.ComponentType<any>;
+  };
 export default Text;

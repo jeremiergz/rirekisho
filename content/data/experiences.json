@@ -1,127 +1,145 @@
 [
   {
-    "company": "SQLI",
-    "companySector": "IT Services",
-    "endDate": "2016-12-31",
-    "img": "company_sqli.png",
+    "company": {
+      "img": "company_sqli.png",
+      "name": "SQLI",
+      "sector": "IT Services",
+      "website": "https://www.sqli.com"
+    },
     "projects": [
       {
-        "client": "Omnium Finance",
-        "clientSector": "Financial Services",
+        "client": {
+          "name": "Omnium Finance",
+          "sector": "Financial Services"
+        },
         "description": "Client base management Web interface for tablets and PCs",
         "name": null,
         "tasks": [
-          "Back-end development using Java 8 with Spring Boot & JPA",
-          "Front-end development using Angular.js, Bootstrap & SASS",
-          "Docker initiation & Spring Boot container creation"
+          "Back-end development using <strong>Java 8</strong> with <strong>Spring Boot</strong> & <strong>JPA</strong>",
+          "Front-end development using <strong>Angular.js</strong>, <strong>Bootstrap</strong> & <strong>SASS</strong>",
+          "<strong>Docker</strong> initiation & Spring Boot <strong>container</strong> creation"
         ],
         "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
       }
     ],
-    "startDate": "2016-11-01"
+    "timeline": {
+      "endDate": "2016-12-31",
+      "startDate": "2016-11-01"
+    }
   },
   {
-    "company": "CS",
-    "companySector": "Aerospace Industry",
-    "endDate": "2017-05-31",
-    "img": "company_cs.png",
+    "company": {
+      "img": "company_cs.png",
+      "name": "CS",
+      "sector": "Aerospace Industry",
+      "website": "https://www.c-s.fr"
+    },
     "projects": [
       {
-        "client": "CNES",
-        "clientSector": "French Space Agency",
+        "client": {
+          "name": "CNES",
+          "sector": "French Space Agency"
+        },
         "description": "Customizable transfer tool using native File System, FTP & SFTP",
         "name": "Trafic",
         "tasks": [
-          "Development of a new transfer protocol using native File System",
-          "Maintenance & quality controls: refactoring of several classes",
-          "Jenkins CI/CD project integration"
+          "Development of a new <strong>transfer protocol</strong> using native File System",
+          "Maintenance & quality controls: <strong>refactoring</strong> of several classes",
+          "<strong>Jenkins CI/CD</strong> project integration"
         ],
         "technologies": ["Java 6", "JsCh", "Jenkins"]
-      }
-    ],
-    "startDate": "2017-01-01"
-  },
-  {
-    "company": "CS",
-    "companySector": "Aerospace Industry",
-    "endDate": "2018-06-30",
-    "img": "company_cs.png",
-    "projects": [
+      },
       {
-        "client": "Airbus Defence & Space",
-        "clientSector": "Space Systems",
+        "client": {
+          "name": "Airbus Defence & Space",
+          "sector": "Space Systems"
+        },
         "description": "Ground-Segment simulators, validation & testing web interface",
         "name": "Pulsar",
         "tasks": [
-          "Use case supervisor on Postgres DB engineering & implementation",
-          "Development of multiple micro-services & components: - back-end using Node.js & TypeScript - front-end using Angular v6",
-          "Micro-services dockerization",
+          "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
+          "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",
+          "Micro-services <strong>dockerization</strong>",
           "CLI utilities development"
         ],
         "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
       }
     ],
-    "startDate": "2017-06-01"
+    "timeline": {
+      "endDate": "2018-06-30",
+      "startDate": "2017-01-01"
+    }
   },
   {
-    "company": "Capgemini",
-    "companySector": "IT Services",
-    "endDate": "2018-09-30",
-    "img": "company_capgemini.png",
+    "company": {
+      "img": "company_capgemini.png",
+      "name": "Capgemini",
+      "sector": "IT Services",
+      "website": "https://www.capgemini.com"
+    },
     "projects": [
       {
-        "client": "Airbus Defence & Space",
-        "clientSector": "Space Systems",
+        "client": {
+          "name": "Airbus Defence & Space",
+          "sector": "Space Systems"
+        },
         "description": "Web framework - Web portal",
         "name": "NemEO - DiginEO",
         "tasks": [
-          "Technical manager of a 3 developer team",
-          "Front-end development: React.js & Redux",
-          "Maintenance of the Architectural Design Document",
-          "Deployment industrialization using Docker"
+          "<strong>Technical manager</strong> of a 3-developer team",
+          "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
+          "Maintenance of the <strong>Architectural Design Document</strong>",
+          "<strong>Deployment industrialization</strong> using Docker"
         ],
         "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
       }
     ],
-    "startDate": "2018-06-01"
+    "timeline": {
+      "endDate": "2018-09-30",
+      "startDate": "2018-07-01"
+    }
   },
   {
-    "company": "Sigfox",
-    "companySector": "Wireless Networks",
-    "endDate": "2020-03-20",
-    "img": "company_sigfox.png",
+    "company": {
+      "img": "company_sigfox.png",
+      "name": "Sigfox",
+      "sector": "Wireless Networks",
+      "website": "https://www.sigfox.com"
+    },
     "projects": [
       {
         "client": null,
-        "clientSector": null,
-        "description": "Kubernetization & move to GCP of Web platforms",
-        "name": "XDoG",
-        "tasks": [
-          "Migrate web platforms to Kubernetes on Google Cloud Platform",
-          "Adapt APIs for K8s: health probes, Prometheus metrics, etc"
-        ],
-        "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
-      },
-      {
-        "client": null,
-        "clientSector": null,
         "description": "Features development & maintenance of Web platforms",
         "name": null,
         "tasks": ["Back-end & front-end engineering & development"],
         "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
+      },
+      {
+        "client": null,
+        "description": "Kubernetization & move to GCP of Web platforms",
+        "name": "XDoG",
+        "tasks": [
+          "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
+          "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
+        ],
+        "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
       }
     ],
-    "startDate": "2018-10-01"
+    "timeline": {
+      "endDate": "2020-03-20",
+      "startDate": "2018-10-01"
+    }
   },
   {
-    "company": "Freelancer",
-    "companySector": "IT Services",
-    "endDate": null,
-    "img": null,
+    "company": {
+      "img": null,
+      "name": "Freelancer",
+      "sector": "IT Services",
+      "website": null
+    },
     "projects": [
       {
         "client": null,
-        "clientSector": null,
         "description": null,
         "name": null,
         "tasks": [
@@ -129,7 +147,7 @@
           "Implement Design Systems",
           "CI/CD pipelines on GitHub/GitLab",
           "Dockerization/Kubernetization of applications",
-          "Move software platforms to Kubernetes (experience with GCP only)"
+          "Move software platforms to Kubernetes (GCP)"
         ],
         "technologies": [
           "JavaScript",
@@ -145,6 +163,43 @@
         ]
       }
     ],
-    "startDate": "2020-03-23"
+    "timeline": {
+      "endDate": "2020-09-30",
+      "startDate": "2020-04-01"
+    }
+  },
+  {
+    "company": {
+      "img": "company_stacklabs.png",
+      "name": "Stack Labs",
+      "sector": "IT Services",
+      "website": "https://stack-labs.com"
+    },
+    "projects": [
+      {
+        "client": {
+          "name": "N'PY",
+          "sector": "Ski Resorts"
+        },
+        "description": "Ski lift tickets sales data lake",
+        "name": null,
+        "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+        "technologies": ["Dataflow", "GCP", "Terraform"]
+      },
+      {
+        "client": {
+          "name": "Irrijardin",
+          "sector": "Pools & Spas"
+        },
+        "description": "Mobile app & FaaS backend development",
+        "name": "Joey",
+        "tasks": ["Create <strong>Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+        "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
+      }
+    ],
+    "timeline": {
+      "endDate": null,
+      "startDate": "2020-10-01"
+    }
   }
 ]

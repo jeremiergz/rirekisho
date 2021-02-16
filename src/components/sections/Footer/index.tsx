@@ -1,49 +1,21 @@
-import Anchor from 'components/Anchor';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
-import HeartIcon from 'components/svgs/icons/Heart';
-import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import Anchor from '@common/Anchor';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
+import { useData } from '@providers/DataProvider';
+import { useTheme } from '@providers/ThemeProvider';
+import HeartIcon from '@svgs/icons/Heart';
 import React from 'react';
-import { useTheme } from 'components/providers/ThemeProvider';
 
-const Footer = () => {
-  const {
-    gatsbyImg,
-    site: {
-      siteMetadata: { appName, repository, version },
-    },
-    styledComponentsImg,
-  } = useStaticQuery<GraphQL.FooterDataQuery>(graphql`
-    query FooterData {
-      gatsbyImg: imageSharp(fluid: { originalName: { eq: "tech_gatsby.png" } }) {
-        fluid(maxHeight: 64, maxWidth: 64, quality: 100) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-      site {
-        siteMetadata {
-          appName
-          repository {
-            url
-          }
-          version
-        }
-      }
-      styledComponentsImg: imageSharp(fluid: { originalName: { eq: "tech_styled_components.png" } }) {
-        fluid(maxHeight: 64, maxWidth: 64, quality: 100) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  `);
+const Footer: React.FC = () => {
+  const { imagesIndex } = useData();
   const { theme } = useTheme();
-  const applicationInfo = `${appName.toLowerCase()} v${version}`;
-  const repositoryURL = repository.url.replace(/git\+|\.git/g, '');
-  const sourceCodeURL = `${repositoryURL}/tree/${version}`;
+  const applicationInfo = `${process.env.APP_NAME.toLowerCase()} v${process.env.APP_VERSION}`;
+  const repositoryURL = process.env.APP_REPOSITORY_URL;
+  const sourceCodeURL = `${repositoryURL}/tree/${process.env.APP_VERSION}`;
   const techs = [
-    { img: gatsbyImg.fluid, url: 'https://www.gatsbyjs.org' },
-    { img: styledComponentsImg.fluid, url: 'https://styled-components.com' },
+    { img: imagesIndex['tech_next.png'], url: 'https://nextjs.org' },
+    { img: imagesIndex['tech_styled_components.png'], url: 'https://styled-components.com' },
   ];
   return (
     <FlexBox
@@ -73,7 +45,7 @@ const Footer = () => {
         <FlexBox>
           {techs.map(tech => (
             <Anchor external height={64} href={tech.url} key={tech.url} marginX={3} width={64}>
-              <Img alt={`Go to ${tech.url}`} fluid={tech.img} />
+              <Box alt={`Go to ${tech.url}`} as="img" height={64} src={tech.img} width={64} />
             </Anchor>
           ))}
         </FlexBox>

@@ -25,34 +25,7 @@ import {
   ZIndexProps,
 } from 'styled-system';
 
-type GridKnownProps = BorderProps &
-  ColorProps &
-  FlexboxProps &
-  LayoutProps &
-  PositionProps &
-  SpaceProps &
-  StyledGridProps &
-  TimeHTMLAttributes<unknown> &
-  TypographyProps &
-  ZIndexProps & {
-    animation?: ResponsiveValue<CSSProperties['animation']>;
-    backdropFilter?: ResponsiveValue<CSSProperties['backdropFilter']>;
-    contentVisibility?: ResponsiveValue<'auto' | 'hidden' | 'visible'>;
-    cursor?: ResponsiveValue<CSSProperties['cursor']>;
-    boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
-    boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
-    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
-    print?: boolean;
-    transform?: ResponsiveValue<CSSProperties['transform']>;
-    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
-    transition?: ResponsiveValue<CSSProperties['transition']>;
-    willChange?: ResponsiveValue<CSSProperties['willChange']>;
-    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
-  } & {
-    variant: 'container' | 'item';
-  };
-
-const Grid = styled.div<GridKnownProps>`
+const Grid = styled.div<GridProps>`
   ${compose(
     border,
     color,
@@ -92,5 +65,30 @@ const Grid = styled.div<GridKnownProps>`
 
 Grid.displayName = 'Grid';
 
-export type GridProps = React.ComponentProps<typeof Grid>;
+export type GridProps = BorderProps &
+  ColorProps &
+  FlexboxProps &
+  LayoutProps &
+  PositionProps &
+  SpaceProps &
+  StyledGridProps &
+  TimeHTMLAttributes<unknown> &
+  TypographyProps &
+  ZIndexProps & {
+    animation?: ResponsiveValue<CSSProperties['animation']>;
+    backdropFilter?: ResponsiveValue<CSSProperties['backdropFilter']>;
+    contentVisibility?: ResponsiveValue<'auto' | 'hidden' | 'visible'>;
+    cursor?: ResponsiveValue<CSSProperties['cursor']>;
+    boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
+    boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
+    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+    transform?: ResponsiveValue<CSSProperties['transform']>;
+    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+    transition?: ResponsiveValue<CSSProperties['transition']>;
+    willChange?: ResponsiveValue<CSSProperties['willChange']>;
+    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
+  } & {
+    print?: boolean;
+    variant: 'container' | 'item';
+  };
 export default Grid;

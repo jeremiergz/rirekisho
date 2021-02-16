@@ -1,4 +1,4 @@
-import SVG, { SVGProps } from 'components/SVG';
+import SVG, { SVGProps } from '@common/SVG';
 import React from 'react';
 
 const Interests: React.FC<InterestsProps> = props => {

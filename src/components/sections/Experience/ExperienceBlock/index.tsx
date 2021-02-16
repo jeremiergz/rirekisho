@@ -1,9 +1,10 @@
-import Box from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Grid, { GridProps } from 'components/primitives/Grid';
-import Text from 'components/primitives/Text';
-import { useTheme } from 'components/providers/ThemeProvider';
-import Img, { FixedObject } from 'gatsby-image';
+import Anchor from '@common/Anchor';
+import ConditionalWrapper from '@common/ConditionalWrapper';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Grid, { GridProps } from '@primitives/Grid';
+import Text from '@primitives/Text';
+import { useTheme } from '@providers/ThemeProvider';
 import React from 'react';
 import ProjectBlock from './ProjectBlock';
 
@@ -29,8 +30,8 @@ function getFormattedDate(dateString: string) {
 
 const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...rest }) => {
   const { theme } = useTheme();
-  const endDate = getFormattedDate(item.endDate);
-  const startDate = getFormattedDate(item.startDate);
+  const endDate = getFormattedDate(item.timeline.endDate);
+  const startDate = getFormattedDate(item.timeline.startDate);
   return (
     <Grid
       alignItems="stretch"
@@ -48,10 +49,8 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
       >
         <Box color="primary" fontSize={18} fontWeight="bold" marginRight={3}>
           <Text whiteSpace="nowrap">
-            {startDate}
-            {' - '}
+            {startDate} - {endDate}
           </Text>
-          <Text whiteSpace="nowrap">{endDate}</Text>
         </Box>
         <FlexBox
           alignItems="center"
@@ -67,29 +66,40 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
             paddingX={2}
             paddingY={1}
           >
-            {companyImg ? (
-              <Img fixed={companyImg} />
-            ) : (
-              <Text color="dark" fontSize={18}>
-                {item.company}
-              </Text>
-            )}
+            <ConditionalWrapper
+              condition={!!item.company.website}
+              wrapper={children => (
+                <Anchor aria-label={`Go to ${item.company.website}`} external height={24} href={item.company.website}>
+                  {children}
+                </Anchor>
+              )}
+            >
+              {companyImg ? (
+                <Box alt={item.company.name} as="img" height={24} src={companyImg} />
+              ) : (
+                <Text color="dark" fontSize={18}>
+                  {item.company.name}
+                </Text>
+              )}
+            </ConditionalWrapper>
           </FlexBox>
           <Text marginX={2}>|</Text>
           <FlexBox flex={1}>
             <Text fontSize={16} fontStyle="italic">
-              {item.companySector}
+              {item.company.sector}
             </Text>
           </FlexBox>
         </FlexBox>
       </FlexBox>
-      {item.projects.map((project, index) => (
-        <ProjectBlock
-          item={project}
-          key={project.description}
-          marginBottom={index < item.projects.length - 1 ? '24px' : 0}
-        />
-      ))}
+      {item.projects
+        .map((project, index) => (
+          <ProjectBlock
+            item={project}
+            key={project.description}
+            marginBottom={index < item.projects.length - 1 ? '24px' : 0}
+          />
+        ))
+        .reverse()}
     </Grid>
   );
 };
@@ -97,7 +107,7 @@ const ExperienceBlock: React.FC<ExperienceBlockProps> = ({ companyImg, item, ...
 ExperienceBlock.displayName = 'ExperienceBlock';
 
 export type ExperienceBlockProps = Omit<GridProps, 'variant'> & {
-  companyImg?: FixedObject;
+  companyImg?: string;
   item: Models.Experience;
 };
 export default ExperienceBlock;

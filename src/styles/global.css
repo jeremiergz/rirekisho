@@ -1,10 +1,9 @@
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
   transition: background-color 500ms ease;
-  width: 100%;
+  width: 100vw;
 }
 body {
   font-weight: 400;
@@ -13,7 +12,10 @@ svg {
   transition: fill 500ms ease;
   will-change: fill;
 }
-#___gatsby {
+.testo {
+  width: auto !important;
+}
+#__next {
   position: relative;
 }
 @keyframes flow {

@@ -1,43 +1,48 @@
-import LoadingOverlay from 'components/LoadingOverlay';
-import Grid from 'components/primitives/Grid';
-import { useReadiness } from 'components/providers/ReadinessProvider';
-import { useTheme } from 'components/providers/ThemeProvider';
-import Details from 'components/sections/Details';
-import Education from 'components/sections/Education';
-import Experience from 'components/sections/Experience';
-import Footer from 'components/sections/Footer';
-import Header from 'components/sections/Header';
-import Interests from 'components/sections/Interests';
-import Skills from 'components/sections/Skills';
-import Toolbox from 'components/sections/Toolbox';
-import SEO from 'components/SEO';
-import SideMenu from 'components/SideMenu';
-import EducationIcon from 'components/svgs/sections/Education';
-import ExperienceIcon from 'components/svgs/sections/Experience';
-import InterestsIcon from 'components/svgs/sections/Interests';
-import SkillsIcon from 'components/svgs/sections/Skills';
-import ToolboxIcon from 'components/svgs/sections/Toolbox';
-import { graphql, useStaticQuery } from 'gatsby';
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import Menu from '@common/Menu';
+import SEO from '@common/SEO';
+import Compose from '@kobionic/react-compose';
+import Grid from '@primitives/Grid';
+import DataProvider from '@providers/DataProvider';
+import ThemeProvider from '@providers/ThemeProvider';
+import Details from '@sections/Details';
+import Education from '@sections/Education';
+import Experience from '@sections/Experience';
+import Footer from '@sections/Footer';
+import Header from '@sections/Header';
+import Interests from '@sections/Interests';
+import Skills from '@sections/Skills';
+import Toolbox from '@sections/Toolbox';
+import EducationIcon from '@svgs/sections/Education';
+import ExperienceIcon from '@svgs/sections/Experience';
+import InterestsIcon from '@svgs/sections/Interests';
+import SkillsIcon from '@svgs/sections/Skills';
+import ToolboxIcon from '@svgs/sections/Toolbox';
+import {
+  getEducationData,
+  getExperiencesData,
+  getInterestsData,
+  getLanguagesData,
+  getPersonalDetailsData,
+  getSkillsData,
+  getThemeData,
+  getToolboxData,
+  listImages,
+} from '@utils/server';
+import { GetStaticPropsContext } from 'next';
+import React, { useEffect, useRef, useState } from 'react';
 
-const IndexPage: React.FC = () => {
-  const {
-    site: {
-      siteMetadata: { description, keywords },
-    },
-  } = useStaticQuery<GraphQL.IndexDataQuery>(graphql`
-    query IndexData {
-      site {
-        siteMetadata {
-          description
-          keywords
-        }
-      }
-    }
-  `);
-  const { isReady } = useReadiness();
-  const { theme } = useTheme();
-  const [isSideMenuOpened, setIsSideMenuOpened] = useState(false);
+const IndexPage: React.FC<IndexPageProps> = ({
+  educationData,
+  experiencesData,
+  images,
+  imagesIndex,
+  interestsData,
+  languagesData,
+  personalDetailsData,
+  skillsData,
+  themeData,
+  toolboxData,
+}) => {
   const [originalDocTitle, setOriginalDocTitle] = useState<string>();
   const experiencesRef = useRef<HTMLDivElement>();
   const skillsRef = useRef<HTMLDivElement>();
@@ -51,7 +56,6 @@ const IndexPage: React.FC = () => {
     { Component: Interests, Icon: InterestsIcon, ref: interestsRef, title: 'interests' },
     { Component: Education, Icon: EducationIcon, ref: educationRef, title: 'education' },
   ];
-  const handleToggleSideMenu = useCallback(() => setIsSideMenuOpened(!isSideMenuOpened), [isSideMenuOpened]);
   useEffect(() => {
     window.onbeforeprint = () => {
       setOriginalDocTitle(document.title);
@@ -64,20 +68,38 @@ const IndexPage: React.FC = () => {
     };
   }, [originalDocTitle]);
   return (
-    <>
-      <SEO description={description} keywords={keywords} />
-      <LoadingOverlay loading={!isReady} />
-      <Header onMenuClick={handleToggleSideMenu} />
+    <Compose
+      components={[
+        {
+          component: DataProvider,
+          props: {
+            educationData,
+            experiencesData,
+            images,
+            imagesIndex,
+            interestsData,
+            languagesData,
+            personalDetailsData,
+            skillsData,
+            themeData,
+            toolboxData,
+          },
+        },
+        ThemeProvider,
+      ]}
+    >
+      <SEO description={process.env.APP_DESCRIPTION} keywords={process.env.APP_KEYWORDS.split(',')} />
+      <Header />
+      <Menu sections={sections} />
       <Grid
         as="main"
         gridColumnGap={{ _: 32, tablet: 64 }}
         gridTemplateColumns="auto auto"
         margin="auto"
-        maxWidth={theme.breakpoints['laptopM']}
+        maxWidth={1100}
         paddingX={{ _: 3, tablet: 4, laptopS: 48 }}
         variant="container"
       >
-        <SideMenu isOpened={isSideMenuOpened} onClick={handleToggleSideMenu} sections={sections} />
         <Details />
         {sections
           .filter(s => !!s.Component)
@@ -86,10 +108,59 @@ const IndexPage: React.FC = () => {
           ))}
       </Grid>
       <Footer />
-    </>
+    </Compose>
   );
 };
 
 IndexPage.displayName = 'IndexPage';
 
+export async function getStaticProps(_: GetStaticPropsContext) {
+  const [
+    educationData,
+    experiencesData,
+    interestsData,
+    languagesData,
+    personalDetailsData,
+    skillsData,
+    themeData,
+    toolboxData,
+    { images, imagesIndex },
+  ] = await Promise.all([
+    getEducationData(),
+    getExperiencesData(),
+    getInterestsData(),
+    getLanguagesData(),
+    getPersonalDetailsData(),
+    getSkillsData(),
+    getThemeData(),
+    getToolboxData(),
+    listImages(),
+  ]);
+  return {
+    props: {
+      educationData,
+      experiencesData,
+      images,
+      imagesIndex,
+      interestsData,
+      languagesData,
+      personalDetailsData,
+      skillsData,
+      themeData,
+      toolboxData,
+    },
+  };
+}
+export type IndexPageProps = {
+  educationData: Models.Degree[];
+  experiencesData: Models.Experience[];
+  images: string[];
+  imagesIndex: Record<string, string>;
+  interestsData: Models.Interest[];
+  languagesData: Models.Language[];
+  personalDetailsData: Models.PersonalDetails;
+  skillsData: Models.Skill[];
+  themeData: Theme.Data;
+  toolboxData: Models.Tool[];
+};
 export default IndexPage;

@@ -1,30 +1,17 @@
-import Box from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
-import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 
 const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, order }) => {
-  const {
-    imageSharp: { fluid: portrait },
-  } = useStaticQuery<GraphQL.PortraitDataQuery>(graphql`
-    query PortraitData {
-      imageSharp(fluid: { originalName: { eq: "portrait.png" } }) {
-        fluid(maxHeight: 192, maxWidth: 192, quality: 100) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  `);
   return (
     <FlexBox
       alignItems="center"
       flex={1}
       flexDirection="column"
       justifyContent="space-between"
-      marginTop={{ _: -40, tablet: -24 }}
+      marginTop={-40}
       order={order}
     >
       <Box
@@ -37,15 +24,23 @@ const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, ord
         width={{ _: 184, laptopM: 224 }}
         willChange="background-color"
       >
-        <Box left={0} margin="auto" position="absolute" right={0} top={16} width={{ _: 152, laptopM: 192 }}>
-          <Img fluid={portrait} />
+        <Box
+          height={{ _: 152, laptopM: 192 }}
+          left={0}
+          margin="auto"
+          position="absolute"
+          right={0}
+          top={16}
+          width={{ _: 152, laptopM: 192 }}
+        >
+          <Box alt="portrait" as="img" height="100%" src="/images/portrait.png" width="100%" />
         </Box>
       </Box>
       <Text
         color="secondary"
         fontSize={40}
         fontWeight="bold"
-        margin={{ _: '16px 0 16px 0', tablet: '0 -16px 0 -16px' }}
+        margin={{ _: '16px 0 16px 0', tablet: '0 -32px 0 -32px' }}
         textAlign="center"
       >
         {jobTitle}

@@ -1,7 +1,7 @@
-import Label from 'components/Label';
-import Box, { BoxProps } from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
+import Label from '@common/Label';
+import Box, { BoxProps } from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
 import React from 'react';
 import Bubble from './Bubble';
 
@@ -11,7 +11,7 @@ const maxBubblesNumber = 7;
 const SkillBlock: React.FC<SkillBlockProps> = ({ items, title, ...rest }) => {
   const factor = gradeBasis / maxBubblesNumber;
   return (
-    <Box marginBottom={4} maxWidth={{ _: 393, tablet: 356 }} width="100%" {...rest}>
+    <Box marginBottom={4} maxWidth={{ _: 356, tablet: 333 }} width="100%" {...rest}>
       <Label title={title} />
       {items
         .sort((a, b) => a.sortOrder - b.sortOrder)
@@ -21,7 +21,7 @@ const SkillBlock: React.FC<SkillBlockProps> = ({ items, title, ...rest }) => {
           const emptyBubblesNumber = [...Array(maxBubblesNumber - item.proficiencyLevel).keys()];
           return (
             <FlexBox alignItems="center" justifyContent="space-between" key={item.name} marginBottom={3}>
-              <Text fontSize={18} fontWeight="bold">
+              <Text fontSize={16} fontWeight="bold">
                 {item.name}
               </Text>
               <Text
@@ -51,7 +51,7 @@ const SkillBlock: React.FC<SkillBlockProps> = ({ items, title, ...rest }) => {
 SkillBlock.displayName = 'SkillBlock';
 
 export type SkillBlockProps = BoxProps & {
-  items: Models.Skill[];
+  items: Models.SkillItem[];
   title: string;
 };
 export default SkillBlock;

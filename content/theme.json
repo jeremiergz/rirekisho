@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "background": "white",
+    "body1": "#262626",
+    "body2": "#575757",
+    "caption": "#808080",
+    "dark": "#212121",
+    "error": "#f44336",
+    "info": "#2196f3",
+    "primary": "#17365c",
+    "secondary": "#31859a",
+    "subtitle": "#d3d3d3",
+    "success": "#4caf50",
+    "text": "#262626",
+    "white": "#ffffff"
+  },
+  "fonts": {
+    "main": "'Open Sans', sans-serif",
+    "title": "'Baloo Bhaina 2', cursive"
+  },
+  "fontWeights": {
+    "bold": 800,
+    "bolder": 600,
+    "regular": 400
+  }
+}

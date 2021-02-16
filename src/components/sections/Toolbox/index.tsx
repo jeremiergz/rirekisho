@@ -1,27 +1,14 @@
-import LabeledIconsBlock from 'components/LabeledIconsBlock';
-import Layout from 'components/Layout';
-import { graphql, useStaticQuery } from 'gatsby';
+import LabeledIconsBlock from '@common/LabeledIconsBlock';
+import Layout from '@common/Layout';
+import { useData } from '@providers/DataProvider';
 import React, { forwardRef } from 'react';
 
 const Toolbox = forwardRef<HTMLDivElement>((_, ref) => {
-  const {
-    toolNodes: { nodes: tools },
-  } = useStaticQuery<GraphQL.ToolboxDataQuery>(graphql`
-    query ToolboxData {
-      toolNodes: allToolboxJson {
-        nodes {
-          img
-          link
-          name
-          sortOrder
-        }
-      }
-    }
-  `);
+  const { toolboxData } = useData();
   return (
     <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="toolbox">
       <Layout.Content alignItems="center" marginBottom={4}>
-        <LabeledIconsBlock items={tools as Models.LabeledItem[]} />
+        <LabeledIconsBlock items={toolboxData} />
       </Layout.Content>
     </Layout.Section>
   );

@@ -1,32 +1,18 @@
-import Layout from 'components/Layout';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
-import { graphql, useStaticQuery } from 'gatsby';
+import Layout from '@common/Layout';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
+import { useData } from '@providers/DataProvider';
 import React, { forwardRef } from 'react';
 import Degree from './Degree';
 import TimelineDot from './TimelineDot';
 import TimelineLine from './TimelineLine';
 
 const Education = forwardRef<HTMLDivElement>((_, ref) => {
-  const {
-    degreeNodes: { nodes: education },
-  } = useStaticQuery<GraphQL.EducationDataQuery>(graphql`
-    query EducationData {
-      degreeNodes: allEducationJson {
-        nodes {
-          city
-          countryCode
-          issueDate
-          name
-          school
-        }
-      }
-    }
-  `);
+  const { educationData } = useData();
   return (
     <Layout.Section ref={ref} title="education">
       <Layout.Content columnDirection="column-reverse">
-        {education
+        {educationData
           .sort((a, b) => a.issueDate.localeCompare(b.issueDate))
           .map((degree, index) => (
             <FlexBox
@@ -46,7 +32,7 @@ const Education = forwardRef<HTMLDivElement>((_, ref) => {
                   <line x1="0%" x2="50%" y1="27%" y2="27%" />
                 </TimelineLine>
               )}
-              {index !== education.length - 1 && (
+              {index !== educationData.length - 1 && (
                 <TimelineLine>
                   <line x1="50%" x2="100%" y1="27%" y2="27%" />
                 </TimelineLine>

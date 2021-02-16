@@ -1,4 +1,4 @@
-import Box, { BoxProps } from 'components/primitives/Box';
+import Box, { BoxProps } from '@primitives/Box';
 import React, { CSSProperties } from 'react';
 
 const Star: React.FC<StarProps> = ({ emptyColor = 'grey', fillColor = 'white', type, ...rest }) => {

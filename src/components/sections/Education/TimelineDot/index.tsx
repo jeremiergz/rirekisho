@@ -1,4 +1,4 @@
-import Box from 'components/primitives/Box';
+import Box from '@primitives/Box';
 import React from 'react';
 
 const TimelineDot: React.FC = () => {

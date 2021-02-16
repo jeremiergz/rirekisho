@@ -1,4 +1,4 @@
-import Box, { BoxProps } from 'components/primitives/Box';
+import Box, { BoxProps } from '@primitives/Box';
 import React from 'react';
 
 const Bubble: React.FC<BubbleProps> = ({ empty, ...rest }) => {

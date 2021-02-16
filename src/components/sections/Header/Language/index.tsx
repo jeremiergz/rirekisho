@@ -1,6 +1,5 @@
-import Box from 'components/primitives/Box';
-import FlexBox from 'components/primitives/FlexBox';
-import Img, { FluidObject } from 'gatsby-image';
+import Box from '@primitives/Box';
+import FlexBox from '@primitives/FlexBox';
 import React from 'react';
 import Star from './Star';
 
@@ -13,7 +12,7 @@ const Language: React.FC<LanguageProps> = ({ dense = false, img, item }) => {
   return (
     <FlexBox alignItems="center" flexDirection="column" justifyContent="center" marginLeft={!dense && '12px'}>
       <Box width={{ _: 40, tablet: 48 }}>
-        <Img fluid={img} imgStyle={{ borderRadius: 4, height: '100%', width: '100%' }} />
+        <Box alt={item.name} as="img" src={img} width="100%" />
       </Box>
       <FlexBox marginTop={{ _: 0, tablet: 1 }}>
         {fullStarsNumber.map(fstar => (
@@ -34,7 +33,7 @@ Language.displayName = 'Language';
 
 export type LanguageProps = {
   dense?: boolean;
-  img: FluidObject;
+  img: string;
   item: Models.Language;
 };
 export default Language;

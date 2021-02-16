@@ -22,31 +22,7 @@ import {
   ZIndexProps,
 } from 'styled-system';
 
-type FlexBoxKnownProps = BorderProps &
-  ColorProps &
-  FlexboxProps &
-  LayoutProps &
-  PositionProps &
-  SpaceProps &
-  TimeHTMLAttributes<unknown> &
-  TypographyProps &
-  ZIndexProps & {
-    animation?: ResponsiveValue<CSSProperties['animation']>;
-    backdropFilter?: ResponsiveValue<CSSProperties['backdropFilter']>;
-    contentVisibility?: ResponsiveValue<'auto' | 'hidden' | 'visible'>;
-    cursor?: ResponsiveValue<CSSProperties['cursor']>;
-    boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
-    boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
-    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
-    print?: boolean;
-    transform?: ResponsiveValue<CSSProperties['transform']>;
-    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
-    transition?: ResponsiveValue<CSSProperties['transition']>;
-    willChange?: ResponsiveValue<CSSProperties['willChange']>;
-    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
-  };
-
-const FlexBox = styled.div<FlexBoxKnownProps>`
+const FlexBox = styled.div<FlexBoxProps>`
   display: flex;
   ${compose(
     border,
@@ -84,5 +60,29 @@ const FlexBox = styled.div<FlexBoxKnownProps>`
 
 FlexBox.displayName = 'FlexBox';
 
-export type FlexBoxProps = React.ComponentProps<typeof FlexBox>;
+export type FlexBoxProps = BorderProps &
+  ColorProps &
+  FlexboxProps &
+  LayoutProps &
+  PositionProps &
+  SpaceProps &
+  TimeHTMLAttributes<unknown> &
+  TypographyProps &
+  ZIndexProps & {
+    animation?: ResponsiveValue<CSSProperties['animation']>;
+    backdropFilter?: ResponsiveValue<CSSProperties['backdropFilter']>;
+    contentVisibility?: ResponsiveValue<'auto' | 'hidden' | 'visible'>;
+    cursor?: ResponsiveValue<CSSProperties['cursor']>;
+    boxShadow?: ResponsiveValue<CSSProperties['boxShadow']>;
+    boxSizing?: ResponsiveValue<CSSProperties['boxSizing']>;
+    pointerEvents?: ResponsiveValue<CSSProperties['pointerEvents']>;
+    transform?: ResponsiveValue<CSSProperties['transform']>;
+    transformOrigin?: ResponsiveValue<CSSProperties['transformOrigin']>;
+    transition?: ResponsiveValue<CSSProperties['transition']>;
+    willChange?: ResponsiveValue<CSSProperties['willChange']>;
+    writingMode?: ResponsiveValue<CSSProperties['writingMode']>;
+  } & {
+    as?: keyof JSX.IntrinsicElements | React.ComponentType<any>;
+    print?: boolean;
+  };
 export default FlexBox;

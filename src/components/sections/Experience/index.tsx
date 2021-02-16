@@ -1,60 +1,25 @@
-import Layout from 'components/Layout';
-import Grid from 'components/primitives/Grid';
-import { graphql, useStaticQuery } from 'gatsby';
+import Layout from '@common/Layout';
+import Grid from '@primitives/Grid';
+import { useData } from '@providers/DataProvider';
 import React, { forwardRef } from 'react';
 import ExperienceBlock from './ExperienceBlock';
 
 const Experience = forwardRef<HTMLDivElement>((_, ref) => {
-  const {
-    companyImgNodes: { nodes: companyImgs },
-    experienceNodes: { nodes: experiences },
-  } = useStaticQuery<GraphQL.ExperienceDataQuery>(graphql`
-    query ExperienceData {
-      companyImgNodes: allImageSharp(filter: { original: { src: { regex: "/company/" } } }) {
-        nodes {
-          fixed(height: 24, quality: 100) {
-            originalName
-            ...GatsbyImageSharpFixed_withWebp
-          }
-        }
-      }
-      experienceNodes: allExperiencesJson {
-        nodes {
-          company
-          companySector
-          endDate
-          img
-          projects {
-            client
-            clientSector
-            description
-            name
-            tasks
-            technologies
-          }
-          startDate
-        }
-      }
-    }
-  `);
-  const companyImgsIndex = companyImgs.reduce((acc, img) => {
-    acc[img.fixed.originalName] = img.fixed;
-    return acc;
-  }, {});
+  const { imagesIndex, experiencesData } = useData();
   return (
     <Layout.Section ref={ref} title="experience">
       <Layout.Content columnDirection="column-reverse">
         <Grid gridColumnGap={{ _: 32, tablet: 64 }} gridTemplateColumns="auto auto" variant="container">
-          {experiences
-            .sort((a, b) => b.startDate.localeCompare(a.startDate))
+          {experiencesData
+            .sort((a, b) => b.timeline.startDate.localeCompare(a.timeline.startDate))
             .map(item => {
-              const img = companyImgsIndex[item.img];
+              const img = imagesIndex[item.company.img];
               return (
                 <ExperienceBlock
                   companyImg={img}
-                  key={item.startDate}
                   gridColumn={{ _: 'span 2', laptopS: 'span 1' }}
-                  item={item as Models.Experience}
+                  item={item}
+                  key={item.timeline.startDate}
                 />
               );
             })}

@@ -1,6 +1,6 @@
-import Label from 'components/Label';
-import FlexBox from 'components/primitives/FlexBox';
-import Text from 'components/primitives/Text';
+import Label from '@common/Label';
+import FlexBox from '@primitives/FlexBox';
+import Text from '@primitives/Text';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 

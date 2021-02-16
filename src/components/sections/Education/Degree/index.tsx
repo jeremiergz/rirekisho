@@ -1,4 +1,4 @@
-import Text from 'components/primitives/Text';
+import Text from '@primitives/Text';
 import React from 'react';
 
 const Degree: React.FC<DegreeProps> = ({ city, countryCode, name, school }) => {

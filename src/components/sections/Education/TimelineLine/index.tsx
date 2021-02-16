@@ -1,5 +1,5 @@
-import Box from 'components/primitives/Box';
-import { useTheme } from 'components/providers/ThemeProvider';
+import Box from '@primitives/Box';
+import { useTheme } from '@providers/ThemeProvider';
 import React from 'react';
 
 const TimelineLine: React.FC = ({ children }) => {
