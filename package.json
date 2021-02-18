@@ -70,24 +70,28 @@
       "!**/*/*.d.ts"
     ],
     "coveragePathIgnorePatterns": [
-      ".cache"
+      ".next/",
+      "_app.tsx",
+      "_document.tsx",
+      "utils/server.ts"
     ],
-    "globals": {
-      "__PATH_PREFIX__": ""
+    "moduleNameMapper": {
+      "^@common(.*)$": "<rootDir>/src/components/common$1",
+      "^@hooks(.*)$": "<rootDir>/src/components/hooks$1",
+      "^@pages(.*)$": "<rootDir>/src/pages$1",
+      "^@primitives(.*)$": "<rootDir>/src/components/primitives$1",
+      "^@providers(.*)$": "<rootDir>/src/components/providers$1",
+      "^@sections(.*)$": "<rootDir>/src/components/sections$1",
+      "^@styles(.*)$": "<rootDir>/src/styles$1",
+      "^@svgs(.*)$": "<rootDir>/src/components/svgs$1",
+      "^@utils(.*)$": "<rootDir>/src/utils$1"
     },
-    "modulePaths": [
-      "src"
-    ],
     "setupFiles": [
       "<rootDir>/loadershim.js"
     ],
-    "testPathIgnorePatterns": [
-      "node_modules",
-      ".cache"
-    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
     "transform": {
-      "^.+\\.jsx?$": "<rootDir>/jest-preprocess.js",
-      "^.+\\.tsx?$": "ts-jest"
+      "^.+\\.(j|t)sx?$": "<rootDir>/jest-preprocess.js"
     },
     "verbose": true
   },
@@ -101,14 +105,12 @@
     "styled-system": "5.1.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.16",
-    "@babel/core": "^7.12.16",
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@kobionic/eslint-config-typescript": "^3.1.1",
     "@kobionic/eslint-config-typescript-react": "^1.0.7",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/react-hooks": "^5.0.3",
     "@types/jest": "^26.0.20",
     "@types/lodash.throttle": "^4.1.6",
     "@types/react": "^17.0.2",
@@ -116,6 +118,7 @@
     "@types/react-test-renderer": "^17.0.1",
     "@types/styled-components": "^5.1.7",
     "@types/styled-system": "^5.1.10",
+    "babel-jest": "^26.6.3",
     "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.20.0",
     "eslint-plugin-react": "^7.22.0",
@@ -127,7 +130,6 @@
     "prettier": "^2.2.1",
     "react-test-renderer": "^17.0.1",
     "rimraf": "^3.0.2",
-    "ts-jest": "^26.5.1",
     "typescript": "^4.1.5"
   },
   "engines": {

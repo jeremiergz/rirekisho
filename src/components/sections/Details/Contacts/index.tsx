@@ -5,33 +5,19 @@ import FlexBox from '@primitives/FlexBox';
 import Text from '@primitives/Text';
 import { useTheme } from '@providers/ThemeProvider';
 import EmailIcon from '@svgs/contacts/Email';
-import FacebookIcon from '@svgs/contacts/Facebook';
 import GitHubIcon from '@svgs/contacts/GitHub';
 import GitLabIcon from '@svgs/contacts/GitLab';
-import InstagramIcon from '@svgs/contacts/Instagram';
 import LinkedInIcon from '@svgs/contacts/LinkedIn';
-import MessengerIcon from '@svgs/contacts/Messenger';
-import PhoneIcon from '@svgs/contacts/Phone';
-import RedditIcon from '@svgs/contacts/Reddit';
-import SkypeIcon from '@svgs/contacts/Skype';
 import TwitterIcon from '@svgs/contacts/Twitter';
-import WhatsappIcon from '@svgs/contacts/Whatsapp';
 import React, { CSSProperties } from 'react';
 import { ResponsiveValue } from 'styled-system';
 
 const Icons: Record<Models.PersonalContact['type'], React.FC<SVGProps>> = {
   email: EmailIcon,
-  facebook: FacebookIcon,
   github: GitHubIcon,
   gitlab: GitLabIcon,
-  instagram: InstagramIcon,
   linkedin: LinkedInIcon,
-  messenger: MessengerIcon,
-  phone: PhoneIcon,
-  reddit: RedditIcon,
-  skype: SkypeIcon,
   twitter: TwitterIcon,
-  whatsapp: WhatsappIcon,
 };
 
 function isHTTPLink(link: string) {

@@ -1,15 +1,15 @@
-import SEO from '@common/SEO';
+import { NextPage } from 'next';
 import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const isBrowser = typeof window !== 'undefined';
 
-const NotFoundPage: React.FC = () => {
+const NotFoundPage: NextPage = () => {
   const router = useRouter();
   useEffect(() => {
     if (isBrowser) router.push('/');
   }, []);
-  return <SEO path="/404" title="404 Not Found" />;
+  return null;
 };
 
 NotFoundPage.displayName = 'NotFoundPage';

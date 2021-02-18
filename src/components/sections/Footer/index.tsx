@@ -10,7 +10,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   const { imagesIndex } = useData();
   const { theme } = useTheme();
-  const applicationInfo = `${process.env.APP_NAME.toLowerCase()} v${process.env.APP_VERSION}`;
+  const applicationInfo = `${(process.env.APP_NAME || '').toLowerCase()} v${process.env.APP_VERSION}`;
   const repositoryURL = process.env.APP_REPOSITORY_URL;
   const sourceCodeURL = `${repositoryURL}/tree/${process.env.APP_VERSION}`;
   const techs = [

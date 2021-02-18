@@ -44,19 +44,7 @@ export declare global {
       label: string;
       link: string;
       sortOrder: number;
-      type:
-        | 'email'
-        | 'facebook'
-        | 'github'
-        | 'gitlab'
-        | 'instagram'
-        | 'linkedin'
-        | 'messenger'
-        | 'phone'
-        | 'reddit'
-        | 'skype'
-        | 'twitter'
-        | 'whatsapp';
+      type: 'email' | 'github' | 'gitlab' | 'linkedin' | 'twitter';
     };
 
     type PersonalDetails = {

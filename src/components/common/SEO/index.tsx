@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-const SEO: React.FC<SEOProps> = ({ description = '', keywords = [], lang = 'en', path = '/', title = 'CV' }) => {
+const SEO: React.FC<SEOProps> = ({ description = '', keywords = [], path = '/', title = 'CV' }) => {
   const metaDescription = description || process.env.APP_DESCRIPTION;
   const metaImageURL = `${process.env.APP_SITE_URL}/images/cover.png`;
   const metaKeywords = keywords || process.env.APP_KEYWORDS.split(',');

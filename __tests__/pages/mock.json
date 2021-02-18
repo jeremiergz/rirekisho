@@ -1,0 +1,331 @@
+{
+  "educationData": [
+    {
+      "city": "Tokyo",
+      "countryCode": "JP",
+      "issueDate": "2008-09-30",
+      "name": "Intermediate Japanese Certificate",
+      "school": "Sendagaya Japanese Institute"
+    },
+    {
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "issueDate": "2010-06-30",
+      "name": "Japanese Language Bachelor Degree",
+      "school": "University of Jean-Jaures"
+    },
+    {
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "issueDate": "2012-06-30",
+      "name": "Import-Export Degree",
+      "school": "AFPA"
+    },
+    {
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "issueDate": "2016-10-31",
+      "name": "Computer Programming Bachelor Degree",
+      "school": "AFPA"
+    }
+  ],
+  "experiencesData": [
+    {
+      "company": {
+        "img": "company_sqli.png",
+        "name": "SQLI",
+        "sector": "IT Services",
+        "website": "https://www.sqli.com"
+      },
+      "projects": [
+        {
+          "client": { "name": "Omnium Finance", "sector": "Financial Services" },
+          "description": "Client base management Web interface for tablets and PCs",
+          "name": null,
+          "tasks": [
+            "Back-end development using <strong>Java 8</strong> with <strong>Spring Boot</strong> & <strong>JPA</strong>",
+            "Front-end development using <strong>Angular.js</strong>, <strong>Bootstrap</strong> & <strong>SASS</strong>",
+            "<strong>Docker</strong> initiation & Spring Boot <strong>container</strong> creation"
+          ],
+          "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
+        }
+      ],
+      "timeline": { "endDate": "2016-12-31", "startDate": "2016-11-01" }
+    },
+    {
+      "company": {
+        "img": "company_cs.png",
+        "name": "CS",
+        "sector": "Aerospace Industry",
+        "website": "https://www.c-s.fr"
+      },
+      "projects": [
+        {
+          "client": { "name": "CNES", "sector": "French Space Agency" },
+          "description": "Customizable transfer tool using native File System, FTP & SFTP",
+          "name": "Trafic",
+          "tasks": [
+            "Development of a new <strong>transfer protocol</strong> using native File System",
+            "Maintenance & quality controls: <strong>refactoring</strong> of several classes",
+            "<strong>Jenkins CI/CD</strong> project integration"
+          ],
+          "technologies": ["Java 6", "JsCh", "Jenkins"]
+        },
+        {
+          "client": { "name": "Airbus Defence & Space", "sector": "Space Systems" },
+          "description": "Ground-Segment simulators, validation & testing web interface",
+          "name": "Pulsar",
+          "tasks": [
+            "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
+            "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",
+            "Micro-services <strong>dockerization</strong>",
+            "CLI utilities development"
+          ],
+          "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
+        }
+      ],
+      "timeline": { "endDate": "2018-06-30", "startDate": "2017-01-01" }
+    },
+    {
+      "company": {
+        "img": "company_capgemini.png",
+        "name": "Capgemini",
+        "sector": "IT Services",
+        "website": "https://www.capgemini.com"
+      },
+      "projects": [
+        {
+          "client": { "name": "Airbus Defence & Space", "sector": "Space Systems" },
+          "description": "Web framework - Web portal",
+          "name": "NemEO - DiginEO",
+          "tasks": [
+            "<strong>Technical manager</strong> of a 3-developer team",
+            "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
+            "Maintenance of the <strong>Architectural Design Document</strong>",
+            "<strong>Deployment industrialization</strong> using Docker"
+          ],
+          "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
+        }
+      ],
+      "timeline": { "endDate": "2018-09-30", "startDate": "2018-07-01" }
+    },
+    {
+      "company": {
+        "img": "company_sigfox.png",
+        "name": "Sigfox",
+        "sector": "Wireless Networks",
+        "website": "https://www.sigfox.com"
+      },
+      "projects": [
+        {
+          "client": null,
+          "description": "Features development & maintenance of Web platforms",
+          "name": null,
+          "tasks": ["Back-end & front-end engineering & development"],
+          "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
+        },
+        {
+          "client": null,
+          "description": "Kubernetization & move to GCP of Web platforms",
+          "name": "XDoG",
+          "tasks": [
+            "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
+            "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
+          ],
+          "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+        }
+      ],
+      "timeline": { "endDate": "2020-03-20", "startDate": "2018-10-01" }
+    },
+    {
+      "company": { "img": null, "name": "Freelancer", "sector": "IT Services", "website": null },
+      "projects": [
+        {
+          "client": null,
+          "description": null,
+          "name": null,
+          "tasks": [
+            "Back-end & front-end engineering & development",
+            "Implement Design Systems",
+            "CI/CD pipelines on GitHub/GitLab",
+            "Dockerization/Kubernetization of applications",
+            "Move software platforms to Kubernetes (GCP)"
+          ],
+          "technologies": [
+            "JavaScript",
+            "TypeScript",
+            "Golang",
+            "Node.js",
+            "React",
+            "GCP",
+            "Docker",
+            "Kubernetes",
+            "GitHub Actions",
+            "GitLab CI"
+          ]
+        }
+      ],
+      "timeline": { "endDate": "2020-09-30", "startDate": "2020-04-01" }
+    },
+    {
+      "company": {
+        "img": "company_stacklabs.png",
+        "name": "Stack Labs",
+        "sector": "IT Services",
+        "website": "https://stack-labs.com"
+      },
+      "projects": [
+        {
+          "client": { "name": "N'PY", "sector": "Ski Resorts" },
+          "description": "Ski lift tickets sales data lake",
+          "name": null,
+          "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+          "technologies": ["Dataflow", "GCP", "Terraform"]
+        },
+        {
+          "client": { "name": "Irrijardin", "sector": "Pools & Spas" },
+          "description": "Mobile app & FaaS backend development",
+          "name": "Joey",
+          "tasks": ["Create <strong>Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+          "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
+        }
+      ],
+      "timeline": { "endDate": null, "startDate": "2020-10-01" }
+    }
+  ],
+  "images": [
+    "/images/company_capgemini.png",
+    "/images/company_cs.png",
+    "/images/company_sigfox.png",
+    "/images/company_sqli.png",
+    "/images/company_stacklabs.png",
+    "/images/cover.png",
+    "/images/flag_france.png",
+    "/images/flag_japan.png",
+    "/images/flag_usa.png",
+    "/images/portrait.png",
+    "/images/tech_next.png",
+    "/images/tech_styled_components.png",
+    "/images/toolbox_gcp.png",
+    "/images/toolbox_mongo.png",
+    "/images/toolbox_npm.png",
+    "/images/toolbox_raspberrypi.png",
+    "/images/toolbox_redis.png",
+    "/images/toolbox_vscode.png"
+  ],
+  "imagesIndex": {
+    "company_capgemini.png": "/images/company_capgemini.png",
+    "company_cs.png": "/images/company_cs.png",
+    "company_sigfox.png": "/images/company_sigfox.png",
+    "company_sqli.png": "/images/company_sqli.png",
+    "company_stacklabs.png": "/images/company_stacklabs.png",
+    "cover.png": "/images/cover.png",
+    "flag_france.png": "/images/flag_france.png",
+    "flag_japan.png": "/images/flag_japan.png",
+    "flag_usa.png": "/images/flag_usa.png",
+    "portrait.png": "/images/portrait.png",
+    "tech_next.png": "/images/tech_next.png",
+    "tech_styled_components.png": "/images/tech_styled_components.png",
+    "toolbox_gcp.png": "/images/toolbox_gcp.png",
+    "toolbox_mongo.png": "/images/toolbox_mongo.png",
+    "toolbox_npm.png": "/images/toolbox_npm.png",
+    "toolbox_raspberrypi.png": "/images/toolbox_raspberrypi.png",
+    "toolbox_redis.png": "/images/toolbox_redis.png",
+    "toolbox_vscode.png": "/images/toolbox_vscode.png"
+  },
+  "interestsData": [
+    { "name": "coding", "sortOrder": 0 },
+    { "name": "tech", "sortOrder": 1 },
+    { "name": "sports", "sortOrder": 2 },
+    { "name": "movies", "sortOrder": 3 },
+    { "name": "music", "sortOrder": 4 },
+    { "name": "nature", "sortOrder": 5 }
+  ],
+  "languagesData": [
+    { "img": "flag_france.png", "name": "French", "proficiencyLevel": 5, "sortOrder": 0 },
+    { "img": "flag_usa.png", "name": "English", "proficiencyLevel": 4.5, "sortOrder": 1 },
+    { "img": "flag_japan.png", "name": "Japanese", "proficiencyLevel": 2.5, "sortOrder": 2 }
+  ],
+  "personalDetailsData": {
+    "contacts": [
+      { "label": "/jeremiergz", "link": "https://linkedin.com/in/jeremiergz", "sortOrder": 0, "type": "linkedin" },
+      { "label": "@JeremieRgz", "link": "https://twitter.com/JeremieRgz", "sortOrder": 1, "type": "twitter" },
+      { "label": "gitlab/jeremiergz", "link": "https://gitlab.com/jeremiergz", "sortOrder": 2, "type": "gitlab" },
+      { "label": "github/jeremiergz", "link": "https://github.com/jeremiergz", "sortOrder": 3, "type": "github" },
+      {
+        "label": "contact@jeremierodriguez.com",
+        "link": "mailto:contact@jeremierodriguez.com",
+        "sortOrder": 4,
+        "type": "email"
+      }
+    ],
+    "fullName": "Jeremie Rodriguez",
+    "jobTitle": "Full Stack Engineer",
+    "personalInformation": [
+      { "label": "nationality", "sortOrder": 0, "value": "french" },
+      { "label": "birth date", "sortOrder": 1, "value": "27 MAR 1987" },
+      { "label": "civil status", "sortOrder": 2, "value": "single" },
+      { "label": "driver licenses", "sortOrder": 3, "value": "car | motorcycle" }
+    ],
+    "twitterUsername": "@JeremieRgz"
+  },
+  "skillsData": [
+    {
+      "name": "programming",
+      "sortOrder": 0,
+      "items": [
+        { "name": "<Java|Type>Script", "proficiencyLevel": 7, "sortOrder": 0 },
+        { "name": "Node.js", "proficiencyLevel": 7, "sortOrder": 1 },
+        { "name": "Golang", "proficiencyLevel": 4, "sortOrder": 2 },
+        { "name": "HTML5|CSS3", "proficiencyLevel": 6, "sortOrder": 3 }
+      ]
+    },
+    {
+      "name": "devops",
+      "sortOrder": 1,
+      "items": [
+        { "name": "Kubernetes", "proficiencyLevel": 5, "sortOrder": 0 },
+        { "name": "Docker", "proficiencyLevel": 7, "sortOrder": 1 },
+        { "name": "<GitHub|GitLab>CI", "proficiencyLevel": 7, "sortOrder": 2 },
+        { "name": "Ansible|Terraform", "proficiencyLevel": 5, "sortOrder": 3 }
+      ]
+    },
+    {
+      "name": "frameworks",
+      "sortOrder": 2,
+      "items": [
+        { "name": "<Koa|Express>.js", "proficiencyLevel": 7, "section": "frameworks", "sortOrder": 0 },
+        { "name": "React.js", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 1 },
+        { "name": "Jest|Mocha|Chai", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 2 },
+        { "name": "Gatsby.js|Next.js", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 3 }
+      ]
+    }
+  ],
+  "themeData": {
+    "colors": {
+      "background": "white",
+      "body1": "#262626",
+      "body2": "#575757",
+      "caption": "#808080",
+      "dark": "#212121",
+      "error": "#f44336",
+      "info": "#2196f3",
+      "primary": "#17365c",
+      "secondary": "#31859a",
+      "subtitle": "#d3d3d3",
+      "success": "#4caf50",
+      "text": "#262626",
+      "white": "#ffffff"
+    },
+    "fonts": { "main": "'Open Sans', sans-serif", "title": "'Baloo Bhaina 2', cursive" },
+    "fontWeights": { "bold": 800, "bolder": 600, "regular": 400 }
+  },
+  "toolboxData": [
+    { "img": "toolbox_vscode.png", "link": "https://code.visualstudio.com", "name": "vscode", "sortOrder": 0 },
+    { "img": "toolbox_npm.png", "link": "https://www.npmjs.com", "name": "npm", "sortOrder": 1 },
+    { "img": "toolbox_mongo.png", "link": "https://www.mongodb.com", "name": "mongo", "sortOrder": 2 },
+    { "img": "toolbox_redis.png", "link": "https://redis.io", "name": "redis", "sortOrder": 3 },
+    { "img": "toolbox_gcp.png", "link": "https://cloud.google.com", "name": "gcp", "sortOrder": 4 },
+    { "img": "toolbox_raspberrypi.png", "link": "https://www.raspberrypi.org", "name": "rpi", "sortOrder": 5 }
+  ]
+}

@@ -28,10 +28,10 @@ import {
   getToolboxData,
   listImages,
 } from '@utils/server';
-import { GetStaticPropsContext } from 'next';
+import { GetStaticPropsContext, NextPage } from 'next';
 import React, { useEffect, useRef, useState } from 'react';
 
-const IndexPage: React.FC<IndexPageProps> = ({
+const IndexPage: NextPage<IndexPageProps> = ({
   educationData,
   experiencesData,
   images,
@@ -88,7 +88,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
         ThemeProvider,
       ]}
     >
-      <SEO description={process.env.APP_DESCRIPTION} keywords={process.env.APP_KEYWORDS.split(',')} />
+      <SEO />
       <Header />
       <Menu sections={sections} />
       <Grid

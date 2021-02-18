@@ -39,5 +39,5 @@
     "target": "es2015"
   },
   "exclude": ["node_modules"],
-  "include": ["@types", "next-env.d.ts", "src/**/*"]
+  "include": ["__tests__", "@types", "next-env.d.ts", "src/**/*"]
 }

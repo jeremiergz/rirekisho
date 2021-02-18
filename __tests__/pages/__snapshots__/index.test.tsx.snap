@@ -1,0 +1,4671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/index Test Suite matches snapshot 1`] = `
+Array [
+  <header
+    className="FlexBox-sc-1r8i33x-0 dqtYMb"
+    color="white"
+    height={
+      Object {
+        "_": 168,
+        "tablet": 96,
+      }
+    }
+    width="100%"
+  >
+    <div
+      className="FlexBox-sc-1r8i33x-0 cRxhJc"
+      width="100%"
+    >
+      <div
+        className="FlexBox-sc-1r8i33x-0 gIWQgw"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ebWTJf"
+          fontFamily="title"
+          fontSize={32}
+          letterSpacing={-2}
+        >
+          Jeremie Rodriguez
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 hKZVVr"
+      >
+        <div
+          className="FlexBox-sc-1r8i33x-0 cjhEOz"
+        >
+          <div
+            className="Box-sc-148h79l-0 djwzVT"
+            width={
+              Object {
+                "_": 40,
+                "tablet": 48,
+              }
+            }
+          >
+            <img
+              alt="French"
+              className="Box-sc-148h79l-0 fWTJUu"
+              src="/images/flag_france.png"
+              width="100%"
+            />
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 fgoYIx"
+          >
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 eVqKhV"
+        >
+          <div
+            className="Box-sc-148h79l-0 djwzVT"
+            width={
+              Object {
+                "_": 40,
+                "tablet": 48,
+              }
+            }
+          >
+            <img
+              alt="English"
+              className="Box-sc-148h79l-0 fWTJUu"
+              src="/images/flag_usa.png"
+              width="100%"
+            />
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 fgoYIx"
+          >
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <g>
+                  <path
+                    d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                    fill="grey"
+                  />
+                  <path
+                    d="M9.5,14.25L3.9160000000000004,17.186L4.982,10.968L0.465,6.564L6.708,5.657L9.5,0"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 eVqKhV"
+        >
+          <div
+            className="Box-sc-148h79l-0 djwzVT"
+            width={
+              Object {
+                "_": 40,
+                "tablet": 48,
+              }
+            }
+          >
+            <img
+              alt="Japanese"
+              className="Box-sc-148h79l-0 fWTJUu"
+              src="/images/flag_japan.png"
+              width="100%"
+            />
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 fgoYIx"
+          >
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <g>
+                  <path
+                    d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                    fill="grey"
+                  />
+                  <path
+                    d="M9.5,14.25L3.9160000000000004,17.186L4.982,10.968L0.465,6.564L6.708,5.657L9.5,0"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="grey"
+                />
+              </svg>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 iLXHtz"
+              height={
+                Object {
+                  "_": 12,
+                  "tablet": 16,
+                }
+              }
+            >
+              <svg
+                className="Box-sc-148h79l-0 eIEEYD"
+                height="100%"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
+                  fill="grey"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="FlexBox-sc-1r8i33x-0 RUtiu"
+    opacity={
+      Object {
+        "_": 0,
+        "tablet": 0,
+      }
+    }
+    pointerEvents={
+      Object {
+        "_": "none",
+        "tablet": "none",
+      }
+    }
+    width="100%"
+  >
+    <button
+      aria-label="Scroll to top"
+      className="Button-sc-13ewdsk-0 fhwSjR"
+      display={
+        Object {
+          "_": "none",
+          "mobileM": "flex",
+        }
+      }
+      onClick={[Function]}
+      transform="rotate3d(1,0,0,180deg)"
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 bCdMJr"
+        fill="white"
+        height={28}
+        viewBox="0 0 24 24"
+        width={28}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.973 10.37l.11-6.37h2l-.11 6.37h3l-4.055 3.172-3.945-3.173z"
+        />
+        <circle
+          cx="12"
+          cy="18.108"
+          r="2"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Scroll to experience"
+      className="Button-sc-13ewdsk-0 jwDQET"
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 hCgMyu"
+        fill="white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"
+        />
+      </svg>
+      <div
+        className="Box-sc-148h79l-0 eKKHCG"
+        display={
+          Object {
+            "_": "none",
+            "tablet": "block",
+          }
+        }
+        fontSize={18}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          exp
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 dSXMcn"
+          color="white"
+        >
+          erience
+        </span>
+      </div>
+    </button>
+    <button
+      aria-label="Scroll to skills"
+      className="Button-sc-13ewdsk-0 fWEdrf"
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 hCgMyu"
+        fill="white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+        />
+      </svg>
+      <div
+        className="Box-sc-148h79l-0 eKKHCG"
+        display={
+          Object {
+            "_": "none",
+            "tablet": "block",
+          }
+        }
+        fontSize={18}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          ski
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 dSXMcn"
+          color="white"
+        >
+          lls
+        </span>
+      </div>
+    </button>
+    <button
+      aria-label="Scroll to toolbox"
+      className="Button-sc-13ewdsk-0 fWEdrf"
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 hCgMyu"
+        fill="white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M18 16h-2v-1H8v1H6v-1H2v5h20v-5h-4zm2-8h-3V6c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v4h4v-2h2v2h8v-2h2v2h4v-4c0-1.1-.9-2-2-2zm-5 0H9V6h6v2z"
+        />
+      </svg>
+      <div
+        className="Box-sc-148h79l-0 eKKHCG"
+        display={
+          Object {
+            "_": "none",
+            "tablet": "block",
+          }
+        }
+        fontSize={18}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          too
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 dSXMcn"
+          color="white"
+        >
+          lbox
+        </span>
+      </div>
+    </button>
+    <button
+      aria-label="Scroll to interests"
+      className="Button-sc-13ewdsk-0 fWEdrf"
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 hCgMyu"
+        fill="white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM5 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm5.8-10l2.4-2.4.8.8c1.3 1.3 3 2.1 5.1 2.1V9c-1.5 0-2.7-.6-3.6-1.5l-1.9-1.9c-.5-.4-1-.6-1.6-.6s-1.1.2-1.4.6L7.8 8.4c-.4.4-.6.9-.6 1.4 0 .6.2 1.1.6 1.4L11 14v5h2v-6.2l-2.2-2.3zM19 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5z"
+        />
+      </svg>
+      <div
+        className="Box-sc-148h79l-0 eKKHCG"
+        display={
+          Object {
+            "_": "none",
+            "tablet": "block",
+          }
+        }
+        fontSize={18}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          int
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 dSXMcn"
+          color="white"
+        >
+          erests
+        </span>
+      </div>
+    </button>
+    <button
+      aria-label="Scroll to education"
+      className="Button-sc-13ewdsk-0 iEIRKL"
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 hCgMyu"
+        fill="white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"
+        />
+      </svg>
+      <div
+        className="Box-sc-148h79l-0 eKKHCG"
+        display={
+          Object {
+            "_": "none",
+            "tablet": "block",
+          }
+        }
+        fontSize={18}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          edu
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 dSXMcn"
+          color="white"
+        >
+          cation
+        </span>
+      </div>
+    </button>
+    <button
+      aria-label="Scroll to bottom"
+      className="Button-sc-13ewdsk-0 hIyUpZ"
+      display={
+        Object {
+          "_": "none",
+          "mobileM": "flex",
+        }
+      }
+      onClick={[Function]}
+    >
+      <svg
+        className="SVG-sc-1882hnu-0 bCdMJr"
+        fill="white"
+        height={28}
+        viewBox="0 0 24 24"
+        width={28}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.973 10.37l.11-6.37h2l-.11 6.37h3l-4.055 3.172-3.945-3.173z"
+        />
+        <circle
+          cx="12"
+          cy="18.108"
+          r="2"
+        />
+      </svg>
+    </button>
+  </div>,
+  <main
+    className="Grid-u15898-0 hUaTPq"
+  >
+    <section
+      className="Grid-u15898-0 hRoAsJ"
+    >
+      <div
+        className="FlexBox-sc-1r8i33x-0 dXsStx"
+        width="100%"
+      >
+        <div
+          className="FlexBox-sc-1r8i33x-0 iZLfAL"
+          height="100%"
+          order={
+            Object {
+              "_": 2,
+              "tablet": 1,
+            }
+          }
+        >
+          <div
+            className="FlexBox-sc-1r8i33x-0 NpSew"
+          >
+            <label
+              className="Text-sc-1awzew1-0 lgydtO"
+              color="secondary"
+              fontSize={14}
+              fontWeight="bold"
+            >
+              nationality
+            </label>
+            <span
+              className="Text-sc-1awzew1-0 hfSMDi"
+              color="primary"
+              fontSize={22}
+              fontWeight="bold"
+            >
+              french
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 NpSew"
+          >
+            <label
+              className="Text-sc-1awzew1-0 lgydtO"
+              color="secondary"
+              fontSize={14}
+              fontWeight="bold"
+            >
+              birth date
+            </label>
+            <span
+              className="Text-sc-1awzew1-0 hfSMDi"
+              color="primary"
+              fontSize={22}
+              fontWeight="bold"
+            >
+              27 MAR 1987
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 NpSew"
+          >
+            <label
+              className="Text-sc-1awzew1-0 lgydtO"
+              color="secondary"
+              fontSize={14}
+              fontWeight="bold"
+            >
+              civil status
+            </label>
+            <span
+              className="Text-sc-1awzew1-0 hfSMDi"
+              color="primary"
+              fontSize={22}
+              fontWeight="bold"
+            >
+              single
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 fPkTlj"
+          >
+            <label
+              className="Text-sc-1awzew1-0 lgydtO"
+              color="secondary"
+              fontSize={14}
+              fontWeight="bold"
+            >
+              driver licenses
+            </label>
+            <span
+              className="Text-sc-1awzew1-0 hfSMDi"
+              color="primary"
+              fontSize={22}
+              fontWeight="bold"
+            >
+              car | motorcycle
+            </span>
+          </div>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 iQfmuZ"
+          order={
+            Object {
+              "_": 1,
+              "tablet": 2,
+            }
+          }
+        >
+          <div
+            className="Box-sc-148h79l-0 bhaxfP"
+            height={
+              Object {
+                "_": 184,
+                "laptopM": 224,
+              }
+            }
+            width={
+              Object {
+                "_": 184,
+                "laptopM": 224,
+              }
+            }
+          >
+            <div
+              className="Box-sc-148h79l-0 ckmBSA"
+              height={
+                Object {
+                  "_": 152,
+                  "laptopM": 192,
+                }
+              }
+              width={
+                Object {
+                  "_": 152,
+                  "laptopM": 192,
+                }
+              }
+            >
+              <img
+                alt="portrait"
+                className="Box-sc-148h79l-0 iQUgFk"
+                height="100%"
+                src="/images/portrait.png"
+                width="100%"
+              />
+            </div>
+          </div>
+          <span
+            className="Text-sc-1awzew1-0 cvsLPM"
+            color="secondary"
+            fontSize={40}
+            fontWeight="bold"
+          >
+            Full Stack Engineer
+          </span>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 bDYqQM"
+          height="100%"
+          order={3}
+        >
+          <div
+            className="FlexBox-sc-1r8i33x-0 dYgVRb"
+          >
+            <a
+              aria-label="Open linkedin contact"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+              fontWeight="semi-bold"
+              href="https://linkedin.com/in/jeremiergz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 eROqsg"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 cxcZjH"
+                  color="primary"
+                  display={
+                    Object {
+                      "_": "none",
+                      "tablet": "block",
+                    }
+                  }
+                  fontSize={18}
+                  fontWeight="bold"
+                >
+                  /jeremiergz
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 bxLkOw"
+                >
+                  <svg
+                    className="SVG-sc-1882hnu-0 halrJH"
+                    fill="#31859a"
+                    height={32}
+                    viewBox="0 0 512 512"
+                    width={32}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="256"
+                      cy="256"
+                      fill="white"
+                      r="224"
+                    />
+                    <path
+                      d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm-74.39 387h-62.348V199.426h62.347zm-31.173-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.402-35.274 32.402zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 dYgVRb"
+          >
+            <a
+              aria-label="Open twitter contact"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+              fontWeight="semi-bold"
+              href="https://twitter.com/JeremieRgz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 eROqsg"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 cxcZjH"
+                  color="primary"
+                  display={
+                    Object {
+                      "_": "none",
+                      "tablet": "block",
+                    }
+                  }
+                  fontSize={18}
+                  fontWeight="bold"
+                >
+                  @JeremieRgz
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 bxLkOw"
+                >
+                  <svg
+                    className="SVG-sc-1882hnu-0 halrJH"
+                    fill="#17365c"
+                    height={32}
+                    viewBox="0 0 512 512"
+                    width={32}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="256"
+                      cy="256"
+                      fill="white"
+                      r="224"
+                    />
+                    <path
+                      d="M256 0C114.637 0 0 114.637 0 256s114.637 256 256 256 256-114.637 256-256S397.363 0 256 0zm116.887 199.602c.113 2.52.168 5.05.168 7.593 0 77.645-59.102 167.18-167.184 167.184h.004-.004c-33.184 0-64.062-9.727-90.066-26.395 4.597.543 9.277.813 14.015.813 27.532 0 52.867-9.39 72.98-25.152-25.722-.477-47.41-17.465-54.894-40.813a58.481 58.481 0 0011.043 1.063c5.363 0 10.559-.723 15.496-2.07-26.886-5.384-47.14-29.145-47.14-57.598 0-.266 0-.504.008-.75a58.354 58.354 0 0026.613 7.347c-15.777-10.527-26.148-28.523-26.148-48.91a58.597 58.597 0 017.957-29.535c28.976 35.555 72.28 58.937 121.117 61.394a58.708 58.708 0 01-1.528-13.398c0-32.437 26.317-58.754 58.766-58.754 16.902 0 32.168 7.145 42.89 18.567a117.855 117.855 0 0037.313-14.262c-4.394 13.715-13.707 25.222-25.84 32.5 11.887-1.422 23.215-4.574 33.742-9.254a119.412 119.412 0 01-29.308 30.43zm0 0"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 dYgVRb"
+          >
+            <a
+              aria-label="Open gitlab contact"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+              fontWeight="semi-bold"
+              href="https://gitlab.com/jeremiergz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 eROqsg"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 cxcZjH"
+                  color="primary"
+                  display={
+                    Object {
+                      "_": "none",
+                      "tablet": "block",
+                    }
+                  }
+                  fontSize={18}
+                  fontWeight="bold"
+                >
+                  gitlab/jeremiergz
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 bxLkOw"
+                >
+                  <svg
+                    className="SVG-sc-1882hnu-0 halrJH"
+                    fill="#31859a"
+                    height={32}
+                    viewBox="0 0 512 512"
+                    width={32}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="256"
+                      cy="256"
+                      fill="white"
+                      r="224"
+                    />
+                    <path
+                      d="M256 0A256 256 0 000 256a256 256 0 00256 256 256 256 0 00256-256A256 256 0 00256 0zm109.32422 94.802734c2.76229-.113738 5.58539 1.416019 6.61914 4.597657l38.81641 119.460939 19.58593 60.27344-.00195.00195a13.323818 13.323818 0 01-4.8457 14.91797L255.99414 417.20312 86.488281 294.04883c-.946726-.68776-1.754552-1.51184-2.478515-2.39453a13.309895 13.309895 0 01-2.365235-12.51953l11.382813-35.01758 8.203126-25.25 38.81445-119.455081a6.5045845 6.5045845 0 011.54883-2.490234c2.49213-2.639698 6.74639-2.677427 9.35547-.199219.2506.23947.53476.489708.75195.779297a7.6517972 7.6517972 0 011.03711 2.136719l13.09375 40.548828 25.71875 79.60938h128.88867l38.81836-119.927739c.49565-1.51754 1.39792-3.12406 2.51172-3.892579 1.05637-.73093 2.2991-1.122128 3.55469-1.173828z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 dYgVRb"
+          >
+            <a
+              aria-label="Open github contact"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+              fontWeight="semi-bold"
+              href="https://github.com/jeremiergz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 eROqsg"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 cxcZjH"
+                  color="primary"
+                  display={
+                    Object {
+                      "_": "none",
+                      "tablet": "block",
+                    }
+                  }
+                  fontSize={18}
+                  fontWeight="bold"
+                >
+                  github/jeremiergz
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 bxLkOw"
+                >
+                  <svg
+                    className="SVG-sc-1882hnu-0 halrJH"
+                    fill="#17365c"
+                    height={32}
+                    viewBox="0 0 512 512"
+                    width={32}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="256"
+                      cy="290"
+                      fill="white"
+                      r="228"
+                    />
+                    <path
+                      d="M343.718 509.152c-2.493.922-5.001 2.036-7.567 2.497-9.829 1.799-16.12-3.404-16.178-13.705-.13-19.132-.13-38.233.174-57.365.319-22-.174-43.718-16.512-61.869 9.713-1.783 18.353-3.032 26.804-5.024 55.986-13.185 85.067-49.397 88.778-109.497 1.899-30.592-3.421-58.657-23.253-82.754-1.435-1.694-1.507-5.544-.826-8.012 5.277-19.92 3.74-39.378-2.406-58.851-1.523-4.861-4.045-6.362-8.727-6.05-16.44.936-31.502 6.853-44.78 15.95-12.801 8.815-24.718 10.733-39.925 7.165-33.487-7.745-67.192-5.485-100.607 2.453-3.783.921-8.872-.312-12.336-2.393-15.686-9.425-31.371-18.582-49.463-22.239-13.99-2.794-15.207-2.08-18.918 11.788-4.668 17.482-5.132 34.978-.363 52.563.682 2.557-.029 6.66-1.696 8.548-37.068 42.41-23.644 122.548 1.334 153.245 19.425 23.843 45.23 34.576 73.875 40.15 5.001.952 9.974 1.68 14.975 2.572-4.29 11.446-8.147 22.253-12.51 32.882-.856 2.051-3.567 3.775-5.785 4.638-28.094 11.178-52.246 2.958-68.323-23.19-8.596-13.944-19.628-24.364-36.067-27.382-.522-.104-1.059-.386-1.537-.312-4.421 1.19-8.8 2.438-13.206 3.657 2.478 3.538 4.233 8.295 7.552 10.42 13.932 9.038 22.992 21.927 28.98 37.134 9.408 23.843 27.673 34.472 51.404 36.553 11.583.966 23.282.149 35.967.149 0 14.805.522 31.707-.218 48.534-.377 9.068-9.263 12.695-19.904 8.979-28.225-9.9-54.391-24.097-76.992-44.046C13.861 394.26-17.598 303.136 9.526 196.48 36.562 90.163 107.031 24.95 212.393 4.48c145.793-28.274 283.903 80.598 298.37 232.357 11.424 119.634-57.247 231.583-167.045 272.314zM206.275 377.759c-.087.208-.145.357-.232.565.261.045.522.09.797.134.203.015.377.386-.565-.699zm-65.96 47.286c2.276 1.442 4.45 3.27 6.915 4.058.899.298 2.566-1.798 5.509-4.028-4.088-1.59-6.495-2.988-9.032-3.345-.985-.119-2.261 2.156-3.392 3.315zm20.774 3.657c.333 1.56 3.363 3.508 5.146 3.478 1.725-.03 3.407-2.378 5.132-3.716-1.566-1.472-3.131-2.899-7.944-7.343-1.044 3.092-2.769 5.589-2.334 7.58zm25.485-6.288c-2.145.52-3.957 2.557-5.915 3.954 1.146 1.487 2.29 2.869 4.132 5.203 2.537-2.379 4.262-4.029 6.002-5.634-1.45-1.293-3.146-3.79-4.219-3.523zm-63.176-8.815c1.188 2.304 3.03 4.296 5.523 7.551 1.667-2.794 3.479-4.935 3.16-5.366-1.58-2.126-3.726-3.865-5.842-5.455-.145-.12-3.088 2.764-2.841 3.27z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 euiJAc"
+          >
+            <a
+              aria-label="Open email contact"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+              fontWeight="semi-bold"
+              href="mailto:contact@jeremierodriguez.com"
+              rel="noopener noreferrer"
+              target="_self"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 eROqsg"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 cxcZjH"
+                  color="primary"
+                  display={
+                    Object {
+                      "_": "none",
+                      "tablet": "block",
+                    }
+                  }
+                  fontSize={18}
+                  fontWeight="bold"
+                >
+                  contact@jeremierodriguez.com
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 bxLkOw"
+                >
+                  <svg
+                    className="SVG-sc-1882hnu-0 halrJH"
+                    fill="#31859a"
+                    height={32}
+                    viewBox="0 0 512 512"
+                    width={32}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="256"
+                      cy="256"
+                      fill="white"
+                      r="224"
+                    />
+                    <path
+                      d="M257 210c-24.814 0-45 20.186-45 45s20.186 45 45 45 45-20.186 45-45-20.186-45-45-45z"
+                    />
+                    <path
+                      d="M255 0C114.39 0 0 114.39 0 255s114.39 257 255 257 257-116.39 257-257S395.61 0 255 0zm107 330c-20.273 0-38.152-10.161-49.017-25.596C299.23 319.971 279.354 330 257 330c-41.353 0-75-33.647-75-75s33.647-75 75-75c16.948 0 32.426 5.865 45 15.383V195c0-8.291 6.709-15 15-15s15 6.709 15 15v75c0 16.538 13.462 30 30 30s30-13.462 30-30c0-100.391-66.432-150-135-150-74.443 0-135 60.557-135 135s60.557 135 135 135c30 0 58.374-9.609 82.061-27.803 15.822-12.078 33.94 11.765 18.281 23.789C328.353 408.237 293.665 420 257 420c-90.981 0-165-74.019-165-165S166.019 90 257 90c82.897 0 165 61.135 165 180 0 33.091-26.909 60-60 60z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="Grid-u15898-0 hMXRar"
+    >
+      <div
+        className="Box-sc-148h79l-0 rzrxa"
+        fontSize={28}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          exp
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 joECOG"
+          color="primary"
+        >
+          erience
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 bTYKAB"
+        width="100%"
+      >
+        <div
+          className="Grid-u15898-0 jNiRXv"
+        >
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  OCT 2020
+                   - 
+                  PRESENT
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <a
+                    aria-label="Go to https://stack-labs.com"
+                    className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 gHyjMs kPDwAE"
+                    fontWeight="semi-bold"
+                    height={24}
+                    href="https://stack-labs.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Stack Labs"
+                      className="Box-sc-148h79l-0 dYWerR"
+                      height={24}
+                      src="/images/company_stacklabs.png"
+                    />
+                  </a>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    IT Services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Irrijardin
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Pools & Spas
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Joey
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Mobile app & FaaS backend development
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    React Native | TypeScript | AWS | Lambda
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Create 
+                  <strong>
+                    Infrastucture as Code
+                  </strong>
+                   using 
+                  <em>
+                    Terraform
+                  </em>
+                   & 
+                  <em>
+                    Ansible
+                  </em>
+                  
+                </li>
+              </ul>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 gLcArr"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    N'PY
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Ski Resorts
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Ski lift tickets sales data lake
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Dataflow | GCP | Terraform
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Create 
+                  <strong>
+                    Cloud Infrastucture as Code
+                  </strong>
+                   using 
+                  <em>
+                    Terraform
+                  </em>
+                   & 
+                  <em>
+                    Ansible
+                  </em>
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  APR 2020
+                   - 
+                  SEP 2020
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 eJpxmT"
+                    color="dark"
+                    fontSize={18}
+                  >
+                    Freelancer
+                  </span>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    IT Services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    JavaScript | TypeScript | Golang | Node.js | React | GCP | Docker | Kubernetes | GitHub Actions | GitLab CI
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Back-end & front-end engineering & development
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Implement Design Systems
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  CI/CD pipelines on GitHub/GitLab
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Dockerization/Kubernetization of applications
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Move software platforms to Kubernetes (GCP)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  OCT 2018
+                   - 
+                  MAR 2020
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <a
+                    aria-label="Go to https://www.sigfox.com"
+                    className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 gHyjMs kPDwAE"
+                    fontWeight="semi-bold"
+                    height={24}
+                    href="https://www.sigfox.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Sigfox"
+                      className="Box-sc-148h79l-0 dYWerR"
+                      height={24}
+                      src="/images/company_sigfox.png"
+                    />
+                  </a>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    Wireless Networks
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    XDoG
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Kubernetization & move to GCP of Web platforms
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Docker | JavaScript | Kubernetes | GCP | Istio
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Migrate web platforms to 
+                  <strong>
+                    Kubernetes
+                  </strong>
+                   on 
+                  <strong>
+                    Google Cloud Platform
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Adapt APIs for K8s: 
+                  <strong>
+                    health probes
+                  </strong>
+                  , 
+                  <strong>
+                    Prometheus metrics
+                  </strong>
+                  , etc
+                </li>
+              </ul>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 gLcArr"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Features development & maintenance of Web platforms
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Node.js | React | JavaScript | Styled-Components | Gatsby.js
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Back-end & front-end engineering & development
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  JUL 2018
+                   - 
+                  SEP 2018
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <a
+                    aria-label="Go to https://www.capgemini.com"
+                    className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 gHyjMs kPDwAE"
+                    fontWeight="semi-bold"
+                    height={24}
+                    href="https://www.capgemini.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Capgemini"
+                      className="Box-sc-148h79l-0 dYWerR"
+                      height={24}
+                      src="/images/company_capgemini.png"
+                    />
+                  </a>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    IT Services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Airbus Defence & Space
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Space Systems
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    NemEO - DiginEO
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Web framework - Web portal
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    React.js | Redux | Node.js | TypeScript | Docker
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  
+                  <strong>
+                    Technical manager
+                  </strong>
+                   of a 3-developer team
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Front-end development: 
+                  <strong>
+                    React.js
+                  </strong>
+                   & 
+                  <strong>
+                    Redux
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Maintenance of the 
+                  <strong>
+                    Architectural Design Document
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  
+                  <strong>
+                    Deployment industrialization
+                  </strong>
+                   using Docker
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  JAN 2017
+                   - 
+                  JUN 2018
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <a
+                    aria-label="Go to https://www.c-s.fr"
+                    className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 gHyjMs kPDwAE"
+                    fontWeight="semi-bold"
+                    height={24}
+                    href="https://www.c-s.fr"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="CS"
+                      className="Box-sc-148h79l-0 dYWerR"
+                      height={24}
+                      src="/images/company_cs.png"
+                    />
+                  </a>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    Aerospace Industry
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Airbus Defence & Space
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Space Systems
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Pulsar
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Ground-Segment simulators, validation & testing web interface
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Node.js | TypeScript | Angular | Docker | PostgreSQL | Java 8 | Spring Boot
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Use case supervisor on 
+                  <strong>
+                    Postgres DB engineering
+                  </strong>
+                   & implementation
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Development of multiple micro-services & components: back-end using 
+                  <strong>
+                    Node.js
+                  </strong>
+                   & 
+                  <strong>
+                    TypeScript
+                  </strong>
+                  , front-end using 
+                  <strong>
+                    Angular v6
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Micro-services 
+                  <strong>
+                    dockerization
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  CLI utilities development
+                </li>
+              </ul>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 gLcArr"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    CNES
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    French Space Agency
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Trafic
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Customizable transfer tool using native File System, FTP & SFTP
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Java 6 | JsCh | Jenkins
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Development of a new 
+                  <strong>
+                    transfer protocol
+                  </strong>
+                   using native File System
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Maintenance & quality controls: 
+                  <strong>
+                    refactoring
+                  </strong>
+                   of several classes
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  
+                  <strong>
+                    Jenkins CI/CD
+                  </strong>
+                   project integration
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="Grid-u15898-0 hftjir"
+          >
+            <div
+              className="FlexBox-sc-1r8i33x-0 eClCIt"
+            >
+              <div
+                className="Box-sc-148h79l-0 eva-DQm"
+                color="primary"
+                fontSize={18}
+                fontWeight="bold"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 hwTSnm"
+                >
+                  NOV 2016
+                   - 
+                  DEC 2016
+                </span>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 jWoHpk"
+                color="secondary"
+                fontWeight="bold"
+              >
+                <div
+                  className="FlexBox-sc-1r8i33x-0 dDPQDC"
+                >
+                  <a
+                    aria-label="Go to https://www.sqli.com"
+                    className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 gHyjMs kPDwAE"
+                    fontWeight="semi-bold"
+                    height={24}
+                    href="https://www.sqli.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="SQLI"
+                      className="Box-sc-148h79l-0 dYWerR"
+                      height={24}
+                      src="/images/company_sqli.png"
+                    />
+                  </a>
+                </div>
+                <span
+                  className="Text-sc-1awzew1-0 fqzKzD"
+                >
+                  |
+                </span>
+                <div
+                  className="FlexBox-sc-1r8i33x-0 ipYIpo"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 liYqJX"
+                    fontSize={16}
+                    fontStyle="italic"
+                  >
+                    IT Services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Box-sc-148h79l-0 hZGGjN"
+            >
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Client
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 goALWb"
+                    color="body1"
+                  >
+                    Omnium Finance
+                     | 
+                  </span>
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Financial Services
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Project
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cyyuCt"
+                    color="body1"
+                    fontStyle="italic"
+                  >
+                    Client base management Web interface for tablets and PCs
+                  </span>
+                </div>
+              </div>
+              <div
+                className="FlexBox-sc-1r8i33x-0 gQttXy"
+              >
+                <span
+                  className="Text-sc-1awzew1-0 icXmLx"
+                  color="body1"
+                  fontWeight="bold"
+                >
+                  Techs
+                  :
+                </span>
+                <div
+                  className="Box-sc-148h79l-0 hMzjaw"
+                  fontWeight="bolder"
+                >
+                  <span
+                    className="Text-sc-1awzew1-0 cFHFsy"
+                    color="secondary"
+                    fontStyle="italic"
+                  >
+                    Angular.js | JavaScript | Docker | Spring Boot
+                  </span>
+                </div>
+              </div>
+              <ul
+                className="Box-sc-148h79l-0 jlcYlR"
+              >
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Back-end development using 
+                  <strong>
+                    Java 8
+                  </strong>
+                   with 
+                  <strong>
+                    Spring Boot
+                  </strong>
+                   & 
+                  <strong>
+                    JPA
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  Front-end development using 
+                  <strong>
+                    Angular.js
+                  </strong>
+                  , 
+                  <strong>
+                    Bootstrap
+                  </strong>
+                   & 
+                  <strong>
+                    SASS
+                  </strong>
+                  
+                </li>
+                <li
+                  className="Text-sc-1awzew1-0 hzMywf"
+                  color="body2"
+                  fontWeight="bolder"
+                >
+                  
+                  <strong>
+                    Docker
+                  </strong>
+                   initiation & Spring Boot 
+                  <strong>
+                    container
+                  </strong>
+                   creation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="Grid-u15898-0 hMXRar"
+    >
+      <div
+        className="Box-sc-148h79l-0 rzrxa"
+        fontSize={28}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          ski
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 joECOG"
+          color="primary"
+        >
+          lls
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 gbERRd"
+        width={
+          Object {
+            "_": "auto",
+            "tablet": "calc(100% + 32px)",
+          }
+        }
+      >
+        <div
+          className="Box-sc-148h79l-0 iOCeOE"
+          width="100%"
+        >
+          <label
+            className="Text-sc-1awzew1-0 lgydtO"
+            color="secondary"
+            fontSize={14}
+            fontWeight="bold"
+          >
+            programming
+          </label>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              &lt;Java|Type&gt;Script
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              10
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 gwVJy"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Node.js
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              10
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 gwVJy"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Golang
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              6
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 hAhnSe"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 hAhnSe"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              HTML5|CSS3
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              9
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Box-sc-148h79l-0 iOCeOE"
+          width="100%"
+        >
+          <label
+            className="Text-sc-1awzew1-0 lgydtO"
+            color="secondary"
+            fontSize={14}
+            fontWeight="bold"
+          >
+            devops
+          </label>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Kubernetes
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              8
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 hAhnSe"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Docker
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              10
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 gwVJy"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              &lt;GitHub|GitLab&gt;CI
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              10
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 gwVJy"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Ansible|Terraform
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              8
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 hAhnSe"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Box-sc-148h79l-0 iOCeOE"
+          width="100%"
+        >
+          <label
+            className="Text-sc-1awzew1-0 lgydtO"
+            color="secondary"
+            fontSize={14}
+            fontWeight="bold"
+          >
+            frameworks
+          </label>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              &lt;Koa|Express&gt;.js
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              10
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 gwVJy"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              React.js
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              9
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Jest|Mocha|Chai
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              9
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 kJOQqR"
+          >
+            <span
+              className="Text-sc-1awzew1-0 ikYSLu"
+              fontSize={16}
+              fontWeight="bold"
+            >
+              Gatsby.js|Next.js
+            </span>
+            <span
+              className="Text-sc-1awzew1-0 iCNpOY"
+              color="secondary"
+              display={
+                Object {
+                  "_": "block",
+                  "mobileL": "none",
+                }
+              }
+              fontSize={22}
+              fontWeight="bold"
+            >
+              9
+              /
+              10
+            </span>
+            <div
+              className="FlexBox-sc-1r8i33x-0 fQiRdC"
+              display={
+                Object {
+                  "_": "none",
+                  "mobileL": "flex",
+                }
+              }
+            >
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 karxSg"
+                height={16}
+                width={16}
+              />
+              <span
+                className="Box-sc-148h79l-0 QipwE"
+                height={16}
+                width={16}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="Grid-u15898-0 lkWeGW"
+    >
+      <div
+        className="Box-sc-148h79l-0 rzrxa"
+        fontSize={28}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          too
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 joECOG"
+          color="primary"
+        >
+          lbox
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 iflLft"
+        width="100%"
+      >
+        <div
+          className="FlexBox-sc-1r8i33x-0 iVXSIN"
+          width="100%"
+        >
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://code.visualstudio.com"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://code.visualstudio.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="vscode"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_vscode.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              vscode
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://www.npmjs.com"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://www.npmjs.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="npm"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_npm.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              npm
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://www.mongodb.com"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://www.mongodb.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="mongo"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_mongo.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              mongo
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://redis.io"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://redis.io"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="redis"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_redis.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              redis
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://cloud.google.com"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://cloud.google.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="gcp"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_gcp.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              gcp
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <a
+              aria-label="Go to https://www.raspberrypi.org"
+              className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 csiYUy kPDwAE"
+              fontWeight="semi-bold"
+              height={48}
+              href="https://www.raspberrypi.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="Box-sc-148h79l-0 cKRke"
+                height={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+                width={
+                  Object {
+                    "_": 40,
+                    "mobileL": 48,
+                  }
+                }
+              >
+                <div
+                  className="Box-sc-148h79l-0 cBhCR"
+                  height={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                  width={
+                    Object {
+                      "_": 40,
+                      "mobileL": 48,
+                    }
+                  }
+                >
+                  <img
+                    alt="rpi"
+                    className="Box-sc-148h79l-0 iQUgFk"
+                    height="100%"
+                    src="/images/toolbox_raspberrypi.png"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </a>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              rpi
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="Grid-u15898-0 lkWeGW"
+    >
+      <div
+        className="Box-sc-148h79l-0 rzrxa"
+        fontSize={28}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          int
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 joECOG"
+          color="primary"
+        >
+          erests
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 iflLft"
+        width="100%"
+      >
+        <div
+          className="FlexBox-sc-1r8i33x-0 iVXSIN"
+          width="100%"
+        >
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              coding
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              tech
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.09 11h4.86c-.16-1.61-.71-3.11-1.54-4.4-1.73.83-2.99 2.45-3.32 4.4zM6.91 11c-.33-1.95-1.59-3.57-3.32-4.4-.83 1.29-1.38 2.79-1.54 4.4h4.86zM15.07 11c.32-2.59 1.88-4.79 4.06-6-1.6-1.63-3.74-2.71-6.13-2.95V11h2.07zM8.93 11H11V2.05C8.61 2.29 6.46 3.37 4.87 5c2.18 1.21 3.74 3.41 4.06 6zM15.07 13H13v8.95c2.39-.24 4.54-1.32 6.13-2.95-2.18-1.21-3.74-3.41-4.06-6zM3.59 17.4c1.72-.83 2.99-2.46 3.32-4.4H2.05c.16 1.61.71 3.11 1.54 4.4zM17.09 13c.33 1.95 1.59 3.57 3.32 4.4.83-1.29 1.38-2.79 1.54-4.4h-4.86zM8.93 13c-.32 2.59-1.88 4.79-4.06 6 1.6 1.63 3.74 2.71 6.13 2.95V13H8.93z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              sports
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              movies
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM8 15c0-1.66 1.34-3 3-3 .35 0 .69.07 1 .18V6h5v2h-3v7.03c-.02 1.64-1.35 2.97-3 2.97-1.66 0-3-1.34-3-3z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              music
+            </span>
+          </div>
+          <div
+            className="FlexBox-sc-1r8i33x-0 cjLrEl"
+          >
+            <div
+              className="Box-sc-148h79l-0 cKRke"
+              height={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+              width={
+                Object {
+                  "_": 40,
+                  "mobileL": 48,
+                }
+              }
+            >
+              <svg
+                className="SVG-sc-1882hnu-0 hXYxof"
+                fill="#262626"
+                height="100%"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"
+                />
+              </svg>
+            </div>
+            <span
+              className="Text-sc-1awzew1-0 iqhIVB"
+              color="text"
+              fontSize={12}
+              fontWeight="bold"
+            >
+              nature
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="Grid-u15898-0 hMXRar"
+    >
+      <div
+        className="Box-sc-148h79l-0 rzrxa"
+        fontSize={28}
+        fontWeight="bold"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ffmFw"
+          color="secondary"
+        >
+          edu
+        </span>
+        <span
+          className="Text-sc-1awzew1-0 joECOG"
+          color="primary"
+        >
+          cation
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 bTYKAB"
+        width="100%"
+      >
+        <div
+          className="FlexBox-sc-1r8i33x-0 hUuVef"
+        >
+          <span
+            className="Text-sc-1awzew1-0 dPnjQ"
+            color="secondary"
+            fontSize={
+              Object {
+                "_": 20,
+                "tablet": 16,
+              }
+            }
+            fontWeight="bold"
+          >
+            2008
+          </span>
+          <div
+            className="Box-sc-148h79l-0 YwiFe"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            height={19}
+            width={19}
+          />
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="50%"
+              x2="100%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <span
+            className="Text-sc-1awzew1-0 gKqSkB"
+            color="primary"
+            fontSize={
+              Object {
+                "_": 18,
+                "tablet": 14,
+              }
+            }
+            fontWeight="bold"
+          >
+            Intermediate Japanese Certificate
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 hlepvK"
+            color="text"
+            fontSize={
+              Object {
+                "_": 16,
+                "tablet": 12,
+              }
+            }
+            fontWeight="bold"
+          >
+            Sendagaya Japanese Institute
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 iTjstC"
+            color="text"
+            fontSize={
+              Object {
+                "_": 14,
+                "tablet": 10,
+              }
+            }
+            fontWeight="bold"
+          >
+            TOKYO
+             - 
+            JP
+          </span>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 hUuVef"
+        >
+          <span
+            className="Text-sc-1awzew1-0 dPnjQ"
+            color="secondary"
+            fontSize={
+              Object {
+                "_": 20,
+                "tablet": 16,
+              }
+            }
+            fontWeight="bold"
+          >
+            2010
+          </span>
+          <div
+            className="Box-sc-148h79l-0 YwiFe"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            height={19}
+            width={19}
+          />
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="0%"
+              x2="50%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="50%"
+              x2="100%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <span
+            className="Text-sc-1awzew1-0 gKqSkB"
+            color="primary"
+            fontSize={
+              Object {
+                "_": 18,
+                "tablet": 14,
+              }
+            }
+            fontWeight="bold"
+          >
+            Japanese Language Bachelor Degree
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 hlepvK"
+            color="text"
+            fontSize={
+              Object {
+                "_": 16,
+                "tablet": 12,
+              }
+            }
+            fontWeight="bold"
+          >
+            University of Jean-Jaures
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 iTjstC"
+            color="text"
+            fontSize={
+              Object {
+                "_": 14,
+                "tablet": 10,
+              }
+            }
+            fontWeight="bold"
+          >
+            TOULOUSE
+             - 
+            FR
+          </span>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 hUuVef"
+        >
+          <span
+            className="Text-sc-1awzew1-0 dPnjQ"
+            color="secondary"
+            fontSize={
+              Object {
+                "_": 20,
+                "tablet": 16,
+              }
+            }
+            fontWeight="bold"
+          >
+            2012
+          </span>
+          <div
+            className="Box-sc-148h79l-0 YwiFe"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            height={19}
+            width={19}
+          />
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="0%"
+              x2="50%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="50%"
+              x2="100%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <span
+            className="Text-sc-1awzew1-0 gKqSkB"
+            color="primary"
+            fontSize={
+              Object {
+                "_": 18,
+                "tablet": 14,
+              }
+            }
+            fontWeight="bold"
+          >
+            Import-Export Degree
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 hlepvK"
+            color="text"
+            fontSize={
+              Object {
+                "_": 16,
+                "tablet": 12,
+              }
+            }
+            fontWeight="bold"
+          >
+            AFPA
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 iTjstC"
+            color="text"
+            fontSize={
+              Object {
+                "_": 14,
+                "tablet": 10,
+              }
+            }
+            fontWeight="bold"
+          >
+            TOULOUSE
+             - 
+            FR
+          </span>
+        </div>
+        <div
+          className="FlexBox-sc-1r8i33x-0 hUuVef"
+        >
+          <span
+            className="Text-sc-1awzew1-0 dPnjQ"
+            color="secondary"
+            fontSize={
+              Object {
+                "_": 20,
+                "tablet": 16,
+              }
+            }
+            fontWeight="bold"
+          >
+            2016
+          </span>
+          <div
+            className="Box-sc-148h79l-0 YwiFe"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            height={19}
+            width={19}
+          />
+          <svg
+            className="Box-sc-148h79l-0 fkIunY"
+            display={
+              Object {
+                "_": "none",
+                "tablet": "block",
+              }
+            }
+            stroke="#17365c"
+            strokeWidth={7}
+            width="100%"
+          >
+            <line
+              x1="0%"
+              x2="50%"
+              y1="27%"
+              y2="27%"
+            />
+          </svg>
+          <span
+            className="Text-sc-1awzew1-0 gKqSkB"
+            color="primary"
+            fontSize={
+              Object {
+                "_": 18,
+                "tablet": 14,
+              }
+            }
+            fontWeight="bold"
+          >
+            Computer Programming Bachelor Degree
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 hlepvK"
+            color="text"
+            fontSize={
+              Object {
+                "_": 16,
+                "tablet": 12,
+              }
+            }
+            fontWeight="bold"
+          >
+            AFPA
+          </span>
+          <span
+            className="Text-sc-1awzew1-0 iTjstC"
+            color="text"
+            fontSize={
+              Object {
+                "_": 14,
+                "tablet": 10,
+              }
+            }
+            fontWeight="bold"
+          >
+            TOULOUSE
+             - 
+            FR
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>,
+  <footer
+    className="FlexBox-sc-1r8i33x-0 iYEEak"
+    color="white"
+    height={
+      Object {
+        "_": 204,
+        "tablet": 168,
+      }
+    }
+  >
+    <div
+      className="FlexBox-sc-1r8i33x-0 tdNNa"
+    >
+      <div
+        className="FlexBox-sc-1r8i33x-0 kEdIFZ"
+      >
+        <span
+          className="Text-sc-1awzew1-0 ddUIMS"
+        >
+          Made with
+        </span>
+        <svg
+          className="SVG-sc-1882hnu-0 fWwIUT"
+          fill="#fff"
+          height={16}
+          viewBox="0 0 455 455"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M455.111 164.089c0 137.956-163.556 228.978-213.333 253.156-8.533 4.267-19.911 4.267-28.444 0C163.556 393.067 0 304.889 0 164.089 0 92.978 52.622 34.667 116.622 34.667c51.2 0 93.867 35.556 109.511 85.333 15.644-49.778 59.733-85.333 109.511-85.333 66.845 0 119.467 58.311 119.467 129.422z"
+            fill="#f44336"
+          />
+          <path
+            d="M455.111 164.089c0 137.956-163.556 228.978-213.333 253.156-8.533 4.267-19.911 4.267-29.867 0-22.756-9.956-65.422-34.133-108.089-68.267h1.422c135.111 0 243.2-109.511 243.2-243.2 0-24.178-4.267-48.356-11.378-71.111 66.845 1.422 118.045 58.311 118.045 129.422z"
+            fill="#e53935"
+          />
+          <path
+            d="M109.511 142.756c-22.756 5.689-44.089-2.844-48.356-18.489-2.844-17.067 11.378-34.134 34.134-39.823s44.089 2.844 48.356 18.489c4.266 17.067-11.378 34.134-34.134 39.823z"
+            fill="#fff"
+            opacity="0.2"
+          />
+        </svg>
+        <span
+          className="Text-sc-1awzew1-0 dckpcN"
+        >
+          using
+        </span>
+      </div>
+      <div
+        className="FlexBox-sc-1r8i33x-0 jKbcmn"
+      >
+        <a
+          className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 ljGUiO kPDwAE"
+          fontWeight="semi-bold"
+          height={64}
+          href="https://nextjs.org"
+          rel="noopener noreferrer"
+          target="_blank"
+          width={64}
+        >
+          <img
+            alt="Go to https://nextjs.org"
+            className="Box-sc-148h79l-0 fMBxrs"
+            height={64}
+            src="/images/tech_next.png"
+            width={64}
+          />
+        </a>
+        <a
+          className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 ljGUiO kPDwAE"
+          fontWeight="semi-bold"
+          height={64}
+          href="https://styled-components.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          width={64}
+        >
+          <img
+            alt="Go to https://styled-components.com"
+            className="Box-sc-148h79l-0 fMBxrs"
+            height={64}
+            src="/images/tech_styled_components.png"
+            width={64}
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="FlexBox-sc-1r8i33x-0 kwtsrK"
+      color="caption"
+    >
+      <span
+        className="Text-sc-1awzew1-0 DLxAs"
+      >
+         vundefined
+      </span>
+      <a
+        className="Box-sc-148h79l-0 Anchor__A-ucxlxp-0 fQlhEI kPDwAE"
+        fontWeight="semi-bold"
+        href="undefined/tree/undefined"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span
+          className="Text-sc-1awzew1-0 huDuVG"
+          fontSize={12}
+        >
+          source code
+        </span>
+      </a>
+    </div>
+  </footer>,
+]
+`;
