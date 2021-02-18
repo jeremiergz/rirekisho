@@ -12,7 +12,7 @@ COPY --chown=node:node . .
 RUN npm install --no-audit && \
   npm run build
 
-FROM nginx:1.17-alpine
+FROM nginx:1.19-alpine
 
 ARG GIT_COMMIT
 ARG VERSION
