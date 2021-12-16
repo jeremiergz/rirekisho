@@ -28,47 +28,111 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "icons/android-icon-144x144.png",
-    "revision": "a6870a0a18aaf70b5fe871e8195d9a31"
+    "revision": "de9546c77c238b66409e44b30669ea05"
   },
   {
     "url": "icons/android-icon-192x192.png",
-    "revision": "eda928ea8c271929a22a8b8756138dd0"
+    "revision": "facb9c3b6cc40b8edc7db6ad1dc88673"
   },
   {
     "url": "icons/android-icon-36x36.png",
-    "revision": "02174711012d73b6a6104b1ca3dde29a"
+    "revision": "f789b4678cf40499d6c3e0bd28927b70"
   },
   {
     "url": "icons/android-icon-48x48.png",
-    "revision": "abc4738781306c0d10c8f39728422f74"
+    "revision": "b1791841564bd2e4fd59181b7a17c104"
   },
   {
     "url": "icons/android-icon-72x72.png",
-    "revision": "956e17e8981dd7190a1a5bead9d5c823"
+    "revision": "444e18f41f0874a7b27059adc8086bdd"
   },
   {
     "url": "icons/android-icon-96x96.png",
-    "revision": "664f58bb603fea4d4a4d423f1cedb918"
+    "revision": "112566117438da728db789b1629c1910"
+  },
+  {
+    "url": "icons/apple-icon-114x114.png",
+    "revision": "8ba3f7373b510b46aabe236c4ebcd5d9"
+  },
+  {
+    "url": "icons/apple-icon-120x120.png",
+    "revision": "8c208d9387e8cc17ee65fad74fdeff9f"
+  },
+  {
+    "url": "icons/apple-icon-144x144.png",
+    "revision": "de9546c77c238b66409e44b30669ea05"
+  },
+  {
+    "url": "icons/apple-icon-152x152.png",
+    "revision": "b9ec19154388ce3326eda0f29a44c229"
+  },
+  {
+    "url": "icons/apple-icon-180x180.png",
+    "revision": "84a74ee94915e0c859f9d85e8f72a37a"
+  },
+  {
+    "url": "icons/apple-icon-57x57.png",
+    "revision": "3a2544f22dee4f5e3b51857933a1f7b8"
+  },
+  {
+    "url": "icons/apple-icon-60x60.png",
+    "revision": "605257d71dc950937619fe789745f7c4"
+  },
+  {
+    "url": "icons/apple-icon-72x72.png",
+    "revision": "444e18f41f0874a7b27059adc8086bdd"
+  },
+  {
+    "url": "icons/apple-icon-76x76.png",
+    "revision": "10063437d4a3fba4f84eed3b7db383aa"
+  },
+  {
+    "url": "icons/favicon-16x16.png",
+    "revision": "3f5c2120af0e2b08873bf430e459c0ca"
+  },
+  {
+    "url": "icons/favicon-32x32.png",
+    "revision": "379cc37059b8353ffba377694ad6c2a2"
+  },
+  {
+    "url": "icons/favicon-96x96.png",
+    "revision": "112566117438da728db789b1629c1910"
   },
   {
     "url": "icons/maskable-icon.png",
-    "revision": "eda928ea8c271929a22a8b8756138dd0"
+    "revision": "facb9c3b6cc40b8edc7db6ad1dc88673"
+  },
+  {
+    "url": "icons/ms-icon-144x144.png",
+    "revision": "de9546c77c238b66409e44b30669ea05"
+  },
+  {
+    "url": "icons/ms-icon-150x150.png",
+    "revision": "95745d8392a6c548ec92c79836fc7f6e"
+  },
+  {
+    "url": "icons/ms-icon-310x310.png",
+    "revision": "be2ff1d79df4728992a3a860efbc482d"
+  },
+  {
+    "url": "icons/ms-icon-70x70.png",
+    "revision": "2775ad601a1a3617ced9043494e358a4"
   },
   {
     "url": "framework-1441509b3ef7a6cfe868.js"
   },
   {
-    "url": "styles.1339d35c45167f54a404.css"
+    "url": "styles.af222a7ca44667e3711b.css"
   },
   {
-    "url": "app-2efb18787171f8c06ea5.js"
+    "url": "app-8add849f13e258277f4e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "811cd87929b3b61d04c05b3bdd166993"
+    "revision": "687a0ca74974caae9a377fa1e46735e4"
   },
   {
-    "url": "webpack-runtime-c1a6d7cd0a66247f753a.js"
+    "url": "webpack-runtime-76b240e1cf29c877c522.js"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b867a4914300ef258932.js"
@@ -78,7 +142,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "da324f56aeba244a010b99b50d6d85f8"
+    "revision": "513bf26c02702b61dc499e0a91f91fe9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -170,7 +234,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-2efb18787171f8c06ea5.js`))) {
+  if (!resources || !(await caches.match(`/app-8add849f13e258277f4e.js`))) {
     return await fetch(event.request)
   }
 
