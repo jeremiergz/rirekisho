@@ -1,17 +1,14 @@
-import { NextPage } from 'next';
-import { useRouter } from 'next/router';
+import { navigate } from 'gatsby';
 import { useEffect } from 'react';
 
 const isBrowser = typeof window !== 'undefined';
 
-const NotFoundPage: NextPage = () => {
-  const router = useRouter();
+function NotFoundPage(): JSX.Element {
   useEffect(() => {
-    if (isBrowser) router.push('/');
+    if (isBrowser) navigate('/');
   }, []);
-  return null;
-};
 
-NotFoundPage.displayName = 'NotFoundPage';
+  return null;
+}
 
 export default NotFoundPage;

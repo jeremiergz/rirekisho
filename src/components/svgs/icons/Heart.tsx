@@ -1,7 +1,7 @@
-import SVG, { SVGProps } from '@common/SVG';
+import SVG, { SVGProps } from '@/components/common/SVG';
 import React from 'react';
 
-const Heart: React.FC<HeartProps> = props => {
+function Heart(props: HeartProps): JSX.Element {
   return (
     <SVG fill="#fff" viewBox="0 0 455 455" {...props}>
       <path
@@ -19,9 +19,7 @@ const Heart: React.FC<HeartProps> = props => {
       />
     </SVG>
   );
-};
-
-Heart.displayName = 'Heart';
+}
 
 export type HeartProps = SVGProps;
 export default Heart;

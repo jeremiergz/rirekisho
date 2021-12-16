@@ -1,0 +1,33 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_sigfox.png"
+    },
+    "name": "Sigfox",
+    "sector": "Wireless Networks",
+    "website": "https://sigfox.com"
+  },
+  "projects": [
+    {
+      "client": null,
+      "description": "Features development & maintenance of Web platforms",
+      "name": null,
+      "tasks": ["Back-end & front-end engineering & development"],
+      "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
+    },
+    {
+      "client": null,
+      "description": "Kubernetization & move to GCP of Web platforms",
+      "name": "XDoG",
+      "tasks": [
+        "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
+        "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
+      ],
+      "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2020-03-20",
+    "startDate": "2018-10-01"
+  }
+}

@@ -1,8 +1,0 @@
-[
-  { "name": "coding", "sortOrder": 0 },
-  { "name": "tech", "sortOrder": 1 },
-  { "name": "sports", "sortOrder": 2 },
-  { "name": "movies", "sortOrder": 3 },
-  { "name": "music", "sortOrder": 4 },
-  { "name": "nature", "sortOrder": 5 }
-]

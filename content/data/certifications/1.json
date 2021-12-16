@@ -1,0 +1,9 @@
+{
+  "img": {
+    "src": "../../assets/certification_gcp_cloud_architect.png"
+  },
+  "name": "Professional Cloud Architect",
+  "provider": "Google Cloud",
+  "sortOrder": 1,
+  "website": "https://cloud.google.com/certification/cloud-architect"
+}

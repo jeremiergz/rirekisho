@@ -1,0 +1,31 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_cs.png"
+    },
+    "name": "CS",
+    "sector": "Aerospace Industry",
+    "website": "https://c-s.fr"
+  },
+  "projects": [
+    {
+      "client": {
+        "name": "Airbus Defence & Space",
+        "sector": "Space Systems"
+      },
+      "description": "Ground-Segment simulators, validation & testing web interface",
+      "name": "Pulsar",
+      "tasks": [
+        "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
+        "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",
+        "Micro-services <strong>dockerization</strong>",
+        "CLI utilities development"
+      ],
+      "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2018-06-30",
+    "startDate": "2017-06-01"
+  }
+}

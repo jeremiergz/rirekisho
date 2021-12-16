@@ -31,13 +31,17 @@ Thumbs.db
 *.zip
 
 # Project folders/files
+.cache/
 .next/
 build/
 coverage/
 dist/
 node_modules/
-out/
 package/
+public/
+out/
 .env*
-*.log*
 *-report.*
+*.log*
+*.tsbuildinfo
+sw.js

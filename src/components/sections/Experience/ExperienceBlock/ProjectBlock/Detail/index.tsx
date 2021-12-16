@@ -1,25 +1,26 @@
-import Box from '@primitives/Box';
-import FlexBox from '@primitives/FlexBox';
-import Text from '@primitives/Text';
+import clsx from 'clsx';
 import React from 'react';
 
-const Detail: React.FC<DetailProps> = ({ details, emphasize, information, label }) => {
+function Detail({ details, emphasize, information, label }: DetailProps): JSX.Element {
   return (
-    <FlexBox marginBottom={1}>
-      <Text color="body1" fontWeight="bold" minWidth={72}>
+    <div className="flex">
+      <span className="font-bold text-gray-600 dark:text-gray-500" style={{ minWidth: 80 }}>
         {label}:
-      </Text>
-      <Box fontWeight="bolder">
-        {information && <Text color="body1">{information} | </Text>}
-        <Text color={emphasize ? 'secondary' : 'body1'} fontStyle="italic">
+      </span>
+      <div className="font-bold">
+        {information && <span className="text-gray-800 dark:text-gray-400">{`${information}`}&nbsp;|&nbsp;</span>}
+        <span
+          className={clsx(
+            'italic',
+            emphasize ? 'text-secondary dark:text-secondary-dark' : 'text-gray-800 dark:text-gray-400',
+          )}
+        >
           {details}
-        </Text>
-      </Box>
-    </FlexBox>
+        </span>
+      </div>
+    </div>
   );
-};
-
-Detail.displayName = 'Detail';
+}
 
 export type DetailProps = {
   details: string;

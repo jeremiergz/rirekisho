@@ -1,25 +1,22 @@
-import FlexBox, { FlexBoxProps } from '@primitives/FlexBox';
+import clsx from 'clsx';
 import React from 'react';
 
-const Content: React.FC<ContentProps> = ({ children, columnDirection = 'column', rowDirection = 'row', ...rest }) => {
+function Content({ children, className, reverse = false, ...rest }: ContentProps): JSX.Element {
   return (
-    <FlexBox
-      alignItems={{ _: 'center', tablet: 'flex-start' }}
-      flexDirection={{ _: columnDirection, tablet: rowDirection }}
-      flexWrap={{ tablet: 'wrap' }}
-      justifyContent={{ _: 'center', laptopS: 'space-between' }}
-      width="100%"
+    <div
+      className={clsx(
+        className,
+        'flex md:flex-row md:flex-wrap items-center md:items-start w-full',
+        reverse ? 'flex-col-reverse' : 'flex-col',
+      )}
       {...rest}
     >
       {children}
-    </FlexBox>
+    </div>
   );
-};
+}
 
-Content.displayName = 'Content';
-
-export type ContentProps = FlexBoxProps & {
-  columnDirection?: 'column' | 'column-reverse';
-  rowDirection?: 'row' | 'row-reverse';
+export type ContentProps = React.ComponentProps<'div'> & {
+  reverse?: boolean;
 };
 export default Content;

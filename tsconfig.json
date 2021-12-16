@@ -5,6 +5,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "incremental": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -13,24 +14,7 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "paths": {
-      "@common": ["src/components/common"],
-      "@common/*": ["src/components/common/*"],
-      "@hooks": ["src/components/hooks"],
-      "@hooks/*": ["src/components/hooks/*"],
-      "@pages": ["src/pages"],
-      "@pages/*": ["src/pages/*"],
-      "@primitives": ["src/components/primitives"],
-      "@primitives/*": ["src/components/primitives/*"],
-      "@providers": ["src/components/providers"],
-      "@providers/*": ["src/components/providers/*"],
-      "@sections": ["src/components/sections"],
-      "@sections/*": ["src/components/sections/*"],
-      "@styles": ["src/styles"],
-      "@styles/*": ["src/styles/*"],
-      "@svgs": ["src/components/svgs"],
-      "@svgs/*": ["src/components/svgs/*"],
-      "@utils": ["src/utils"],
-      "@utils/*": ["src/utils/*"]
+      "@/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -39,5 +23,5 @@
     "target": "es2015"
   },
   "exclude": ["node_modules"],
-  "include": ["__tests__", "@types", "next-env.d.ts", "src/**/*"]
+  "include": ["__tests__", "@types", "src/**/*"]
 }

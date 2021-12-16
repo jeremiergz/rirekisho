@@ -1,0 +1,8 @@
+{
+  "img": {
+    "src": "../../assets/toolbox_vscode.png"
+  },
+  "link": "https://code.visualstudio.com",
+  "name": "vscode",
+  "sortOrder": 1
+}

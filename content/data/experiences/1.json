@@ -1,0 +1,30 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_sqli.png"
+    },
+    "name": "SQLI",
+    "sector": "IT Services",
+    "website": "https://sqli.com"
+  },
+  "projects": [
+    {
+      "client": {
+        "name": "Omnium Finance",
+        "sector": "Financial Services"
+      },
+      "description": "Client base management Web interface for tablets and PCs",
+      "name": null,
+      "tasks": [
+        "Back-end development using <strong>Java 8</strong> with <strong>Spring Boot</strong> & <strong>JPA</strong>",
+        "Front-end development using <strong>Angular.js</strong>, <strong>Bootstrap</strong> & <strong>SASS</strong>",
+        "<strong>Docker</strong> initiation & Spring Boot <strong>container</strong> creation"
+      ],
+      "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2016-12-31",
+    "startDate": "2016-11-01"
+  }
+}

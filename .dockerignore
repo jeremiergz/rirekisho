@@ -31,14 +31,17 @@ Thumbs.db
 *.zip
 
 # Project folders/files
+.cache/
 .next/
 build/
 coverage/
 dist/
 node_modules/
+public/
 out/
-package/
 .dockerignore
-Dockerfile
-*.log*
+.env*
 *-report.*
+*.log*
+Dockerfile
+sw.js

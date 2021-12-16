@@ -1,38 +1,54 @@
-import { useData } from '@providers/DataProvider';
-import React, { createContext, useContext, useMemo } from 'react';
-import { ThemeProvider as StyledThemeProvider } from 'styled-components';
-import { Theme as StyledTheme } from 'styled-system';
+import React, { createContext, useContext, useEffect, useState } from 'react';
+import tailwindColors from 'tailwindcss/colors';
 
-const breakpoints = ['320px', '375px', '425px', '768px', '1024px', '1200px', '1440px', '2560px'];
-Object.defineProperties(breakpoints, {
-  mobileS: { value: breakpoints[0] },
-  mobileM: { value: breakpoints[1] },
-  mobileL: { value: breakpoints[2] },
-  tablet: { value: breakpoints[3] },
-  laptopS: { value: breakpoints[4] },
-  laptopM: { value: breakpoints[5] },
-  laptopL: { value: breakpoints[6] },
-  desktop: { value: breakpoints[7] },
+type ThemeType = 'dark' | 'light';
+
+const colors = {
+  ...tailwindColors,
+  primary: '#17365c',
+  primaryDark: '#007ac1',
+  secondary: '#31859a',
+  secondaryDark: '#67daff',
+};
+
+let initialThemeType: ThemeType = 'light';
+const isBrowser = typeof window !== 'undefined';
+
+if (isBrowser) {
+  if (
+    localStorage.theme === 'dark' ||
+    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    initialThemeType = 'dark';
+  }
+}
+
+const ThemeContext = createContext<{
+  colors: typeof colors & { primary: string; secondary: string };
+  setType(type: ThemeType): void;
+  type: ThemeType;
+}>({
+  colors,
+  setType: () => {},
+  type: 'light',
 });
 
-const ThemeContext = createContext<{ theme: Theme }>({ theme: null });
+function ThemeProvider({ children }: ThemeProviderProps): JSX.Element {
+  const [type, setType] = useState<ThemeType>(initialThemeType);
 
-const ThemeProvider: React.FC = ({ children }) => {
-  const { themeData } = useData();
-  const theme = useMemo(
-    () => ({
-      ...themeData,
-      breakpoints,
-      type: 'light' as const,
-    }),
-    [themeData],
-  );
-  return (
-    <ThemeContext.Provider value={{ theme }}>
-      <StyledThemeProvider theme={theme}>{children}</StyledThemeProvider>
-    </ThemeContext.Provider>
-  );
-};
+  useEffect(() => {
+    if (isBrowser) {
+      localStorage.theme = type;
+      if (type === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
+  }, [type]);
+
+  return <ThemeContext.Provider value={{ colors, setType, type }}>{children}</ThemeContext.Provider>;
+}
 
 ThemeProvider.displayName = 'ThemeProvider';
 
@@ -43,17 +59,8 @@ function useTheme() {
   return useContext(ThemeContext);
 }
 
+export type ThemeProviderProps = {
+  children: React.ReactNode;
+};
 export { useTheme };
-export type Theme = Omit<StyledTheme, 'breakpoints' | 'colors' | 'fonts' | 'fontWeights'> & {
-  breakpoints: string[];
-  colors?: Theme.Colors;
-  fonts?: Theme.Fonts;
-  fontWeights?: Theme.FontWeights;
-  type: Theme.Type;
-};
-export type ThemeProps = {
-  colors?: keyof Theme['colors'] | 'inherit';
-  fontWeight?: keyof Theme['fontWeights'];
-  type?: Theme['type'];
-};
 export default ThemeProvider;

@@ -1,40 +1,25 @@
-import Box, { BoxProps } from '@primitives/Box';
+import clsx from 'clsx';
 import React from 'react';
-import styled from 'styled-components';
-import { variant } from 'styled-system';
 
-const A = styled(Box)`
-  color: inherit;
-  text-decoration: none;
-  transition: color 125ms ease, filter 125ms ease;
-  &:hover {
-    filter: brightness(0.75);
-  }
-  ${variant({
-    variants: {
-      underlined: {
-        textDecoration: 'underline',
-      },
-    },
-  })}
-`;
-
-const Anchor: React.FC<AnchorProps> = ({ children, external, variant, ...rest }) => {
+function Anchor({ children, className, external, ...rest }: AnchorProps): JSX.Element {
   const target = external ? '_blank' : '_self';
+
   return (
-    <A as="a" fontWeight="semi-bold" rel="noopener noreferrer" target={target} {...rest}>
+    <a
+      className={clsx(className, 'hover:brightness-75 font-semibold text-inherit transition')}
+      rel="noopener noreferrer"
+      target={target}
+      {...rest}
+    >
       {children}
-    </A>
+    </a>
   );
-};
+}
 
-Anchor.displayName = 'Anchor';
-
-export type AnchorProps = BoxProps & {
+export type AnchorProps = React.ComponentProps<'a'> & {
   download?: boolean;
   external?: boolean;
   href?: string;
   target?: string;
-  variant?: 'underlined';
 };
 export default Anchor;

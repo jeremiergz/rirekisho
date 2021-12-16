@@ -1,0 +1,38 @@
+{
+  "company": {
+    "img": null,
+    "name": "Freelancer",
+    "sector": "IT Services",
+    "website": null
+  },
+  "projects": [
+    {
+      "client": null,
+      "description": null,
+      "name": null,
+      "tasks": [
+        "Back-end & front-end engineering & development",
+        "Implement Design Systems",
+        "CI/CD pipelines on GitHub/GitLab",
+        "Dockerization/Kubernetization of applications",
+        "Move software platforms to Kubernetes (GCP)"
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Golang",
+        "Node.js",
+        "React",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "GitLab CI"
+      ]
+    }
+  ],
+  "timeline": {
+    "endDate": "2020-09-30",
+    "startDate": "2020-04-01"
+  }
+}

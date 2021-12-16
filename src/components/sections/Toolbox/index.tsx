@@ -1,19 +1,20 @@
-import LabeledIconsBlock from '@common/LabeledIconsBlock';
-import Layout from '@common/Layout';
-import { useData } from '@providers/DataProvider';
+import LabeledIconsBlock from '@/components/common/LabeledIconsBlock';
+import Layout from '@/components/common/Layout';
+import useToolboxData from '@/components/hooks/data/useToolboxData';
 import React, { forwardRef } from 'react';
 
-const Toolbox = forwardRef<HTMLDivElement>((_, ref) => {
-  const { toolboxData } = useData();
+const Toolbox = forwardRef<HTMLDivElement>(function Toolbox(_, ref): JSX.Element {
+  const {
+    toolbox: { nodes: toolbox },
+  } = useToolboxData();
+
   return (
-    <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="toolbox">
-      <Layout.Content alignItems="center" marginBottom={4}>
-        <LabeledIconsBlock items={toolboxData} />
+    <Layout.Section className="mt-0" halfWidth ref={ref} title="toolbox">
+      <Layout.Content>
+        <LabeledIconsBlock items={toolbox} />
       </Layout.Content>
     </Layout.Section>
   );
 });
-
-Toolbox.displayName = 'Toolbox';
 
 export default Toolbox;

@@ -1,0 +1,39 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_stacklabs.png"
+    },
+    "name": "Stack Labs",
+    "sector": "Cloud Services",
+    "website": "https://stack-labs.com"
+  },
+  "projects": [
+    {
+      "client": {
+        "name": "N'PY",
+        "sector": "Ski Resorts"
+      },
+      "description": "Ski lift tickets sales data lake",
+      "name": null,
+      "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+      "technologies": ["Dataflow", "GCP", "Terraform"]
+    },
+    {
+      "client": {
+        "name": "Irrijardin",
+        "sector": "Pools & Spas"
+      },
+      "description": "Mobile app & FaaS backend development",
+      "name": "Joey",
+      "tasks": [
+        "Create & maintain AWS Lambda cloud functions",
+        "Implement, refactor & maintain native components using React Native"
+      ],
+      "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
+    }
+  ],
+  "timeline": {
+    "endDate": null,
+    "startDate": "2020-10-01"
+  }
+}

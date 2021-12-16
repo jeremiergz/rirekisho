@@ -1,56 +1,45 @@
-import Label from '@common/Label';
-import Box, { BoxProps } from '@primitives/Box';
-import FlexBox from '@primitives/FlexBox';
-import Text from '@primitives/Text';
+import Label from '@/components/common/Label';
+import clsx from 'clsx';
 import React from 'react';
 import Bubble from './Bubble';
 
 const gradeBasis = 10;
 const maxBubblesNumber = 7;
 
-const SkillBlock: React.FC<SkillBlockProps> = ({ items, title, ...rest }) => {
+function SkillBlock({ className, items, style, title, ...rest }: SkillBlockProps): JSX.Element {
   const factor = gradeBasis / maxBubblesNumber;
+
   return (
-    <Box marginBottom={4} maxWidth={{ _: 356, tablet: 333 }} width="100%" {...rest}>
+    <div className={clsx(className, 'mb-6 w-full')} {...rest} style={{ ...style, maxWidth: 373 }}>
       <Label title={title} />
-      {items
-        .sort((a, b) => a.sortOrder - b.sortOrder)
-        .map(item => {
-          const grade = Math.ceil(item.proficiencyLevel * factor);
-          const fullBubblesNumber = [...Array(item.proficiencyLevel).keys()];
-          const emptyBubblesNumber = [...Array(maxBubblesNumber - item.proficiencyLevel).keys()];
-          return (
-            <FlexBox alignItems="center" justifyContent="space-between" key={item.name} marginBottom={3}>
-              <Text fontSize={16} fontWeight="bold">
-                {item.name}
-              </Text>
-              <Text
-                color="secondary"
-                display={{ _: 'block', mobileL: 'none' }}
-                fontSize={22}
-                fontWeight="bold"
-                lineHeight="16px"
-              >
-                {grade}/{gradeBasis}
-              </Text>
-              <FlexBox alignItems="center" display={{ _: 'none', mobileL: 'flex' }}>
-                {fullBubblesNumber.map((bubble, index) => (
-                  <Bubble key={bubble} marginRight={index !== maxBubblesNumber - 1 && 2} />
-                ))}
-                {emptyBubblesNumber.map((bubble, index) => (
-                  <Bubble empty key={bubble} marginRight={index !== emptyBubblesNumber.length - 1 && 2} />
-                ))}
-              </FlexBox>
-            </FlexBox>
-          );
-        })}
-    </Box>
+      {items.map((item, index) => {
+        const grade = Math.ceil(item.proficiencyLevel * factor);
+        const fullBubblesNumber = [...Array(item.proficiencyLevel).keys()];
+        const emptyBubblesNumber = [...Array(maxBubblesNumber - item.proficiencyLevel).keys()];
+        const isLast = index === items.length - 1;
+
+        return (
+          <div className={clsx('flex items-center justify-between', isLast || 'mb-2')} key={item.name}>
+            <span className="font-bold text-lg text-gray-900 dark:text-gray-300 mr-6">{item.name}</span>
+            <span className="font-bold sm:hidden leading-4 text-secondary text-xl">
+              {grade}/{gradeBasis}
+            </span>
+            <div className="hidden sm:flex items-center">
+              {fullBubblesNumber.map((bubble, index) => (
+                <Bubble className={clsx(index !== maxBubblesNumber - 1 && 'mr-2')} key={bubble} />
+              ))}
+              {emptyBubblesNumber.map((bubble, index) => (
+                <Bubble className={clsx(index !== emptyBubblesNumber.length - 1 && 'mr-2')} empty key={bubble} />
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
   );
-};
+}
 
-SkillBlock.displayName = 'SkillBlock';
-
-export type SkillBlockProps = BoxProps & {
+export type SkillBlockProps = React.ComponentProps<'div'> & {
   items: Models.SkillItem[];
   title: string;
 };

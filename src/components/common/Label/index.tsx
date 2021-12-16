@@ -1,17 +1,15 @@
-import Text, { TextProps } from '@primitives/Text';
+import clsx from 'clsx';
 import React from 'react';
 
-const Label: React.FC<LabelProps> = ({ title }) => {
+function Label({ className, title }: LabelProps): JSX.Element {
   return (
-    <Text as="label" color="secondary" fontSize={14} fontWeight="bold" marginBottom={2} textTransform="uppercase">
+    <label className={clsx(className, 'font-bold mb-1 text-secondary dark:text-secondary-dark text-sm uppercase')}>
       {title}
-    </Text>
+    </label>
   );
-};
+}
 
-Label.displayName = 'Label';
-
-export type LabelProps = TextProps & {
+export type LabelProps = React.ComponentProps<'label'> & {
   title: string;
 };
 export default Label;

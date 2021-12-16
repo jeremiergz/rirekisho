@@ -1,44 +1,7 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  transition: background-color 500ms ease;
-  width: 100vw;
-}
-body {
-  font-weight: 400;
-}
-svg {
-  transition: fill 500ms ease;
-  will-change: fill;
-}
-.testo {
-  width: auto !important;
-}
-#__next {
-  position: relative;
-}
-@keyframes flow {
-  0%,
-  80%,
-  100% {
-    transform: scale(0.3);
-  }
-  40% {
-    transform: scale(1);
-  }
-}
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(49, 133, 154, 0.5);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(49, 133, 154, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(49, 133, 154, 0);
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @page {
   margin: 0mm;
   size: A4 portrait;

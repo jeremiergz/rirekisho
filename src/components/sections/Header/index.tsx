@@ -1,63 +1,62 @@
-import FlexBox from '@primitives/FlexBox';
-import Text from '@primitives/Text';
-import { useData } from '@providers/DataProvider';
+import ThemeSwitch from '@/components/common/ThemeSwitch';
+import useLanguagesData from '@/components/hooks/data/useLanguagesData';
+import usePersonalDetailsData from '@/components/hooks/data/usePersonalDetailsData';
+import useStripes from '@/components/hooks/useStripes';
+import clsx from 'clsx';
 import React from 'react';
 import Language from './Language';
 
-const Header: React.FC = () => {
-  const { imagesIndex, languagesData, personalDetailsData } = useData();
-  return (
-    <FlexBox
-      as="header"
-      backgroundColor="primary"
-      boxSizing="border-box"
-      color="white"
-      height={{ _: 168, tablet: 96 }}
-      justifyContent="center"
-      paddingX={{ _: 3, tablet: 4, laptopS: 5 }}
-      top={0}
-      transition="background-color 500ms ease"
-      width="100%"
-      willChange="background-color"
-    >
-      <FlexBox
-        alignItems="center"
-        flexDirection={{ _: 'column', tablet: 'row' }}
-        justifyContent={{ _: 'center', tablet: 'space-between' }}
-        maxWidth={1100}
-        width="100%"
-      >
-        <FlexBox alignItems="center" justifyContent={{ _: 'center', tablet: 'flex-start' }}>
-          <Text
-            fontFamily="title"
-            fontSize={32}
-            letterSpacing={-2}
-            lineHeight="32px"
-            paddingTop={2}
-            textAlign="center"
-            textTransform="uppercase"
-            whiteSpace="nowrap"
-          >
-            {personalDetailsData.fullName}
-          </Text>
-        </FlexBox>
-        <FlexBox marginBottom={{ _: 24, tablet: 0 }} marginTop={{ _: 2, tablet: 0 }}>
-          {languagesData
-            .sort((a, b) => a.sortOrder - b.sortOrder)
-            .map((item, index) => (
-              <Language
-                dense={index === 0}
-                key={item.name}
-                img={imagesIndex[item.img]}
-                item={item as Models.Language}
-              />
-            ))}
-        </FlexBox>
-      </FlexBox>
-    </FlexBox>
-  );
-};
+function Header(): JSX.Element {
+  const {
+    languages: { nodes: languages },
+  } = useLanguagesData();
+  const {
+    personalDetails: { fullName },
+  } = usePersonalDetailsData();
 
-Header.displayName = 'Header';
+  const { height, stripes } = useStripes(84, 'ASC', 1.75);
+
+  return (
+    <header className="box-border flex items-center justify-center relative" style={{ height }}>
+      <div className="absolute h-full w-full -z-10">
+        {stripes.map(stripe => (
+          <div
+            className="transition-colors w-full will-change-auto"
+            key={stripe.color}
+            style={{ background: stripe.color, height: stripe.height }}
+          />
+        ))}
+      </div>
+      <div
+        className={clsx(
+          'flex items-center flex-col md:flex-row justify-center md:justify-between',
+          'px-6 md:px-8 lg:px-10',
+          'max-w-7xl w-full',
+        )}
+      >
+        <div className="flex items-center justify-center md:justify-start">
+          <span
+            className={clsx(
+              'pt-1.5 text-3xl whitespace-nowrap',
+              'leading-8 font-title text-white dark:text-primary tracking-tighter uppercase',
+            )}
+          >
+            {fullName}
+            <div
+              className={clsx('absolute -bottom-3 flex left-auto justify-center right-auto max-w-7xl', 'print:hidden')}
+            >
+              <ThemeSwitch />
+            </div>
+          </span>
+        </div>
+        <div className="flex mb-6 md:mb-0 mt-2 md:mt-0">
+          {languages.map((item, index) => (
+            <Language dense={index === 0} key={item.name} item={item} />
+          ))}
+        </div>
+      </div>
+    </header>
+  );
+}
 
 export default Header;

@@ -1,22 +1,20 @@
-import Box, { BoxProps } from '@primitives/Box';
+import clsx from 'clsx';
 import React from 'react';
 
-const Bubble: React.FC<BubbleProps> = ({ empty, ...rest }) => {
+function Bubble({ className, empty, ...rest }: BubbleProps): JSX.Element {
   return (
-    <Box
-      as="span"
-      backgroundColor={empty ? 'subtitle' : 'primary'}
-      borderRadius="50%"
-      height={16}
-      transition="background-color 500ms ease"
-      width={16}
-      willChange="background-color"
+    <span
+      className={clsx(
+        className,
+        'h-4 rounded-full w-4',
+        empty ? 'bg-gray-300 dark:bg-gray-700 ' : 'bg-primary dark:bg-primary-dark',
+      )}
       {...rest}
     />
   );
-};
+}
 
-export type BubbleProps = BoxProps & {
+export type BubbleProps = React.ComponentProps<'span'> & {
   empty?: boolean;
 };
 export default Bubble;

@@ -1,19 +1,20 @@
-import LabeledIconsBlock from '@common/LabeledIconsBlock';
-import Layout from '@common/Layout';
-import { useData } from '@providers/DataProvider';
+import LabeledIconsBlock from '@/components/common/LabeledIconsBlock';
+import Layout from '@/components/common/Layout';
+import useInterestsData from '@/components/hooks/data/useInterestsData';
 import React, { forwardRef } from 'react';
 
-const Interests = forwardRef<HTMLDivElement>((_, ref) => {
-  const { interestsData } = useData();
+const Interests = forwardRef<HTMLDivElement>(function Interests(_, ref): JSX.Element {
+  const {
+    interests: { nodes: interest },
+  } = useInterestsData();
+
   return (
-    <Layout.Section gridColumn={{ _: 'span 2', tablet: 'span 1' }} ref={ref} title="interests">
-      <Layout.Content alignItems="center" marginBottom={4}>
-        <LabeledIconsBlock items={interestsData} />
+    <Layout.Section className="mt-0" halfWidth ref={ref} title="interests">
+      <Layout.Content>
+        <LabeledIconsBlock items={interest} />
       </Layout.Content>
     </Layout.Section>
   );
 });
-
-Interests.displayName = 'Interests';
 
 export default Interests;

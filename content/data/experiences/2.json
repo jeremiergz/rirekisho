@@ -1,0 +1,30 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_cs.png"
+    },
+    "name": "CS",
+    "sector": "Aerospace Industry",
+    "website": "https://c-s.fr"
+  },
+  "projects": [
+    {
+      "client": {
+        "name": "CNES",
+        "sector": "French Space Agency"
+      },
+      "description": "Customizable transfer tool using native File System, FTP & SFTP",
+      "name": "Trafic",
+      "tasks": [
+        "Development of a new <strong>transfer protocol</strong> using native File System",
+        "Maintenance & quality controls: <strong>refactoring</strong> of several classes",
+        "<strong>Jenkins CI/CD</strong> project integration"
+      ],
+      "technologies": ["Java 6", "JsCh", "Jenkins"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2017-05-31",
+    "startDate": "2017-01-01"
+  }
+}

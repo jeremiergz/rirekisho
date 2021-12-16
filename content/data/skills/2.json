@@ -1,0 +1,26 @@
+{
+  "name": "devops",
+  "sortOrder": 2,
+  "items": [
+    {
+      "name": "Kubernetes",
+      "proficiencyLevel": 5,
+      "sortOrder": 1
+    },
+    {
+      "name": "Docker",
+      "proficiencyLevel": 7,
+      "sortOrder": 2
+    },
+    {
+      "name": "<GitHub|GitLab>CI",
+      "proficiencyLevel": 7,
+      "sortOrder": 3
+    },
+    {
+      "name": "Ansible|Terraform",
+      "proficiencyLevel": 5,
+      "sortOrder": 4
+    }
+  ]
+}

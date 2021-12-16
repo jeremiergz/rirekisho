@@ -1,26 +1,28 @@
-import Anchor from '@common/Anchor';
-import FlexBox, { FlexBoxProps } from '@primitives/FlexBox';
-import Text from '@primitives/Text';
+import Anchor from '@/components/common/Anchor';
+import clsx from 'clsx';
 import React from 'react';
+import Conditional from '../../Conditional';
 
-const LabeledIcon: React.FC<LabeledIconProps> = ({ children, link, name, ...rest }) => {
+function LabeledIcon({ children, className, link, name, ...rest }: LabeledIconProps): JSX.Element {
   return (
-    <FlexBox alignItems="center" flexDirection="column" justifyContent="center" {...rest}>
-      {link ? (
-        <Anchor aria-label={`Go to ${link}`} external height={48} href={link}>
-          {children}
-        </Anchor>
-      ) : (
-        children
-      )}
-      <Text color="text" fontSize={12} fontWeight="bold">
-        {name}
-      </Text>
-    </FlexBox>
+    <div
+      className={clsx(className, 'flex flex-1 lg:flex-initial flex-col items-center justify-center text-center')}
+      {...rest}
+    >
+      <Conditional
+        condition={!!link}
+        wrapper={children => (
+          <Anchor aria-label={`Go to ${link}`} className="flex flex-col" external href={link}>
+            {children}
+          </Anchor>
+        )}
+      >
+        {children}
+        <span className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs">{name}</span>
+      </Conditional>
+    </div>
   );
-};
+}
 
-LabeledIcon.displayName = 'LabeledIcon';
-
-export type LabeledIconProps = FlexBoxProps & Omit<Models.LabeledItem, 'img' | 'sortOrder'>;
+export type LabeledIconProps = React.ComponentProps<'div'> & Omit<Models.LabeledItem, 'img' | 'sortOrder'>;
 export default LabeledIcon;

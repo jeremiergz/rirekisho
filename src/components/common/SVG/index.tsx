@@ -1,21 +1,8 @@
-import styled from 'styled-components';
-import { color, ColorProps, compose, layout, LayoutProps } from 'styled-system';
+import React from 'react';
 
-const SVG = styled.svg<SVGProps>`
-  height: 32px;
-  width: 32px;
-  ${compose(color, layout)}
-`;
+function SVG({ ...rest }: SVGProps): JSX.Element {
+  return <svg height={32} viewBox="0 0 24 24" width={32} xmlns="http://www.w3.org/2000/svg" {...rest} />;
+}
 
-SVG.displayName = 'SVG';
-SVG.defaultProps = {
-  viewBox: '0 0 24 24',
-  xmlns: 'http://www.w3.org/2000/svg',
-};
-
-export type SVGProps = ColorProps &
-  LayoutProps &
-  React.ComponentProps<'svg'> & {
-    as?: keyof JSX.IntrinsicElements | React.ComponentType<any>;
-  };
+export type SVGProps = React.ComponentProps<'svg'>;
 export default SVG;

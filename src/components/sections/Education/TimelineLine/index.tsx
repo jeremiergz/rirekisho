@@ -1,26 +1,17 @@
-import Box from '@primitives/Box';
-import { useTheme } from '@providers/ThemeProvider';
 import React from 'react';
 
-const TimelineLine: React.FC = ({ children }) => {
-  const { theme } = useTheme();
+function TimelineLine({ children }: TimelineLineProps): JSX.Element {
   return (
-    <Box
-      as="svg"
-      display={({ _: 'none', tablet: 'block' } as unknown) as string}
-      left={0}
-      position="absolute"
-      stroke={theme.colors.primary}
-      strokeWidth={7}
-      top={-9}
-      width="100%"
-      zIndex={-1}
+    <svg
+      className="absolute hidden md:block left-0 stroke-primary dark:stroke-primary-dark -top-1.5 w-full -z-10"
+      strokeWidth={8}
     >
       {children}
-    </Box>
+    </svg>
   );
+}
+
+export type TimelineLineProps = {
+  children: React.ReactNode;
 };
-
-TimelineLine.displayName = 'TimelineLine';
-
 export default TimelineLine;

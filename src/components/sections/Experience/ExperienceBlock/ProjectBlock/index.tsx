@@ -1,5 +1,3 @@
-import Box, { BoxProps } from '@primitives/Box';
-import Text from '@primitives/Text';
 import React, { createElement } from 'react';
 import Detail from './Detail';
 
@@ -19,7 +17,7 @@ function getElementsFromTask(task: string) {
     acc.push(task.substring(previousMatchIndex, match.index));
 
     // Create & save matched tag element
-    acc.push(createElement(type, { children: text, key: text }));
+    acc.push(createElement(type, { key: text }, text));
     previousMatchIndex = match[0].length + match.index;
 
     // Save rest of text if any after last match
@@ -30,32 +28,31 @@ function getElementsFromTask(task: string) {
   }, []);
 }
 
-const ProjectBlock: React.FC<ProjectBlockProps> = ({
+function ProjectBlock({
   item: { client, description, name, tasks, technologies },
   ...rest
-}) => {
+}: ProjectBlockProps): JSX.Element {
   return (
-    <Box marginLeft={2} {...rest}>
+    <div className="ml-4" {...rest}>
       {client && <Detail details={client.sector} information={client.name} label="Client" />}
       {description && <Detail details={description} information={name} label="Project" />}
       {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize label="Techs" />}
-      <Box as="ul" paddingLeft={{ _: 3, tablet: 4 }}>
+      <ul className="pl-6 md:pl-8">
         {tasks.map(task => {
           const elements = getElementsFromTask(task);
+
           return (
-            <Text as="li" color="body2" fontWeight="bolder" key={task} marginLeft={3} marginTop={1}>
-              {elements.length > 0 ? elements : task}
-            </Text>
+            <li className="font-semibold mt-1 text-gray-600 dark:text-gray-300" key={task}>
+              •&nbsp;{elements.length > 0 ? elements : task}
+            </li>
           );
         })}
-      </Box>
-    </Box>
+      </ul>
+    </div>
   );
-};
+}
 
-ProjectBlock.displayName = 'ProjectBlock';
-
-export type ProjectBlockProps = BoxProps & {
+export type ProjectBlockProps = React.ComponentProps<'div'> & {
   item: Models.Project;
 };
 export default ProjectBlock;

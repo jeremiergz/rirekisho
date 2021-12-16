@@ -1,4 +1,4 @@
-FROM node:14 AS builder
+FROM node:16 AS builder
 
 RUN apt-get update && \
   apt-get install --yes libglu1 && \
@@ -12,7 +12,7 @@ COPY --chown=node:node . .
 RUN npm install --no-audit && \
   npm run build
 
-FROM nginx:1.19-alpine
+FROM nginx:1-alpine
 
 ARG GIT_COMMIT
 ARG VERSION

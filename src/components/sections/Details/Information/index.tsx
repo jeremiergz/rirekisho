@@ -1,39 +1,26 @@
-import Label from '@common/Label';
-import FlexBox from '@primitives/FlexBox';
-import Text from '@primitives/Text';
-import React, { CSSProperties } from 'react';
-import { ResponsiveValue } from 'styled-system';
+import Label from '@/components/common/Label';
+import clsx from 'clsx';
+import React from 'react';
 
-const Information: React.FC<InformationProps> = ({ items, order }) => {
+function Information({ items }: InformationProps): JSX.Element {
   return (
-    <FlexBox
-      flex={1}
-      flexDirection="column"
-      height="100%"
-      justifyContent="center"
-      marginY={3}
-      minWidth={224}
-      order={order}
-      textAlign={{ _: 'center', tablet: 'left' }}
+    <div
+      className="flex flex-1 flex-col h-full justify-center my-6 order-2 md:order-1 text-center md:text-left"
+      style={{ minWidth: 224 }}
     >
-      {items
-        .sort((a, b) => a.sortOrder - b.sortOrder)
-        .map((item, index) => (
-          <FlexBox key={item.label} flexDirection="column" marginBottom={index !== items.length - 1 && 24}>
-            <Label fontSize={16} title={item.label} />
-            <Text color="primary" fontSize={22} fontWeight="bold" lineHeight="16px" textTransform="uppercase">
-              {item.value}
-            </Text>
-          </FlexBox>
-        ))}
-    </FlexBox>
+      {items.map((item, index) => (
+        <div className={clsx('flex flex-col', index !== items.length - 1 && 'mb-6')} key={item.label}>
+          <Label title={item.label} />
+          <span className="font-bold leading-4 text-primary dark:text-primary-dark text-xl uppercase">
+            {item.value}
+          </span>
+        </div>
+      ))}
+    </div>
   );
-};
-
-Information.displayName = 'Information';
+}
 
 export type InformationProps = {
   items: Models.PersonalInformation[];
-  order?: ResponsiveValue<CSSProperties['order']>;
 };
 export default Information;

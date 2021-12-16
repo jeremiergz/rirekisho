@@ -1,0 +1,26 @@
+{
+  "name": "frameworks",
+  "sortOrder": 3,
+  "items": [
+    {
+      "name": "<Koa|Express>.js",
+      "proficiencyLevel": 7,
+      "sortOrder": 1
+    },
+    {
+      "name": "React.js",
+      "proficiencyLevel": 6,
+      "sortOrder": 2
+    },
+    {
+      "name": "Jest|Mocha|Chai",
+      "proficiencyLevel": 6,
+      "sortOrder": 3
+    },
+    {
+      "name": "Gatsby.js|Next.js",
+      "proficiencyLevel": 6,
+      "sortOrder": 4
+    }
+  ]
+}

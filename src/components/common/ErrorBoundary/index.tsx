@@ -17,6 +17,7 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, { hasError: bool
   render() {
     const { children } = this.props;
     const { hasError } = this.state;
+
     return hasError ? <h1>Something went wrong.</h1> : children;
   }
 }

@@ -1,58 +1,60 @@
-import Box from '@primitives/Box';
-import FlexBox from '@primitives/FlexBox';
-import Text from '@primitives/Text';
-import React, { CSSProperties } from 'react';
-import { ResponsiveValue } from 'styled-system';
+import Anchor from '@/components/common/Anchor';
+import Conditional from '@/components/common/Conditional';
+import useCertificationsData from '@/components/hooks/data/useCertificationsData';
+import clsx from 'clsx';
+import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
+import React from 'react';
 
-const PortraitAndJobTitle: React.FC<PortraitAndJobTitleProps> = ({ jobTitle, order }) => {
+function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Element {
+  const {
+    certifications: { nodes: certifications },
+  } = useCertificationsData();
+
+  const mainCertification = certifications.find(c => c.sortOrder === 0) || certifications[0];
+  const image = getImage(mainCertification.img.src);
+
   return (
-    <FlexBox
-      alignItems="center"
-      flex={1}
-      flexDirection="column"
-      justifyContent="space-between"
-      marginTop={-40}
-      order={order}
-    >
-      <Box
-        backgroundColor="background"
-        borderRadius="50%"
-        height={{ _: 184, laptopM: 224 }}
-        minHeight={{ _: 184, laptopM: 224 }}
-        position="relative"
-        transition="background-color 500ms ease"
-        width={{ _: 184, laptopM: 224 }}
-        willChange="background-color"
+    <div className="flex flex-1 flex-col items-center justify-between -mt-10 md:order-2">
+      <div
+        className={clsx(
+          'bg-white dark:bg-gray-900',
+          'h-48 lg:h-56 relative rounded-full transition-colors w-48 lg:w-56 will-change-auto',
+        )}
       >
-        <Box
-          height={{ _: 152, laptopM: 192 }}
-          left={0}
-          margin="auto"
-          position="absolute"
-          right={0}
-          top={16}
-          width={{ _: 152, laptopM: 192 }}
-        >
-          <Box alt="portrait" as="img" height="100%" src="/images/portrait.png" width="100%" />
-        </Box>
-      </Box>
-      <Text
-        color="secondary"
-        fontSize={40}
-        fontWeight="bold"
-        margin={{ _: '16px 0 16px 0', tablet: '0 -32px 0 -32px' }}
-        textAlign="center"
-      >
+        <div className="absolute h-40 lg:h-48 left-0 m-auto right-0 top-4 w-40 lg:w-48">
+          <StaticImage
+            alt="portrait"
+            height={192}
+            placeholder="blurred"
+            quality={100}
+            src="../../../../../content/assets/portrait.png"
+          />
+        </div>
+        <div className="absolute bottom-0 lg:-bottom-2 h-16 lg:h-20 right-0 lg:-right-1.5 w-16 lg:w-20">
+          <Conditional
+            condition={!!mainCertification.website}
+            wrapper={children => (
+              <Anchor aria-label={`Go to ${mainCertification.website}`} external href={mainCertification.website}>
+                {children}
+              </Anchor>
+            )}
+          >
+            <GatsbyImage
+              alt={`${mainCertification.provider} - ${mainCertification.name}`}
+              image={image}
+              loading="eager"
+            />
+          </Conditional>
+        </div>
+      </div>
+      <span className="font-bold my-4 md:-mx-8 text-4xl text-center text-secondary dark:text-secondary-dark">
         {jobTitle}
-      </Text>
-    </FlexBox>
+      </span>
+    </div>
   );
-};
-
-PortraitAndJobTitle.displayName = 'PortraitAndJobTitle';
+}
 
 export type PortraitAndJobTitleProps = {
   jobTitle: string;
-  order?: ResponsiveValue<CSSProperties['order']>;
 };
 export default PortraitAndJobTitle;

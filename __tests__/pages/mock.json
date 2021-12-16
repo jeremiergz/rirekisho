@@ -1,331 +1,927 @@
 {
-  "educationData": [
-    {
-      "city": "Tokyo",
-      "countryCode": "JP",
-      "issueDate": "2008-09-30",
-      "name": "Intermediate Japanese Certificate",
-      "school": "Sendagaya Japanese Institute"
-    },
-    {
-      "city": "Toulouse",
-      "countryCode": "FR",
-      "issueDate": "2010-06-30",
-      "name": "Japanese Language Bachelor Degree",
-      "school": "University of Jean-Jaures"
-    },
-    {
-      "city": "Toulouse",
-      "countryCode": "FR",
-      "issueDate": "2012-06-30",
-      "name": "Import-Export Degree",
-      "school": "AFPA"
-    },
-    {
-      "city": "Toulouse",
-      "countryCode": "FR",
-      "issueDate": "2016-10-31",
-      "name": "Computer Programming Bachelor Degree",
-      "school": "AFPA"
+  "certificationsData": {
+    "certifications": {
+      "nodes": [
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFL0lEQVQ4y3WUaUxUZxSGLxpp/VGXRmtc2mBr0MYCMsOwCAzDzNzZ7+zDDPvuBKktKqvQIIqgNC6NUBLaaKux1fSHDUmtC9RitLRNTbEutKbYmEpFaIuKEYZ757zNNxT/NP2S8+Pe5D73Pe8538vF620cq0SjI6y+5V1OrrVwWnf2yjheqFPobX0KnXVEpjVLMo15OtHouCfTWM7KtUK53pu3MCrNwMm0lrBEo4OL44UQZxY2R2nL4OatWMMlGOw1UWmGRyq7F5urd6CuuRVlVfWoa96HysbdcBf5YfTlI1plGJZpLXkroxM5e/4mxgmT8wLHJZkcYSq7j6vcuWderNrcrbRmoLqpGSXb6qc9/hrJWlBBQq6fMkrfJn3W5qDHXyM2th0S/dtrkWJxIybd2L4iOoHjPTkzCgFwXPhiTs4L3SmCB62HDgdqWw4HDW43mqsU1NP+Mg0cWURXP1xEZ95bTQ1bU0jnyUZZbbPU0NImWnNLEMcLByMT0zmFzjqHW7dRw8WojDVJJifq9+wNFGxtpMoKAbc/WUq4OJ/wbTRwzQUM2IBvIoHe5+jqR6vI5eNRUPEONbXtl+J4K2Qas5N5yq1NUq9MtXoebW3YidKq3cHiQiWenHmB6PJaTP7+GaSpCQQlQBIJ4uTfmBzqBC4tx/3TS8nlM6Bq136Jea3Q2wbj9bZwLlZjrmMDeLNu17TR48avJ5cRLq9D4NFt/N+ZevA1cGkZLndFkDGzCP7KHVKi0Q6FzupiRvYprW68ofZI++qSCF89T0zZ7Jm+fRfjTQ0Y312LwB/DAAgEYPKXVtCF56jcr6L1KqfIGAqd9SgzckTnyUGcIZMudkYQ+qMhBSZCMHr6GGPbY/HkUAmGuo6gvvUMnorBmR9N/BZS+XFLFCVY8iSN08eG088UShp3DhKNbrp5fAlhwIkgzagL3NgO6k8CHhwIPTefuI6u7sEZYOAJ8J0cPR0RFKvzksaVyXwcZ8BpPiMXCoOLbhxbSvjRGgISAVNXUjF05xh++nMU90fHcar3Dqo7vw8BRQbs34Dz7a9SLJ9BWnc2FHrrKGv5XrrDC4UpO3ju8GuEK5EQJ/8KffR4pAfbzvuR+0UTqj+4gur3f8D1obGZwYzfAvpeRNeuGIq35ElpNg9ruY8Bz6qdXsTwGSJbWvSGU2g1QvYD08EgJsVJTAZEgCQAwdD7qRuVmD43nwoLNRRnyBRV9gwG7GB3t1yhE2DKLhaTzQ5cOx5B6FuOwOjF/6wLza7N3WNA3wJ82f46xRt9ZMzMl+J4AUkmJ888XJhgsA8rbR5Eqx2S26fDWPdLFOhZjoc320BP74CkCUCaQPDxLTwcqMb0hcX4+dNXSC2YEKdziqmCG/F6Wz9LHKaQVZ6cF5Du8IpKZyE5vDx6OyNp8PgSGv58NcZ6kjFyLgn3Tq8CG9zJtvWkdwrQZBQHN5ocbP+QYLAnMxaDhUUpdSzP2tPsPvj8WyTet0lid7usVEUdjTI6tXcNnWiJpAM7ZCHPUm3ZJOSXi/b8UtYm4vXWCqYuwWCfG4ocpc3LRafp2YAOJlvc8JSUI7Nsq8RnbRYVRp+kchWQ0pFHKfYCyZi7RfT635Js/8IUOmtFrNrEBIU9C1imMt2ZxdKXJbZTrrUMql1ZMGcXQsgpRtG2Wng3bYEtrxSW7CIkGh2Q8wLzLJkl/IZ0Yyi1nwFni+VZrMbMGXwF4TEqg0uutRxlZsfrbeMJBvuoQmfti1WbOhQ6K88tWMbJNGambG6K4HnG+AdwMm3hTwG32gAAAABJRU5ErkJggg=="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png",
+                      "srcSet": "/static/fe44b5e8aa2aba2c0821e6b865e50711/41fb7/certification_gcp_cloud_architect.png 20w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/996dd/certification_gcp_cloud_architect.png 40w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png 80w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/40dd2/certification_gcp_cloud_architect.png 160w",
+                      "sizes": "(min-width: 80px) 80px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/fe44b5e8aa2aba2c0821e6b865e50711/4eb25/certification_gcp_cloud_architect.webp 20w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/3a6ff/certification_gcp_cloud_architect.webp 40w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/1deab/certification_gcp_cloud_architect.webp 80w,\n/static/fe44b5e8aa2aba2c0821e6b865e50711/c6aca/certification_gcp_cloud_architect.webp 160w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 80px) 80px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 80,
+                  "height": 80
+                }
+              }
+            }
+          },
+          "name": "Professional Cloud Architect",
+          "provider": "Google Cloud",
+          "sortOrder": 1,
+          "website": "https://cloud.google.com/certification/cloud-architect"
+        }
+      ]
     }
-  ],
-  "experiencesData": [
-    {
-      "company": {
-        "img": "company_sqli.png",
-        "name": "SQLI",
-        "sector": "IT Services",
-        "website": "https://www.sqli.com"
-      },
-      "projects": [
-        {
-          "client": { "name": "Omnium Finance", "sector": "Financial Services" },
-          "description": "Client base management Web interface for tablets and PCs",
-          "name": null,
-          "tasks": [
-            "Back-end development using <strong>Java 8</strong> with <strong>Spring Boot</strong> & <strong>JPA</strong>",
-            "Front-end development using <strong>Angular.js</strong>, <strong>Bootstrap</strong> & <strong>SASS</strong>",
-            "<strong>Docker</strong> initiation & Spring Boot <strong>container</strong> creation"
-          ],
-          "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
-        }
-      ],
-      "timeline": { "endDate": "2016-12-31", "startDate": "2016-11-01" }
-    },
-    {
-      "company": {
-        "img": "company_cs.png",
-        "name": "CS",
-        "sector": "Aerospace Industry",
-        "website": "https://www.c-s.fr"
-      },
-      "projects": [
-        {
-          "client": { "name": "CNES", "sector": "French Space Agency" },
-          "description": "Customizable transfer tool using native File System, FTP & SFTP",
-          "name": "Trafic",
-          "tasks": [
-            "Development of a new <strong>transfer protocol</strong> using native File System",
-            "Maintenance & quality controls: <strong>refactoring</strong> of several classes",
-            "<strong>Jenkins CI/CD</strong> project integration"
-          ],
-          "technologies": ["Java 6", "JsCh", "Jenkins"]
-        },
-        {
-          "client": { "name": "Airbus Defence & Space", "sector": "Space Systems" },
-          "description": "Ground-Segment simulators, validation & testing web interface",
-          "name": "Pulsar",
-          "tasks": [
-            "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
-            "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",
-            "Micro-services <strong>dockerization</strong>",
-            "CLI utilities development"
-          ],
-          "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
-        }
-      ],
-      "timeline": { "endDate": "2018-06-30", "startDate": "2017-01-01" }
-    },
-    {
-      "company": {
-        "img": "company_capgemini.png",
-        "name": "Capgemini",
-        "sector": "IT Services",
-        "website": "https://www.capgemini.com"
-      },
-      "projects": [
-        {
-          "client": { "name": "Airbus Defence & Space", "sector": "Space Systems" },
-          "description": "Web framework - Web portal",
-          "name": "NemEO - DiginEO",
-          "tasks": [
-            "<strong>Technical manager</strong> of a 3-developer team",
-            "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
-            "Maintenance of the <strong>Architectural Design Document</strong>",
-            "<strong>Deployment industrialization</strong> using Docker"
-          ],
-          "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
-        }
-      ],
-      "timeline": { "endDate": "2018-09-30", "startDate": "2018-07-01" }
-    },
-    {
-      "company": {
-        "img": "company_sigfox.png",
-        "name": "Sigfox",
-        "sector": "Wireless Networks",
-        "website": "https://www.sigfox.com"
-      },
-      "projects": [
-        {
-          "client": null,
-          "description": "Features development & maintenance of Web platforms",
-          "name": null,
-          "tasks": ["Back-end & front-end engineering & development"],
-          "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
-        },
-        {
-          "client": null,
-          "description": "Kubernetization & move to GCP of Web platforms",
-          "name": "XDoG",
-          "tasks": [
-            "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
-            "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
-          ],
-          "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
-        }
-      ],
-      "timeline": { "endDate": "2020-03-20", "startDate": "2018-10-01" }
-    },
-    {
-      "company": { "img": null, "name": "Freelancer", "sector": "IT Services", "website": null },
-      "projects": [
-        {
-          "client": null,
-          "description": null,
-          "name": null,
-          "tasks": [
-            "Back-end & front-end engineering & development",
-            "Implement Design Systems",
-            "CI/CD pipelines on GitHub/GitLab",
-            "Dockerization/Kubernetization of applications",
-            "Move software platforms to Kubernetes (GCP)"
-          ],
-          "technologies": [
-            "JavaScript",
-            "TypeScript",
-            "Golang",
-            "Node.js",
-            "React",
-            "GCP",
-            "Docker",
-            "Kubernetes",
-            "GitHub Actions",
-            "GitLab CI"
-          ]
-        }
-      ],
-      "timeline": { "endDate": "2020-09-30", "startDate": "2020-04-01" }
-    },
-    {
-      "company": {
-        "img": "company_stacklabs.png",
-        "name": "Stack Labs",
-        "sector": "IT Services",
-        "website": "https://stack-labs.com"
-      },
-      "projects": [
-        {
-          "client": { "name": "N'PY", "sector": "Ski Resorts" },
-          "description": "Ski lift tickets sales data lake",
-          "name": null,
-          "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
-          "technologies": ["Dataflow", "GCP", "Terraform"]
-        },
-        {
-          "client": { "name": "Irrijardin", "sector": "Pools & Spas" },
-          "description": "Mobile app & FaaS backend development",
-          "name": "Joey",
-          "tasks": ["Create <strong>Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
-          "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
-        }
-      ],
-      "timeline": { "endDate": null, "startDate": "2020-10-01" }
-    }
-  ],
-  "images": [
-    "/images/company_capgemini.png",
-    "/images/company_cs.png",
-    "/images/company_sigfox.png",
-    "/images/company_sqli.png",
-    "/images/company_stacklabs.png",
-    "/images/cover.png",
-    "/images/flag_france.png",
-    "/images/flag_japan.png",
-    "/images/flag_usa.png",
-    "/images/portrait.png",
-    "/images/tech_next.png",
-    "/images/tech_styled_components.png",
-    "/images/toolbox_gcp.png",
-    "/images/toolbox_mongo.png",
-    "/images/toolbox_npm.png",
-    "/images/toolbox_raspberrypi.png",
-    "/images/toolbox_redis.png",
-    "/images/toolbox_vscode.png"
-  ],
-  "imagesIndex": {
-    "company_capgemini.png": "/images/company_capgemini.png",
-    "company_cs.png": "/images/company_cs.png",
-    "company_sigfox.png": "/images/company_sigfox.png",
-    "company_sqli.png": "/images/company_sqli.png",
-    "company_stacklabs.png": "/images/company_stacklabs.png",
-    "cover.png": "/images/cover.png",
-    "flag_france.png": "/images/flag_france.png",
-    "flag_japan.png": "/images/flag_japan.png",
-    "flag_usa.png": "/images/flag_usa.png",
-    "portrait.png": "/images/portrait.png",
-    "tech_next.png": "/images/tech_next.png",
-    "tech_styled_components.png": "/images/tech_styled_components.png",
-    "toolbox_gcp.png": "/images/toolbox_gcp.png",
-    "toolbox_mongo.png": "/images/toolbox_mongo.png",
-    "toolbox_npm.png": "/images/toolbox_npm.png",
-    "toolbox_raspberrypi.png": "/images/toolbox_raspberrypi.png",
-    "toolbox_redis.png": "/images/toolbox_redis.png",
-    "toolbox_vscode.png": "/images/toolbox_vscode.png"
   },
-  "interestsData": [
-    { "name": "coding", "sortOrder": 0 },
-    { "name": "tech", "sortOrder": 1 },
-    { "name": "sports", "sortOrder": 2 },
-    { "name": "movies", "sortOrder": 3 },
-    { "name": "music", "sortOrder": 4 },
-    { "name": "nature", "sortOrder": 5 }
-  ],
-  "languagesData": [
-    { "img": "flag_france.png", "name": "French", "proficiencyLevel": 5, "sortOrder": 0 },
-    { "img": "flag_usa.png", "name": "English", "proficiencyLevel": 4.5, "sortOrder": 1 },
-    { "img": "flag_japan.png", "name": "Japanese", "proficiencyLevel": 2.5, "sortOrder": 2 }
-  ],
-  "personalDetailsData": {
-    "contacts": [
-      { "label": "/jeremiergz", "link": "https://linkedin.com/in/jeremiergz", "sortOrder": 0, "type": "linkedin" },
-      { "label": "@JeremieRgz", "link": "https://twitter.com/JeremieRgz", "sortOrder": 1, "type": "twitter" },
-      { "label": "gitlab/jeremiergz", "link": "https://gitlab.com/jeremiergz", "sortOrder": 2, "type": "gitlab" },
-      { "label": "github/jeremiergz", "link": "https://github.com/jeremiergz", "sortOrder": 3, "type": "github" },
-      {
-        "label": "contact@jeremierodriguez.com",
-        "link": "mailto:contact@jeremierodriguez.com",
-        "sortOrder": 4,
-        "type": "email"
+  "educationData": {
+    "education": {
+      "nodes": [
+        {
+          "city": "Tokyo",
+          "countryCode": "JP",
+          "issueDate": "2008-09-30",
+          "name": "Intermediate Japanese Certificate",
+          "school": "Sendagaya Japanese Institute"
+        },
+        {
+          "city": "Toulouse",
+          "countryCode": "FR",
+          "issueDate": "2010-06-30",
+          "name": "Japanese Language Bachelor Degree",
+          "school": "Jean-Jaures University"
+        },
+        {
+          "city": "Toulouse",
+          "countryCode": "FR",
+          "issueDate": "2012-06-30",
+          "name": "Import-Export Degree",
+          "school": "AFPA"
+        },
+        {
+          "city": "Toulouse",
+          "countryCode": "FR",
+          "issueDate": "2016-10-31",
+          "name": "Computer Programming Bachelor Degree",
+          "school": "AFPA"
+        }
+      ]
+    }
+  },
+  "experiencesData": {
+    "experiences": {
+      "nodes": [
+        {
+          "company": {
+            "img": {
+              "src": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAABR0lEQVQY02MIqzvK4N7yltW57Zu4S+tXAee27/L+jTc5FySwMju2/eZwaf0q49L6ld2l7RuLS9s3NrfWD6wM2/8zlBcWsnZkubE4tv8RcWn9wg/W2/pNlCG47iRrQMM1Eee2HwbuLW947Dr+KxeUNAtXFOQZ2HT+l3drecfn3PZN36Xtm5ZL2zdG19ZPsv8ZGBiqCjJFKguyte06/hu6tn42dIbIqzFE1eyWS6xcwe7U9lPDtfWzlGP7X6mywmKxioI8uYDGa3pWnf95XVq/6Lm0fVN1afsGcrGsc9t33oqCfKmKgjwZ7+bH+k5tvzRdWr9Iu7R+tWdIqlzO5dbylsW57ZuUc9s3No+W12zFxTXsdzwZGCJr9/E6tv2Rdm39BPIyE8jLzm3fuFxav0ill8/m+G/IwODbdFfavv0/n0vrF0GXtm/iANc2iTCW23zeAAAAAElFTkSuQmCC"
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/52d6cbb11161c46e334e18dc84221042/cb46b/company_stacklabs.png",
+                        "srcSet": "/static/52d6cbb11161c46e334e18dc84221042/000f1/company_stacklabs.png 32w,\n/static/52d6cbb11161c46e334e18dc84221042/378c1/company_stacklabs.png 65w,\n/static/52d6cbb11161c46e334e18dc84221042/cb46b/company_stacklabs.png 129w,\n/static/52d6cbb11161c46e334e18dc84221042/45742/company_stacklabs.png 258w",
+                        "sizes": "(min-width: 129px) 129px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/52d6cbb11161c46e334e18dc84221042/5a465/company_stacklabs.webp 32w,\n/static/52d6cbb11161c46e334e18dc84221042/1e7d2/company_stacklabs.webp 65w,\n/static/52d6cbb11161c46e334e18dc84221042/df13c/company_stacklabs.webp 129w,\n/static/52d6cbb11161c46e334e18dc84221042/9a068/company_stacklabs.webp 258w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 129px) 129px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 129,
+                    "height": 24
+                  }
+                }
+              }
+            },
+            "name": "Stack Labs",
+            "sector": "Cloud Services",
+            "website": "https://stack-labs.com"
+          },
+          "projects": [
+            {
+              "client": {
+                "name": "N'PY",
+                "sector": "Ski Resorts"
+              },
+              "description": "Ski lift tickets sales data lake",
+              "name": null,
+              "tasks": [
+                "Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"
+              ],
+              "technologies": ["Dataflow", "GCP", "Terraform"]
+            },
+            {
+              "client": {
+                "name": "Irrijardin",
+                "sector": "Pools & Spas"
+              },
+              "description": "Mobile app & FaaS backend development",
+              "name": "Joey",
+              "tasks": ["Create <strong>Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
+              "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
+            }
+          ],
+          "timeline": {
+            "endDate": null,
+            "startDate": "2020-10-01"
+          }
+        },
+        {
+          "company": {
+            "img": null,
+            "name": "Freelancer",
+            "sector": "IT Services",
+            "website": null
+          },
+          "projects": [
+            {
+              "client": null,
+              "description": null,
+              "name": null,
+              "tasks": [
+                "Back-end & front-end engineering & development",
+                "Implement Design Systems",
+                "CI/CD pipelines on GitHub/GitLab",
+                "Dockerization/Kubernetization of applications",
+                "Move software platforms to Kubernetes (GCP)"
+              ],
+              "technologies": [
+                "JavaScript",
+                "TypeScript",
+                "Golang",
+                "Node.js",
+                "React",
+                "GCP",
+                "Docker",
+                "Kubernetes",
+                "GitHub Actions",
+                "GitLab CI"
+              ]
+            }
+          ],
+          "timeline": {
+            "endDate": "2020-09-30",
+            "startDate": "2020-04-01"
+          }
+        },
+        {
+          "company": {
+            "img": {
+              "src": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABe0lEQVQY002RzUuUARCHnxQiWgVRtgxM353BLaE0wvKSlOCpk9BJ1o8gZzZB0CJEgw4FkUIeJAiUEhEiFfHUycCLh+jivTbwf9Aggq2J192ogWGYGWaG3zNkPv8+SraidHXh51DnrW2kptiiFNcFC8WfKUbVM4LVKX6cC5ZV/My/fqVO/afYa936FddfRfQWSis5RkuCp8tCsH6pDCSKDSjWrXir4Ilgm4LdViyn2FnFG9JIw86PnuRDlC8/+BrdHWvRd203EkZDTxTXhLH08k3F3wvmis8rtizYomBLgk0pvqLYrOKrik+izw/Ivz68n2t+HJ3ZF9/vDkf0t2zuAydPcyWVlhd8W7GXis8I9lawDcXHFO8T/J3g04IvCz6BMoBSmE0oRFfbYgwPRjzqjS8LEo2T2W901D5MpeQrDP28YG8UvyPYqSrLi4I3CZZRrKkCs3b8o3Dv8NK5+bmRQuxM9ZTjSXv5xtMLQWp/wcsxeK/57zFVd6qs+QMSmIdJkAzITgAAAABJRU5ErkJggg=="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/22ad4d7391d93f83828ca545f3e542b5/8e0ec/company_sigfox.png",
+                        "srcSet": "/static/22ad4d7391d93f83828ca545f3e542b5/2e3ec/company_sigfox.png 19w,\n/static/22ad4d7391d93f83828ca545f3e542b5/953b7/company_sigfox.png 38w,\n/static/22ad4d7391d93f83828ca545f3e542b5/8e0ec/company_sigfox.png 75w,\n/static/22ad4d7391d93f83828ca545f3e542b5/fe7af/company_sigfox.png 150w",
+                        "sizes": "(min-width: 75px) 75px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/22ad4d7391d93f83828ca545f3e542b5/9e2b5/company_sigfox.webp 19w,\n/static/22ad4d7391d93f83828ca545f3e542b5/203af/company_sigfox.webp 38w,\n/static/22ad4d7391d93f83828ca545f3e542b5/f2944/company_sigfox.webp 75w,\n/static/22ad4d7391d93f83828ca545f3e542b5/7d995/company_sigfox.webp 150w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 75px) 75px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 75,
+                    "height": 24
+                  }
+                }
+              }
+            },
+            "name": "Sigfox",
+            "sector": "Wireless Networks",
+            "website": "https://sigfox.com"
+          },
+          "projects": [
+            {
+              "client": null,
+              "description": "Features development & maintenance of Web platforms",
+              "name": null,
+              "tasks": ["Back-end & front-end engineering & development"],
+              "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
+            },
+            {
+              "client": null,
+              "description": "Kubernetization & move to GCP of Web platforms",
+              "name": "XDoG",
+              "tasks": [
+                "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
+                "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
+              ],
+              "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+            }
+          ],
+          "timeline": {
+            "endDate": "2020-03-20",
+            "startDate": "2018-10-01"
+          }
+        },
+        {
+          "company": {
+            "img": {
+              "src": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEUlEQVQY002Qvy/DARDFP4mGRPwooQaN6GDtn0DMBonFiEElfvSuZTFUw0bCImFBYpCg92oUCbOVf0LS1WaqfPWb1PBy7y53L+8dmLK4iliAqQv/z6PTd9D3j/f83VWaUH3KU7oDLDZwLePKYzGIxTSuflw5TMOYxvCYxDWFqxdTEVcWixlcBcoxguuScuOHzftSImipo30sVnDVsTjBdYBHHdcRrissbnEd4lrFdfYHi0UqOmXnsZ2pPbcHrz++E6HtdGkzPTjHtYDpEtcFrjIe67jWcCVpdjszzeHao9xYoNp8Hbr5fM+9fC0lgpk0YuJ2HItZLAYwHWMqdP8V3Wop33ogU3sG5pl4bY1OvLX4BfYsimzNbb+DAAAAAElFTkSuQmCC"
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/2b3dc5084c38529257a59943974095e7/51425/company_capgemini.png",
+                        "srcSet": "/static/2b3dc5084c38529257a59943974095e7/4acc0/company_capgemini.png 22w,\n/static/2b3dc5084c38529257a59943974095e7/50161/company_capgemini.png 44w,\n/static/2b3dc5084c38529257a59943974095e7/51425/company_capgemini.png 88w,\n/static/2b3dc5084c38529257a59943974095e7/dafcf/company_capgemini.png 176w",
+                        "sizes": "(min-width: 88px) 88px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/2b3dc5084c38529257a59943974095e7/19bb3/company_capgemini.webp 22w,\n/static/2b3dc5084c38529257a59943974095e7/4aa63/company_capgemini.webp 44w,\n/static/2b3dc5084c38529257a59943974095e7/fd540/company_capgemini.webp 88w,\n/static/2b3dc5084c38529257a59943974095e7/8976c/company_capgemini.webp 176w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 88px) 88px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 88,
+                    "height": 24
+                  }
+                }
+              }
+            },
+            "name": "Capgemini",
+            "sector": "IT Services",
+            "website": "https://capgemini.com"
+          },
+          "projects": [
+            {
+              "client": {
+                "name": "Airbus Defence & Space",
+                "sector": "Space Systems"
+              },
+              "description": "Web framework - Web portal",
+              "name": "NemEO - DiginEO",
+              "tasks": [
+                "<strong>Technical manager</strong> of a 3-developer team",
+                "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
+                "Maintenance of the <strong>Architectural Design Document</strong>",
+                "<strong>Deployment industrialization</strong> using Docker"
+              ],
+              "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
+            }
+          ],
+          "timeline": {
+            "endDate": "2018-09-30",
+            "startDate": "2018-07-01"
+          }
+        },
+        {
+          "company": {
+            "img": {
+              "src": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVQozx3Q209SAQDH8Z+sbKuZ85Ius2WZrXwws1lOe8DKovIhpy4ebNVa5qUcigmSUuhRVI54y/AO5QU1IC5igHTIg2aIl1FeK7IHu6zWU1vNp9Ps+xd89gUAcHVmMBM/0aWexAPDOAu860iQ9iCaaMO+siZEPWxFfKMKkZQO4EkRLVEgUtyCw5UKnOpUI/HnJC78mcNxvRb/e730GeOuD1COzbDy+l+AYRjESbtSoiStgr2iBsF+cUtpbIMyey+l2ekrIgOOSBQ5EWVN5ZGSVuGJjv6LbMbDSmfWEKfXALu1fTAsrqLdOcsyuFfAM7xMKBqyfcxQ6taTO9RVcfKe64n1qjuZT/RmrtUmzlOZvec6ht4flXdfSWnsE2YNm6lEuyk6+eUoTo4898Hg4jzu0+NbCm0UbptsYRr38ka+zvaJSWAQrugGKuWAiMSeinaITFTayMwqQzimaLZ7bA+hppClMgAu4InLA4mLZuHpu1lwKR1mvN8xtLAq8Kz/YDLtFu1Zi/4ex2ocPG81GjlWo+PCmMmSbNMPFEw5f+lXvczokpcZeLsyl2N3ZATqOv02NxHTTqDL4w4iXM5z+VP2q3nWsVbxM4rh9Gu+3FimM/Pf0fG5SxMxZX8Wwm+O29mZ+hFpyltLLH/t9cHBlZWE7ldz5gK1hTmt1RjLZ51c4g3NRqfHfajS5Qy7Zbds59T04mKzmkiqUW4cI3sMIUJ5VlChLDXifnNRkkz15lLb8N/4epU9XNycjfyKM/tEzcPshl4m3W5LBdZQ5XJGbApR4aJRNO1A+9f3SCpRYGtJXVRwsawksLhO7l9UU7NLSBKhVS1pO5oeHwguluUG3ZPVB/JryWAhKQ541BbDqXuK0m9uyNyT2BT6VE87wZt3oJCmwa3qY23hSbGLL4NfLgHfa2KECEiEVrRge90jhPBJ+N+txrZrYvjzaxHQqMBleb+P4Pc8Gmen8A8OgliSFZLXfQAAAABJRU5ErkJggg=="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/3098a/company_cs.png",
+                        "srcSet": "/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/5250e/company_cs.png 14w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/22d28/company_cs.png 28w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/3098a/company_cs.png 55w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/7540d/company_cs.png 110w",
+                        "sizes": "(min-width: 55px) 55px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/ae550/company_cs.webp 14w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/7b6e5/company_cs.webp 28w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/74127/company_cs.webp 55w,\n/static/2a7f2ce7fab80d56fa155c8aa6fc4a67/f45f4/company_cs.webp 110w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 55px) 55px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 55,
+                    "height": 24
+                  }
+                }
+              }
+            },
+            "name": "CS",
+            "sector": "Aerospace Industry",
+            "website": "https://c-s.fr"
+          },
+          "projects": [
+            {
+              "client": {
+                "name": "CNES",
+                "sector": "French Space Agency"
+              },
+              "description": "Customizable transfer tool using native File System, FTP & SFTP",
+              "name": "Trafic",
+              "tasks": [
+                "Development of a new <strong>transfer protocol</strong> using native File System",
+                "Maintenance & quality controls: <strong>refactoring</strong> of several classes",
+                "<strong>Jenkins CI/CD</strong> project integration"
+              ],
+              "technologies": ["Java 6", "JsCh", "Jenkins"]
+            },
+            {
+              "client": {
+                "name": "Airbus Defence & Space",
+                "sector": "Space Systems"
+              },
+              "description": "Ground-Segment simulators, validation & testing web interface",
+              "name": "Pulsar",
+              "tasks": [
+                "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
+                "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",
+                "Micro-services <strong>dockerization</strong>",
+                "CLI utilities development"
+              ],
+              "technologies": ["Node.js", "TypeScript", "Angular", "Docker", "PostgreSQL", "Java 8", "Spring Boot"]
+            }
+          ],
+          "timeline": {
+            "endDate": "2018-06-30",
+            "startDate": "2017-01-01"
+          }
+        },
+        {
+          "company": {
+            "img": {
+              "src": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAC4jAAAuIwF4pT92AAACDklEQVQoz01SS09TURg82CYkRhEV4fabb25Lz60Ya0QEirpoI0YhyoqIbqwrDWhoLgSiJr6NLowxBjERlRCCJL0ti7oxLn2s1JULt/4Cf0TNLbfExXceyWTOzJkxJBZJDJAwLhGfHE2asm9jlRnPVGe9zrJvl/++PrC70EdjTKdRhQmx4ajK1t48hwCQCEj0pVyYS8PJ1vWSNZUZb1/Zt9Wv9zKHTdzJJF3cUJU9qmghcZ3EGbJBlFOVeER8svlal6pU0in0T+Rd83bSOoFvKx/mvaP1et4kXayqygMS8ySukPKcxHtVGVSVVVLaI5W/Q4WxkDSdgiQgqyM5nqjNeUtr0/b4s8tpk8uqoyo1EjsjWy9VQVWUSIyTsqCK9kjY96b31rYOMSbmZC8W3Nq3+5lzH2965mmxe/v+dAM4TuILiSMkHpHSS8ocifOqWFTF3uhvf4ZLLLzYFLoSIiujORZq897SeskOvJuyZiTHth7bAGdJvCHlIYkeVZklMaYqL1SlJSL8EaWEDlUJ0ikMXci7ZnnKIvBt9dMt75AxJp50saYqV0k8JjEd2f5D4jSJDRITJBwSv0Iyh5QyicEw5eKpzZQD3zphyp/vZrLxtkQh6WJBVbpJ7CBxR1Vuk+glUSTxhMQQKROhwlckjjV7eO3sZg8Dv1GdRODblfrGwV3D/TRmm7PVt/8ntNvs5z9H54nE3b/CrQAAAABJRU5ErkJggg=="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/488a715a4ea0b8289ec5fd620cf7887f/f562f/company_sqli.png",
+                        "srcSet": "/static/488a715a4ea0b8289ec5fd620cf7887f/16002/company_sqli.png 13w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/cd058/company_sqli.png 26w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/f562f/company_sqli.png 51w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/b8496/company_sqli.png 102w",
+                        "sizes": "(min-width: 51px) 51px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/488a715a4ea0b8289ec5fd620cf7887f/f2081/company_sqli.webp 13w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/b95e7/company_sqli.webp 26w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/7c439/company_sqli.webp 51w,\n/static/488a715a4ea0b8289ec5fd620cf7887f/6837d/company_sqli.webp 102w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 51px) 51px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 51,
+                    "height": 24
+                  }
+                }
+              }
+            },
+            "name": "SQLI",
+            "sector": "IT Services",
+            "website": "https://sqli.com"
+          },
+          "projects": [
+            {
+              "client": {
+                "name": "Omnium Finance",
+                "sector": "Financial Services"
+              },
+              "description": "Client base management Web interface for tablets and PCs",
+              "name": null,
+              "tasks": [
+                "Back-end development using <strong>Java 8</strong> with <strong>Spring Boot</strong> & <strong>JPA</strong>",
+                "Front-end development using <strong>Angular.js</strong>, <strong>Bootstrap</strong> & <strong>SASS</strong>",
+                "<strong>Docker</strong> initiation & Spring Boot <strong>container</strong> creation"
+              ],
+              "technologies": ["Angular.js", "JavaScript", "Docker", "Spring Boot"]
+            }
+          ],
+          "timeline": {
+            "endDate": "2016-12-31",
+            "startDate": "2016-11-01"
+          }
+        }
+      ]
+    }
+  },
+  "footerData": {
+    "site": {
+      "siteMetadata": {
+        "name": "Rirekisho",
+        "repositoryURL": "https://github.com/jeremiergz/rirekisho",
+        "version": "20.08.43"
       }
-    ],
-    "fullName": "Jeremie Rodriguez",
-    "jobTitle": "Full Stack Engineer",
-    "personalInformation": [
-      { "label": "nationality", "sortOrder": 0, "value": "french" },
-      { "label": "birth date", "sortOrder": 1, "value": "27 MAR 1987" },
-      { "label": "civil status", "sortOrder": 2, "value": "single" },
-      { "label": "driver licenses", "sortOrder": 3, "value": "car | motorcycle" }
-    ],
-    "twitterUsername": "@JeremieRgz"
+    }
   },
-  "skillsData": [
-    {
-      "name": "programming",
-      "sortOrder": 0,
-      "items": [
-        { "name": "<Java|Type>Script", "proficiencyLevel": 7, "sortOrder": 0 },
-        { "name": "Node.js", "proficiencyLevel": 7, "sortOrder": 1 },
-        { "name": "Golang", "proficiencyLevel": 4, "sortOrder": 2 },
-        { "name": "HTML5|CSS3", "proficiencyLevel": 6, "sortOrder": 3 }
-      ]
-    },
-    {
-      "name": "devops",
-      "sortOrder": 1,
-      "items": [
-        { "name": "Kubernetes", "proficiencyLevel": 5, "sortOrder": 0 },
-        { "name": "Docker", "proficiencyLevel": 7, "sortOrder": 1 },
-        { "name": "<GitHub|GitLab>CI", "proficiencyLevel": 7, "sortOrder": 2 },
-        { "name": "Ansible|Terraform", "proficiencyLevel": 5, "sortOrder": 3 }
-      ]
-    },
-    {
-      "name": "frameworks",
-      "sortOrder": 2,
-      "items": [
-        { "name": "<Koa|Express>.js", "proficiencyLevel": 7, "section": "frameworks", "sortOrder": 0 },
-        { "name": "React.js", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 1 },
-        { "name": "Jest|Mocha|Chai", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 2 },
-        { "name": "Gatsby.js|Next.js", "proficiencyLevel": 6, "section": "frameworks", "sortOrder": 3 }
+  "interestsData": {
+    "interests": {
+      "nodes": [
+        {
+          "name": "coding",
+          "sortOrder": 1
+        },
+        {
+          "name": "tech",
+          "sortOrder": 2
+        },
+        {
+          "name": "sports",
+          "sortOrder": 3
+        },
+        {
+          "name": "movies",
+          "sortOrder": 4
+        },
+        {
+          "name": "music",
+          "sortOrder": 5
+        },
+        {
+          "name": "nature",
+          "sortOrder": 6
+        }
       ]
     }
-  ],
-  "themeData": {
-    "colors": {
-      "background": "white",
-      "body1": "#262626",
-      "body2": "#575757",
-      "caption": "#808080",
-      "dark": "#212121",
-      "error": "#f44336",
-      "info": "#2196f3",
-      "primary": "#17365c",
-      "secondary": "#31859a",
-      "subtitle": "#d3d3d3",
-      "success": "#4caf50",
-      "text": "#262626",
-      "white": "#ffffff"
-    },
-    "fonts": { "main": "'Open Sans', sans-serif", "title": "'Baloo Bhaina 2', cursive" },
-    "fontWeights": { "bold": 800, "bolder": 600, "regular": 400 }
   },
-  "toolboxData": [
-    { "img": "toolbox_vscode.png", "link": "https://code.visualstudio.com", "name": "vscode", "sortOrder": 0 },
-    { "img": "toolbox_npm.png", "link": "https://www.npmjs.com", "name": "npm", "sortOrder": 1 },
-    { "img": "toolbox_mongo.png", "link": "https://www.mongodb.com", "name": "mongo", "sortOrder": 2 },
-    { "img": "toolbox_redis.png", "link": "https://redis.io", "name": "redis", "sortOrder": 3 },
-    { "img": "toolbox_gcp.png", "link": "https://cloud.google.com", "name": "gcp", "sortOrder": 4 },
-    { "img": "toolbox_raspberrypi.png", "link": "https://www.raspberrypi.org", "name": "rpi", "sortOrder": 5 }
-  ]
+  "languagesData": {
+    "languages": {
+      "nodes": [
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAg0lEQVQ4y2NwdJv909F99n9H99n/QLSz55z/JtZT/vdOOPj//79f/z99+vz/y5cv/79C8ZcfP/7/qWj4/9/J9/8/n7D//71DQfgfiP7nFfqRAWSIA9Qwsg30Cv3/zzsEbCiDI8IwClwIMQzkUgaYyyhyIRIeNXCkGEj9dEjdnELlvAwA3/TqEr0o/ToAAAAASUVORK5CYII="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/4ab94476b33b6da83177b2ad7f0aa6cd/40c8d/flag_france.png",
+                      "srcSet": "/static/4ab94476b33b6da83177b2ad7f0aa6cd/3e9dc/flag_france.png 12w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/9e68c/flag_france.png 24w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/40c8d/flag_france.png 48w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/c60b5/flag_france.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/4ab94476b33b6da83177b2ad7f0aa6cd/b5102/flag_france.webp 12w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/41751/flag_france.webp 24w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/13c35/flag_france.webp 48w,\n/static/4ab94476b33b6da83177b2ad7f0aa6cd/63c12/flag_france.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "name": "French",
+          "proficiencyLevel": 5,
+          "sortOrder": 1
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABm0lEQVQ4y6WTy07CYBCF+3JqxAgmEmgFJVKK9IoQ1I3RF2EhJngB2sozmOjGeEHrLeAWdWlUItA5pi0aTARMXHw5mcU/mf/MHCYQLLQnpvLwz27RmC9PgWCBxibzNBMs0LgvT9PBbTqPrBIEiTq8QvZvJBTb5hXYgvbCROP7kNImSWkTSdmAvHyApKy7KmomonwJR8YRUL/Da83C++UArq6pVbsCE4oUSVRNJMQKJWWdBEn3VKyQpBoUiu3TCb9JyK5QO71G3cHAUYZb2IWarSKlGs6k7lSuqia0bBVcbA/H5UPgxsLb6QVaZ8Nh2Pkd97Eg6e5X+xFVA+HFEk74DSCTQ1tbQ1dbHYrXUDGwJOsQxApSSk+dhooBLrbredi4x6vn1VCYqFBBgNsBGy8hwBbB8WX42SLm+LJbhxM6avw6IGnopDKwxeEwT9cNODStBp5uHtC06njuqVM/WnW8WbdojZjse0JoOUBb6ZH7Ve0Rvv3w8P2shlGM2uyPLfff0D/x7tC7cosGJuCvfCXFTqgfbg4H5fQv9GX5E92lDgWZhdf/AAAAAElFTkSuQmCC"
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/940a9bffd9cca715ab6601a2b6504e1b/40c8d/flag_usa.png",
+                      "srcSet": "/static/940a9bffd9cca715ab6601a2b6504e1b/3e9dc/flag_usa.png 12w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/9e68c/flag_usa.png 24w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/40c8d/flag_usa.png 48w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/c60b5/flag_usa.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/940a9bffd9cca715ab6601a2b6504e1b/b5102/flag_usa.webp 12w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/41751/flag_usa.webp 24w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/13c35/flag_usa.webp 48w,\n/static/940a9bffd9cca715ab6601a2b6504e1b/63c12/flag_usa.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "name": "English",
+          "proficiencyLevel": 4.5,
+          "sortOrder": 2
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABHklEQVQ4y7WTPU7DQBCFfTIkEikSYAeQwIEKypT0FEgUXICKa1BwAVBQxAXgAtBAYe+M/3ce8tgmdggoSLh42tVo5tu3OzsOM6fMDGaWegUTqajZhwZsTDdWqsmva4kocJoANQntImNASQISWymKqtgKKBEp1Gk5k2UHZC349Q3xbI54/gR+/wDZ4hu0hNWGxGnZXpxaFuQ5kts7yOQUGHjAcAx7MkX88AgqlqAtRgeoCaFRZ/H9DBi4wGgf4k1UGHq6Rs8voCxbQH8Cfl0hTVGcXwKbLmR8BGwfqGT3GNjYQnZ9A4KAw/B3hwqLGBwEsNMzYLQHcX3IzmElz9fr5xdXeuiKbvfssLc37HTZ/3uXe/mH601KvN6k/OssfwKOJrPw4b0TwAAAAABJRU5ErkJggg=="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/c5bc9cc27f496ada75b2f98d7ea04ad1/40c8d/flag_japan.png",
+                      "srcSet": "/static/c5bc9cc27f496ada75b2f98d7ea04ad1/3e9dc/flag_japan.png 12w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/9e68c/flag_japan.png 24w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/40c8d/flag_japan.png 48w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/c60b5/flag_japan.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/c5bc9cc27f496ada75b2f98d7ea04ad1/b5102/flag_japan.webp 12w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/41751/flag_japan.webp 24w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/13c35/flag_japan.webp 48w,\n/static/c5bc9cc27f496ada75b2f98d7ea04ad1/63c12/flag_japan.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "name": "Japanese",
+          "proficiencyLevel": 2.5,
+          "sortOrder": 3
+        }
+      ]
+    }
+  },
+  "layoutData": {
+    "site": {
+      "siteMetadata": {
+        "authorName": "Jeremie Rodriguez",
+        "color": "#17365c",
+        "description": "Yet Another Resume Website. This time it's mine though.",
+        "keywords": ["cv", "gatsby.js", "react", "resume", "rirekisho", "styled-components", "typescript"],
+        "siteUrl": "https://cv.jeremierodriguez.com",
+        "version": "20.08.43"
+      }
+    }
+  },
+  "personalDetailsData": {
+    "personalDetails": {
+      "contacts": [
+        {
+          "label": "/jeremiergz",
+          "link": "https://linkedin.com/in/jeremiergz",
+          "sortOrder": 1,
+          "type": "linkedin"
+        },
+        {
+          "label": "@JeremieRgz",
+          "link": "https://twitter.com/JeremieRgz",
+          "sortOrder": 2,
+          "type": "twitter"
+        },
+        {
+          "label": "gitlab/jeremiergz",
+          "link": "https://gitlab.com/jeremiergz",
+          "sortOrder": 3,
+          "type": "gitlab"
+        },
+        {
+          "label": "github/jeremiergz",
+          "link": "https://github.com/jeremiergz",
+          "sortOrder": 4,
+          "type": "github"
+        },
+        {
+          "label": "contact@jeremierodriguez.com",
+          "link": "mailto:contact@jeremierodriguez.com",
+          "sortOrder": 5,
+          "type": "email"
+        }
+      ],
+      "fullName": "Jeremie Rodriguez",
+      "jobTitle": "Cloud Engineer",
+      "personalInformation": [
+        {
+          "label": "nationality",
+          "sortOrder": 1,
+          "value": "french"
+        },
+        {
+          "label": "birth date",
+          "sortOrder": 2,
+          "value": "27 MAR 1987"
+        },
+        {
+          "label": "civil status",
+          "sortOrder": 3,
+          "value": "single"
+        },
+        {
+          "label": "driver licenses",
+          "sortOrder": 4,
+          "value": "car | motorcycle"
+        }
+      ],
+      "twitterUsername": "@JeremieRgz"
+    }
+  },
+  "skillsData": {
+    "skills": {
+      "nodes": [
+        {
+          "items": [
+            {
+              "name": "<Java|Type>Script",
+              "proficiencyLevel": 7,
+              "sortOrder": 1
+            },
+            {
+              "name": "Node.js",
+              "proficiencyLevel": 7,
+              "sortOrder": 2
+            },
+            {
+              "name": "Golang",
+              "proficiencyLevel": 5,
+              "sortOrder": 3
+            },
+            {
+              "name": "HTML5|CSS3",
+              "proficiencyLevel": 7,
+              "sortOrder": 4
+            }
+          ],
+          "name": "programming",
+          "sortOrder": 1
+        },
+        {
+          "items": [
+            {
+              "name": "Kubernetes",
+              "proficiencyLevel": 5,
+              "sortOrder": 1
+            },
+            {
+              "name": "Docker",
+              "proficiencyLevel": 7,
+              "sortOrder": 2
+            },
+            {
+              "name": "<GitHub|GitLab>CI",
+              "proficiencyLevel": 7,
+              "sortOrder": 3
+            },
+            {
+              "name": "Ansible|Terraform",
+              "proficiencyLevel": 5,
+              "sortOrder": 4
+            }
+          ],
+          "name": "devops",
+          "sortOrder": 2
+        },
+        {
+          "items": [
+            {
+              "name": "<Koa|Express>.js",
+              "proficiencyLevel": 7,
+              "sortOrder": 1
+            },
+            {
+              "name": "React.js",
+              "proficiencyLevel": 6,
+              "sortOrder": 2
+            },
+            {
+              "name": "Jest|Mocha|Chai",
+              "proficiencyLevel": 6,
+              "sortOrder": 3
+            },
+            {
+              "name": "Gatsby.js|Next.js",
+              "proficiencyLevel": 6,
+              "sortOrder": 4
+            }
+          ],
+          "name": "frameworks",
+          "sortOrder": 3
+        }
+      ]
+    }
+  },
+  "toolboxData": {
+    "toolbox": {
+      "nodes": [
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFRklEQVQ4y32UW0xTBxjHvxYUhVEpgu3oJFbAFiq1FeQiKHHRkLmBl/nMu8m0Q7xMsPReQAQBtxjjuAplUEovWloKJDOOuER7oaW6h8WHvcwHgXMOyAztOd9ykFf9kl9+/6d//k8fwGeuxDSzSZl5BspbZjllZh/3qHEKKs2eupM9z5cvuCjbhSfvj1zw/AfnXBScca5xPll22OCDIoMPio0+OGKa4Sh0PihrmYOKtrn6ipYZrDBN4XnHCn7/eA3PuyjHORd1vNa1CqDoicKhniiHRXHvFbDIO/xwSDcNSv00W8w92jIDxcYZKDXPmMpaZrHU5MNyoydeO7kcP+taY846KWSpdVD9UNgd5Sp/jgJLYfci9/Avr0Gu94Fc62VLuexKhX6aXfqg2OjDYtMMXWyYpkv0bvo72zJT41xjahxUrMaxijUOCkHeHQXFvahAcW+Rz2ZZ12JC1hzCwWZ3Aruy0jTLUeqnrUrDNCr103GlwUcr9d74Ye0T/Ma6jN861pjTkxSetlOsaXZhibwn+lbeE31T2LVYJuuKQIF5PlHW5AC51pMs13rn5DovyrXemFznjct103ShxoMKjTtQbSOp6slVrLZRzEevMuyidVnXIm7BFNyNqKRtL6Hg1mOBTOMNyDQelGk8GzKNJ7aVsUDt7q4c+Cf9lG116dQEhacmKIb1yQkKQdoZ0Ug6IyjpjNDSzghKOxdR0hGxSH6yL0gbXShRezak6qmYRD2FEvXUulTtqVO0PYNqN6acsJLUCSuFJ6wk87WVZI0g6YxAXkfkYm5HBDe5E47lsW59gbk3nbHc6zY6t9GNuU3ucF6Tu+BAowv0iHDM8o5XNU4RVeMkVo1TTNU4xRohrz2YkHf3FezviJ4R34l8ELdHUNwejonvLMbFtxdocZMX9zeM3/9KPcuV3rDCQePvices76FyjEqtHCOJyjESK8dIZtO/kQhZVx0JWT88gr0qS232jccfsluDmN2+GMtuW4hn3w7T2bcjuLctfD9rBLl7Ov6G7I6/EivG1qB8lEotH6WI8lEKy0cpZssIwgYnZF1zXhRdc6Go3oqiBnssy/gCRa1hFLWGYqLWBVrUuoBZraHwly2hgkxjACyIUDS0zCu1kESphcRSC8mwLrGQCIIGh0bY4ERhg5MWXHWhQGVF4RW7RdgSXhCYQyg0hzYE5lBMaA6hwBxaF5hDdaL211Ax8SGlaISgikZILBohmeKPRsiot69n1NtxCyazwakSap5BpjEoyDAGAxnGEGYYQxsZxlCMzZnGEO42BLrzH/6brhwml5SPCFQOE4xymEDFMIGQrrKX8FWTb/mqyTfpKntpxhUn7DH4EzNMYeAbQil8Q3COrw8i3xCM8Q3BON8QpPn6AO7WPA/Ih1Yo+SMS5UMEIx9iTTLAV00C77JNwLtk47M5s96esE+cA7uNoYQ0fRC2q59yeLqAlacLIE8XiPN0QTpV64/vujWP+X1LKBuiGNkggbJBgpENkjSk/2jn8i7ZIPWSbStPQLrez66DNH2Qm6r1wy69H1I0gQcpmgCmaAN0crOf/qLxD1rSu8TkD1JM/gARyx8gUTpAIOy6bIM01SSHhc0s/KtTkKYPAE8XgFRtgLv91mYh7Gj2m5Ka/Zikfok7bz6L5/76Ln6gn2Ty+ghkOdBH9H/ywfK0m2WbRckaP4enC0FScxC2qf31iU0vcNu1pyh++A5z+gjM6V1x5PSuHJf2r8JnL0Xjh50aP7sMktR+zo6mP7mcG/MA1+frkjX+5X0Pl237+8gjeYOrkNO7AvkDq5z/AYQEEcj1g9U1AAAAAElFTkSuQmCC"
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/7db401c6073226d127296bad75c906fc/7c3a2/toolbox_vscode.png",
+                      "srcSet": "/static/7db401c6073226d127296bad75c906fc/e8b38/toolbox_vscode.png 12w,\n/static/7db401c6073226d127296bad75c906fc/7e080/toolbox_vscode.png 24w,\n/static/7db401c6073226d127296bad75c906fc/7c3a2/toolbox_vscode.png 48w,\n/static/7db401c6073226d127296bad75c906fc/9ca7a/toolbox_vscode.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/7db401c6073226d127296bad75c906fc/fce4b/toolbox_vscode.webp 12w,\n/static/7db401c6073226d127296bad75c906fc/76c42/toolbox_vscode.webp 24w,\n/static/7db401c6073226d127296bad75c906fc/54fc7/toolbox_vscode.webp 48w,\n/static/7db401c6073226d127296bad75c906fc/a1864/toolbox_vscode.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://code.visualstudio.com",
+          "name": "vscode",
+          "sortOrder": 1
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC10lEQVQ4y+1UXUhTYRh+nXq6ECPtvm4q5+82t50zdUJ2UxSFUEKuq7SrFEqLurIQ+rmTuhEvIlCE1CAwFyQ525ps52db/mziD+ay0NUJ0/lD4vl84/sc4pTuuqsXHr6P532eh/ccznsA/r2SBf6vAmTeCu8zM8CVpoNBLh0GUgCGjh4Bf64eXLoUcHFp4EpPZT3RaADP4exdfAJpOpZBs2gqJ5mMnGQ0cP68XM6fn8fJVgsD5URDIefT53Ci0cAxbbEpSSsWFnD+XD3LoH0aOLUD3rqNvZzVkszt1u7pg1JWiuobJ8ZDIVwOBHBtehpn7t/D8ZoaXBkdxWVZZueS6MfhC+dxvqMDV0ZGMB4KJjwKrkbCqDqdSLMgYLeTjViMICKJdXWRtclJEuvpJlMNDYzbjMfJl9ZWsqVpJOyoJvFgkPGq00kWPR6yHo0y34aqkkC5nUDAXsamohWpuYrz7e0Y6+7Gifo6xq1GIujPz8NfsQUcc1TjosfN+Knbt3D28SP80d+P4SsOXI9GMWC3swm1DVXVEFGbamzUVKdTU/tek0Tg1oaqYqyne4v2w45qLR4KMe3swwfa17Y2bVmRtYn6Om1z6acWKLdroJSW4HxHOy663ThWfRk/NTfjTFMTTt+9Q41kixCyrMhE7evD4XNnce7pE1zy+XD8Wi1O3ryBn1tacLSqChc6O7ffoSzwXslo8IpFhV7ZahmSrZZBvz5nbqLuOnvc7729KBWbUCws8MsC/0EyGYeY1mL2ShQmI/WxDJoFrlTdztaMVFamigX5dOpaWeC/yQI/Lgv8jFJiC41euphBP3ZE3Ldt5YlzgK2exQxdAPAcAN4BgCfrEHw8c1onW8wHREMRJ5mLueCpCo5qfcePwUsAeJYwvwWAV9STnQUvAEAyFwMoAp+MEhsEK06CL+cEM7kPZrKVkq0WUGzCfv0e/PlHYROSThrG7jYe/ldS/QZr6h4cykHDlwAAAABJRU5ErkJggg=="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/8d6ec3810f66a00c3931e667196cab87/7c3a2/toolbox_npm.png",
+                      "srcSet": "/static/8d6ec3810f66a00c3931e667196cab87/e8b38/toolbox_npm.png 12w,\n/static/8d6ec3810f66a00c3931e667196cab87/7e080/toolbox_npm.png 24w,\n/static/8d6ec3810f66a00c3931e667196cab87/7c3a2/toolbox_npm.png 48w,\n/static/8d6ec3810f66a00c3931e667196cab87/9ca7a/toolbox_npm.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/8d6ec3810f66a00c3931e667196cab87/fce4b/toolbox_npm.webp 12w,\n/static/8d6ec3810f66a00c3931e667196cab87/76c42/toolbox_npm.webp 24w,\n/static/8d6ec3810f66a00c3931e667196cab87/54fc7/toolbox_npm.webp 48w,\n/static/8d6ec3810f66a00c3931e667196cab87/a1864/toolbox_npm.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://www.npmjs.com",
+          "name": "npm",
+          "sortOrder": 2
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEoUlEQVQ4y12VbUxTVxjHT/SLZvtmjFJKW1Gg5XWgc7yU0ntpC7YFytssLXa0hb4xiQJTGIqltiVmmZtvoBsmMrcsRnFDM6cubiQywIg6NreYLItfTPbB7MuyZVnTnv/yXGQjO8ltTs/5/373ObfnnrLDdzpYdUEmG5nrZKH3LevDs15rdNH/TuxR8HZ8KfhzfCn4W+y74F90UZ/GYo8CtylDWWKIFbYq2fCdDsZGfwyxyEInC896/bGHgaeR+S4MXm9Hz9kG+GImuN8W4OrXSRf1aYzmKENZYogdme9k8cchJlUWnvV2jMx1ovtUHRoai5JisSqh08iTlVmyVLlqE9flyHllTjqv2LKZa7NkKV2uXMpQlhhiXzgYO48Iiz0M3Nh/oRnabbK/CdQXKLjwihJCkZKLxSrsG3Ogta8KVZp0iCUqLhQpoS9USDchhlhyTCDCmHtQWBf/PvTUc7iahClxuwRIQp06He4jtYjN9aP9kybU2Iug18jx7822q0iYIpYcHYPCOnbgin1D9EHg9/YeLbTb0qgiSVallsNiK0DfTTcOfRmEc7IRTWM1MOiyoM/LICEoSwyx5CAXO3TLJTt63/en3VcKbZaMC8UqKVyVK4c9JmLfLRcGb/jgOF+PpgsWWPaW/ldlsVJiiCUHudjANefG6KL/D0d3OS1Zemb6fAXE1zLR/pEVoWk73vrCg7bz9bCdq4XtuAHCji3QFyioQokhlhzkYsF3zS/Fl4K/dgzoUZGZlqKHrs/NgHGXGo5LdfBdbcX+62/APlGHhjETGsdrYDCpQRnKEkMsOcjFqMWXgvPB42ZUZqcnhWIVpyUZG/Ow+5IVnitN2DvtxOsfWlB/2gjb2RoY6/OWl12s4sQQSw5JduzJXhZd9I8fvNpGzy6hL1JShdxgVqP5UzNcl20IfbYbrR+YUXfKgIYzJhjMGqqQU5YYYslx7MmbjB2956ON3Twy34kGW2FSp5ZzoVDJhZ1bYJswwnG5Hr6pFjSfrYX1pAHW49UQy7ZCKFRwyhJDLDki93zLb0r3Cev62MPAL7TrK7NlSbFEBb1aznf174T983q4LzXCdtoEy5gRtX2ltG2k3UBZYiT2hFV6p6m6tZGFLha+6w1EFrrQ7Nie0GbLljduWSZvmjDBNWWTlmt+T4QoZHGqjjKUJeYFK7nog53DMJvEKC3/q6GbLtToshO6XDmEPAWvNudwz8Um7BlvhN6m4WK+gus0cikzdMsFYiYRZ2f4IcnFRr7tpOrWDH/jpj2ZFl30Pzsw1QZj2VY6IFCRs5l79oi8f18rL8/exKs0GTCWb0scnJJ+iGeD15xpxIZnvWvIJQlfSNcemXGzoZuu/Oii//nAtAPWmtxEqWojbxFL0N1uwasZG3jdrvzEwLSTZM8pSwyxKx4WnqWOd5XUw4Zu7Mk+et/305EZD5w92pRYpEqadmQlnT0VKRqjOcpQdrVMWjK1lS/S2XjXu3Z4xs16J5tfjix0TUQfBND7cQt6L7bQAUCH6gTNDa9UNrdcUJiqW91G/lcp/TWMPu5mw193CNFF/3z0gX+e+qM/hBjNra6M2JX2Dxqx7HoMAolvAAAAAElFTkSuQmCC"
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/6d94149d9ae6de8473a6fc42095c164c/7c3a2/toolbox_mongo.png",
+                      "srcSet": "/static/6d94149d9ae6de8473a6fc42095c164c/e8b38/toolbox_mongo.png 12w,\n/static/6d94149d9ae6de8473a6fc42095c164c/7e080/toolbox_mongo.png 24w,\n/static/6d94149d9ae6de8473a6fc42095c164c/7c3a2/toolbox_mongo.png 48w,\n/static/6d94149d9ae6de8473a6fc42095c164c/9ca7a/toolbox_mongo.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/6d94149d9ae6de8473a6fc42095c164c/fce4b/toolbox_mongo.webp 12w,\n/static/6d94149d9ae6de8473a6fc42095c164c/76c42/toolbox_mongo.webp 24w,\n/static/6d94149d9ae6de8473a6fc42095c164c/54fc7/toolbox_mongo.webp 48w,\n/static/6d94149d9ae6de8473a6fc42095c164c/a1864/toolbox_mongo.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://www.mongodb.com",
+          "name": "mongo",
+          "sortOrder": 3
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEjUlEQVQ4y1WSa2xURRTHp7sx4YNCKKZAF7j3zJ2Ze/d1d1ebyCMYjRijMYZEjFEkSBqiRoPPSEyMn0y0kWD8QIxJC2VfPAQRKRSkAj7AlgboY7f3bh/SClRQSOSbuHvnmLl3CzjJyZ25M///+Z05Q0h9OLYgbsr0v/V5yIkb4VKkkQw33UfKRjMpNc8lA2FC3LQVdmzR4Nimr3HrmsAo9T+jBiclwm7aavD/JRgZW7VyVklremLEXPJKmTanB2YR4maipBKcD7u2CPkA/hrqZGkr5CRYuAwLyNCce8gJQsjYI8tsN2194iT5+PjjD2NlaRpHVzzojUThlJOOtp6NsXk3WuJkIm2RQyYQ1zZ9apIgTcrQpynDgrnD82e/XFo0r6cMC70Rvhgn1z6H/1RcKWu12vX2r9BNMKykTRxPW9emMtaXkxlrxTETSCVlkustFiFbmzVSSpnLHFtsczOxPyZfXIPTH7yH0x9uxskXnq2OPbrc+33jenmzu0tOta6T7tJM7Xyc17oE4FGh42CS44gteh1bbPqrxZpPhpOiMPZADB0WwUtvvY6IWKuHVDG5dg0Oz58ty7BQDi2+Xx43GX7DudwSiXhvNzZWd8FiWUmZqOJsnJ8g+wx69aTFcSjBb40/lPKm33xN/vn5Z3hty6fy8rub5MRTj+Fvq5/EK5vfwanWdViKAvYnTdljGrI/zqSbMmVfnP97kBmY12GUdGhwvF0DLAD1uhnIs3qzLGtN6CxqxPFVK/HvI4cCVM/Di8+vxkpUx4lMFN2UiadjXO43qNyugbdDA8zq8AUZSoqPTlkMd1PqdWggd1KG35omnrajWIozHE0yvLxxPV55dQO6LIIXbBO/NxkWgWL7EsCdOsjD3PDOJwQ6tmgjPSa7OJQUKqPXG+Oo0Dt1wA4NcLdh4A8mw34awT6IYLfJFYW/twuov1fX1s7EOB5gxrgquaIOqSznEtwvZSApfIoCUF+cpQw7KfPn+wyKp6Nc0WDJFnjKYnIPpZ66tnYNuhXh1v2GL6xt10DdCf4S9Z+CHz9FmcqM3zED++JBwgsJgUeFgbmgbJkH6vWYDM8nxMekN8b7lLA/zr0ubsisDlLdjaJTlINBSX70x4MrUQ1Q972XUvljlCnS2mBQ1QDJ6nB1X0B1q2QLbygp5ImgSbJdNUkHPGAY+LVBcbsGykweZIZ6KnLEFvJcglePcKOa0wE7NSiRPNC2rA6eakQxoKpdSIha2Rby1xiXB5ihTH3yI9xQ5cqyLbwzMV5ViVRCpc3pMFgA+jTJ6ZQUgZoFoG05HS6pTdUkRdEb41VlPJgUcjgpZCkpvJMWq+6h1DdRifJADxeBPtMjaENeB6IIQzkdfONdQOcUgG7IA/w8k3kvpdhjsuoxwWqqgs7gAd8oAN1WBJrJ6pQofVYHktchRAIzCOWBhutzskMDRb08D7Qjq8NNZVIva6IA9P0i0AW5ulEeaENOB1+7UxHmAucZY3+zAHRmrYy1ItA3ikBf2g303ruMlEnojj74f3vUD902qlOH7loHERg1BEZ3zs+M/wBefq88TuXLnAAAAABJRU5ErkJggg=="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/fbac36fd93edb3e3a6677dc71b2d131c/7c3a2/toolbox_redis.png",
+                      "srcSet": "/static/fbac36fd93edb3e3a6677dc71b2d131c/e8b38/toolbox_redis.png 12w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/7e080/toolbox_redis.png 24w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/7c3a2/toolbox_redis.png 48w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/9ca7a/toolbox_redis.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/fbac36fd93edb3e3a6677dc71b2d131c/fce4b/toolbox_redis.webp 12w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/76c42/toolbox_redis.webp 24w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/54fc7/toolbox_redis.webp 48w,\n/static/fbac36fd93edb3e3a6677dc71b2d131c/a1864/toolbox_redis.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://redis.io",
+          "name": "redis",
+          "sortOrder": 4
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcklEQVQ4yz2UW0wUVxjHP1y8JO1rX0x8adI+FRWF2WUB9zK7C1VQvEba2qB9sKYx0aIC2iZaL9AC4oXWXrTGJoZKvadeq41VWxF2F5bdBXZQ0cZaVuacWZiZXXDnnK+dxfZL/jnnYfLL73/O5AAAwNIWDUobNChr1LKWt2gQfWpMqW1LTf+kPTVtx6nUtLofU9Nq25LTatv0zLrph+T03sfpKd56FRy71Sz7ThV8DSpk5r1WFd5p1aDysG55t1WH97/SPasP6wOrDunSyoN6bPkBXVrWoksV+3WpolmXFjdrsfImTSpv1AaW7tc85U0alDdplor9Gqw4oAHM+UiCqm+SsKXtBdS0paavPKgPLmvR8L9U7NdwSbOG5U2TWdSo4cKGMSytH8VFDaODP312bPrrvyEUfY+ApqFYNwQVTWOWZS0arDqk1y2dBE0sadaZt15nnnqdift05tqrM+cenTl2a8zZyJijGSccjRztrVhXtT0AG6tvWDJA117MyvkUYW3ryKyKprGEaVTepLPKVo1/cUHln19QseG8yuvNnFNx7zmV1+64wbduPMOqN13E7RvbE2erNs86XVUNJ6vqsuDrkycsLSfaYdE+crSsgWJFs5b21uvYdmeM83GK6phi6KqSTqpKWh+VjZQxjkPHv+Rh6xsoibnpftdcjJQWHg0tyIVw0RwL/Ny+D349v8u2bFcMS/dQ7ts7yjcc07hMFFQUyghRkBD6f6iSMEZkgv51lTzqnM9jJXY+4LVhbLHLFitzAuAwAEbdN787dhAL6kbTvj0Eb/YkcFyjTCYUZVm+E4/H18Xj8fWyLHcTWcZEatwYun4F/QvmoVRiT0teG0qlRTfDb74GkO5euhpDXtQ6FhuLarp49XGFJ1VqEGoakVuICPF4HJ4/fw7RaPRVWZbDJlTRNCO6bSPvtedwqaTQGPQW4IMy52rA7tLHRqAUMVLMrpzeifeiGk9pxJisSCplWQZZlmcQQma83H+cAapaejjUw3vfLsY+UWCm5WCJ/THwgOchBn3Ig16GPT7Uhv2cJJKGQgkqilKZSCRAUZQZlFIzQCnd/NIw/TTYxUMlhdjntjLzHAc81ofAOsUVPOBBHvQZ6C/i45FqTqhqUEqQUnrr6tXrJjCTVDL5CqU0TGUZyZhqhDd9yCP2HD7gsxsDHiuGResKwD4fcL94DYMm1JvGriIce3IJSSLFKBkxoXcURVmrKMp6Smk3GRnBxPi4MXTpAoaK5mLMW5COeW3Y77FeGym1A7BON7D77jweEE0gYqCYp3vWcCLHkVKFUSLjpC1BQmTzGIyR+DCG1yzn/Qvm8ZivwKyKIbeQFxYFAOwRLdgtAve7jmDQ/dLShtqDo3xEMZDQUUOmqkGompblUYNOMBw8eoRHCt7K/DIxj9W8lCOPvDYY8toswO47s4wOB6TvOWbygIvwgBsx4GAsuBDl+7X82d0a/Pv3Gv7s9jb+1+2t+ORcNY+UuTDmzs/c7IAokIArb2bQlQe97vws4EG3aWfhfiewTucW7nci97smTCi/L7DkrXym3pjPRi/nssTl2WxoQw4bKBaY5LNNSKJg2m2JiQJIomCJZSqHPWD84YDkL4WgXbFP5V3Ofgy4kAdciEERud+NL+46ceLOAqTfFmLMU4CSx4qDHsG06z9TmDv1SvE8CLry4U+vDcC45wCjI2M3hXU6gXU4HLzTGeJdzgjrdEaMDkfkxe3iSOqmPfLwAyESKRIi/R4h0icKoV53viPiFiDqFqaE3PnQ7cqffLW53wXY4wYMurLM6uboV+1T1Yu2bOVUXnbi7JzsRzU52a0wO7t9eW72OWvuVPMbSRTgkcea9cRrhUzdf+cfDGUBdU0GgLkAAAAASUVORK5CYII="
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/4b24a385571a8fae8af5518887f7f35d/7c3a2/toolbox_gcp.png",
+                      "srcSet": "/static/4b24a385571a8fae8af5518887f7f35d/e8b38/toolbox_gcp.png 12w,\n/static/4b24a385571a8fae8af5518887f7f35d/7e080/toolbox_gcp.png 24w,\n/static/4b24a385571a8fae8af5518887f7f35d/7c3a2/toolbox_gcp.png 48w,\n/static/4b24a385571a8fae8af5518887f7f35d/9ca7a/toolbox_gcp.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/4b24a385571a8fae8af5518887f7f35d/fce4b/toolbox_gcp.webp 12w,\n/static/4b24a385571a8fae8af5518887f7f35d/76c42/toolbox_gcp.webp 24w,\n/static/4b24a385571a8fae8af5518887f7f35d/54fc7/toolbox_gcp.webp 48w,\n/static/4b24a385571a8fae8af5518887f7f35d/a1864/toolbox_gcp.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://cloud.google.com",
+          "name": "gcp",
+          "sortOrder": 5
+        },
+        {
+          "img": {
+            "src": {
+              "childImageSharp": {
+                "gatsbyImageData": {
+                  "layout": "constrained",
+                  "placeholder": {
+                    "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEd0lEQVQ4y11Ue0xTVxj/zn20t723t733AuVVS2mh0BbBAhaZxXYohT18RCduEpdsMP7ABeI2iCJKgmExxkSXmWEimZgxt2RxL6dmJouJG3s4xLhk2x9Llm1m/8wl8y+S0p5vObUtjy/5cr57vvP97u97nAOwLBwvkL0Op/ihp0F+4G+x/Vfik+YB4PWsnweAI8Ve6V51xPbI0yD/6SgWZ3mB7IKVQjggWdPja1aw/5wXhy5V48hHNfjaZT8+O1iKqiFM2gzhLLPZHvMNzVTjK2970dekpACgKMOIYRGSBzRCMfvDo1cD9OCFqvT+CTfte6sydXJuPQ13aalwl0ZPztWn+85Wppjv1emq1NHPA1gXt/8FALYMuRzSpt0G52mQwaLyswferMBj14LJwYvVuONQGXaPuai/2YY1ERtlNttjPnamZ9KNFpWfKvVbIBS3cyszz31U+RqVfwbO+3D0eiA9fjOItVEVAYAyDbSpePxmEMeuB1MDUz70NSqMnStXPVgjfHatlcv5hx3dxRiOaWlJ5PFJ0YlRsRBNIodNcS0d3VuA1nL+bwCoWENoGfuYOUTaJSdIPDc+KPrxihilTaDTc0oTzuud+KOewFPyBnwO1tH3hVbaTpwUCAyzcBNwhBeyBG1EADsRc3TrX5Iq8Z7RhXHJmQYCOGT14xV7FD+2R3FEDqDCC3jYFkjfMRLYIGisFFUsUARChBVZC9m1Z4/ZhY2CltosFtIztjDttXhRJQKWchYck0M4rUbodnMZPSB5UqwMALBzDUYetjQsaD+zwIhgpOf1Tnpb24o/GU9hXHTiTnN5xr6lteMdPUGjYmE6LGhYySsLAFCQx0qYSrgQbwcZ+POzaiv2W3zJUTmIc9o2/NTRlqnf85Ibe6QKvKt3Zva+1rbihFyHU7bm5HE5xFieZmhOTuLzHW4W9Lvf6R24y1yeHrL66X2jizLQa44YakRElYgZsO/1DsaU9lm89IgcSF11bEEJuNs4gY+Rbjhi5B1bM7g46ycf2J9ANycviUBwUqnP6HZTGfZKXuyzeDFhKsFhay0etFSxaNxndi+dUhqY/R7DquFVjg1QboY2V/IK7jCX01axIDPIVuDxgroxkzbTS+omZD9jvsPWAD1krUGNmNhdDq+aR4w+gjNKmLV+7jNHGy7onalu8zpaJ9jpt3oHfuHYgiw1VoKYWERPyOvpL8bTqWk1ghzAlx5Oht1mF8mgKURg6fIW4BngidPKBsZm8YYjRlkX2Zgs6J0ZZfY+s5t1mv6gJxZZSQBghI1JCWcR+NzAcMuj49koGP9etrfivJ5IRkQjzRJ4Waqk/RYfJQC4X6pI/Wo8k5xRW7BecDxgWMsvYVbEx3i573oPJ3/TIhpYxJnxBcm9NGytpaNyMP2i5El6eBm3mYpZ875ifcjVbtVl1ohp1auDNRfZMlBAzH+8q0bwvtGVacoZWxhNwP0GAL23tPZVMewKrxI3Z80fwD2Ysw0r8DNx0bnYbnL+DgDjuccUXW/kwYo4KQ/0Pzjkn8lMeV69AAAAAElFTkSuQmCC"
+                  },
+                  "images": {
+                    "fallback": {
+                      "src": "/static/48ba4ba9da9380eda979039a7ccace73/7c3a2/toolbox_raspberrypi.png",
+                      "srcSet": "/static/48ba4ba9da9380eda979039a7ccace73/e8b38/toolbox_raspberrypi.png 12w,\n/static/48ba4ba9da9380eda979039a7ccace73/7e080/toolbox_raspberrypi.png 24w,\n/static/48ba4ba9da9380eda979039a7ccace73/7c3a2/toolbox_raspberrypi.png 48w,\n/static/48ba4ba9da9380eda979039a7ccace73/9ca7a/toolbox_raspberrypi.png 96w",
+                      "sizes": "(min-width: 48px) 48px, 100vw"
+                    },
+                    "sources": [
+                      {
+                        "srcSet": "/static/48ba4ba9da9380eda979039a7ccace73/fce4b/toolbox_raspberrypi.webp 12w,\n/static/48ba4ba9da9380eda979039a7ccace73/76c42/toolbox_raspberrypi.webp 24w,\n/static/48ba4ba9da9380eda979039a7ccace73/54fc7/toolbox_raspberrypi.webp 48w,\n/static/48ba4ba9da9380eda979039a7ccace73/a1864/toolbox_raspberrypi.webp 96w",
+                        "type": "image/webp",
+                        "sizes": "(min-width: 48px) 48px, 100vw"
+                      }
+                    ]
+                  },
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          },
+          "link": "https://www.raspberrypi.org",
+          "name": "rpi",
+          "sortOrder": 6
+        }
+      ]
+    }
+  }
 }

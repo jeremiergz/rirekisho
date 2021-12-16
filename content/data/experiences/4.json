@@ -1,0 +1,31 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_capgemini.png"
+    },
+    "name": "Capgemini",
+    "sector": "IT Services",
+    "website": "https://capgemini.com"
+  },
+  "projects": [
+    {
+      "client": {
+        "name": "Airbus Defence & Space",
+        "sector": "Space Systems"
+      },
+      "description": "Web framework - Web portal",
+      "name": "NemEO - DiginEO",
+      "tasks": [
+        "<strong>Technical manager</strong> of a 3-developer team",
+        "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
+        "Maintenance of the <strong>Architectural Design Document</strong>",
+        "<strong>Deployment industrialization</strong> using Docker"
+      ],
+      "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2018-09-30",
+    "startDate": "2018-07-01"
+  }
+}

@@ -1,31 +1,18 @@
-import Text from '@primitives/Text';
 import React from 'react';
 
-const Degree: React.FC<DegreeProps> = ({ city, countryCode, name, school }) => {
+function Degree({ city, countryCode, name, school }: DegreeProps): JSX.Element {
   return (
     <>
-      <Text
-        color="primary"
-        fontSize={{ _: 18, tablet: 14 }}
-        fontWeight="bold"
-        marginY={1}
-        maxWidth={{ _: 'unset', tablet: '75%' }}
-        textAlign="center"
-        textTransform="uppercase"
-      >
+      <span className="font-bold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12">
         {name}
-      </Text>
-      <Text color="text" fontSize={{ _: 16, tablet: 12 }} fontWeight="bold" maxWidth="80%" textAlign="center">
-        {school}
-      </Text>
-      <Text color="text" fontSize={{ _: 14, tablet: 10 }} fontWeight="bold" maxWidth="80%" textAlign="center">
+      </span>
+      <span className="font-bold text-base md:text-xs text-center text-gray-900 dark:text-gray-300">{school}</span>
+      <span className="font-bold text-center text-gray-900 dark:text-gray-300 text-sm md:text-2xs">
         {city.toUpperCase()} - {countryCode}
-      </Text>
+      </span>
     </>
   );
-};
-
-Degree.displayName = 'Degree';
+}
 
 export type DegreeProps = {
   city: string;
