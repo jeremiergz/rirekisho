@@ -1,6 +1,5 @@
 import BiColoredTitle from '@/components/common/BiColoredTitle';
 import useScrollThreshold from '@/components/hooks/useScrollThreshold';
-import useStripes from '@/components/hooks/useStripes';
 import { useTheme } from '@/components/providers/ThemeProvider';
 import GoToIcon from '@/components/svgs/icons/GoTo';
 import clsx from 'clsx';
@@ -8,9 +7,8 @@ import React from 'react';
 import { blue, gray } from 'tailwindcss/colors';
 
 function Menu({ sections }: MenuProps): JSX.Element {
-  const isAbove96px = useScrollThreshold(84);
-  const isAbove168px = useScrollThreshold(147);
-  const { height, stripes } = useStripes(52);
+  const isAbove96px = useScrollThreshold(80);
+  const isAbove168px = useScrollThreshold(144);
   const { type } = useTheme();
 
   const handleScrollTo = (position: 'bottom' | 'top') => () => {
@@ -20,23 +18,13 @@ function Menu({ sections }: MenuProps): JSX.Element {
   return (
     <div
       className={clsx(
-        'flex items-center justify-center transition w-full will-change-auto z-10',
-        'fixed top-0',
+        'fixed flex h-14 items-center justify-center top-0 transition w-full will-change-auto z-10',
+        'bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark',
         'print:hidden',
         isAbove96px ? 'md:opacity-100 md:pointer-events-auto' : 'md:opacity-0 md:pointer-events-none',
         isAbove168px ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none',
       )}
-      style={{ height }}
     >
-      <div className="absolute h-full w-full -z-10">
-        {stripes.map(stripe => (
-          <div
-            className="transition-colors w-full will-change-auto"
-            key={stripe.color}
-            style={{ background: stripe.color, height: stripe.height }}
-          />
-        ))}
-      </div>
       <button
         aria-label="Scroll to top"
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"

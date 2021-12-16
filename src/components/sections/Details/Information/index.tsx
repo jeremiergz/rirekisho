@@ -5,8 +5,10 @@ import React from 'react';
 function Information({ items }: InformationProps): JSX.Element {
   return (
     <div
-      className="flex flex-1 flex-col h-full justify-center my-6 order-2 md:order-1 text-center md:text-left"
-      style={{ minWidth: 224 }}
+      className={clsx(
+        'flex flex-1 flex-col justify-center order-2 md:order-1',
+        'h-full min-w-[224px] my-6 text-center md:text-left',
+      )}
     >
       {items.map((item, index) => (
         <div className={clsx('flex flex-col', index !== items.length - 1 && 'mb-6')} key={item.label}>

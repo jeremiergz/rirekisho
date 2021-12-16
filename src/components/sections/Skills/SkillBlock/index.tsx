@@ -6,11 +6,11 @@ import Bubble from './Bubble';
 const gradeBasis = 10;
 const maxBubblesNumber = 7;
 
-function SkillBlock({ className, items, style, title, ...rest }: SkillBlockProps): JSX.Element {
+function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.Element {
   const factor = gradeBasis / maxBubblesNumber;
 
   return (
-    <div className={clsx(className, 'mb-6 w-full')} {...rest} style={{ ...style, maxWidth: 373 }}>
+    <div className={clsx(className, 'max-w-[373px] mb-6 w-full')} {...rest}>
       <Label title={title} />
       {items.map((item, index) => {
         const grade = Math.ceil(item.proficiencyLevel * factor);

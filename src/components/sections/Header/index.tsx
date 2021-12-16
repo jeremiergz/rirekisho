@@ -1,7 +1,6 @@
 import ThemeSwitch from '@/components/common/ThemeSwitch';
 import useLanguagesData from '@/components/hooks/data/useLanguagesData';
 import usePersonalDetailsData from '@/components/hooks/data/usePersonalDetailsData';
-import useStripes from '@/components/hooks/useStripes';
 import clsx from 'clsx';
 import React from 'react';
 import Language from './Language';
@@ -14,19 +13,13 @@ function Header(): JSX.Element {
     personalDetails: { fullName },
   } = usePersonalDetailsData();
 
-  const { height, stripes } = useStripes(84, 'ASC', 1.75);
-
   return (
-    <header className="box-border flex items-center justify-center relative" style={{ height }}>
-      <div className="absolute h-full w-full -z-10">
-        {stripes.map(stripe => (
-          <div
-            className="transition-colors w-full will-change-auto"
-            key={stripe.color}
-            style={{ background: stripe.color, height: stripe.height }}
-          />
-        ))}
-      </div>
+    <header
+      className={clsx(
+        'box-border flex h-36 md:h-20 items-center justify-center relative',
+        'bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark',
+      )}
+    >
       <div
         className={clsx(
           'flex items-center flex-col md:flex-row justify-center md:justify-between',

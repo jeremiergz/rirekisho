@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://cv.jeremierodriguez.com/sitemap.xml
-Host: https://cv.jeremierodriguez.com

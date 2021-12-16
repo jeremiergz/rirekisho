@@ -23,8 +23,10 @@ function isHTTPLink(link: string) {
 function Contacts({ items }: ContactsProps): JSX.Element {
   return (
     <div
-      className="flex flex-1 md:flex-col h-full justify-between max-h-8 md:max-h-full mt-6 order-3 text-center"
-      style={{ minWidth: 224 }}
+      className={clsx(
+        'flex flex-1 md:flex-col justify-between order-3 text-center',
+        'h-full max-h-8 md:max-h-full min-w-[224px] mt-6',
+      )}
     >
       {items.map((item, index) => {
         const isEven = index % 2 === 0;

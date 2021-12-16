@@ -101,7 +101,7 @@ module.exports = {
           },
         ],
         name: `${AUTHOR_NAME} | Resume`,
-        short_name: `${AUTHOR_NAME.split(' ').join('').toUpperCase()} | Resume`,
+        short_name: `${AUTHOR_NAME} | CV`,
         start_url: '/',
         theme_color: APP_COLOR,
       },
