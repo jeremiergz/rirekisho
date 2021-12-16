@@ -3,7 +3,7 @@
 exports[`pages/index Test Suite matches snapshot 1`] = `
 Array [
   <header
-    className="box-border flex items-center justify-center relative transition will-change-auto"
+    className="box-border flex items-center justify-center relative"
     style={
       Object {
         "height": 84,
@@ -14,7 +14,7 @@ Array [
       className="absolute h-full w-full -z-10"
     >
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(23, 54, 92)",
@@ -23,7 +23,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(26, 64, 100)",
@@ -32,7 +32,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(30, 74, 108)",
@@ -41,7 +41,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(33, 84, 115)",
@@ -50,7 +50,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(36, 94, 123)",
@@ -59,7 +59,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(39, 103, 131)",
@@ -68,7 +68,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(43, 113, 139)",
@@ -77,7 +77,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(46, 123, 146)",
@@ -93,14 +93,14 @@ Array [
         className="flex items-center justify-center md:justify-start"
       >
         <span
-          className="leading-8 font-title text-3xl text-white dark:text-gray-900 tracking-tighter uppercase whitespace-nowrap"
+          className="pt-1.5 text-3xl whitespace-nowrap leading-8 font-title text-white dark:text-primary tracking-tighter uppercase"
         >
           Jeremie Rodriguez
           <div
             className="absolute -bottom-3 flex left-auto justify-center right-auto max-w-7xl print:hidden"
           >
             <button
-              className="bg-clip-content h-6 relative rounded-3xl transition w-12 bg-white"
+              className="bg-clip-content hover:brightness-75 h-6 relative rounded-3xl transition w-12 bg-white"
               onClick={[Function]}
             >
               <div
@@ -137,7 +137,7 @@ Array [
                 </svg>
               </div>
               <div
-                className="absolute h-5 mx-0.5 rounded-3xl top-0.5 transition-all w-6 bg-primary translate-x-0"
+                className="absolute h-5 mx-0.5 rounded-3xl top-0.5 transition-colors w-6 bg-primary translate-x-0"
               />
             </button>
           </div>
@@ -294,7 +294,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -307,7 +307,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -320,7 +320,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -333,7 +333,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -346,7 +346,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -501,7 +501,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -514,7 +514,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -527,7 +527,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -540,7 +540,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -558,7 +558,7 @@ Array [
                     d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                   />
                   <path
-                    className="fill-white dark:fill-gray-900"
+                    className="fill-white dark:fill-primary"
                     d="M9.5,14.25L3.9160000000000004,17.186L4.982,10.968L0.465,6.564L6.708,5.657L9.5,0"
                   />
                 </g>
@@ -714,7 +714,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -727,7 +727,7 @@ Array [
                 viewBox="0 0 18 18"
               >
                 <path
-                  className="fill-white dark:fill-gray-900"
+                  className="fill-white dark:fill-primary"
                   d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                 />
               </svg>
@@ -745,7 +745,7 @@ Array [
                     d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218"
                   />
                   <path
-                    className="fill-white dark:fill-gray-900"
+                    className="fill-white dark:fill-primary"
                     d="M9.5,14.25L3.9160000000000004,17.186L4.982,10.968L0.465,6.564L6.708,5.657L9.5,0"
                   />
                 </g>
@@ -794,7 +794,7 @@ Array [
       className="absolute h-full w-full -z-10"
     >
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(23, 54, 92)",
@@ -803,7 +803,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(28, 70, 104)",
@@ -812,7 +812,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(33, 86, 117)",
@@ -821,7 +821,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(39, 101, 129)",
@@ -830,7 +830,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(44, 117, 142)",
@@ -841,11 +841,11 @@ Array [
     </div>
     <button
       aria-label="Scroll to top"
-      className="hidden 2xs:flex p-1 md:p-2 rotate-180"
+      className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={28}
         viewBox="0 0 24 24"
         width={28}
@@ -863,11 +863,11 @@ Array [
     </button>
     <button
       aria-label="Scroll to experience"
-      className="flex p-2 ml-0 mr-1"
+      className="hover:brightness-75 flex p-2 transition ml-0 mr-1"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={32}
         viewBox="0 0 24 24"
         width={32}
@@ -894,11 +894,11 @@ Array [
     </button>
     <button
       aria-label="Scroll to skills"
-      className="flex p-2 ml-1 mr-1"
+      className="hover:brightness-75 flex p-2 transition ml-1 mr-1"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={32}
         viewBox="0 0 24 24"
         width={32}
@@ -925,11 +925,11 @@ Array [
     </button>
     <button
       aria-label="Scroll to toolbox"
-      className="flex p-2 ml-1 mr-1"
+      className="hover:brightness-75 flex p-2 transition ml-1 mr-1"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={32}
         viewBox="0 0 24 24"
         width={32}
@@ -960,11 +960,11 @@ Array [
     </button>
     <button
       aria-label="Scroll to interests"
-      className="flex p-2 ml-1 mr-1"
+      className="hover:brightness-75 flex p-2 transition ml-1 mr-1"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={32}
         viewBox="0 0 24 24"
         width={32}
@@ -991,11 +991,11 @@ Array [
     </button>
     <button
       aria-label="Scroll to education"
-      className="flex p-2 ml-1 mr-0"
+      className="hover:brightness-75 flex p-2 transition ml-1 mr-0"
       onClick={[Function]}
     >
       <svg
-        className="fill-white dark:fill-gray-900"
+        className="fill-white dark:fill-primary"
         height={32}
         viewBox="0 0 24 24"
         width={32}
@@ -1022,7 +1022,7 @@ Array [
     </button>
     <button
       aria-label="Scroll to bottom"
-      className="hidden 2xs:flex p-1 md:p-2"
+      className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
       onClick={[Function]}
     >
       <svg
@@ -1121,7 +1121,7 @@ Array [
           className="flex flex-1 flex-col items-center justify-between -mt-10 md:order-2"
         >
           <div
-            className="bg-white dark:bg-gray-900 h-48 lg:h-56 relative rounded-full transition w-48 lg:w-56 will-change-auto"
+            className="bg-white dark:bg-gray-900 h-48 lg:h-56 relative rounded-full transition-colors w-48 lg:w-56 will-change-auto"
           >
             <div
               className="absolute h-40 lg:h-48 left-0 m-auto right-0 top-4 w-40 lg:w-48"
@@ -1129,92 +1129,64 @@ Array [
             <div
               className="absolute bottom-0 lg:-bottom-2 h-16 lg:h-20 right-0 lg:-right-1.5 w-16 lg:w-20"
             >
-              <div
-                className="gatsby-image-wrapper gatsby-image-wrapper-constrained"
-                data-gatsby-image-wrapper=""
-                style={
-                  Object {
-                    "backgroundColor": undefined,
-                    "display": "inline-block",
-                    "overflow": "hidden",
-                    "position": "relative",
-                    "verticalAlign": "top",
-                  }
-                }
+              <a
+                aria-label="Go to https://cloud.google.com/certification/cloud-architect"
+                className="hover:brightness-75 font-semibold text-inherit transition"
+                href="https://cloud.google.com/certification/cloud-architect"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <div
+                  className="gatsby-image-wrapper gatsby-image-wrapper-constrained"
+                  data-gatsby-image-wrapper=""
                   style={
                     Object {
-                      "display": "block",
-                      "maxWidth": 80,
+                      "backgroundColor": undefined,
+                      "display": "inline-block",
+                      "overflow": "hidden",
+                      "position": "relative",
+                      "verticalAlign": "top",
                     }
                   }
                 >
-                  <img
-                    alt=""
-                    aria-hidden="true"
-                    role="presentation"
-                    src="data:image/svg+xml;charset=utf-8,%3Csvg height='80' width='80' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+                  <div
                     style={
                       Object {
                         "display": "block",
-                        "maxWidth": "100%",
-                        "position": "static",
+                        "maxWidth": 80,
                       }
                     }
-                  />
-                </div>
-                <img
-                  alt=""
-                  aria-hidden={true}
-                  data-placeholder-image=""
-                  decoding="async"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFL0lEQVQ4y3WUaUxUZxSGLxpp/VGXRmtc2mBr0MYCMsOwCAzDzNzZ7+zDDPvuBKktKqvQIIqgNC6NUBLaaKux1fSHDUmtC9RitLRNTbEutKbYmEpFaIuKEYZ757zNNxT/NP2S8+Pe5D73Pe8538vF620cq0SjI6y+5V1OrrVwWnf2yjheqFPobX0KnXVEpjVLMo15OtHouCfTWM7KtUK53pu3MCrNwMm0lrBEo4OL44UQZxY2R2nL4OatWMMlGOw1UWmGRyq7F5urd6CuuRVlVfWoa96HysbdcBf5YfTlI1plGJZpLXkroxM5e/4mxgmT8wLHJZkcYSq7j6vcuWderNrcrbRmoLqpGSXb6qc9/hrJWlBBQq6fMkrfJn3W5qDHXyM2th0S/dtrkWJxIybd2L4iOoHjPTkzCgFwXPhiTs4L3SmCB62HDgdqWw4HDW43mqsU1NP+Mg0cWURXP1xEZ95bTQ1bU0jnyUZZbbPU0NImWnNLEMcLByMT0zmFzjqHW7dRw8WojDVJJifq9+wNFGxtpMoKAbc/WUq4OJ/wbTRwzQUM2IBvIoHe5+jqR6vI5eNRUPEONbXtl+J4K2Qas5N5yq1NUq9MtXoebW3YidKq3cHiQiWenHmB6PJaTP7+GaSpCQQlQBIJ4uTfmBzqBC4tx/3TS8nlM6Bq136Jea3Q2wbj9bZwLlZjrmMDeLNu17TR48avJ5cRLq9D4NFt/N+ZevA1cGkZLndFkDGzCP7KHVKi0Q6FzupiRvYprW68ofZI++qSCF89T0zZ7Jm+fRfjTQ0Y312LwB/DAAgEYPKXVtCF56jcr6L1KqfIGAqd9SgzckTnyUGcIZMudkYQ+qMhBSZCMHr6GGPbY/HkUAmGuo6gvvUMnorBmR9N/BZS+XFLFCVY8iSN08eG088UShp3DhKNbrp5fAlhwIkgzagL3NgO6k8CHhwIPTefuI6u7sEZYOAJ8J0cPR0RFKvzksaVyXwcZ8BpPiMXCoOLbhxbSvjRGgISAVNXUjF05xh++nMU90fHcar3Dqo7vw8BRQbs34Dz7a9SLJ9BWnc2FHrrKGv5XrrDC4UpO3ju8GuEK5EQJ/8KffR4pAfbzvuR+0UTqj+4gur3f8D1obGZwYzfAvpeRNeuGIq35ElpNg9ruY8Bz6qdXsTwGSJbWvSGU2g1QvYD08EgJsVJTAZEgCQAwdD7qRuVmD43nwoLNRRnyBRV9gwG7GB3t1yhE2DKLhaTzQ5cOx5B6FuOwOjF/6wLza7N3WNA3wJ82f46xRt9ZMzMl+J4AUkmJ888XJhgsA8rbR5Eqx2S26fDWPdLFOhZjoc320BP74CkCUCaQPDxLTwcqMb0hcX4+dNXSC2YEKdziqmCG/F6Wz9LHKaQVZ6cF5Du8IpKZyE5vDx6OyNp8PgSGv58NcZ6kjFyLgn3Tq8CG9zJtvWkdwrQZBQHN5ocbP+QYLAnMxaDhUUpdSzP2tPsPvj8WyTet0lid7usVEUdjTI6tXcNnWiJpAM7ZCHPUm3ZJOSXi/b8UtYm4vXWCqYuwWCfG4ocpc3LRafp2YAOJlvc8JSUI7Nsq8RnbRYVRp+kchWQ0pFHKfYCyZi7RfT635Js/8IUOmtFrNrEBIU9C1imMt2ZxdKXJbZTrrUMql1ZMGcXQsgpRtG2Wng3bYEtrxSW7CIkGh2Q8wLzLJkl/IZ0Yyi1nwFni+VZrMbMGXwF4TEqg0uutRxlZsfrbeMJBvuoQmfti1WbOhQ6K88tWMbJNGambG6K4HnG+AdwMm3hTwG32gAAAABJRU5ErkJggg=="
-                  style={
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "width": "100%",
-                    }
-                  }
-                />
-                <picture>
-                  <source
-                    sizes="(min-width: 80px) 80px, 100vw"
-                    srcSet="/static/fe44b5e8aa2aba2c0821e6b865e50711/4eb25/certification_gcp_cloud_architect.webp 20w,/static/fe44b5e8aa2aba2c0821e6b865e50711/3a6ff/certification_gcp_cloud_architect.webp 40w,/static/fe44b5e8aa2aba2c0821e6b865e50711/1deab/certification_gcp_cloud_architect.webp 80w,/static/fe44b5e8aa2aba2c0821e6b865e50711/c6aca/certification_gcp_cloud_architect.webp 160w"
-                    type="image/webp"
-                  />
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      role="presentation"
+                      src="data:image/svg+xml;charset=utf-8,%3Csvg height='80' width='80' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+                      style={
+                        Object {
+                          "display": "block",
+                          "maxWidth": "100%",
+                          "position": "static",
+                        }
+                      }
+                    />
+                  </div>
                   <img
-                    alt="Google Cloud - Professional Cloud Architect"
-                    data-gatsby-image-ssr=""
-                    data-main-image=""
+                    alt=""
+                    aria-hidden={true}
+                    data-placeholder-image=""
                     decoding="async"
-                    loading="eager"
-                    onLoad={[Function]}
-                    sizes="(min-width: 80px) 80px, 100vw"
-                    src="/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png"
-                    srcSet="/static/fe44b5e8aa2aba2c0821e6b865e50711/41fb7/certification_gcp_cloud_architect.png 20w,/static/fe44b5e8aa2aba2c0821e6b865e50711/996dd/certification_gcp_cloud_architect.png 40w,/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png 80w,/static/fe44b5e8aa2aba2c0821e6b865e50711/40dd2/certification_gcp_cloud_architect.png 160w"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFL0lEQVQ4y3WUaUxUZxSGLxpp/VGXRmtc2mBr0MYCMsOwCAzDzNzZ7+zDDPvuBKktKqvQIIqgNC6NUBLaaKux1fSHDUmtC9RitLRNTbEutKbYmEpFaIuKEYZ757zNNxT/NP2S8+Pe5D73Pe8538vF620cq0SjI6y+5V1OrrVwWnf2yjheqFPobX0KnXVEpjVLMo15OtHouCfTWM7KtUK53pu3MCrNwMm0lrBEo4OL44UQZxY2R2nL4OatWMMlGOw1UWmGRyq7F5urd6CuuRVlVfWoa96HysbdcBf5YfTlI1plGJZpLXkroxM5e/4mxgmT8wLHJZkcYSq7j6vcuWderNrcrbRmoLqpGSXb6qc9/hrJWlBBQq6fMkrfJn3W5qDHXyM2th0S/dtrkWJxIybd2L4iOoHjPTkzCgFwXPhiTs4L3SmCB62HDgdqWw4HDW43mqsU1NP+Mg0cWURXP1xEZ95bTQ1bU0jnyUZZbbPU0NImWnNLEMcLByMT0zmFzjqHW7dRw8WojDVJJifq9+wNFGxtpMoKAbc/WUq4OJ/wbTRwzQUM2IBvIoHe5+jqR6vI5eNRUPEONbXtl+J4K2Qas5N5yq1NUq9MtXoebW3YidKq3cHiQiWenHmB6PJaTP7+GaSpCQQlQBIJ4uTfmBzqBC4tx/3TS8nlM6Bq136Jea3Q2wbj9bZwLlZjrmMDeLNu17TR48avJ5cRLq9D4NFt/N+ZevA1cGkZLndFkDGzCP7KHVKi0Q6FzupiRvYprW68ofZI++qSCF89T0zZ7Jm+fRfjTQ0Y312LwB/DAAgEYPKXVtCF56jcr6L1KqfIGAqd9SgzckTnyUGcIZMudkYQ+qMhBSZCMHr6GGPbY/HkUAmGuo6gvvUMnorBmR9N/BZS+XFLFCVY8iSN08eG088UShp3DhKNbrp5fAlhwIkgzagL3NgO6k8CHhwIPTefuI6u7sEZYOAJ8J0cPR0RFKvzksaVyXwcZ8BpPiMXCoOLbhxbSvjRGgISAVNXUjF05xh++nMU90fHcar3Dqo7vw8BRQbs34Dz7a9SLJ9BWnc2FHrrKGv5XrrDC4UpO3ju8GuEK5EQJ/8KffR4pAfbzvuR+0UTqj+4gur3f8D1obGZwYzfAvpeRNeuGIq35ElpNg9ruY8Bz6qdXsTwGSJbWvSGU2g1QvYD08EgJsVJTAZEgCQAwdD7qRuVmD43nwoLNRRnyBRV9gwG7GB3t1yhE2DKLhaTzQ5cOx5B6FuOwOjF/6wLza7N3WNA3wJ82f46xRt9ZMzMl+J4AUkmJ888XJhgsA8rbR5Eqx2S26fDWPdLFOhZjoc320BP74CkCUCaQPDxLTwcqMb0hcX4+dNXSC2YEKdziqmCG/F6Wz9LHKaQVZ6cF5Du8IpKZyE5vDx6OyNp8PgSGv58NcZ6kjFyLgn3Tq8CG9zJtvWkdwrQZBQHN5ocbP+QYLAnMxaDhUUpdSzP2tPsPvj8WyTet0lid7usVEUdjTI6tXcNnWiJpAM7ZCHPUm3ZJOSXi/b8UtYm4vXWCqYuwWCfG4ocpc3LRafp2YAOJlvc8JSUI7Nsq8RnbRYVRp+kchWQ0pFHKfYCyZi7RfT635Js/8IUOmtFrNrEBIU9C1imMt2ZxdKXJbZTrrUMql1ZMGcXQsgpRtG2Wng3bYEtrxSW7CIkGh2Q8wLzLJkl/IZ0Yyi1nwFni+VZrMbMGXwF4TEqg0uutRxlZsfrbeMJBvuoQmfti1WbOhQ6K88tWMbJNGambG6K4HnG+AdwMm3hTwG32gAAAABJRU5ErkJggg=="
                     style={
                       Object {
-                        "backgroundColor": undefined,
                         "height": "100%",
                         "left": 0,
-                        "objectFit": undefined,
-                        "objectPosition": undefined,
-                        "opacity": 0,
                         "position": "absolute",
                         "top": 0,
-                        "transform": "translateZ(0)",
-                        "transition": "opacity 250ms linear",
                         "width": "100%",
-                        "willChange": "opacity",
                       }
                     }
                   />
-                </picture>
-                <noscript>
                   <picture>
                     <source
                       sizes="(min-width: 80px) 80px, 100vw"
@@ -1249,16 +1221,52 @@ Array [
                       }
                     />
                   </picture>
-                </noscript>
-                <script
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "const t=\\"undefined\\"!=typeof HTMLImageElement&&\\"loading\\"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll(\\"img[data-main-image]\\");for(let e of t){e.dataset.src&&(e.setAttribute(\\"src\\",e.dataset.src),e.removeAttribute(\\"data-src\\")),e.dataset.srcset&&(e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\"));const t=e.parentNode.querySelectorAll(\\"source[data-srcset]\\");for(let e of t)e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\");e.complete&&(e.style.opacity=1)}}",
+                  <noscript>
+                    <picture>
+                      <source
+                        sizes="(min-width: 80px) 80px, 100vw"
+                        srcSet="/static/fe44b5e8aa2aba2c0821e6b865e50711/4eb25/certification_gcp_cloud_architect.webp 20w,/static/fe44b5e8aa2aba2c0821e6b865e50711/3a6ff/certification_gcp_cloud_architect.webp 40w,/static/fe44b5e8aa2aba2c0821e6b865e50711/1deab/certification_gcp_cloud_architect.webp 80w,/static/fe44b5e8aa2aba2c0821e6b865e50711/c6aca/certification_gcp_cloud_architect.webp 160w"
+                        type="image/webp"
+                      />
+                      <img
+                        alt="Google Cloud - Professional Cloud Architect"
+                        data-gatsby-image-ssr=""
+                        data-main-image=""
+                        decoding="async"
+                        loading="eager"
+                        onLoad={[Function]}
+                        sizes="(min-width: 80px) 80px, 100vw"
+                        src="/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png"
+                        srcSet="/static/fe44b5e8aa2aba2c0821e6b865e50711/41fb7/certification_gcp_cloud_architect.png 20w,/static/fe44b5e8aa2aba2c0821e6b865e50711/996dd/certification_gcp_cloud_architect.png 40w,/static/fe44b5e8aa2aba2c0821e6b865e50711/4ed6d/certification_gcp_cloud_architect.png 80w,/static/fe44b5e8aa2aba2c0821e6b865e50711/40dd2/certification_gcp_cloud_architect.png 160w"
+                        style={
+                          Object {
+                            "backgroundColor": undefined,
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": undefined,
+                            "objectPosition": undefined,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "transform": "translateZ(0)",
+                            "transition": "opacity 250ms linear",
+                            "width": "100%",
+                            "willChange": "opacity",
+                          }
+                        }
+                      />
+                    </picture>
+                  </noscript>
+                  <script
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "const t=\\"undefined\\"!=typeof HTMLImageElement&&\\"loading\\"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll(\\"img[data-main-image]\\");for(let e of t){e.dataset.src&&(e.setAttribute(\\"src\\",e.dataset.src),e.removeAttribute(\\"data-src\\")),e.dataset.srcset&&(e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\"));const t=e.parentNode.querySelectorAll(\\"source[data-srcset]\\");for(let e of t)e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\");e.complete&&(e.style.opacity=1)}}",
+                      }
                     }
-                  }
-                  type="module"
-                />
-              </div>
+                    type="module"
+                  />
+                </div>
+              </a>
             </div>
           </div>
           <span
@@ -1515,7 +1523,7 @@ Array [
           className="grid gap-x-8 md:gap-x-16 grid-cols-2"
         >
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -1530,15 +1538,15 @@ Array [
               <div
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
-                <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                <a
+                  aria-label="Go to https://stack-labs.com"
+                  className="hover:brightness-75 font-semibold text-inherit transition"
+                  href="https://stack-labs.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <a
-                    aria-label="Go to https://stack-labs.com"
-                    className="hover:brightness-75 font-semibold text-inherit transition"
-                    href="https://stack-labs.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <div
+                    className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                   >
                     <div
                       className="h-6"
@@ -1674,8 +1682,8 @@ Array [
                         />
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
                 <div
                   className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5"
                 />
@@ -1801,7 +1809,7 @@ Array [
               </ul>
             </div>
             <div
-              className="bg-gray-200 h-px ml-4 my-2"
+              className="bg-gray-200 dark:bg-gray-700 h-px ml-4 my-3 w-auto md:w-9/12 lg:w-auto"
             />
             <div
               className="ml-4"
@@ -1909,7 +1917,7 @@ Array [
             </div>
           </div>
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -1925,7 +1933,7 @@ Array [
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
                 <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                 >
                   <span
                     className="text-gray-900 text-lg"
@@ -2011,7 +2019,7 @@ Array [
             </div>
           </div>
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -2026,15 +2034,15 @@ Array [
               <div
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
-                <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                <a
+                  aria-label="Go to https://sigfox.com"
+                  className="hover:brightness-75 font-semibold text-inherit transition"
+                  href="https://sigfox.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <a
-                    aria-label="Go to https://sigfox.com"
-                    className="hover:brightness-75 font-semibold text-inherit transition"
-                    href="https://sigfox.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <div
+                    className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                   >
                     <div
                       className="h-6"
@@ -2170,8 +2178,8 @@ Array [
                         />
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
                 <div
                   className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5"
                 />
@@ -2277,7 +2285,7 @@ Array [
               </ul>
             </div>
             <div
-              className="bg-gray-200 h-px ml-4 my-2"
+              className="bg-gray-200 dark:bg-gray-700 h-px ml-4 my-3 w-auto md:w-9/12 lg:w-auto"
             />
             <div
               className="ml-4"
@@ -2343,7 +2351,7 @@ Array [
             </div>
           </div>
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -2358,15 +2366,15 @@ Array [
               <div
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
-                <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                <a
+                  aria-label="Go to https://capgemini.com"
+                  className="hover:brightness-75 font-semibold text-inherit transition"
+                  href="https://capgemini.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <a
-                    aria-label="Go to https://capgemini.com"
-                    className="hover:brightness-75 font-semibold text-inherit transition"
-                    href="https://capgemini.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <div
+                    className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                   >
                     <div
                       className="h-6"
@@ -2502,8 +2510,8 @@ Array [
                         />
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
                 <div
                   className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5"
                 />
@@ -2656,7 +2664,7 @@ Array [
             </div>
           </div>
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -2671,15 +2679,15 @@ Array [
               <div
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
-                <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                <a
+                  aria-label="Go to https://c-s.fr"
+                  className="hover:brightness-75 font-semibold text-inherit transition"
+                  href="https://c-s.fr"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <a
-                    aria-label="Go to https://c-s.fr"
-                    className="hover:brightness-75 font-semibold text-inherit transition"
-                    href="https://c-s.fr"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <div
+                    className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                   >
                     <div
                       className="h-6"
@@ -2815,8 +2823,8 @@ Array [
                         />
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
                 <div
                   className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5"
                 />
@@ -2968,7 +2976,7 @@ Array [
               </ul>
             </div>
             <div
-              className="bg-gray-200 h-px ml-4 my-2"
+              className="bg-gray-200 dark:bg-gray-700 h-px ml-4 my-3 w-auto md:w-9/12 lg:w-auto"
             />
             <div
               className="ml-4"
@@ -3094,7 +3102,7 @@ Array [
             </div>
           </div>
           <div
-            className="col-span-2 lg:col-span-1 flex flex-col items-stretch justify-start mb-8"
+            className="flex flex-col items-stretch justify-start mb-8 col-span-2 lg:col-span-1"
           >
             <div
               className="flex flex-col md:flex-row items-center justify-between"
@@ -3109,15 +3117,15 @@ Array [
               <div
                 className="flex flex-row md:flex-row-reverse items-center my-2 md:my-0 font-bold min-w-fit text-secondary dark:text-secondary-dark"
               >
-                <div
-                  className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full"
+                <a
+                  aria-label="Go to https://sqli.com"
+                  className="hover:brightness-75 font-semibold text-inherit transition"
+                  href="https://sqli.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  <a
-                    aria-label="Go to https://sqli.com"
-                    className="hover:brightness-75 font-semibold text-inherit transition"
-                    href="https://sqli.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <div
+                    className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto"
                   >
                     <div
                       className="h-6"
@@ -3253,8 +3261,8 @@ Array [
                         />
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
                 <div
                   className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5"
                 />
@@ -3410,7 +3418,7 @@ Array [
       </div>
     </section>
     <section
-      className="mt-0 col-span-2 flex flex-col my-4"
+      className="mb-2 mt-0 col-span-2 flex flex-col my-4"
     >
       <div
         className="border-primary font-bold pb-0.5 text-3xl text-center md:text-left border-b-2 mb-2"
@@ -3427,7 +3435,7 @@ Array [
         </span>
       </div>
       <div
-        className="lg:justify-center flex md:flex-row md:flex-wrap items-center md:items-start w-full flex-col"
+        className="justify-center flex md:flex-row md:flex-wrap items-center md:items-start w-full flex-col"
       >
         <div
           className="mx-4 lg:ml-0 mb-6 w-full"
@@ -3966,7 +3974,7 @@ Array [
       </div>
     </section>
     <section
-      className="col-span-2 flex flex-col my-4 md:col-span-1"
+      className="mt-0 col-span-2 flex flex-col my-4 md:col-span-1"
     >
       <div
         className="border-primary font-bold pb-0.5 text-3xl text-center md:text-left border-b-2 mb-2"
@@ -3989,11 +3997,11 @@ Array [
           className="flex items-center flex-wrap justify-center lg:justify-between max-w-md w-full"
         >
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://code.visualstudio.com"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://code.visualstudio.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -4136,19 +4144,19 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                vscode
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              vscode
-            </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://www.npmjs.com"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://www.npmjs.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -4291,19 +4299,19 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                npm
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              npm
-            </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://www.mongodb.com"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://www.mongodb.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -4446,19 +4454,19 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                mongo
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              mongo
-            </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://redis.io"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://redis.io"
               rel="noopener noreferrer"
               target="_blank"
@@ -4601,19 +4609,19 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                redis
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              redis
-            </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://cloud.google.com"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://cloud.google.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -4756,19 +4764,19 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                gcp
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              gcp
-            </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <a
               aria-label="Go to https://www.raspberrypi.org"
-              className="hover:brightness-75 font-semibold text-inherit transition"
+              className="flex flex-col hover:brightness-75 font-semibold text-inherit transition"
               href="https://www.raspberrypi.org"
               rel="noopener noreferrer"
               target="_blank"
@@ -4911,18 +4919,18 @@ Array [
                   </div>
                 </div>
               </div>
+              <span
+                className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
+              >
+                rpi
+              </span>
             </a>
-            <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
-            >
-              rpi
-            </span>
           </div>
         </div>
       </div>
     </section>
     <section
-      className="col-span-2 flex flex-col my-4 md:col-span-1"
+      className="mt-0 col-span-2 flex flex-col my-4 md:col-span-1"
     >
       <div
         className="border-primary font-bold pb-0.5 text-3xl text-center md:text-left border-b-2 mb-2"
@@ -4945,7 +4953,7 @@ Array [
           className="flex items-center flex-wrap justify-center lg:justify-between max-w-md w-full"
         >
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -4963,13 +4971,13 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               coding
             </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -4987,13 +4995,13 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               tech
             </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -5011,13 +5019,13 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               sports
             </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -5035,13 +5043,13 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               movies
             </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -5059,13 +5067,13 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               music
             </span>
           </div>
           <div
-            className="flex flex-1 lg:flex-initial flex-col items-center justify-center"
+            className="flex flex-1 lg:flex-initial flex-col items-center justify-center text-center"
           >
             <div
               className="h-10 sm:h-12 text-center w-10 sm:w-12"
@@ -5083,7 +5091,7 @@ Array [
               </svg>
             </div>
             <span
-              className="font-bold text-gray-900 dark:text-gray-300 text-xs"
+              className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs"
             >
               nature
             </span>
@@ -5120,7 +5128,7 @@ Array [
             2008
           </span>
           <div
-            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition w-5 will-change-auto"
+            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition-colors w-5 will-change-auto"
           />
           <svg
             className="absolute hidden md:block left-0 stroke-primary dark:stroke-primary-dark -top-1.5 w-full -z-10"
@@ -5134,7 +5142,7 @@ Array [
             />
           </svg>
           <span
-            className="font-bold text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
+            className="font-bold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
           >
             Intermediate Japanese Certificate
           </span>
@@ -5160,7 +5168,7 @@ Array [
             2010
           </span>
           <div
-            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition w-5 will-change-auto"
+            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition-colors w-5 will-change-auto"
           />
           <svg
             className="absolute hidden md:block left-0 stroke-primary dark:stroke-primary-dark -top-1.5 w-full -z-10"
@@ -5185,7 +5193,7 @@ Array [
             />
           </svg>
           <span
-            className="font-bold text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
+            className="font-bold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
           >
             Japanese Language Bachelor Degree
           </span>
@@ -5214,7 +5222,7 @@ Array [
             2012
           </span>
           <div
-            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition w-5 will-change-auto"
+            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition-colors w-5 will-change-auto"
           />
           <svg
             className="absolute hidden md:block left-0 stroke-primary dark:stroke-primary-dark -top-1.5 w-full -z-10"
@@ -5239,7 +5247,7 @@ Array [
             />
           </svg>
           <span
-            className="font-bold text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
+            className="font-bold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
           >
             Import-Export Degree
           </span>
@@ -5268,7 +5276,7 @@ Array [
             2016
           </span>
           <div
-            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition w-5 will-change-auto"
+            className="box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full h-5 hidden md:block transition-colors w-5 will-change-auto"
           />
           <svg
             className="absolute hidden md:block left-0 stroke-primary dark:stroke-primary-dark -top-1.5 w-full -z-10"
@@ -5282,7 +5290,7 @@ Array [
             />
           </svg>
           <span
-            className="font-bold text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
+            className="font-bold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12"
           >
             Computer Programming Bachelor Degree
           </span>
@@ -5318,7 +5326,7 @@ Array [
       className="absolute w-full -z-10"
     >
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(49, 133, 154)",
@@ -5327,7 +5335,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(47, 126, 149)",
@@ -5336,7 +5344,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(45, 120, 144)",
@@ -5345,7 +5353,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(43, 113, 139)",
@@ -5354,7 +5362,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(40, 107, 133)",
@@ -5363,7 +5371,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(38, 100, 128)",
@@ -5372,7 +5380,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(36, 94, 123)",
@@ -5381,7 +5389,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(34, 87, 118)",
@@ -5390,7 +5398,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(32, 80, 113)",
@@ -5399,7 +5407,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(30, 74, 108)",
@@ -5408,7 +5416,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(27, 67, 102)",
@@ -5417,7 +5425,7 @@ Array [
         }
       />
       <div
-        className="w-full"
+        className="transition-colors w-full will-change-auto"
         style={
           Object {
             "background": "rgb(25, 61, 97)",
@@ -5433,7 +5441,7 @@ Array [
         className="flex items-center xs:mb-2 md:mb-0 xs:mx-0 md:mx-4"
       >
         <span
-          className="font-semibold mr-1 text-sm text-white dark:text-gray-900"
+          className="font-semibold mr-1 text-sm text-white dark:text-primary"
         >
           Made with
         </span>
@@ -5459,7 +5467,7 @@ Array [
           />
         </svg>
         <span
-          className="font-semibold ml-1 text-sm text-white dark:text-gray-900"
+          className="font-semibold ml-1 text-sm text-white dark:text-primary"
         >
           using
         </span>
@@ -5483,7 +5491,7 @@ Array [
       className="flex flex-col items-center justify-center"
     >
       <span
-        className="font-semibold text-xs text-gray-300 dark:text-gray-800"
+        className="font-semibold text-xs text-gray-300 dark:text-primary"
       >
         rirekisho v20.08.43
       </span>
@@ -5494,7 +5502,7 @@ Array [
         target="_blank"
       >
         <span
-          className="border-b border-dotted border-gray-400 dark:border-gray-700 text-2xs text-gray-400 dark:text-gray-700"
+          className="border-b border-dotted border-gray-400 dark:border-gray-800 text-2xs text-gray-400 dark:text-gray-800"
         >
           source code
         </span>
