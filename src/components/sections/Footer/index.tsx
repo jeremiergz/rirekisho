@@ -1,6 +1,7 @@
 import Anchor from '@/components/common/Anchor';
 import useFooterData from '@/components/hooks/data/useFooterData';
 import useStripes from '@/components/hooks/useStripes';
+import { useTheme } from '@/components/providers/ThemeProvider';
 import HeartIcon from '@/components/svgs/icons/Heart';
 import clsx from 'clsx';
 import { StaticImage } from 'gatsby-plugin-image';
@@ -13,6 +14,7 @@ function Footer(): JSX.Element {
     },
   } = useFooterData();
   const { height, stripes } = useStripes(126, 'DESC', 1.25);
+  const { type } = useTheme();
 
   const appDetails = `${name.toLowerCase()} v${version}`;
   const sourceCodeURL = `${repositoryURL}/tree/${version}`;
@@ -41,19 +43,19 @@ function Footer(): JSX.Element {
           <Anchor className="mr-2" external href="https://gatsbyjs.com">
             <StaticImage
               alt="Go to gatsbyjs.com"
-              className="inline-block dark:hidden"
               height={56}
               placeholder="blurred"
               quality={100}
               src="../../../../content/assets/tech_gatsby.png"
+              style={{ display: type === 'light' ? 'inline-block' : 'none' }}
             />
             <StaticImage
               alt="Go to gatsbyjs.com"
-              className="hidden dark:inline-block"
               height={56}
               placeholder="blurred"
               quality={100}
               src="../../../../content/assets/tech_gatsby_dark.png"
+              style={{ display: type === 'light' ? 'none' : 'inline-block' }}
             />
           </Anchor>
           <Anchor className="ml-2" external href="https://tailwindcss.com">
@@ -64,14 +66,15 @@ function Footer(): JSX.Element {
               placeholder="blurred"
               quality={100}
               src="../../../../content/assets/tech_tailwindcss.png"
+              style={{ display: type === 'light' ? 'inline-block' : 'none' }}
             />
             <StaticImage
               alt="Go to tailwindcss.com"
-              className="hidden dark:inline-block"
               height={56}
               placeholder="blurred"
               quality={100}
               src="../../../../content/assets/tech_tailwindcss_dark.png"
+              style={{ display: type === 'light' ? 'none' : 'inline-block' }}
             />
           </Anchor>
         </div>
