@@ -31,7 +31,7 @@
     "build": "run-s clean build:compile",
     "build:compile": "gatsby build",
     "clean": "rimraf .cache/ coverage/ package/ public/ rirekisho-*.tgz *.tsbuildinfo",
-    "deploy": "gh-pages --dist out --repo https://${GH_TOKEN}@github.com/jeremiergz/rirekisho.git",
+    "deploy": "gh-pages --dist public --repo https://${GH_TOKEN}@github.com/jeremiergz/rirekisho.git",
     "lint": "run-p lint:eslint lint:tsc",
     "lint:eslint": "eslint --ext ts,tsx src",
     "lint:tsc": "tsc --noEmit",
