@@ -3,89 +3,8 @@
 exports[`pages/index Test Suite matches snapshot 1`] = `
 Array [
   <header
-    className="box-border flex items-center justify-center relative"
-    style={
-      Object {
-        "height": 84,
-      }
-    }
+    className="box-border flex h-36 md:h-20 items-center justify-center relative bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark"
   >
-    <div
-      className="absolute h-full w-full -z-10"
-    >
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(23, 54, 92)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(26, 64, 100)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(30, 74, 108)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(33, 84, 115)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(36, 94, 123)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(39, 103, 131)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(43, 113, 139)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(46, 123, 146)",
-            "height": 10.5,
-          }
-        }
-      />
-    </div>
     <div
       className="flex items-center flex-col md:flex-row justify-center md:justify-between px-6 md:px-8 lg:px-10 max-w-7xl w-full"
     >
@@ -783,62 +702,8 @@ Array [
     </div>
   </header>,
   <div
-    className="flex items-center justify-center transition w-full will-change-auto z-10 fixed top-0 print:hidden md:opacity-0 md:pointer-events-none opacity-0 pointer-events-none"
-    style={
-      Object {
-        "height": 52,
-      }
-    }
+    className="fixed flex h-14 items-center justify-center top-0 transition w-full will-change-auto z-10 bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark print:hidden md:opacity-0 md:pointer-events-none opacity-0 pointer-events-none"
   >
-    <div
-      className="absolute h-full w-full -z-10"
-    >
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(23, 54, 92)",
-            "height": 10.4,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(28, 70, 104)",
-            "height": 10.4,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(33, 86, 117)",
-            "height": 10.4,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(39, 101, 129)",
-            "height": 10.4,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(44, 117, 142)",
-            "height": 10.4,
-          }
-        }
-      />
-    </div>
     <button
       aria-label="Scroll to top"
       className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"
@@ -1053,12 +918,7 @@ Array [
         className="flex md:flex-row md:flex-wrap items-center md:items-start w-full flex-col"
       >
         <div
-          className="flex flex-1 flex-col h-full justify-center my-6 order-2 md:order-1 text-center md:text-left"
-          style={
-            Object {
-              "minWidth": 224,
-            }
-          }
+          className="flex flex-1 flex-col justify-center order-2 md:order-1 h-full min-w-[224px] my-6 text-center md:text-left"
         >
           <div
             className="flex flex-col mb-6"
@@ -1276,12 +1136,7 @@ Array [
           </span>
         </div>
         <div
-          className="flex flex-1 md:flex-col h-full justify-between max-h-8 md:max-h-full mt-6 order-3 text-center"
-          style={
-            Object {
-              "minWidth": 224,
-            }
-          }
+          className="flex flex-1 md:flex-col justify-between order-3 text-center h-full max-h-8 md:max-h-full min-w-[224px] mt-6"
         >
           <div
             className="flex leading-3 items-center justify-center md:justify-end mx-2 md:mx-0 md:mb-5"
@@ -1705,12 +1560,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -1735,12 +1585,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -1765,12 +1610,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -1818,12 +1658,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -1848,12 +1683,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -1872,12 +1702,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -1962,12 +1787,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -2201,12 +2021,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -2231,12 +2046,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -2294,12 +2104,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -2318,12 +2123,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -2533,12 +2333,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -2563,12 +2358,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -2593,12 +2383,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -2846,12 +2631,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -2876,12 +2656,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -2906,12 +2681,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -2985,12 +2755,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -3015,12 +2780,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -3045,12 +2805,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -3284,12 +3039,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Client
                   :
@@ -3314,12 +3064,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Project
                   :
@@ -3338,12 +3083,7 @@ Array [
                 className="flex"
               >
                 <span
-                  className="font-bold text-gray-600 dark:text-gray-500"
-                  style={
-                    Object {
-                      "minWidth": 80,
-                    }
-                  }
+                  className="font-bold min-w-[80px] text-gray-600 dark:text-gray-500"
                 >
                   Techs
                   :
@@ -3438,12 +3178,7 @@ Array [
         className="justify-center flex md:flex-row md:flex-wrap items-center md:items-start w-full flex-col"
       >
         <div
-          className="mx-4 lg:ml-0 mb-6 w-full"
-          style={
-            Object {
-              "maxWidth": 373,
-            }
-          }
+          className="mx-4 lg:ml-0 max-w-[373px] mb-6 w-full"
         >
           <label
             className="font-bold mb-1 text-secondary dark:text-secondary-dark text-sm uppercase"
@@ -3616,12 +3351,7 @@ Array [
           </div>
         </div>
         <div
-          className="mx-4 mb-6 w-full"
-          style={
-            Object {
-              "maxWidth": 373,
-            }
-          }
+          className="mx-4 max-w-[373px] mb-6 w-full"
         >
           <label
             className="font-bold mb-1 text-secondary dark:text-secondary-dark text-sm uppercase"
@@ -3794,12 +3524,7 @@ Array [
           </div>
         </div>
         <div
-          className="mx-4 lg:mr-0 mb-6 w-full"
-          style={
-            Object {
-              "maxWidth": 373,
-            }
-          }
+          className="mx-4 lg:mr-0 max-w-[373px] mb-6 w-full"
         >
           <label
             className="font-bold mb-1 text-secondary dark:text-secondary-dark text-sm uppercase"
@@ -5314,126 +5039,8 @@ Array [
     </section>
   </main>,
   <footer
-    className="flex flex-col items-center justify-center mt-4 relative text-white print:hidden"
-    style={
-      Object {
-        "contentVisibility": "auto",
-        "height": 126,
-      }
-    }
+    className="flex flex-col h-40 md:h-32 items-center justify-center mt-4 relative text-white bg-gradient-to-b from-secondary to-primary dark:from-secondary-dark dark:to-primary-dark print:hidden"
   >
-    <div
-      className="absolute w-full -z-10"
-    >
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(49, 133, 154)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(47, 126, 149)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(45, 120, 144)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(43, 113, 139)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(40, 107, 133)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(38, 100, 128)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(36, 94, 123)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(34, 87, 118)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(32, 80, 113)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(30, 74, 108)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(27, 67, 102)",
-            "height": 10.5,
-          }
-        }
-      />
-      <div
-        className="transition-colors w-full will-change-auto"
-        style={
-          Object {
-            "background": "rgb(25, 61, 97)",
-            "height": 10.5,
-          }
-        }
-      />
-    </div>
     <div
       className="flex xs:flex-col md:flex-row items-center justify-center xs:mb-4 md:mb-4"
     >
