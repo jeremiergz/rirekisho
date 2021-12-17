@@ -21,7 +21,7 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
         return (
           <div className={clsx('flex items-center justify-between', isLast || 'mb-2')} key={item.name}>
             <span className="font-bold text-lg text-gray-900 dark:text-gray-300 mr-6">{item.name}</span>
-            <span className="font-bold sm:hidden leading-4 text-secondary text-xl">
+            <span className="font-bold sm:hidden leading-4 text-secondary dark:text-secondary-dark text-xl">
               {grade}/{gradeBasis}
             </span>
             <div className="hidden sm:flex items-center">

@@ -17,7 +17,7 @@ function ThemeSwitch(props: ThemeSwitchProps): JSX.Element {
       {...props}
     >
       <div className="absolute flex items-center justify-between pr-0.5 top-0.5 w-full">
-        <DarkIcon fill="white" height={20} width={20} />
+        <DarkIcon className="fill-gray-100" height={20} width={20} />
         <LightIcon height={17} width={17} />
       </div>
       <div

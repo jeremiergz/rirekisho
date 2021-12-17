@@ -25,7 +25,7 @@ function Footer(): JSX.Element {
     <footer
       className={clsx(
         'flex flex-col h-40 md:h-32 items-center justify-center mt-4 relative text-white',
-        'bg-gradient-to-b from-secondary to-primary dark:from-secondary-dark dark:to-primary-dark',
+        'bg-gradient-to-b from-secondary to-primary dark:from-secondary-dark dark:via-primary-dark dark:to-primary',
         'print:hidden',
       )}
     >
@@ -53,11 +53,9 @@ function Footer(): JSX.Element {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <span className="font-semibold text-xs text-gray-300 dark:text-primary">{appDetails}</span>
+        <span className="font-semibold text-xs text-gray-300 dark:text-gray-300">{appDetails}</span>
         <Anchor className="leading-3" external href={sourceCodeURL}>
-          <span className="border-b border-dotted border-gray-400 dark:border-gray-800 text-2xs text-gray-400 dark:text-gray-800">
-            source code
-          </span>
+          <span className="border-b border-dotted border-gray-400 text-2xs text-gray-400">source code</span>
         </Anchor>
       </div>
     </footer>

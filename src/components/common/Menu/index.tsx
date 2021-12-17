@@ -16,7 +16,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
     <div
       className={clsx(
         'fixed flex h-14 items-center justify-center top-0 transition w-full will-change-auto z-10',
-        'bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark',
+        'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
         'print:hidden',
         isAbove96px ? 'md:opacity-100 md:pointer-events-auto' : 'md:opacity-0 md:pointer-events-none',
         isAbove168px ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none',
@@ -55,7 +55,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
             <s.Icon className="fill-white dark:fill-primary" />
             <BiColoredTitle
               className="hidden md:block leading-relaxed ml-2 text-lg"
-              primaryColor="text-gray-900 dark:text-gray-300"
+              primaryColor="text-gray-900 dark:text-gray-100"
               secondaryColor="text-white dark:text-primary"
               title={s.title}
               variant="no-border"

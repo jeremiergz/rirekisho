@@ -17,7 +17,7 @@ function Header(): JSX.Element {
     <header
       className={clsx(
         'box-border flex h-36 md:h-20 items-center justify-center relative',
-        'bg-gradient-to-b from-primary to-secondary dark:from-primary-dark dark:to-secondary-dark',
+        'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
       )}
     >
       <div
@@ -31,7 +31,7 @@ function Header(): JSX.Element {
           <span
             className={clsx(
               'pt-1.5 text-3xl whitespace-nowrap',
-              'leading-8 font-title text-white dark:text-primary tracking-tighter uppercase',
+              'leading-8 font-title text-gray-100 tracking-tighter uppercase',
             )}
           >
             {fullName}
