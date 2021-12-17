@@ -39,7 +39,7 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
         <div
           className={clsx(
             'flex flex-row md:flex-row-reverse items-center my-2 md:my-0',
-            'font-bold min-w-fit text-secondary dark:text-secondary-dark',
+            'font-semibold min-w-fit text-secondary dark:text-secondary-dark',
           )}
         >
           <Conditional

@@ -25,16 +25,18 @@ if (isBrowser) {
 
 const ThemeContext = createContext<{
   colors: typeof colors & { primary: string; secondary: string };
-  setType(type: ThemeType): void;
+  toggle(): void;
   type: ThemeType;
 }>({
   colors,
-  setType: () => {},
+  toggle: () => {},
   type: 'light',
 });
 
 function ThemeProvider({ children }: ThemeProviderProps): JSX.Element {
   const [type, setType] = useState<ThemeType>(initialThemeType);
+
+  const toggle = () => setType(type === 'light' ? 'dark' : 'light');
 
   useEffect(() => {
     if (isBrowser) {
@@ -47,7 +49,7 @@ function ThemeProvider({ children }: ThemeProviderProps): JSX.Element {
     }
   }, [type]);
 
-  return <ThemeContext.Provider value={{ colors, setType, type }}>{children}</ThemeContext.Provider>;
+  return <ThemeContext.Provider value={{ colors, toggle, type }}>{children}</ThemeContext.Provider>;
 }
 
 ThemeProvider.displayName = 'ThemeProvider';

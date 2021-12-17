@@ -5,15 +5,13 @@ import clsx from 'clsx';
 import React from 'react';
 
 function ThemeSwitch(props: ThemeSwitchProps): JSX.Element {
-  const { setType, type } = useTheme();
-
-  const handleToggle = () => (type === 'light' ? setType('dark') : setType('light'));
+  const { toggle: handleToggle } = useTheme();
 
   return (
     <button
       className={clsx(
-        'bg-clip-content hover:brightness-75 h-6 relative rounded-3xl transition w-12',
-        type === 'light' ? 'bg-white' : 'bg-gray-900',
+        'h-6 relative rounded-3xl transition w-12',
+        'bg-white dark:bg-gray-900 hover:brightness-75 transition',
       )}
       onClick={handleToggle}
       {...props}
@@ -25,7 +23,7 @@ function ThemeSwitch(props: ThemeSwitchProps): JSX.Element {
       <div
         className={clsx(
           'absolute h-5 mx-0.5 rounded-3xl top-0.5 transition-colors w-6',
-          type === 'light' ? 'bg-primary translate-x-0' : 'bg-primary-dark translate-x-5',
+          'bg-primary translate-x-0 dark:bg-primary-dark dark:translate-x-5',
         )}
       />
     </button>

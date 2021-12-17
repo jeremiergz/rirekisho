@@ -1,15 +1,12 @@
 import BiColoredTitle from '@/components/common/BiColoredTitle';
 import useScrollThreshold from '@/components/hooks/useScrollThreshold';
-import { useTheme } from '@/components/providers/ThemeProvider';
 import GoToIcon from '@/components/svgs/icons/GoTo';
 import clsx from 'clsx';
 import React from 'react';
-import { blue, gray } from 'tailwindcss/colors';
 
 function Menu({ sections }: MenuProps): JSX.Element {
   const isAbove96px = useScrollThreshold(80);
   const isAbove168px = useScrollThreshold(144);
-  const { type } = useTheme();
 
   const handleScrollTo = (position: 'bottom' | 'top') => () => {
     window.scrollTo({ behavior: 'smooth', top: position === 'top' ? 0 : document.body.clientHeight });
@@ -58,8 +55,8 @@ function Menu({ sections }: MenuProps): JSX.Element {
             <s.Icon className="fill-white dark:fill-primary" />
             <BiColoredTitle
               className="hidden md:block leading-relaxed ml-2 text-lg"
-              primaryColor={type === 'dark' ? 'text-gray-300' : 'text-gray-900'}
-              secondaryColor={type === 'dark' ? 'text-primary' : 'text-white'}
+              primaryColor="text-gray-900 dark:text-gray-300"
+              secondaryColor="text-white dark:text-primary"
               title={s.title}
               variant="no-border"
             />
@@ -71,7 +68,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
         onClick={handleScrollTo('bottom')}
       >
-        <GoToIcon fill={type === 'dark' ? gray[900] : blue[200]} height={28} width={28} />
+        <GoToIcon className="fill-white dark:fill-gray-900" height={28} width={28} />
       </button>
     </div>
   );

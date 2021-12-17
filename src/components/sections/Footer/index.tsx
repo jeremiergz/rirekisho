@@ -3,63 +3,23 @@ import useFooterData from '@/components/hooks/data/useFooterData';
 import { useTheme } from '@/components/providers/ThemeProvider';
 import HeartIcon from '@/components/svgs/icons/Heart';
 import clsx from 'clsx';
-import { StaticImage } from 'gatsby-plugin-image';
-import React, { useMemo } from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import React from 'react';
 
 function Footer(): JSX.Element {
   const {
+    gatsbyjs,
+    gatsbyjsDark,
     site: {
       siteMetadata: { name, repositoryURL, version },
     },
+    tailwindcss,
+    tailwindcssDark,
   } = useFooterData();
   const { type } = useTheme();
 
   const appDetails = `${name.toLowerCase()} v${version}`;
   const sourceCodeURL = `${repositoryURL}/tree/${version}`;
-
-  const GatsbyLogo = useMemo(
-    () =>
-      type === 'light' ? (
-        <StaticImage
-          alt="Go to gatsbyjs.com"
-          height={56}
-          placeholder="blurred"
-          quality={100}
-          src="../../../../content/assets/tech_gatsby.png"
-        />
-      ) : (
-        <StaticImage
-          alt="Go to gatsbyjs.com"
-          height={56}
-          placeholder="blurred"
-          quality={100}
-          src="../../../../content/assets/tech_gatsby_dark.png"
-        />
-      ),
-    [],
-  );
-
-  const TailwindCSSLogo = useMemo(
-    () =>
-      type === 'light' ? (
-        <StaticImage
-          alt="Go to gatsbyjs.com"
-          height={56}
-          placeholder="blurred"
-          quality={100}
-          src="../../../../content/assets/tech_tailwindcss.png"
-        />
-      ) : (
-        <StaticImage
-          alt="Go to gatsbyjs.com"
-          height={56}
-          placeholder="blurred"
-          quality={100}
-          src="../../../../content/assets/tech_tailwindcss_dark.png"
-        />
-      ),
-    [],
-  );
 
   return (
     <footer
@@ -77,10 +37,18 @@ function Footer(): JSX.Element {
         </div>
         <div>
           <Anchor className="mr-2" external href="https://gatsbyjs.com">
-            {GatsbyLogo}
+            <GatsbyImage
+              alt="Go to gatsbyjs.com"
+              className="h-14 w-14"
+              image={getImage(type === 'light' ? gatsbyjs.childImageSharp : gatsbyjsDark.childImageSharp)}
+            />
           </Anchor>
           <Anchor className="ml-2" external href="https://tailwindcss.com">
-            {TailwindCSSLogo}
+            <GatsbyImage
+              alt="Go to tailwindcss.com"
+              className="h-14 w-14"
+              image={getImage(type === 'light' ? tailwindcss.childImageSharp : tailwindcssDark.childImageSharp)}
+            />
           </Anchor>
         </div>
       </div>

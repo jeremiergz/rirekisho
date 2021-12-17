@@ -7,6 +7,10 @@ declare module Models {
     website: string;
   };
 
+  type ChildImage = {
+    childImageSharp: import('gatsby-plugin-image').IGatsbyImageData;
+  };
+
   type Degree = {
     city: string;
     countryCode: string;
