@@ -68,7 +68,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
         onClick={handleScrollTo('bottom')}
       >
-        <GoToIcon className="fill-white dark:fill-gray-900" height={28} width={28} />
+        <GoToIcon className="fill-white dark:fill-primary" height={28} width={28} />
       </button>
     </div>
   );
