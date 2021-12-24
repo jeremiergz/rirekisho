@@ -34,7 +34,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
           if (typeof s.ref !== 'string') {
             window.scrollTo({
               behavior: 'smooth',
-              top: s.ref.current.offsetTop - 48,
+              top: s.ref.current.offsetTop - 56, // Tailwind's h-14
             });
           }
         };
