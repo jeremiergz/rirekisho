@@ -5,8 +5,8 @@ const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(function 
   {
     className,
     onClick,
-    primaryColor = 'text-secondary dark:text-secondary-dark',
-    secondaryColor = 'text-primary dark:text-primary-dark',
+    primaryClassName = 'text-secondary dark:text-secondary-dark',
+    secondaryClassName = 'text-primary dark:text-primary-dark',
     title,
     variant,
     ...rest
@@ -27,15 +27,15 @@ const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(function 
       ref={ref}
       {...rest}
     >
-      <span className={primaryColor}>{firstThreeChars}</span>
-      <span className={secondaryColor}>{remainingChars}</span>
+      <span className={primaryClassName}>{firstThreeChars}</span>
+      <span className={secondaryClassName}>{remainingChars}</span>
     </div>
   );
 });
 
 export type BiColoredTitleProps = React.ComponentPropsWithRef<'div'> & {
-  primaryColor?: string;
-  secondaryColor?: string;
+  primaryClassName?: string;
+  secondaryClassName?: string;
   title: string;
   variant?: 'no-border';
 };

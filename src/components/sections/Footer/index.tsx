@@ -22,16 +22,16 @@ function Footer(): JSX.Element {
   return (
     <footer
       className={clsx(
-        'flex flex-col h-40 md:h-32 items-center justify-center mt-4 relative text-white',
+        'flex flex-col h-40 md:h-32 items-center justify-center mt-4 relative text-gray-100',
         'bg-gradient-to-b from-secondary to-primary dark:from-secondary-dark dark:via-primary-dark dark:to-primary',
         'print:hidden',
       )}
     >
       <div className="flex xs:flex-col md:flex-row items-center justify-center xs:mb-4 md:mb-4">
         <div className="flex items-center xs:mb-2 md:mb-0 xs:mx-0 md:mx-4">
-          <span className="font-semibold mr-1 text-sm text-white dark:text-primary">Made with</span>
+          <span className="font-semibold mr-1 text-sm text-gray-100 dark:text-primary">Made with</span>
           <HeartIcon height={14} width={14} />
-          <span className="font-semibold ml-1 text-sm text-white dark:text-primary">using</span>
+          <span className="font-semibold ml-1 text-sm text-gray-100 dark:text-primary">using</span>
         </div>
         <div>
           <Anchor className="mr-2" external href="https://gatsbyjs.com">

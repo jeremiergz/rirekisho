@@ -38,7 +38,7 @@ function LabeledIconsBlock({ items }: LabeledIconsBlockProps): JSX.Element {
         return (
           <LabeledIcon key={item.name} link={item.link} name={item.name}>
             <div className="h-10 sm:h-12 text-center w-10 sm:w-12">
-              {Icon && <Icon className="fill-gray-900 dark:fill-white h-full w-full" />}
+              {Icon && <Icon className="fill-gray-900 dark:fill-gray-100 h-full w-full" />}
             </div>
           </LabeledIcon>
         );

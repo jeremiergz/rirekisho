@@ -28,14 +28,14 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"
         onClick={handleScrollTo('top')}
       >
-        <GoToIcon className="fill-white dark:fill-primary" height={28} width={28} />
+        <GoToIcon className="fill-gray-100 dark:fill-gray-900" height={28} width={28} />
       </button>
-      {sections.map((s, i) => {
+      {sections.map((section, i) => {
         const handleClick = () => {
-          if (typeof s.ref !== 'string') {
+          if (typeof section.ref !== 'string') {
             window.scrollTo({
               behavior: 'smooth',
-              top: s.ref.current.offsetTop - 56, // Tailwind's h-14
+              top: section.ref.current.offsetTop - 56, // Tailwind's h-14
             });
           }
         };
@@ -44,21 +44,21 @@ function Menu({ sections }: MenuProps): JSX.Element {
 
         return (
           <button
-            aria-label={`Scroll to ${s.title}`}
+            aria-label={`Scroll to ${section.title}`}
             className={clsx(
               'hover:brightness-75 flex p-2 transition',
               isFirst ? 'ml-0' : 'ml-1',
               isLast ? 'mr-0' : 'mr-1',
             )}
-            key={s.title}
+            key={section.title}
             onClick={handleClick}
           >
-            <s.Icon className="fill-white dark:fill-primary" />
+            <section.Icon className="fill-gray-100 dark:fill-gray-900" />
             <BiColoredTitle
               className="hidden md:block leading-relaxed ml-2 text-lg"
-              primaryColor="text-gray-900 dark:text-gray-100"
-              secondaryColor="text-white dark:text-primary"
-              title={s.title}
+              primaryClassName="text-gray-100 dark:text-gray-900"
+              secondaryClassName="text-slate-300 dark:text-slate-800"
+              title={section.title}
               variant="no-border"
             />
           </button>
@@ -69,7 +69,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
         onClick={handleScrollTo('bottom')}
       >
-        <GoToIcon className="fill-white dark:fill-primary" height={28} width={28} />
+        <GoToIcon className="fill-gray-100 dark:fill-gray-900" height={28} width={28} />
       </button>
     </div>
   );
