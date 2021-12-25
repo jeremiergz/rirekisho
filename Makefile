@@ -31,10 +31,12 @@ lint:
 
 release:
 	@echo -e "\n➜ creating release v${NEXT_VERSION}"
+	@git checkout main
 	@jq '.version="${NEXT_VERSION}"' package.json > _package.json
 	@mv _package.json package.json
-	@npm install
-	@git checkout main
+	@npm install --silent
+	@git add package.json package-lock.json
+	@git commit -m "chore: release v${NEXT_VERSION}"
 	@git tag --annotate "${NEXT_VERSION}" --message "Release v${NEXT_VERSION}"
 	@git push --follow-tags
 	@echo ✔ successfully created release v${NEXT_VERSION}
