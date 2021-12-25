@@ -116,6 +116,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-preconnect',
+      options: {
+        domains: ['https://fonts.gstatic.com'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-root-import',
       options: {
         '@': path.join(__dirname, 'src'),
