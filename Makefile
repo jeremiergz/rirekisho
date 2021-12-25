@@ -31,7 +31,8 @@ lint:
 
 release:
 	@echo -e "\n➜ creating release v${NEXT_VERSION}"
-	jq '.version="${NEXT_VERSION}"' package.json > package.json
+	@jq '.version="${NEXT_VERSION}"' package.json > _package.json
+	@mv _package.json package.json
 	@npm install
 	@git checkout main
 	@git tag --annotate "${NEXT_VERSION}" --message "Release v${NEXT_VERSION}"
