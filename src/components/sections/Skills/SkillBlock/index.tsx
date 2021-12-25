@@ -11,7 +11,7 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
 
   return (
     <div className={clsx(className, 'max-w-[373px] mb-6 w-full')} {...rest}>
-      <Label title={title} />
+      <Label emphasize title={title} />
       {items.map((item, index) => {
         const grade = Math.ceil(item.proficiencyLevel * factor);
         const fullBubblesNumber = [...Array(item.proficiencyLevel).keys()];
