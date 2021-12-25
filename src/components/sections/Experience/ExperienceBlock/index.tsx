@@ -39,7 +39,7 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
         </span>
         <div
           className={clsx(
-            'flex flex-row md:flex-row-reverse items-center my-2 md:my-0',
+            'flex flex-row md:flex-row-reverse items-center my-2 md:my-0 w-full md:w-auto',
             'font-semibold min-w-fit text-secondary dark:text-secondary-dark',
           )}
         >
@@ -51,11 +51,9 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
               </Anchor>
             )}
           >
-            <div className="bg-transparent dark:bg-gray-200 md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto">
+            <div className="bg-transparent dark:bg-gray-200 -ml-2 md:ml-auto md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto">
               {image ? (
-                <div className="h-6">
-                  <GatsbyImage alt={item.company.name} image={image} />
-                </div>
+                <GatsbyImage alt={item.company.name} className="h-6" image={image} />
               ) : (
                 <span className="text-gray-900 text-lg">{item.company.name}</span>
               )}
