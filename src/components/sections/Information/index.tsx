@@ -2,7 +2,7 @@ import Layout from '@/components/common/Layout';
 import usePersonalDetailsData from '@/components/hooks/data/usePersonalDetailsData';
 import React from 'react';
 import Contacts from './Contacts';
-import Information from './Information';
+import PersonalDetails from './PersonalDetails';
 import PortraitAndJobTitle from './PortraitAndJobTitle';
 
 function Details(): JSX.Element {
@@ -13,7 +13,7 @@ function Details(): JSX.Element {
   return (
     <Layout.Section>
       <Layout.Content>
-        <Information items={personalInformation} />
+        <PersonalDetails items={personalInformation} />
         <PortraitAndJobTitle jobTitle={jobTitle} />
         <Contacts items={contacts} />
       </Layout.Content>

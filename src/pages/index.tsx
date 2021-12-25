@@ -1,9 +1,9 @@
 import Menu from '@/components/common/Menu';
-import Details from '@/components/sections/Details';
 import Education from '@/components/sections/Education';
 import Experience from '@/components/sections/Experience';
 import Footer from '@/components/sections/Footer';
 import Header from '@/components/sections/Header';
+import Information from '@/components/sections/Information';
 import Interests from '@/components/sections/Interests';
 import Skills from '@/components/sections/Skills';
 import Toolbox from '@/components/sections/Toolbox';
@@ -47,7 +47,7 @@ function HomePage(): JSX.Element {
       <Header />
       <Menu sections={sections} />
       <main className="grid gap-x-8 md:gap-x-16 grid-cols-2 m-auto max-w-7xl px-3 md:px-8 lg:px-12">
-        <Details />
+        <Information />
         {sections
           .filter(section => !!section.Component)
           .map(section => (
