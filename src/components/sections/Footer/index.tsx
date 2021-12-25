@@ -16,7 +16,7 @@ function Footer(): JSX.Element {
     tailwindcss,
     tailwindcssDark,
   } = useFooterData();
-  const { type } = useTheme();
+  const { mode } = useTheme();
 
   const appDetails = `${name.toLowerCase()} v${version}`;
   const sourceCodeURL = `${repositoryURL}/tree/${version}`;
@@ -40,14 +40,14 @@ function Footer(): JSX.Element {
             <GatsbyImage
               alt="Go to gatsbyjs.com"
               className="h-14 w-14"
-              image={getImage(type === 'light' ? gatsbyjs.childImageSharp : gatsbyjsDark.childImageSharp)}
+              image={getImage(mode === 'light' ? gatsbyjs.childImageSharp : gatsbyjsDark.childImageSharp)}
             />
           </Anchor>
           <Anchor className="ml-2" external href="https://tailwindcss.com">
             <GatsbyImage
               alt="Go to tailwindcss.com"
               className="h-14 w-14"
-              image={getImage(type === 'light' ? tailwindcss.childImageSharp : tailwindcssDark.childImageSharp)}
+              image={getImage(mode === 'light' ? tailwindcss.childImageSharp : tailwindcssDark.childImageSharp)}
             />
           </Anchor>
         </div>
