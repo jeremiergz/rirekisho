@@ -119,7 +119,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-preconnect',
       options: {
-        domains: ['https://fonts.gstatic.com'],
+        domains: ['https://fonts.googleapis.com'],
       },
     },
     {
