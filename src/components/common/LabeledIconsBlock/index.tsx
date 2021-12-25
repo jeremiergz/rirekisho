@@ -5,7 +5,7 @@ import MusicIcon from '@/components/svgs/interests/Music';
 import NatureIcon from '@/components/svgs/interests/Nature';
 import SportsIcon from '@/components/svgs/interests/Sports';
 import TechIcon from '@/components/svgs/interests/Tech';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import React from 'react';
 import LabeledIcon from './LabeledIcon';
 
@@ -48,6 +48,11 @@ function LabeledIconsBlock({ items }: LabeledIconsBlockProps): JSX.Element {
 }
 
 export type LabeledIconsBlockProps = {
-  items: Models.LabeledItem[];
+  items: {
+    img?: { src: IGatsbyImageData };
+    link?: string;
+    name: string;
+    sortOrder: number;
+  }[];
 };
 export default LabeledIconsBlock;

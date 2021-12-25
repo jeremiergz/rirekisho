@@ -6,9 +6,7 @@ import TimelineDot from './TimelineDot';
 import TimelineLine from './TimelineLine';
 
 const Education = forwardRef<HTMLDivElement>(function Education(_, ref): JSX.Element {
-  const {
-    education: { nodes: education },
-  } = useEducationData();
+  const education = useEducationData();
 
   return (
     <Layout.Section ref={ref} title="education">

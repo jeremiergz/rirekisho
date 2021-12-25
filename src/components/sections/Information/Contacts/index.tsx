@@ -5,10 +5,11 @@ import GitHubIcon from '@/components/svgs/contacts/GitHub';
 import GitLabIcon from '@/components/svgs/contacts/GitLab';
 import LinkedInIcon from '@/components/svgs/contacts/LinkedIn';
 import TwitterIcon from '@/components/svgs/contacts/Twitter';
+import ContactDetail from '@/models/ContactDetail';
 import clsx from 'clsx';
 import React from 'react';
 
-const Icons: Record<Models.PersonalContact['type'], React.FC<SVGProps>> = {
+const Icons: Record<ContactDetail['type'], React.FC<SVGProps>> = {
   email: EmailIcon,
   github: GitHubIcon,
   gitlab: GitLabIcon,
@@ -64,6 +65,6 @@ function Contacts({ items }: ContactsProps): JSX.Element {
 }
 
 export type ContactsProps = {
-  items: Models.PersonalContact[];
+  items: ContactDetail[];
 };
 export default Contacts;

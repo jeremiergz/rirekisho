@@ -10,9 +10,7 @@ function Footer(): JSX.Element {
   const {
     gatsbyjs,
     gatsbyjsDark,
-    site: {
-      siteMetadata: { name, repositoryURL, version },
-    },
+    siteMetadata: { name, repositoryURL, version },
     tailwindcss,
     tailwindcssDark,
   } = useFooterData();

@@ -1,19 +1,17 @@
 import Layout from '@/components/common/Layout';
-import usePersonalDetailsData from '@/components/hooks/data/usePersonalDetailsData';
+import useInformationData from '@/components/hooks/data/useInformationData';
 import React from 'react';
 import Contacts from './Contacts';
 import PersonalDetails from './PersonalDetails';
 import PortraitAndJobTitle from './PortraitAndJobTitle';
 
-function Details(): JSX.Element {
-  const {
-    personalDetails: { contacts, jobTitle, personalInformation },
-  } = usePersonalDetailsData();
+function Information(): JSX.Element {
+  const { contacts, jobTitle, personalDetails } = useInformationData();
 
   return (
     <Layout.Section>
       <Layout.Content>
-        <PersonalDetails items={personalInformation} />
+        <PersonalDetails items={personalDetails} />
         <PortraitAndJobTitle jobTitle={jobTitle} />
         <Contacts items={contacts} />
       </Layout.Content>
@@ -21,4 +19,4 @@ function Details(): JSX.Element {
   );
 }
 
-export default Details;
+export default Information;

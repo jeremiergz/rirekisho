@@ -13,8 +13,8 @@ type LayoutQueryData = {
   };
 };
 
-function useLayoutData(): LayoutQueryData {
-  return useStaticQuery<LayoutQueryData>(graphql`
+function useLayoutData(): LayoutQueryData['site'] {
+  const rawData = useStaticQuery<LayoutQueryData>(graphql`
     query LayoutQuery {
       site {
         siteMetadata {
@@ -28,6 +28,8 @@ function useLayoutData(): LayoutQueryData {
       }
     }
   `);
+
+  return rawData.site;
 }
 
 export type { LayoutQueryData };

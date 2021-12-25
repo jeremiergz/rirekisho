@@ -1,13 +1,14 @@
+import Language from '@/models/Language';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type LanguagesQueryData = {
   languages: {
-    nodes: Models.Language[];
+    nodes: Language[];
   };
 };
 
-function useLanguagesData(): LanguagesQueryData {
-  return useStaticQuery<LanguagesQueryData>(graphql`
+function useLanguagesData(): Language[] {
+  const rawData = useStaticQuery<LanguagesQueryData>(graphql`
     query LanguagesQuery {
       languages: allLanguagesJson(sort: { fields: sortOrder, order: ASC }) {
         nodes {
@@ -25,6 +26,9 @@ function useLanguagesData(): LanguagesQueryData {
       }
     }
   `);
+  const languages = rawData.languages.nodes.map(data => new Language(data));
+
+  return languages;
 }
 
 export type { LanguagesQueryData };

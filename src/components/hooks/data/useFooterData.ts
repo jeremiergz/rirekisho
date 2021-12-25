@@ -1,8 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby';
+import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 type FooterQueryData = {
-  gatsbyjs: Models.ChildImage;
-  gatsbyjsDark: Models.ChildImage;
+  gatsbyjs: { childImageSharp: IGatsbyImageData };
+  gatsbyjsDark: { childImageSharp: IGatsbyImageData };
   site: {
     siteMetadata: {
       name: string;
@@ -10,12 +11,13 @@ type FooterQueryData = {
       version: string;
     };
   };
-  tailwindcss: Models.ChildImage;
-  tailwindcssDark: Models.ChildImage;
+  tailwindcss: { childImageSharp: IGatsbyImageData };
+  tailwindcssDark: { childImageSharp: IGatsbyImageData };
 };
 
-function useFooterData(): FooterQueryData {
-  return useStaticQuery<FooterQueryData>(graphql`
+function useFooterData(): Pick<FooterQueryData, 'gatsbyjs' | 'gatsbyjsDark' | 'tailwindcss' | 'tailwindcssDark'> &
+  FooterQueryData['site'] {
+  const rawData = useStaticQuery<FooterQueryData>(graphql`
     query FooterQuery {
       gatsbyjs: file(relativePath: { eq: "tech_gatsby.png" }) {
         childImageSharp {
@@ -46,6 +48,14 @@ function useFooterData(): FooterQueryData {
       }
     }
   `);
+
+  return {
+    gatsbyjs: rawData.gatsbyjs,
+    gatsbyjsDark: rawData.gatsbyjsDark,
+    siteMetadata: rawData.site.siteMetadata,
+    tailwindcss: rawData.tailwindcss,
+    tailwindcssDark: rawData.tailwindcssDark,
+  };
 }
 
 export type { FooterQueryData };

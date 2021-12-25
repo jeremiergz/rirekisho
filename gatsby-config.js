@@ -1,9 +1,10 @@
 require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` });
 const path = require('path');
-const personalDetailsJSON = require('./content/data/personal-details/index.json');
+const informationJSON = require('./content/data/information/index.json');
 const { description, homepage, keywords, license, name, repository, version } = require('./package.json');
+const tailwind = require('./tailwind.config');
 
-const APP_COLOR = '#17365c';
+const APP_COLOR = tailwind.theme.extend.colors.primary;
 const APP_DESCRIPTION = description;
 const APP_KEYWORDS = keywords;
 const APP_LICENSE = license;
@@ -11,8 +12,8 @@ const APP_NAME = `${name.charAt(0).toUpperCase()}${name.substring(1, name.length
 const APP_REPOSITORY_URL = repository.url.replace(/git\+|\.git/gi, '');
 const APP_SITE_URL = homepage;
 const APP_VERSION = version;
-const AUTHOR_NAME = personalDetailsJSON.fullName;
-const AUTHOR_TWITTER_USERNAME = personalDetailsJSON.twitterUsername;
+const AUTHOR_NAME = informationJSON.fullName;
+const AUTHOR_TWITTER_USERNAME = informationJSON.twitterUsername;
 
 [
   ['APP_COLOR', APP_COLOR],

@@ -1,13 +1,14 @@
+import Certification from '@/models/Certification';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type CertificationsQueryData = {
   certifications: {
-    nodes: Models.Certification[];
+    nodes: Certification[];
   };
 };
 
-function useCertificationsData(): CertificationsQueryData {
-  return useStaticQuery<CertificationsQueryData>(graphql`
+function useCertificationsData(): Certification[] {
+  const rawData = useStaticQuery<CertificationsQueryData>(graphql`
     query CertificationsQuery {
       certifications: allCertificationsJson(sort: { fields: sortOrder, order: ASC }) {
         nodes {
@@ -26,6 +27,9 @@ function useCertificationsData(): CertificationsQueryData {
       }
     }
   `);
+  const certifications = rawData.certifications.nodes.map(data => new Certification(data));
+
+  return certifications;
 }
 
 export type { CertificationsQueryData };

@@ -1,3 +1,4 @@
+import Project from '@/models/Project';
 import React, { createElement } from 'react';
 import Detail from './Detail';
 
@@ -53,6 +54,6 @@ function ProjectBlock({
 }
 
 export type ProjectBlockProps = React.ComponentProps<'div'> & {
-  item: Models.Project;
+  item: Project;
 };
 export default ProjectBlock;

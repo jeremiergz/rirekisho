@@ -1,6 +1,7 @@
 import BiColoredTitle from '@/components/common/BiColoredTitle';
 import useScrollThreshold from '@/components/hooks/useScrollThreshold';
 import GoToIcon from '@/components/svgs/icons/GoTo';
+import Section from '@/models/Section';
 import clsx from 'clsx';
 import React from 'react';
 
@@ -75,6 +76,6 @@ function Menu({ sections }: MenuProps): JSX.Element {
 }
 
 export type MenuProps = {
-  sections: Models.Section[];
+  sections: Section[];
 };
 export default Menu;

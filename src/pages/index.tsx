@@ -12,6 +12,7 @@ import ExperienceIcon from '@/components/svgs/sections/Experience';
 import InterestsIcon from '@/components/svgs/sections/Interests';
 import SkillsIcon from '@/components/svgs/sections/Skills';
 import ToolboxIcon from '@/components/svgs/sections/Toolbox';
+import Section from '@/models/Section';
 import React, { useEffect, useRef, useState } from 'react';
 
 function HomePage(): JSX.Element {
@@ -21,12 +22,12 @@ function HomePage(): JSX.Element {
   const toolboxRef = useRef<HTMLDivElement>();
   const interestsRef = useRef<HTMLDivElement>();
   const educationRef = useRef<HTMLDivElement>();
-  const sections: Models.Section[] = [
-    { Component: Experience, Icon: ExperienceIcon, ref: experiencesRef, title: 'experience' },
-    { Component: Skills, Icon: SkillsIcon, ref: skillsRef, title: 'skills' },
-    { Component: Toolbox, Icon: ToolboxIcon, ref: toolboxRef, title: 'toolbox' },
-    { Component: Interests, Icon: InterestsIcon, ref: interestsRef, title: 'interests' },
-    { Component: Education, Icon: EducationIcon, ref: educationRef, title: 'education' },
+  const sections: Section[] = [
+    new Section({ Component: Experience, Icon: ExperienceIcon, ref: experiencesRef, title: 'experience' }),
+    new Section({ Component: Skills, Icon: SkillsIcon, ref: skillsRef, title: 'skills' }),
+    new Section({ Component: Toolbox, Icon: ToolboxIcon, ref: toolboxRef, title: 'toolbox' }),
+    new Section({ Component: Interests, Icon: InterestsIcon, ref: interestsRef, title: 'interests' }),
+    new Section({ Component: Education, Icon: EducationIcon, ref: educationRef, title: 'education' }),
   ];
 
   useEffect(() => {
@@ -51,7 +52,7 @@ function HomePage(): JSX.Element {
         {sections
           .filter(section => !!section.Component)
           .map(section => (
-            <section.Component key={section.title} ref={section.ref} />
+            <section.Component key={section.title} ref={typeof section.ref !== 'string' && section.ref} />
           ))}
       </main>
       <Footer />

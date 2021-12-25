@@ -4,9 +4,7 @@ import React, { forwardRef } from 'react';
 import SkillBlock from './SkillBlock';
 
 const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref): JSX.Element {
-  const {
-    skills: { nodes: skills },
-  } = useSkillsData();
+  const skills = useSkillsData();
 
   // Display only supports 3 skills groups
   const [skillsGroup1, skillsGroup2, skillsGroup3] = skills;

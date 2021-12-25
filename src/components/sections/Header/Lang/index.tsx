@@ -1,9 +1,10 @@
+import Language from '@/models/Language';
 import clsx from 'clsx';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Star from './Star';
 
-function Language({ dense = false, item }: LanguageProps): JSX.Element {
+function Lang({ dense = false, item }: LangProps): JSX.Element {
   const maxStarsNumber = 5;
   const maxStarsDifference = maxStarsNumber - item.proficiencyLevel;
 
@@ -33,8 +34,8 @@ function Language({ dense = false, item }: LanguageProps): JSX.Element {
   );
 }
 
-export type LanguageProps = {
+export type LangProps = {
   dense?: boolean;
-  item: Models.Language;
+  item: Language;
 };
-export default Language;
+export default Lang;

@@ -4,9 +4,7 @@ import React, { forwardRef } from 'react';
 import ExperienceBlock from './ExperienceBlock';
 
 const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.Element {
-  const {
-    experiences: { nodes: experiences },
-  } = useExperiencesData();
+  const experiences = useExperiencesData();
 
   return (
     <Layout.Section className="mb-0" ref={ref} title="experience">

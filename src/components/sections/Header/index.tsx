@@ -1,17 +1,13 @@
 import ThemeSwitch from '@/components/common/ThemeSwitch';
+import useInformationData from '@/components/hooks/data/useInformationData';
 import useLanguagesData from '@/components/hooks/data/useLanguagesData';
-import usePersonalDetailsData from '@/components/hooks/data/usePersonalDetailsData';
 import clsx from 'clsx';
 import React from 'react';
-import Language from './Language';
+import Lang from './Lang';
 
 function Header(): JSX.Element {
-  const {
-    languages: { nodes: languages },
-  } = useLanguagesData();
-  const {
-    personalDetails: { fullName },
-  } = usePersonalDetailsData();
+  const languages = useLanguagesData();
+  const { fullName } = useInformationData();
 
   return (
     <header
@@ -44,7 +40,7 @@ function Header(): JSX.Element {
         </div>
         <div className="flex mb-6 md:mb-0 mt-2 md:mt-0">
           {languages.map((item, index) => (
-            <Language dense={index === 0} key={item.name} item={item} />
+            <Lang dense={index === 0} key={item.name} item={item} />
           ))}
         </div>
       </div>

@@ -1,13 +1,14 @@
+import Experience from '@/models/Experience';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type ExperiencesQueryData = {
   experiences: {
-    nodes: Models.Experience[];
+    nodes: Experience[];
   };
 };
 
-function useExperiencesData(): ExperiencesQueryData {
-  return useStaticQuery<ExperiencesQueryData>(graphql`
+function useExperiencesData(): Experience[] {
+  const rawData = useStaticQuery<ExperiencesQueryData>(graphql`
     query ExperiencesQuery {
       experiences: allExperiencesJson(sort: { fields: timeline___startDate, order: DESC }) {
         nodes {
@@ -41,6 +42,9 @@ function useExperiencesData(): ExperiencesQueryData {
       }
     }
   `);
+  const experiences = rawData.experiences.nodes.map(data => new Experience(data));
+
+  return experiences;
 }
 
 export type { ExperiencesQueryData };

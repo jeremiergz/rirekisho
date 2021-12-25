@@ -33,7 +33,7 @@
   ],
   "fullName": "Jeremie Rodriguez",
   "jobTitle": "Cloud Engineer",
-  "personalInformation": [
+  "personalDetails": [
     {
       "label": "nationality",
       "sortOrder": 1,
@@ -45,13 +45,8 @@
       "value": "27 MAR 1987"
     },
     {
-      "label": "civil status",
-      "sortOrder": 3,
-      "value": "single"
-    },
-    {
       "label": "driver licenses",
-      "sortOrder": 4,
+      "sortOrder": 3,
       "value": "car | motorcycle"
     }
   ],

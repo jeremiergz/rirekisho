@@ -4,14 +4,12 @@ import useInterestsData from '@/components/hooks/data/useInterestsData';
 import React, { forwardRef } from 'react';
 
 const Interests = forwardRef<HTMLDivElement>(function Interests(_, ref): JSX.Element {
-  const {
-    interests: { nodes: interest },
-  } = useInterestsData();
+  const interests = useInterestsData();
 
   return (
     <Layout.Section className="mt-0" halfWidth ref={ref} title="interests">
       <Layout.Content>
-        <LabeledIconsBlock items={interest} />
+        <LabeledIconsBlock items={interests} />
       </Layout.Content>
     </Layout.Section>
   );

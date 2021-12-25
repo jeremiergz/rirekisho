@@ -1,13 +1,14 @@
 import Label from '@/components/common/Label';
+import PersonalDetail from '@/models/PersonalDetail';
 import clsx from 'clsx';
 import React from 'react';
 
-function Information({ items }: InformationProps): JSX.Element {
+function PersonalDetails({ items }: PersonalDetailsProps): JSX.Element {
   return (
     <div
       className={clsx(
         'flex flex-1 flex-col justify-center order-2 md:order-1',
-        'h-full min-w-[224px] mt-4 text-center md:text-left',
+        'h-full min-w-[224px] mb-2 mt-4 text-center md:text-left',
       )}
     >
       {items.map((item, index) => (
@@ -22,7 +23,7 @@ function Information({ items }: InformationProps): JSX.Element {
   );
 }
 
-export type InformationProps = {
-  items: Models.PersonalInformation[];
+export type PersonalDetailsProps = {
+  items: PersonalDetail[];
 };
-export default Information;
+export default PersonalDetails;

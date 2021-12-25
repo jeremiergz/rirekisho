@@ -1,5 +1,6 @@
 import Anchor from '@/components/common/Anchor';
 import Conditional from '@/components/common/Conditional';
+import Experience from '@/models/Experience';
 import clsx from 'clsx';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
@@ -79,6 +80,6 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
 }
 
 export type ExperienceBlockProps = {
-  item: Models.Experience;
+  item: Experience;
 };
 export default ExperienceBlock;

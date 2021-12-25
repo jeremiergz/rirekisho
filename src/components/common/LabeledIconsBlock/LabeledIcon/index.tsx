@@ -24,5 +24,8 @@ function LabeledIcon({ children, className, link, name, ...rest }: LabeledIconPr
   );
 }
 
-export type LabeledIconProps = React.ComponentProps<'div'> & Omit<Models.LabeledItem, 'img' | 'sortOrder'>;
+export type LabeledIconProps = React.ComponentProps<'div'> & {
+  link?: string;
+  name: string;
+};
 export default LabeledIcon;

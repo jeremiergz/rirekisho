@@ -8,9 +8,7 @@ import Section from './Section';
 
 function Layout({ children }: LayoutProps): JSX.Element {
   const {
-    site: {
-      siteMetadata: { authorName, color, description, keywords, siteUrl, version },
-    },
+    siteMetadata: { authorName, color, description, keywords, siteUrl, version },
   } = useLayoutData();
 
   const appTitle = `${authorName} | Resume`;

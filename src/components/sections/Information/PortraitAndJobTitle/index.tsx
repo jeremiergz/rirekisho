@@ -6,9 +6,7 @@ import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Element {
-  const {
-    certifications: { nodes: certifications },
-  } = useCertificationsData();
+  const certifications = useCertificationsData();
 
   const mainCertification = certifications.find(c => c.sortOrder === 0) || certifications[0];
   const image = getImage(mainCertification.img.src);

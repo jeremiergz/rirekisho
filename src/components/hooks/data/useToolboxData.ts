@@ -1,13 +1,14 @@
+import Tool from '@/models/Tool';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type ToolboxQueryData = {
   toolbox: {
-    nodes: Models.Tool[];
+    nodes: Tool[];
   };
 };
 
-function useToolboxData(): ToolboxQueryData {
-  return useStaticQuery<ToolboxQueryData>(graphql`
+function useToolboxData(): Tool[] {
+  const rawData = useStaticQuery<ToolboxQueryData>(graphql`
     query ToolboxQuery {
       toolbox: allToolboxJson(sort: { fields: sortOrder, order: ASC }) {
         nodes {
@@ -25,6 +26,9 @@ function useToolboxData(): ToolboxQueryData {
       }
     }
   `);
+  const tools = rawData.toolbox.nodes.map(data => new Tool(data));
+
+  return tools;
 }
 
 export type { ToolboxQueryData };

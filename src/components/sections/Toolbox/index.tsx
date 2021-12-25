@@ -4,9 +4,7 @@ import useToolboxData from '@/components/hooks/data/useToolboxData';
 import React, { forwardRef } from 'react';
 
 const Toolbox = forwardRef<HTMLDivElement>(function Toolbox(_, ref): JSX.Element {
-  const {
-    toolbox: { nodes: toolbox },
-  } = useToolboxData();
+  const toolbox = useToolboxData();
 
   return (
     <Layout.Section className="mt-0" halfWidth ref={ref} title="toolbox">

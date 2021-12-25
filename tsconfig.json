@@ -23,5 +23,5 @@
     "target": "es2015"
   },
   "exclude": ["node_modules"],
-  "include": ["__tests__", "@types", "src/**/*"]
+  "include": ["__tests__", "src/**/*"]
 }

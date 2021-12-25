@@ -1,13 +1,14 @@
+import Skill from '@/models/Skill';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type SkillsQueryData = {
   skills: {
-    nodes: Models.Skill[];
+    nodes: Skill[];
   };
 };
 
-function useSkillsData(): SkillsQueryData {
-  return useStaticQuery<SkillsQueryData>(graphql`
+function useSkillsData(): Skill[] {
+  const rawData = useStaticQuery<SkillsQueryData>(graphql`
     query SkillsQuery {
       skills: allSkillsJson(sort: { fields: sortOrder, order: ASC }) {
         nodes {
@@ -22,6 +23,9 @@ function useSkillsData(): SkillsQueryData {
       }
     }
   `);
+  const skills = rawData.skills.nodes.map(data => new Skill(data));
+
+  return skills;
 }
 
 export type { SkillsQueryData };

@@ -1,13 +1,14 @@
+import Degree from '@/models/Degree';
 import { graphql, useStaticQuery } from 'gatsby';
 
 type EducationQueryData = {
   education: {
-    nodes: Models.Degree[];
+    nodes: Degree[];
   };
 };
 
-function useEducationData(): EducationQueryData {
-  return useStaticQuery<EducationQueryData>(graphql`
+function useEducationData(): Degree[] {
+  const rawData = useStaticQuery<EducationQueryData>(graphql`
     query EducationQuery {
       education: allEducationJson(sort: { fields: issueDate, order: ASC }) {
         nodes {
@@ -20,6 +21,9 @@ function useEducationData(): EducationQueryData {
       }
     }
   `);
+  const degrees = rawData.education.nodes.map(data => new Degree(data));
+
+  return degrees;
 }
 
 export type { EducationQueryData };

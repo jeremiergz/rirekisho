@@ -1,4 +1,5 @@
 import Label from '@/components/common/Label';
+import Skill from '@/models/Skill';
 import clsx from 'clsx';
 import React from 'react';
 import Bubble from './Bubble';
@@ -40,7 +41,7 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
 }
 
 export type SkillBlockProps = React.ComponentProps<'div'> & {
-  items: Models.SkillItem[];
+  items: Skill['items'];
   title: string;
 };
 export default SkillBlock;
