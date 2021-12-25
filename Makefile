@@ -1,4 +1,4 @@
-DEPENDENCIES			:= cut date git npm
+DEPENDENCIES			:= cut date git jq npm
 $(foreach dependency, ${DEPENDENCIES}, $(if $(shell which ${dependency}),, $(error No ${dependency} in PATH)))
 
 TAG						    := $(shell git describe --abbrev=0)
@@ -29,8 +29,10 @@ install:
 lint:
 	@npm run lint
 
-release: lint test
+release:
 	@echo -e "\n➜ creating release v${NEXT_VERSION}"
+	jq '.version="${NEXT_VERSION}"' package.json > package.json
+	@npm install
 	@git checkout main
 	@git tag --annotate "${NEXT_VERSION}" --message "Release v${NEXT_VERSION}"
 	@git push --follow-tags

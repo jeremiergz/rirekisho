@@ -61,6 +61,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         background_color: APP_COLOR,
+        cache_busting_mode: 'none',
         display: 'standalone',
         icon: 'logo.png',
         icons: [
