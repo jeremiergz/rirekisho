@@ -29,7 +29,7 @@ install:
 lint:
 	@npm run lint
 
-release:
+release: lint test
 	@echo -e "\n➜ creating release v${NEXT_VERSION}"
 	@git checkout main
 	@jq '.version="${NEXT_VERSION}"' package.json > _package.json
