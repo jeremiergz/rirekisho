@@ -23,6 +23,7 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
           <StaticImage
             alt="portrait"
             height={192}
+            loading="eager"
             placeholder="blurred"
             quality={100}
             src="../../../../../content/assets/portrait.png"
