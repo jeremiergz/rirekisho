@@ -90,7 +90,7 @@ module.exports = {
           },
           {
             purpose: 'maskable',
-            sizes: '192x192',
+            sizes: '280x280',
             src: '/icons/maskable-icon.png',
             type: 'image/png',
           },
