@@ -33,7 +33,7 @@ function HomePage(): JSX.Element {
   useEffect(() => {
     window.onbeforeprint = () => {
       setOriginalDocTitle(document.title);
-      document.title = 'Jeremie Rodriguez - Resume (EN)';
+      document.title = 'Jeremie Rodriguez - CV (EN)';
     };
     window.onafterprint = () => (document.title = originalDocTitle);
 

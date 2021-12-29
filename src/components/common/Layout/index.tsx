@@ -11,7 +11,7 @@ function Layout({ children }: LayoutProps): JSX.Element {
     siteMetadata: { authorName, color, description, keywords, siteUrl, version },
   } = useLayoutData();
 
-  const appTitle = `${authorName} | Resume`;
+  const appTitle = `${authorName} | CV`;
   const appVersion = `v${version}`;
 
   return (
