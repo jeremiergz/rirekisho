@@ -37,11 +37,9 @@ build/
 coverage/
 dist/
 node_modules/
-public/
 out/
 .dockerignore
 .env*
 *-report.*
 *.log*
 Dockerfile
-sw.js
