@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/maskable-icon.png",
-    "revision": "facb9c3b6cc40b8edc7db6ad1dc88673"
+    "revision": "acf54658af54a1b6027a5edc2d240bbf"
   },
   {
     "url": "icons/ms-icon-144x144.png",
@@ -125,11 +125,11 @@ self.__precacheManifest = [
     "url": "styles.70292da04c283aa269e1.css"
   },
   {
-    "url": "app-28d44b732675e90e840e.js"
+    "url": "app-067eec3f9ae4cc182e07.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f37d1da62d2a077617036daf9169950c"
+    "revision": "0d91b16d00c2bf639e8dfc0537bef950"
   },
   {
     "url": "webpack-runtime-ecf92279a8b57521bf9e.js"
@@ -142,7 +142,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "919184e03acb45a31ec220d8e7686ea9"
+    "revision": "888b3122a926169cb94d36e7a8535408"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -234,7 +234,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-28d44b732675e90e840e.js`))) {
+  if (!resources || !(await caches.match(`/app-067eec3f9ae4cc182e07.js`))) {
     return await fetch(event.request)
   }
 
