@@ -37,7 +37,7 @@
     "lint:tsc": "tsc --noEmit",
     "prepare": "husky install",
     "prerelease": "run-s build lint test",
-    "release": "node release.js",
+    "release": "make release",
     "start": "gatsby serve",
     "start:debug": "NODE_OPTIONS=\"--inspect --max_old_space_size=4096\" gatsby develop",
     "start:w": "NODE_OPTIONS=--max_old_space_size=4096 gatsby develop",
