@@ -15,6 +15,7 @@
       },
       "description": "Web framework - Web portal",
       "name": "NemEO - DiginEO",
+      "sortOrder": 1,
       "tasks": [
         "<strong>Technical manager</strong> of a 3-developer team",
         "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",

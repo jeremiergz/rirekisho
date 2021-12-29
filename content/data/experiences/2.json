@@ -15,6 +15,7 @@
       },
       "description": "Customizable transfer tool using native File System, FTP & SFTP",
       "name": "Trafic",
+      "sortOrder": 1,
       "tasks": [
         "Development of a new <strong>transfer protocol</strong> using native File System",
         "Maintenance & quality controls: <strong>refactoring</strong> of several classes",

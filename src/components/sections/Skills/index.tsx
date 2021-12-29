@@ -7,7 +7,7 @@ const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref): JSX.Element {
   const skills = useSkillsData();
 
   // Display only supports 3 skills groups
-  const [skillsGroup1, skillsGroup2, skillsGroup3] = skills;
+  const [skillsGroup1, skillsGroup2, skillsGroup3] = skills.sort((a, b) => a.sortOrder - b.sortOrder);
 
   return (
     <Layout.Section className="mb-2 mt-0" ref={ref} title="skills">

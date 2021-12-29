@@ -31,6 +31,7 @@ function useExperiencesData(): Experience[] {
             }
             description
             name
+            sortOrder
             tasks
             technologies
           }

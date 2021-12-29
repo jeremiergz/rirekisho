@@ -66,6 +66,7 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
         </div>
       </div>
       {item.projects
+        .sort((a, b) => a.sortOrder - b.sortOrder)
         .map((project, index) => (
           <React.Fragment key={project.description}>
             <ProjectBlock item={project} />

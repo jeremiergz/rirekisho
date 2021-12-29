@@ -12,6 +12,7 @@
       "client": null,
       "description": "Features development & maintenance of Web platforms",
       "name": null,
+      "sortOrder": 1,
       "tasks": ["Back-end & front-end engineering & development"],
       "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
     },
@@ -19,6 +20,7 @@
       "client": null,
       "description": "Kubernetization & move to GCP of Web platforms",
       "name": "XDoG",
+      "sortOrder": 2,
       "tasks": [
         "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
         "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"

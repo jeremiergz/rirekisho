@@ -39,9 +39,11 @@ function Header(): JSX.Element {
           </span>
         </div>
         <div className="flex mb-6 md:mb-0 mt-2 md:mt-0">
-          {languages.map((item, index) => (
-            <Lang dense={index === 0} key={item.name} item={item} />
-          ))}
+          {languages
+            .sort((a, b) => a.sortOrder - b.sortOrder)
+            .map((item, index) => (
+              <Lang dense={index === 0} key={item.name} item={item} />
+            ))}
         </div>
       </div>
     </header>

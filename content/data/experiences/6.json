@@ -10,6 +10,7 @@
       "client": null,
       "description": null,
       "name": null,
+      "sortOrder": 1,
       "tasks": [
         "Back-end & front-end engineering & development",
         "Implement Design Systems",

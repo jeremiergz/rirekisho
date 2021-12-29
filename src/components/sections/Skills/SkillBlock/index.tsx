@@ -13,29 +13,31 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
   return (
     <div className={clsx(className, 'max-w-[373px] mb-6 w-full')} {...rest}>
       <Label emphasize title={title} />
-      {items.map((item, index) => {
-        const grade = Math.ceil(item.proficiencyLevel * factor);
-        const fullBubblesNumber = [...Array(item.proficiencyLevel).keys()];
-        const emptyBubblesNumber = [...Array(maxBubblesNumber - item.proficiencyLevel).keys()];
-        const isLast = index === items.length - 1;
+      {items
+        .sort((a, b) => a.sortOrder - b.sortOrder)
+        .map((item, index) => {
+          const grade = Math.ceil(item.proficiencyLevel * factor);
+          const fullBubblesNumber = [...Array(item.proficiencyLevel).keys()];
+          const emptyBubblesNumber = [...Array(maxBubblesNumber - item.proficiencyLevel).keys()];
+          const isLast = index === items.length - 1;
 
-        return (
-          <div className={clsx('flex items-center justify-between', isLast || 'mb-2')} key={item.name}>
-            <span className="font-extrabold text-lg text-gray-900 dark:text-gray-300 mr-6">{item.name}</span>
-            <span className="font-extrabold sm:hidden leading-4 text-secondary dark:text-secondary-dark text-xl">
-              {grade}/{gradeBasis}
-            </span>
-            <div className="hidden sm:flex items-center">
-              {fullBubblesNumber.map((bubble, index) => (
-                <Bubble className={clsx(index !== maxBubblesNumber - 1 && 'mr-2')} key={bubble} />
-              ))}
-              {emptyBubblesNumber.map((bubble, index) => (
-                <Bubble className={clsx(index !== emptyBubblesNumber.length - 1 && 'mr-2')} empty key={bubble} />
-              ))}
+          return (
+            <div className={clsx('flex items-center justify-between', isLast || 'mb-2')} key={item.name}>
+              <span className="font-extrabold text-lg text-gray-900 dark:text-gray-300 mr-6">{item.name}</span>
+              <span className="font-extrabold sm:hidden leading-4 text-secondary dark:text-secondary-dark text-xl">
+                {grade}/{gradeBasis}
+              </span>
+              <div className="hidden sm:flex items-center">
+                {fullBubblesNumber.map((bubble, index) => (
+                  <Bubble className={clsx(index !== maxBubblesNumber - 1 && 'mr-2')} key={bubble} />
+                ))}
+                {emptyBubblesNumber.map((bubble, index) => (
+                  <Bubble className={clsx(index !== emptyBubblesNumber.length - 1 && 'mr-2')} empty key={bubble} />
+                ))}
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
     </div>
   );
 }

@@ -15,6 +15,7 @@
       },
       "description": "Ground-Segment simulators, validation & testing web interface",
       "name": "Pulsar",
+      "sortOrder": 1,
       "tasks": [
         "Use case supervisor on <strong>Postgres DB engineering</strong> & implementation",
         "Development of multiple micro-services & components: back-end using <strong>Node.js</strong> & <strong>TypeScript</strong>, front-end using <strong>Angular v6</strong>",

@@ -21,28 +21,30 @@ const IconsMapping: Record<string, React.FC<SVGProps>> = {
 function LabeledIconsBlock({ items }: LabeledIconsBlockProps): JSX.Element {
   return (
     <div className="flex items-center flex-wrap justify-center lg:justify-between max-w-md w-full">
-      {items.map(item => {
-        let Icon: React.FC<SVGProps | null>;
-        if (item.img) {
-          const image = getImage(item.img.src);
-          const CustomImage = () => (
-            <div className="h-10 sm:h-12 w-10 sm:w-12">
-              <GatsbyImage alt={item.name} image={image} />
-            </div>
-          );
-          Icon = CustomImage;
-        } else {
-          Icon = IconsMapping[item.name];
-        }
+      {items
+        .sort((a, b) => a.sortOrder - b.sortOrder)
+        .map(item => {
+          let Icon: React.FC<SVGProps | null>;
+          if (item.img) {
+            const image = getImage(item.img.src);
+            const CustomImage = () => (
+              <div className="h-10 sm:h-12 w-10 sm:w-12">
+                <GatsbyImage alt={item.name} image={image} />
+              </div>
+            );
+            Icon = CustomImage;
+          } else {
+            Icon = IconsMapping[item.name];
+          }
 
-        return (
-          <LabeledIcon key={item.name} link={item.link} name={item.name}>
-            <div className="h-10 sm:h-12 text-center w-10 sm:w-12">
-              {Icon && <Icon className="fill-gray-900 dark:fill-gray-100 h-full w-full" />}
-            </div>
-          </LabeledIcon>
-        );
-      })}
+          return (
+            <LabeledIcon key={item.name} link={item.link} name={item.name}>
+              <div className="h-10 sm:h-12 text-center w-10 sm:w-12">
+                {Icon && <Icon className="fill-gray-900 dark:fill-gray-100 h-full w-full" />}
+              </div>
+            </LabeledIcon>
+          );
+        })}
     </div>
   );
 }

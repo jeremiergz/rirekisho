@@ -29,37 +29,39 @@ function Contacts({ items }: ContactsProps): JSX.Element {
         'h-full max-h-8 md:max-h-full min-w-[224px] mt-6',
       )}
     >
-      {items.map((item, index) => {
-        const isEven = index % 2 === 0;
-        const Icon = Icons[item.type];
+      {items
+        .sort((a, b) => a.sortOrder - b.sortOrder)
+        .map((item, index) => {
+          const isEven = index % 2 === 0;
+          const Icon = Icons[item.type];
 
-        return (
-          <div
-            className={clsx(
-              'flex leading-3 items-center justify-center md:justify-end mx-2 md:mx-0',
-              index !== items.length - 1 && 'md:mb-5',
-            )}
-            key={item.link}
-          >
-            <Anchor aria-label={`Open ${item.type} contact`} external={isHTTPLink(item.link)} href={item.link}>
-              <div className="flex flex-col-reverse md:flex-row items-center">
-                <span className="font-extrabold hidden md:block leading-8 text-lg text-primary dark:text-primary-dark">
-                  {item.label}
-                </span>
-                <div className="ml-4">
-                  <Icon
-                    className={clsx(
-                      isEven ? 'fill-secondary dark:fill-secondary-dark' : 'fill-primary dark:fill-primary-dark',
-                    )}
-                    height={32}
-                    width={32}
-                  />
+          return (
+            <div
+              className={clsx(
+                'flex leading-3 items-center justify-center md:justify-end mx-2 md:mx-0',
+                index !== items.length - 1 && 'md:mb-5',
+              )}
+              key={item.link}
+            >
+              <Anchor aria-label={`Open ${item.type} contact`} external={isHTTPLink(item.link)} href={item.link}>
+                <div className="flex flex-col-reverse md:flex-row items-center">
+                  <span className="font-extrabold hidden md:block leading-8 text-lg text-primary dark:text-primary-dark">
+                    {item.label}
+                  </span>
+                  <div className="ml-4">
+                    <Icon
+                      className={clsx(
+                        isEven ? 'fill-secondary dark:fill-secondary-dark' : 'fill-primary dark:fill-primary-dark',
+                      )}
+                      height={32}
+                      width={32}
+                    />
+                  </div>
                 </div>
-              </div>
-            </Anchor>
-          </div>
-        );
-      })}
+              </Anchor>
+            </div>
+          );
+        })}
     </div>
   );
 }

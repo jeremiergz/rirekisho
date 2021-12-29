@@ -15,6 +15,7 @@
       },
       "description": "Ski lift tickets sales data lake",
       "name": null,
+      "sortOrder": 1,
       "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
       "technologies": ["Dataflow", "GCP", "Terraform"]
     },
@@ -25,6 +26,7 @@
       },
       "description": "Mobile app & FaaS backend development",
       "name": "Joey",
+      "sortOrder": 2,
       "tasks": [
         "Create & maintain AWS Lambda cloud functions",
         "Implement, refactor & maintain native components using React Native"
