@@ -8,18 +8,18 @@
       "sortOrder": 1
     },
     {
-      "name": "React.js",
-      "proficiencyLevel": 6,
+      "name": "Gin",
+      "proficiencyLevel": 4,
       "sortOrder": 2
     },
     {
-      "name": "Jest|Mocha|Chai",
-      "proficiencyLevel": 6,
+      "name": "React.js",
+      "proficiencyLevel": 7,
       "sortOrder": 3
     },
     {
-      "name": "Gatsby.js|Next.js",
-      "proficiencyLevel": 6,
+      "name": "<Gatsby|Next>.js",
+      "proficiencyLevel": 7,
       "sortOrder": 4
     }
   ]
