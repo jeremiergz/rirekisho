@@ -28,95 +28,107 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "icons/android-icon-144x144.png",
-    "revision": "de9546c77c238b66409e44b30669ea05"
+    "revision": "47999e064da54ac99ffb3c2721ca7340"
   },
   {
     "url": "icons/android-icon-192x192.png",
-    "revision": "facb9c3b6cc40b8edc7db6ad1dc88673"
+    "revision": "d1650d6fb54a41b7adedc67f9e5af7d3"
   },
   {
     "url": "icons/android-icon-36x36.png",
-    "revision": "f789b4678cf40499d6c3e0bd28927b70"
+    "revision": "d9f741c101313030ba045568a50ff9df"
   },
   {
     "url": "icons/android-icon-48x48.png",
-    "revision": "b1791841564bd2e4fd59181b7a17c104"
+    "revision": "a273cf44fa301f462b7c104921d14533"
+  },
+  {
+    "url": "icons/android-icon-512x512.png",
+    "revision": "8994c7aab37dc89f4a9e8e1c86799d11"
   },
   {
     "url": "icons/android-icon-72x72.png",
-    "revision": "444e18f41f0874a7b27059adc8086bdd"
+    "revision": "06e8e0f6805c648a1be2c1333b306518"
   },
   {
     "url": "icons/android-icon-96x96.png",
-    "revision": "112566117438da728db789b1629c1910"
+    "revision": "5a82aa0f776d793e0e970ec4ba0758ac"
   },
   {
     "url": "icons/apple-icon-114x114.png",
-    "revision": "8ba3f7373b510b46aabe236c4ebcd5d9"
+    "revision": "9289aad8dd74af971351530c61ad62b7"
   },
   {
     "url": "icons/apple-icon-120x120.png",
-    "revision": "8c208d9387e8cc17ee65fad74fdeff9f"
+    "revision": "ec2a0a447230b7248e7171f8d48dac79"
   },
   {
     "url": "icons/apple-icon-144x144.png",
-    "revision": "de9546c77c238b66409e44b30669ea05"
+    "revision": "47999e064da54ac99ffb3c2721ca7340"
   },
   {
     "url": "icons/apple-icon-152x152.png",
-    "revision": "b9ec19154388ce3326eda0f29a44c229"
+    "revision": "80ac3d46d920d25ca9a18660b1ea0762"
   },
   {
     "url": "icons/apple-icon-180x180.png",
-    "revision": "84a74ee94915e0c859f9d85e8f72a37a"
+    "revision": "be1bf5b8ca5e4e39db6a0b4ebe5936fd"
   },
   {
     "url": "icons/apple-icon-57x57.png",
-    "revision": "3a2544f22dee4f5e3b51857933a1f7b8"
+    "revision": "455093d6c01155bbd82dff0faf71d9d2"
   },
   {
     "url": "icons/apple-icon-60x60.png",
-    "revision": "605257d71dc950937619fe789745f7c4"
+    "revision": "419ffce6eda9de9db2bb754714354c30"
   },
   {
     "url": "icons/apple-icon-72x72.png",
-    "revision": "444e18f41f0874a7b27059adc8086bdd"
+    "revision": "06e8e0f6805c648a1be2c1333b306518"
   },
   {
     "url": "icons/apple-icon-76x76.png",
-    "revision": "10063437d4a3fba4f84eed3b7db383aa"
+    "revision": "65205d1c52a6bf43ff833f325f6b1a6e"
+  },
+  {
+    "url": "icons/apple-icon-precomposed.png",
+    "revision": "b088153df25533e0bc38b372c7965647"
+  },
+  {
+    "url": "icons/apple-icon.png",
+    "revision": "b088153df25533e0bc38b372c7965647"
   },
   {
     "url": "icons/favicon-16x16.png",
-    "revision": "3f5c2120af0e2b08873bf430e459c0ca"
+    "revision": "e696ab9cba7a045d021ef9c2d0ab88ec"
   },
   {
     "url": "icons/favicon-32x32.png",
-    "revision": "379cc37059b8353ffba377694ad6c2a2"
+    "revision": "398cd2b4eaaa7c3f7b80fdb64223ac25"
   },
   {
     "url": "icons/favicon-96x96.png",
-    "revision": "112566117438da728db789b1629c1910"
+    "revision": "3ba7a674dbc29bbb296c92d967657f6c"
   },
   {
     "url": "icons/maskable-icon.png",
-    "revision": "acf54658af54a1b6027a5edc2d240bbf"
+    "revision": "8994c7aab37dc89f4a9e8e1c86799d11"
   },
   {
     "url": "icons/ms-icon-144x144.png",
-    "revision": "de9546c77c238b66409e44b30669ea05"
+    "revision": "353d232dd207c3a15c14ae988f241732"
   },
   {
     "url": "icons/ms-icon-150x150.png",
-    "revision": "95745d8392a6c548ec92c79836fc7f6e"
+    "revision": "b69483f537972b9d6bca510547c4e25e"
   },
   {
     "url": "icons/ms-icon-310x310.png",
-    "revision": "be2ff1d79df4728992a3a860efbc482d"
+    "revision": "4bdc93d3144b28c146d815609f31d666"
   },
   {
     "url": "icons/ms-icon-70x70.png",
-    "revision": "2775ad601a1a3617ced9043494e358a4"
+    "revision": "88aa01b8eaddcd253120385108b62b6d"
   },
   {
     "url": "framework-a75c1619ffb03c24c949.js"
@@ -125,14 +137,14 @@ self.__precacheManifest = [
     "url": "styles.70292da04c283aa269e1.css"
   },
   {
-    "url": "app-067eec3f9ae4cc182e07.js"
+    "url": "app-8e5955fdbbf374a900e3.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0d91b16d00c2bf639e8dfc0537bef950"
+    "revision": "3f06c10798e4206229261219264edb73"
   },
   {
-    "url": "webpack-runtime-ecf92279a8b57521bf9e.js"
+    "url": "webpack-runtime-55cc92910f6acd8b048e.js"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b867a4914300ef258932.js"
@@ -142,7 +154,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "888b3122a926169cb94d36e7a8535408"
+    "revision": "8aa73df1fd82d7c0f5f863a1485d2ddc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -234,7 +246,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-067eec3f9ae4cc182e07.js`))) {
+  if (!resources || !(await caches.match(`/app-8e5955fdbbf374a900e3.js`))) {
     return await fetch(event.request)
   }
 
