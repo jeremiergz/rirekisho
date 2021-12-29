@@ -13,7 +13,7 @@ const Education = forwardRef<HTMLDivElement>(function Education(_, ref): JSX.Ele
       <Layout.Content reverse>
         {education.map((degree, index) => (
           <div className="flex flex-1 flex-col items-center relative" key={degree.name}>
-            <span className="font-bold text-secondary dark:text-secondary-dark text-xl md:text-base">
+            <span className="font-extrabold text-secondary dark:text-secondary-dark text-xl md:text-base">
               {degree.issueDate.substring(0, 4)}
             </span>
             <TimelineDot />

@@ -6,11 +6,28 @@ function Detail({ details, emphasize, information, label }: DetailProps): JSX.El
     <div className="flex">
       <span className="font-semibold min-w-[72px] text-gray-600 dark:text-gray-500">{label}:</span>
       <div>
-        {information && <span className="text-gray-800 dark:text-gray-400">{`${information}`}&nbsp;|&nbsp;</span>}
+        {information && (
+          <>
+            <span
+              className={clsx(
+                emphasize === 'all'
+                  ? 'font-semibold text-secondary dark:text-secondary-dark'
+                  : 'text-gray-800 dark:text-gray-400',
+                emphasize === 'primary' && 'font-semibold',
+              )}
+            >
+              {`${information}`}
+            </span>
+            <span>&nbsp;|&nbsp;</span>
+          </>
+        )}
         <span
           className={clsx(
             'italic',
-            emphasize ? 'font-semibold text-secondary dark:text-secondary-dark' : 'text-gray-800 dark:text-gray-400',
+            emphasize === 'all'
+              ? 'font-semibold text-secondary dark:text-secondary-dark'
+              : 'text-gray-800 dark:text-gray-400',
+            emphasize === 'secondary' && 'font-semibold',
           )}
         >
           {details}
@@ -22,7 +39,7 @@ function Detail({ details, emphasize, information, label }: DetailProps): JSX.El
 
 export type DetailProps = {
   details: string;
-  emphasize?: boolean;
+  emphasize?: 'all' | 'primary' | 'secondary';
   information?: string;
   label: string;
 };

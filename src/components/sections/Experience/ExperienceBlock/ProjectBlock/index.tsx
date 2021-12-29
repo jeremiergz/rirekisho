@@ -35,9 +35,9 @@ function ProjectBlock({
 }: ProjectBlockProps): JSX.Element {
   return (
     <div className="ml-4" {...rest}>
-      {client && <Detail details={client.sector} information={client.name} label="Client" />}
-      {description && <Detail details={description} information={name} label="Project" />}
-      {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize label="Techs" />}
+      {client && <Detail details={client.sector} emphasize="primary" information={client.name} label="Client" />}
+      {description && <Detail details={description} emphasize="secondary" information={name} label="Project" />}
+      {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize="all" label="Techs" />}
       <ul className="pl-6 md:pl-8">
         {tasks.map(task => {
           const elements = getElementsFromTask(task);

@@ -1,6 +1,8 @@
 import Layout from '@/components/common/Layout';
 import React from 'react';
 import '@/styles/global.css';
+import 'typeface-baloo-bhaina-2';
+import 'typeface-open-sans';
 
 const isBrowser = typeof window !== 'undefined';
 

@@ -18,7 +18,7 @@ function LabeledIcon({ children, className, link, name, ...rest }: LabeledIconPr
         )}
       >
         {children}
-        <span className="font-bold max-h-4 text-gray-900 dark:text-gray-300 text-xs">{name}</span>
+        <span className="font-extrabold max-h-4 text-gray-900 dark:text-gray-300 text-xs">{name}</span>
       </Conditional>
     </div>
   );

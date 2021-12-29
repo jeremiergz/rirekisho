@@ -14,7 +14,7 @@ function PersonalDetails({ items }: PersonalDetailsProps): JSX.Element {
       {items.map((item, index) => (
         <div className={clsx('flex flex-col', index !== items.length - 1 && 'mb-6')} key={item.label}>
           <Label title={item.label} />
-          <span className="font-bold leading-4 text-secondary dark:text-secondary-dark text-xl uppercase">
+          <span className="font-extrabold leading-4 text-secondary dark:text-secondary-dark text-xl uppercase">
             {item.value}
           </span>
         </div>

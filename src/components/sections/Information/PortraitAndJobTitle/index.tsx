@@ -45,7 +45,7 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
           </Conditional>
         </div>
       </div>
-      <span className="font-bold my-4 md:-mx-8 text-4xl text-center text-secondary dark:text-secondary-dark">
+      <span className="font-extrabold my-4 md:-mx-8 text-4xl text-center text-secondary dark:text-secondary-dark">
         {jobTitle}
       </span>
     </div>

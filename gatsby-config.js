@@ -51,13 +51,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     {
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        display: 'swap',
-        fonts: ['Baloo+Bhaina+2:700', 'Open+Sans:400,600,600i,800,800i'],
-      },
-    },
-    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         background_color: APP_COLOR,
@@ -114,12 +107,6 @@ module.exports = {
         workboxConfig: {
           globPatterns: ['**/icons/**'],
         },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-preconnect',
-      options: {
-        domains: ['https://fonts.googleapis.com'],
       },
     },
     {

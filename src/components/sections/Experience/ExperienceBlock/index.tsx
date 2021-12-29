@@ -34,7 +34,7 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
   return (
     <div className={clsx('flex flex-col items-stretch justify-start mb-8', 'col-span-2 lg:col-span-1')}>
       <div className="flex flex-col md:flex-row items-center justify-between">
-        <span className="font-bold text-primary dark:text-primary-dark text-lg whitespace-nowrap">
+        <span className="font-extrabold text-primary dark:text-primary-dark text-lg whitespace-nowrap">
           {startDate} - {endDate}
         </span>
         <div

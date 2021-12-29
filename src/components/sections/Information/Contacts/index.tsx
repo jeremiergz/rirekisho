@@ -43,7 +43,7 @@ function Contacts({ items }: ContactsProps): JSX.Element {
           >
             <Anchor aria-label={`Open ${item.type} contact`} external={isHTTPLink(item.link)} href={item.link}>
               <div className="flex flex-col-reverse md:flex-row items-center">
-                <span className="font-bold hidden md:block leading-8 text-lg text-primary dark:text-primary-dark">
+                <span className="font-extrabold hidden md:block leading-8 text-lg text-primary dark:text-primary-dark">
                   {item.label}
                 </span>
                 <div className="ml-4">
