@@ -28,7 +28,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"
         onClick={handleScrollTo('top')}
       >
-        <GoToIcon className="fill-gray-100 dark:fill-gray-900" height={28} width={28} />
+        <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />
       </button>
       {sections.map((section, i) => {
         const handleClick = () => {
@@ -53,11 +53,11 @@ function Menu({ sections }: MenuProps): JSX.Element {
             key={section.title}
             onClick={handleClick}
           >
-            <section.Icon className="fill-gray-100 dark:fill-gray-900" />
+            <section.Icon className="fill-gray-100 dark:fill-slate-900" />
             <BiColoredTitle
               className="hidden md:block leading-relaxed ml-2 text-lg"
-              primaryClassName="text-gray-100 dark:text-gray-900"
-              secondaryClassName="text-slate-300 dark:text-slate-800"
+              primaryClassName="text-gray-100 dark:text-slate-900"
+              secondaryClassName="text-slate-300 dark:text-[#233662]"
               title={section.title}
               variant="no-border"
             />
@@ -69,7 +69,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
         onClick={handleScrollTo('bottom')}
       >
-        <GoToIcon className="fill-gray-100 dark:fill-gray-900" height={28} width={28} />
+        <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />
       </button>
     </div>
   );

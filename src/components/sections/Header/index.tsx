@@ -27,7 +27,7 @@ function Header(): JSX.Element {
           <span
             className={clsx(
               'pt-1.5 text-3xl whitespace-nowrap',
-              'font-bold font-title leading-8 text-gray-100 tracking-tighter uppercase',
+              'font-bold font-title leading-8 text-gray-100 dark:text-slate-900 tracking-tighter uppercase',
             )}
           >
             {fullName}
