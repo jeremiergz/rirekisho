@@ -5,8 +5,8 @@ function TimelineDot(): JSX.Element {
   return (
     <div
       className={clsx(
-        'box-border bg-white dark:bg-gray-900 border-4 border-secondary dark:border-secondary-dark rounded-full',
-        'h-5 hidden md:block transition-colors w-5 will-change-auto',
+        'box-border rounded-full border-4 border-secondary bg-white dark:border-secondary-dark dark:bg-gray-900',
+        'hidden h-5 w-5 transition-colors will-change-auto md:block',
       )}
     />
   );

@@ -4,7 +4,7 @@ import React from 'react';
 function Detail({ details, emphasize, information, label }: DetailProps): JSX.Element {
   return (
     <div className="flex">
-      <span className="font-semibold min-w-[72px] text-gray-600 dark:text-gray-500">{label}:</span>
+      <span className="min-w-[72px] font-semibold text-gray-600 dark:text-gray-500">{label}:</span>
       <div>
         {information && (
           <>

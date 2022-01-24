@@ -7,7 +7,7 @@ const Section = forwardRef<HTMLDivElement, SectionProps>(function Section(
   ref,
 ): JSX.Element {
   return (
-    <section className={clsx(className, 'col-span-2 flex flex-col my-4', halfWidth && 'md:col-span-1')} {...rest}>
+    <section className={clsx(className, 'col-span-2 my-4 flex flex-col', halfWidth && 'md:col-span-1')} {...rest}>
       {title && <BiColoredTitle ref={ref} title={title} />}
       {children}
     </section>

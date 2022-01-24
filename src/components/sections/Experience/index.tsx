@@ -9,7 +9,7 @@ const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.E
   return (
     <Layout.Section className="mb-0" ref={ref} title="experience">
       <Layout.Content reverse>
-        <div className="grid gap-x-8 md:gap-x-16 grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-8 md:gap-x-16">
           {experiences
             .sort((a, b) => new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime())
             .map(item => (

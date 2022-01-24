@@ -6,7 +6,7 @@ function Label({ className, emphasize = false, title }: LabelProps): JSX.Element
     <label
       className={clsx(
         className,
-        'font-extrabold mb-1 text-sm uppercase',
+        'mb-1 text-sm font-extrabold uppercase',
         emphasize ? 'text-secondary dark:text-secondary-dark' : 'text-primary dark:text-primary-dark',
       )}
     >

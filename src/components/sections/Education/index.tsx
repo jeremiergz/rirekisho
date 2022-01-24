@@ -14,8 +14,8 @@ const Education = forwardRef<HTMLDivElement>(function Education(_, ref): JSX.Ele
         {education
           .sort((a, b) => new Date(a.issueDate).getTime() - new Date(b.issueDate).getTime())
           .map((degree, index) => (
-            <div className="flex flex-1 flex-col items-center relative" key={degree.name}>
-              <span className="font-extrabold text-secondary dark:text-secondary-dark text-xl md:text-base">
+            <div className="relative flex flex-1 flex-col items-center" key={degree.name}>
+              <span className="text-xl font-extrabold text-secondary dark:text-secondary-dark md:text-base">
                 {degree.issueDate.substring(0, 4)}
               </span>
               <TimelineDot />
@@ -30,7 +30,7 @@ const Education = forwardRef<HTMLDivElement>(function Education(_, ref): JSX.Ele
                 </TimelineLine>
               )}
               <Degree city={degree.city} countryCode={degree.countryCode} name={degree.name} school={degree.school} />
-              {index !== 0 && <div className="bg-primary h-8 md:hidden my-1 rounded-xl w-2" />}
+              {index !== 0 && <div className="my-1 h-8 w-2 rounded-xl bg-primary md:hidden" />}
             </div>
           ))}
       </Layout.Content>

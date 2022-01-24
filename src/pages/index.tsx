@@ -47,7 +47,7 @@ function HomePage(): JSX.Element {
     <>
       <Header />
       <Menu sections={sections} />
-      <main className="grid gap-x-8 md:gap-x-16 grid-cols-2 m-auto max-w-7xl px-6 md:px-8 lg:px-12">
+      <main className="m-auto grid max-w-7xl grid-cols-2 gap-x-8 px-6 md:gap-x-16 md:px-8 lg:px-12">
         <Information />
         {sections
           .filter(section => !!section.Component)

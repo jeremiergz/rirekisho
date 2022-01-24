@@ -6,7 +6,7 @@ function Content({ children, className, reverse = false, ...rest }: ContentProps
     <div
       className={clsx(
         className,
-        'flex md:flex-row md:flex-wrap items-center md:items-start w-full',
+        'flex w-full items-center md:flex-row md:flex-wrap md:items-start',
         reverse ? 'flex-col-reverse' : 'flex-col',
       )}
       {...rest}

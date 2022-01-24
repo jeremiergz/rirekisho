@@ -3,11 +3,11 @@ import React from 'react';
 function Degree({ city, countryCode, name, school }: DegreeProps): JSX.Element {
   return (
     <>
-      <span className="font-extrabold mt-1 text-center text-primary dark:text-primary-dark text-lg md:text-sm uppercase md:w-9/12">
+      <span className="mt-1 text-center text-lg font-extrabold uppercase text-primary dark:text-primary-dark md:w-9/12 md:text-sm">
         {name}
       </span>
-      <span className="font-extrabold text-base md:text-xs text-center text-gray-900 dark:text-gray-300">{school}</span>
-      <span className="font-bold text-center text-gray-900 dark:text-gray-300 text-sm md:text-2xs">
+      <span className="text-center text-base font-extrabold text-gray-900 dark:text-gray-300 md:text-xs">{school}</span>
+      <span className="text-center text-sm font-bold text-gray-900 dark:text-gray-300 md:text-2xs">
         {city.toUpperCase()} - {countryCode}
       </span>
     </>

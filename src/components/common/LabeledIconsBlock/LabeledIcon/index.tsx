@@ -6,7 +6,7 @@ import Conditional from '../../Conditional';
 function LabeledIcon({ children, className, link, name, ...rest }: LabeledIconProps): JSX.Element {
   return (
     <div
-      className={clsx(className, 'flex flex-1 lg:flex-initial flex-col items-center justify-center text-center')}
+      className={clsx(className, 'flex flex-1 flex-col items-center justify-center text-center lg:flex-initial')}
       {...rest}
     >
       <Conditional
@@ -18,7 +18,7 @@ function LabeledIcon({ children, className, link, name, ...rest }: LabeledIconPr
         )}
       >
         {children}
-        <span className="font-extrabold max-h-4 text-gray-900 dark:text-gray-300 text-xs">{name}</span>
+        <span className="max-h-4 text-xs font-extrabold text-gray-900 dark:text-gray-300">{name}</span>
       </Conditional>
     </div>
   );

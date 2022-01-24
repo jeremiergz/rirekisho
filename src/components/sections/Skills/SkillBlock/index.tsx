@@ -11,7 +11,7 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
   const factor = gradeBasis / maxBubblesNumber;
 
   return (
-    <div className={clsx(className, 'max-w-[373px] mb-6 w-full')} {...rest}>
+    <div className={clsx(className, 'mb-6 w-full max-w-[373px]')} {...rest}>
       <Label emphasize title={title} />
       {items
         .sort((a, b) => a.sortOrder - b.sortOrder)
@@ -23,11 +23,11 @@ function SkillBlock({ className, items, title, ...rest }: SkillBlockProps): JSX.
 
           return (
             <div className={clsx('flex items-center justify-between', isLast || 'mb-2')} key={item.name}>
-              <span className="font-extrabold text-lg text-gray-900 dark:text-gray-300 mr-6">{item.name}</span>
-              <span className="font-extrabold sm:hidden leading-4 text-secondary dark:text-secondary-dark text-xl">
+              <span className="mr-6 text-lg font-extrabold text-gray-900 dark:text-gray-300">{item.name}</span>
+              <span className="text-xl font-extrabold leading-4 text-secondary dark:text-secondary-dark sm:hidden">
                 {grade}/{gradeBasis}
               </span>
-              <div className="hidden sm:flex items-center">
+              <div className="hidden items-center sm:flex">
                 {fullBubblesNumber.map((bubble, index) => (
                   <Bubble className={clsx(index !== maxBubblesNumber - 1 && 'mr-2')} key={bubble} />
                 ))}

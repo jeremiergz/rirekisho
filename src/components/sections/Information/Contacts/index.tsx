@@ -25,8 +25,8 @@ function Contacts({ items }: ContactsProps): JSX.Element {
   return (
     <div
       className={clsx(
-        'flex flex-1 md:flex-col justify-between order-3 text-center',
-        'h-full max-h-8 md:max-h-full min-w-[224px] mt-6',
+        'order-3 flex flex-1 justify-between text-center md:flex-col',
+        'mt-6 h-full max-h-8 min-w-[224px] md:max-h-full',
       )}
     >
       {items
@@ -38,14 +38,14 @@ function Contacts({ items }: ContactsProps): JSX.Element {
           return (
             <div
               className={clsx(
-                'flex leading-3 items-center justify-center md:justify-end mx-2 md:mx-0',
+                'mx-2 flex items-center justify-center leading-3 md:mx-0 md:justify-end',
                 index !== items.length - 1 && 'md:mb-5',
               )}
               key={item.link}
             >
               <Anchor aria-label={`Open ${item.type} contact`} external={isHTTPLink(item.link)} href={item.link}>
-                <div className="flex flex-col-reverse md:flex-row items-center">
-                  <span className="font-extrabold hidden md:block leading-8 text-lg text-primary dark:text-primary-dark">
+                <div className="flex flex-col-reverse items-center md:flex-row">
+                  <span className="hidden text-lg font-extrabold leading-8 text-primary dark:text-primary-dark md:block">
                     {item.label}
                   </span>
                   <div className="ml-4">

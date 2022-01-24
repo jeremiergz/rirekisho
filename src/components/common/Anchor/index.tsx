@@ -6,7 +6,7 @@ function Anchor({ children, className, external, ...rest }: AnchorProps): JSX.El
 
   return (
     <a
-      className={clsx(className, 'hover:brightness-75 font-semibold text-inherit transition')}
+      className={clsx(className, 'font-semibold text-inherit transition hover:brightness-75')}
       rel="noopener noreferrer"
       target={target}
       {...rest}

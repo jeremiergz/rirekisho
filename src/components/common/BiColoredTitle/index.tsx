@@ -20,8 +20,8 @@ const BiColoredTitle = forwardRef<HTMLDivElement, BiColoredTitleProps>(function 
     <div
       className={clsx(
         className,
-        'border-primary font-extrabold pb-0.5 text-3xl text-center md:text-left',
-        variant === 'no-border' ? 'border-b-0 mb-0' : 'border-b-2 mb-2',
+        'border-primary pb-0.5 text-center text-3xl font-extrabold md:text-left',
+        variant === 'no-border' ? 'mb-0 border-b-0' : 'mb-2 border-b-2',
       )}
       onClick={onClick}
       ref={ref}

@@ -6,7 +6,7 @@ function Bubble({ className, empty, ...rest }: BubbleProps): JSX.Element {
     <span
       className={clsx(
         className,
-        'h-4 rounded-full w-4',
+        'h-4 w-4 rounded-full',
         empty ? 'bg-gray-300 dark:bg-gray-700 ' : 'bg-primary dark:bg-primary-dark',
       )}
       {...rest}

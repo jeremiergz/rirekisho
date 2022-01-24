@@ -19,7 +19,7 @@ function Lang({ dense = false, item }: LangProps): JSX.Element {
       <div className="w-10 md:w-12">
         <GatsbyImage alt={item.name} image={image} />
       </div>
-      <div className="flex mt-0.5 md:mt-1">
+      <div className="mt-0.5 flex md:mt-1">
         {fullStarsNumber.map(fstar => (
           <Star className="h-3 md:h-4" key={fstar} type="full" />
         ))}

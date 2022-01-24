@@ -43,7 +43,7 @@ function ProjectBlock({
           const elements = getElementsFromTask(task);
 
           return (
-            <li className="font-semibold mt-1 text-gray-600 dark:text-gray-300" key={task}>
+            <li className="mt-1 font-semibold text-gray-600 dark:text-gray-300" key={task}>
               •&nbsp;{elements.length > 0 ? elements : task}
             </li>
           );

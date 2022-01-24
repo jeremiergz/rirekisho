@@ -12,33 +12,33 @@ function Header(): JSX.Element {
   return (
     <header
       className={clsx(
-        'box-border flex h-36 md:h-20 items-center justify-center relative',
+        'relative box-border flex h-36 items-center justify-center md:h-20',
         'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
       )}
     >
       <div
         className={clsx(
-          'flex items-center flex-col md:flex-row justify-center md:justify-between',
+          'flex flex-col items-center justify-center md:flex-row md:justify-between',
           'px-6 md:px-8 lg:px-10',
-          'max-w-7xl w-full',
+          'w-full max-w-7xl',
         )}
       >
         <div className="flex items-center justify-center md:justify-start">
           <span
             className={clsx(
-              'pt-1.5 text-3xl whitespace-nowrap',
-              'font-bold font-title leading-8 text-gray-100 dark:text-slate-900 tracking-tighter uppercase',
+              'whitespace-nowrap pt-1.5 text-3xl',
+              'font-title font-bold uppercase leading-8 tracking-tighter text-gray-100 dark:text-slate-900',
             )}
           >
             {fullName}
             <div
-              className={clsx('absolute -bottom-3 flex left-auto justify-center right-auto max-w-7xl', 'print:hidden')}
+              className={clsx('absolute -bottom-3 left-auto right-auto flex max-w-7xl justify-center', 'print:hidden')}
             >
               <ThemeSwitch />
             </div>
           </span>
         </div>
-        <div className="flex mb-6 md:mb-0 mt-2 md:mt-0">
+        <div className="mb-6 mt-2 flex md:mb-0 md:mt-0">
           {languages
             .sort((a, b) => a.sortOrder - b.sortOrder)
             .map((item, index) => (

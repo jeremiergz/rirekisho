@@ -16,16 +16,16 @@ function Menu({ sections }: MenuProps): JSX.Element {
   return (
     <div
       className={clsx(
-        'fixed flex h-14 items-center justify-center top-0 transition w-full will-change-auto z-10',
+        'fixed top-0 z-10 flex h-14 w-full items-center justify-center transition will-change-auto',
         'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
         'print:hidden',
-        isAbove96px ? 'md:opacity-100 md:pointer-events-auto' : 'md:opacity-0 md:pointer-events-none',
-        isAbove168px ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none',
+        isAbove96px ? 'md:pointer-events-auto md:opacity-100' : 'md:pointer-events-none md:opacity-0',
+        isAbove168px ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0',
       )}
     >
       <button
         aria-label="Scroll to top"
-        className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 rotate-180 transition"
+        className="hidden rotate-180 p-1 transition hover:brightness-75 2xs:flex md:p-2"
         onClick={handleScrollTo('top')}
       >
         <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />
@@ -46,7 +46,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
           <button
             aria-label={`Scroll to ${section.title}`}
             className={clsx(
-              'hover:brightness-75 flex p-2 transition',
+              'flex p-2 transition hover:brightness-75',
               isFirst ? 'ml-0' : 'ml-1',
               isLast ? 'mr-0' : 'mr-1',
             )}
@@ -55,7 +55,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
           >
             <section.Icon className="fill-gray-100 dark:fill-slate-900" />
             <BiColoredTitle
-              className="hidden md:block leading-relaxed ml-2 text-lg"
+              className="ml-2 hidden text-lg leading-relaxed md:block"
               primaryClassName="text-gray-100 dark:text-slate-900"
               secondaryClassName="text-slate-300 dark:text-[#233662]"
               title={section.title}
@@ -66,7 +66,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
       })}
       <button
         aria-label="Scroll to bottom"
-        className="hover:brightness-75 hidden 2xs:flex p-1 md:p-2 transition"
+        className="hidden p-1 transition hover:brightness-75 2xs:flex md:p-2"
         onClick={handleScrollTo('bottom')}
       >
         <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />

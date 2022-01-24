@@ -12,14 +12,14 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
   const image = getImage(mainCertification.img.src);
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-between -mt-10 md:order-2">
+    <div className="-mt-10 flex flex-1 flex-col items-center justify-between md:order-2">
       <div
         className={clsx(
           'bg-white dark:bg-gray-900',
-          'h-48 lg:h-56 relative rounded-full transition-colors w-48 lg:w-56 will-change-auto',
+          'relative h-48 w-48 rounded-full transition-colors will-change-auto lg:h-56 lg:w-56',
         )}
       >
-        <div className="absolute h-40 lg:h-48 left-0 m-auto right-0 top-4 w-40 lg:w-48">
+        <div className="absolute left-0 right-0 top-4 m-auto h-40 w-40 lg:h-48 lg:w-48">
           <StaticImage
             alt="portrait"
             height={192}
@@ -29,7 +29,7 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
             src="../../../../../content/assets/portrait.png"
           />
         </div>
-        <div className="absolute bottom-0 lg:-bottom-2 h-16 lg:h-20 right-0 lg:-right-1.5 w-16 lg:w-20">
+        <div className="absolute bottom-0 right-0 h-16 w-16 lg:-bottom-2 lg:-right-1.5 lg:h-20 lg:w-20">
           <Conditional
             condition={!!mainCertification.website}
             wrapper={children => (
@@ -46,7 +46,7 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
           </Conditional>
         </div>
       </div>
-      <span className="font-extrabold my-4 md:-mx-8 text-4xl text-center text-secondary dark:text-secondary-dark">
+      <span className="my-4 text-center text-4xl font-extrabold text-secondary dark:text-secondary-dark md:-mx-8">
         {jobTitle}
       </span>
     </div>

@@ -32,15 +32,15 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
   const image = getImage(item.company.img?.src);
 
   return (
-    <div className={clsx('flex flex-col items-stretch justify-start mb-8', 'col-span-2 lg:col-span-1')}>
-      <div className="flex flex-col md:flex-row items-center justify-between">
-        <span className="font-extrabold text-primary dark:text-primary-dark text-lg whitespace-nowrap">
+    <div className={clsx('mb-8 flex flex-col items-stretch justify-start', 'col-span-2 lg:col-span-1')}>
+      <div className="flex flex-col items-center justify-between md:flex-row">
+        <span className="whitespace-nowrap text-lg font-extrabold text-primary dark:text-primary-dark">
           {startDate} - {endDate}
         </span>
         <div
           className={clsx(
-            'flex flex-row md:flex-row-reverse items-center my-2 md:my-0 w-full md:w-auto',
-            'font-semibold min-w-fit text-secondary dark:text-secondary-dark',
+            'my-2 flex w-full flex-row items-center md:my-0 md:w-auto md:flex-row-reverse',
+            'min-w-fit font-semibold text-secondary dark:text-secondary-dark',
           )}
         >
           <Conditional
@@ -51,17 +51,17 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
               </Anchor>
             )}
           >
-            <div className="bg-transparent dark:bg-gray-200 -ml-2 md:ml-auto md:-mr-2 px-2 py-1 rounded-full transition-colors will-change-auto">
+            <div className="-ml-2 rounded-full bg-transparent px-2 py-1 transition-colors will-change-auto dark:bg-gray-200 md:ml-auto md:-mr-2">
               {image ? (
                 <GatsbyImage alt={item.company.name} className="h-6" image={image} />
               ) : (
-                <span className="text-gray-900 text-lg">{item.company.name}</span>
+                <span className="text-lg text-gray-900">{item.company.name}</span>
               )}
             </div>
           </Conditional>
-          <div className="bg-secondary h-5 dark:bg-gray-900 mx-0.5 transition-colors w-0.5" />
+          <div className="mx-0.5 h-5 w-0.5 bg-secondary transition-colors dark:bg-gray-900" />
           <div className="flex flex-1 px-2 py-1">
-            <span className="italic text-base">{item.company.sector}</span>
+            <span className="text-base italic">{item.company.sector}</span>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ function ExperienceBlock({ item }: ExperienceBlockProps): JSX.Element {
         .map((project, index) => (
           <React.Fragment key={project.description}>
             <ProjectBlock item={project} />
-            {index >= 1 && <div className="bg-gray-200 dark:bg-gray-700 h-px ml-4 my-3 w-auto md:w-9/12 lg:w-auto" />}
+            {index >= 1 && <div className="my-3 ml-4 h-px w-auto bg-gray-200 dark:bg-gray-700 md:w-9/12 lg:w-auto" />}
           </React.Fragment>
         ))
         .reverse()}
