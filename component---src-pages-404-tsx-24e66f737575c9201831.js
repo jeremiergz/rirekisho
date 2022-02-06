@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrirekisho=self.webpackChunkrirekisho||[]).push([[218],{938:function(e,n,u){u.r(n);var i=u(1597),f=u(7294),t="undefined"!=typeof window;n.default=function(){return(0,f.useEffect)((function(){t&&(0,i.navigate)("/")}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-24e66f737575c9201831.js.map
