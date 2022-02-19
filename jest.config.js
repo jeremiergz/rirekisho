@@ -9,6 +9,7 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
     '.+\\.(jpe?g|png|gif|eot|otf|webp|svg|ttf|woff2?|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/__mocks__/file.ts',
     '^@/(.*)$': '<rootDir>/src/$1',
+    '^gatsby-page-utils/(.*)$': `gatsby-page-utils/dist/$1`,
   },
   setupFilesAfterEnv: ['<rootDir>/__mocks__/window.ts', '<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',
