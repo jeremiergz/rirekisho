@@ -15,11 +15,9 @@
         "Back-end & front-end engineering & development",
         "Implement Design Systems",
         "CI/CD pipelines on GitHub/GitLab",
-        "Dockerization/Kubernetization of applications",
         "Move software platforms to Kubernetes (GCP)"
       ],
       "technologies": [
-        "JavaScript",
         "TypeScript",
         "Golang",
         "Node.js",

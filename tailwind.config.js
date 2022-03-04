@@ -17,7 +17,7 @@ module.exports = {
         title: ["'Baloo Bhaina 2', cursive"],
       },
       fontSize: {
-        '2xs': '0.625rem', // 10px
+        '2xs': ['10px', '14px'],
       },
     },
     screens: {

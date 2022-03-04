@@ -1,5 +1,5 @@
-import LayoutComponent from '@/components/common/Layout';
-import useLayoutData, * as Layout from '@/components/hooks/data/useLayoutData';
+import LayoutComponent from '@/common/components/layout/Layout';
+import useSiteMetadata, * as Layout from '@/common/hooks/useSiteMetadata';
 import NotFoundPage from '@/pages/404';
 import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
@@ -9,7 +9,7 @@ describe('pages/404 Test Suite', () => {
   beforeAll(() => {
     const { layoutData } = mockData;
 
-    jest.spyOn(Layout, 'default').mockReturnValue(layoutData as unknown as ReturnType<typeof useLayoutData>);
+    jest.spyOn(Layout, 'default').mockReturnValue(layoutData as unknown as ReturnType<typeof useSiteMetadata>);
   });
 
   it('matches snapshot', () => {
