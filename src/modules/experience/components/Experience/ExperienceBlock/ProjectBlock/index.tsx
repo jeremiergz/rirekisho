@@ -31,11 +31,12 @@ function getElementsFromTask(task: string) {
 }
 
 function ProjectBlock({
+  className,
   item: { client, description, name, tasks, technologies },
   ...rest
 }: ProjectBlockProps): JSX.Element {
   return (
-    <div className={clsx('flex flex-col md:flex-row', 'print:flex-row')} {...rest}>
+    <div className={clsx(className, 'flex flex-col md:flex-row', 'print:flex-row')} {...rest}>
       <ul className="flex-1">
         {client && <Detail details={client.sector} emphasize="primary" information={client.name} label="Client" />}
         {description && <Detail details={description} emphasize="secondary" information={name} label="Project" />}

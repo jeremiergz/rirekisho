@@ -11,14 +11,7 @@ function ExperienceBlock({ className, item, ...rest }: ExperienceBlockProps): JS
       {item.projects
         .sort((a, b) => a.sortOrder - b.sortOrder)
         .map((project, index) => (
-          <React.Fragment key={project.description}>
-            <ProjectBlock item={project} />
-            {index >= 1 && (
-              <div
-                className={clsx('my-3 h-px w-auto bg-gray-200 dark:bg-gray-700 md:w-9/12 lg:w-auto', 'print:w-9/12')}
-              />
-            )}
-          </React.Fragment>
+          <ProjectBlock className={clsx(index >= 1 && 'mb-6')} item={project} key={project.description} />
         ))
         .reverse()}
     </div>

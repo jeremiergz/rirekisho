@@ -4,7 +4,7 @@ import React from 'react';
 function Detail({ details, emphasize, information, label }: DetailProps): JSX.Element {
   return (
     <li className={clsx('flex', 'print:text-sm')}>
-      <span className={clsx('min-w-[74px] font-semibold text-gray-600 dark:text-gray-500', 'min-w-[60px]')}>
+      <span className={clsx('min-w-[74px] font-semibold text-gray-600 dark:text-gray-500', 'print:min-w-[60px]')}>
         {label}:
       </span>
       <div>
@@ -20,7 +20,7 @@ function Detail({ details, emphasize, information, label }: DetailProps): JSX.El
             >
               {`${information}`}
             </span>
-            <span>&nbsp;|&nbsp;</span>
+            <span className="text-gray-400 transition-colors dark:text-gray-600">&nbsp;|&nbsp;</span>
           </>
         )}
         <span

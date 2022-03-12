@@ -15,11 +15,14 @@ const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.E
           {experiences
             .sort((a, b) => new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime())
             .map((item, index) => (
-              <ExperienceBlock
-                className={clsx(index !== experiences.length - 1 && 'mb-8 print:mb-6')}
-                item={item}
-                key={item.timeline.startDate}
-              />
+              <React.Fragment key={item.timeline.startDate}>
+                <ExperienceBlock item={item} key={item.timeline.startDate} />
+                {index !== experiences.length - 1 && (
+                  <div
+                    className={clsx('my-4 h-px w-auto bg-gray-200 transition-colors dark:bg-gray-700', 'print:my-3')}
+                  />
+                )}
+              </React.Fragment>
             ))}
         </div>
       </Content>
