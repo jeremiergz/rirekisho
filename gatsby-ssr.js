@@ -4,18 +4,28 @@ import 'typeface-open-sans';
 import Layout from '@/common/components/layout/Layout';
 import React from 'react';
 
-const isBrowser = typeof window !== 'undefined';
+export const onRenderBody = ({ setBodyAttributes, setHtmlAttributes }) => {
+  const isBrowser = typeof window !== 'undefined';
 
-if (isBrowser) {
   if (
-    localStorage.theme === 'dark' ||
-    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    isBrowser &&
+    (localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches))
   ) {
-    document.documentElement.classList.add('dark');
+    setHtmlAttributes({
+      className: 'dark',
+      lang: 'en',
+    });
   } else {
-    document.documentElement.classList.remove('dark');
+    setHtmlAttributes({
+      lang: 'en',
+    });
   }
-}
+
+  setBodyAttributes({
+    className: 'dark:bg-gray-900 transition-colors',
+  });
+};
 
 export const wrapRootElement = ({ element }) => {
   return (
