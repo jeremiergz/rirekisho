@@ -9,6 +9,7 @@ function ThemeSwitch(props: ThemeSwitchProps): JSX.Element {
 
   return (
     <button
+      aria-label="Toggle theme"
       className={clsx(
         'relative h-6 w-12 rounded-3xl transition',
         'bg-white transition hover:brightness-75 dark:bg-gray-900',
