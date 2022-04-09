@@ -1,6 +1,6 @@
 import useSiteMetadata from '@/common/hooks/useSiteMetadata';
 import React from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 function SEOProvider({ children }: SEOProviderProps): JSX.Element {
   const { authorName, color, description, keywords, siteUrl, version } = useSiteMetadata();
@@ -9,9 +9,10 @@ function SEOProvider({ children }: SEOProviderProps): JSX.Element {
   const appVersion = `v${version}`;
 
   return (
-    <HelmetProvider>
+    <>
       <Helmet
         bodyAttributes={{ class: 'bg-white dark:bg-gray-900 transition-colors' }}
+        defer={false}
         htmlAttributes={{ lang: 'en' }}
         title={appTitle}
       >
@@ -30,7 +31,7 @@ function SEOProvider({ children }: SEOProviderProps): JSX.Element {
         <meta property="og:url" content={siteUrl} />
       </Helmet>
       {children}
-    </HelmetProvider>
+    </>
   );
 }
 
