@@ -17,7 +17,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
     <div
       className={clsx(
         'fixed top-0 z-10 flex h-14 w-full items-center justify-center transition will-change-auto',
-        'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
+        'bg-primary dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark',
         'print:hidden',
         isAbove96px ? 'md:pointer-events-auto md:opacity-100' : 'md:pointer-events-none md:opacity-0',
         isAbove168px ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0',

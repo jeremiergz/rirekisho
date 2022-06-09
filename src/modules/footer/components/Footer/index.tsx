@@ -19,7 +19,7 @@ function Footer(): JSX.Element {
     <footer
       className={clsx(
         'relative mt-4 flex h-40 flex-col items-center justify-center text-gray-100 md:h-32',
-        'bg-gradient-to-b from-secondary to-primary dark:from-secondary-dark dark:via-primary-dark dark:to-primary',
+        'bg-primary dark:bg-gradient-to-b dark:from-secondary-dark dark:to-primary-dark',
         'print:hidden',
       )}
     >

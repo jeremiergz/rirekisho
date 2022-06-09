@@ -19,7 +19,10 @@ const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.E
                 <ExperienceBlock item={item} key={item.timeline.startDate} />
                 {index !== experiences.length - 1 && (
                   <div
-                    className={clsx('my-4 h-px w-auto bg-gray-200 transition-colors dark:bg-gray-700', 'print:my-3')}
+                    className={clsx(
+                      'my-4 h-px w-auto bg-gray-200 transition-colors dark:bg-gray-700',
+                      'print:my-3.5 print:bg-transparent print:dark:bg-transparent',
+                    )}
                   />
                 )}
               </React.Fragment>

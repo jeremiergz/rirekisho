@@ -13,7 +13,7 @@ function Header(): JSX.Element {
     <header
       className={clsx(
         'relative box-border flex h-36 items-center justify-center md:h-20',
-        'bg-gradient-to-b from-primary to-secondary dark:from-primary dark:via-primary-dark dark:to-secondary-dark',
+        'bg-primary dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark',
         'print:h-20',
       )}
     >

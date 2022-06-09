@@ -6,3 +6,10 @@
   margin: 0mm;
   size: A4 portrait;
 }
+
+@media print {
+  html {
+    min-height: 200vh;
+    print-color-adjust: exact !important;
+  }
+}
