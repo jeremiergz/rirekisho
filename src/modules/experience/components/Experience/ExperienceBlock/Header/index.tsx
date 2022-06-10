@@ -37,14 +37,19 @@ function Header({ company, endDate, startDate }: HeaderProps): JSX.Element {
         'print:m-0 print:max-w-md print:flex-row',
       )}
     >
-      <span className="whitespace-nowrap text-lg font-extrabold text-primary dark:text-primary-dark">
+      <span
+        className={clsx(
+          'whitespace-nowrap text-lg font-extrabold text-primary dark:text-primary-dark md:min-w-[220px]',
+          'print:min-w-[228px]',
+        )}
+      >
         {formattedStartDate} - {formattedEndDate}
       </span>
       <div
         className={clsx(
-          'my-2 flex w-full flex-row items-center md:my-0 md:w-auto md:flex-row-reverse',
+          'mb-2 flex w-full flex-col-reverse items-center md:mb-0 md:flex-row',
           'min-w-fit font-semibold text-secondary dark:text-secondary-dark',
-          'print:my-0 print:w-auto print:flex-row-reverse',
+          'print:mb-0 print:flex-row',
         )}
       >
         <Conditional
@@ -57,8 +62,8 @@ function Header({ company, endDate, startDate }: HeaderProps): JSX.Element {
         >
           <div
             className={clsx(
-              '-ml-2 rounded-full bg-transparent px-2 py-1 transition-colors will-change-auto dark:bg-gray-200 md:ml-auto md:-mr-2',
-              'print:ml-auto print:-mr-2',
+              'min-w-[150px] rounded-full bg-transparent bg-[#d5e6ea] px-2 py-1 text-center transition-colors will-change-auto dark:bg-gray-200',
+              'print:min-w-[150px]',
             )}
           >
             {image ? (
@@ -68,9 +73,8 @@ function Header({ company, endDate, startDate }: HeaderProps): JSX.Element {
             )}
           </div>
         </Conditional>
-        <div className="mx-0.5 h-5 w-0.5 bg-secondary transition-colors dark:bg-gray-900" />
-        <div className="flex flex-1 px-2 py-1">
-          <span className="text-base italic">{company.sector}</span>
+        <div className={clsx('flex flex-1 px-2.5 pb-1 md:pb-0', 'print:pb-0')}>
+          <span className="text-sm italic">{company.sector}</span>
         </div>
       </div>
     </div>
