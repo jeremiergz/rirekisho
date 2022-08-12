@@ -4,18 +4,18 @@ import 'typeface-open-sans';
 import Layout from '@/common/components/layout/Layout';
 import React from 'react';
 
-const isBrowser = typeof window !== 'undefined';
-
-if (isBrowser) {
-  if (
-    localStorage.theme === 'dark' ||
-    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
-    document.documentElement.classList.add('dark');
-  } else {
-    document.documentElement.classList.remove('dark');
-  }
-}
+export const onClientEntry = () => {
+  window.addEventListener('load', () => {
+    if (
+      window.localStorage.getItem('theme') === 'dark' ||
+      (!('theme' in window.localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  });
+};
 
 export const wrapRootElement = ({ element }) => {
   return (

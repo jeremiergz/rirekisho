@@ -9,8 +9,8 @@ export const onRenderBody = ({ setBodyAttributes, setHtmlAttributes }) => {
 
   if (
     isBrowser &&
-    (localStorage.theme === 'dark' ||
-      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches))
+    (window.localStorage.getItem('theme') === 'dark' ||
+      (!('theme' in window.localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches))
   ) {
     setHtmlAttributes({
       className: 'dark',
@@ -23,7 +23,7 @@ export const onRenderBody = ({ setBodyAttributes, setHtmlAttributes }) => {
   }
 
   setBodyAttributes({
-    className: 'dark:bg-gray-900 transition-colors',
+    className: 'bg-white dark:bg-gray-900 transition-colors',
   });
 };
 

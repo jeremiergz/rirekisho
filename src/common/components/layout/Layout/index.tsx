@@ -1,14 +1,26 @@
 import ErrorBoundary from '@/common/components/misc/ErrorBoundary';
-import SEOProvider from '@/common/components/providers/SEOProvider';
 import ThemeProvider from '@/common/components/providers/ThemeProvider';
-import React from 'react';
+import clsx from 'clsx';
+import React, { useEffect, useState } from 'react';
 
 function Layout({ children }: LayoutProps): JSX.Element {
+  const [isInitialized, setIsInitialized] = useState(false);
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setIsInitialized(true);
+    }, 300);
+
+    return () => {
+      window.clearTimeout(timeout);
+    };
+  }, []);
+
   return (
     <ErrorBoundary>
-      <SEOProvider>
+      <div className={clsx('transition-opacity duration-300 ease-out', !isInitialized && 'opacity-0')}>
         <ThemeProvider>{children}</ThemeProvider>
-      </SEOProvider>
+      </div>
     </ErrorBoundary>
   );
 }

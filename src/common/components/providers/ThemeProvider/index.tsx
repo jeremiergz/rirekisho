@@ -5,8 +5,8 @@ const isBrowser = typeof window !== 'undefined';
 
 if (isBrowser) {
   if (
-    localStorage.theme === 'dark' ||
-    (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    window.localStorage.getItem('theme') === 'dark' ||
+    (!('theme' in window.localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
   ) {
     initialThemeMode = 'dark';
   }
@@ -27,7 +27,7 @@ function ThemeProvider({ children }: ThemeProviderProps): JSX.Element {
 
   useEffect(() => {
     if (isBrowser) {
-      localStorage.theme = mode;
+      window.localStorage.setItem('theme', mode);
       if (mode === 'dark') {
         document.documentElement.classList.add('dark');
       } else {
