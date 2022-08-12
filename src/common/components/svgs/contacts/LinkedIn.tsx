@@ -1,5 +1,4 @@
 import SVG, { SVGProps } from '@/common/components/misc/SVG';
-import React from 'react';
 
 function LinkedIn(props: LinkedInProps): JSX.Element {
   return (

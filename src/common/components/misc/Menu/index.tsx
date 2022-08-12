@@ -3,7 +3,6 @@ import GoToIcon from '@/common/components/svgs/icons/GoTo';
 import useScrollThreshold from '@/common/hooks/useScrollThreshold';
 import Section from '@/common/models/Section';
 import clsx from 'clsx';
-import React from 'react';
 
 function Menu({ sections }: MenuProps): JSX.Element {
   const isAbove96px = useScrollThreshold(80);

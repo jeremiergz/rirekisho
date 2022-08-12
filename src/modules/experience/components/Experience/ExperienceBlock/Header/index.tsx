@@ -3,7 +3,6 @@ import Conditional from '@/common/components/misc/Conditional';
 import Experience from '@/modules/experience/models/Experience';
 import clsx from 'clsx';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import React from 'react';
 
 const months = {
   0: 'JAN',

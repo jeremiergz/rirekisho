@@ -1,5 +1,4 @@
 import SVG, { SVGProps } from '@/common/components/misc/SVG';
-import React from 'react';
 
 function Coding(props: CodingProps): JSX.Element {
   return (

@@ -1,6 +1,5 @@
 import Label from '@/common/components/misc/Label';
 import clsx from 'clsx';
-import React from 'react';
 import PersonalDetail from '../../../models/PersonalDetail';
 
 function PersonalDetails({ items }: PersonalDetailsProps): JSX.Element {

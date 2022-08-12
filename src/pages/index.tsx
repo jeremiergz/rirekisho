@@ -14,7 +14,7 @@ import Information from '@/modules/information/components/Information';
 import Interests from '@/modules/interests/components/Interests';
 import Skills from '@/modules/skills/components/Skills';
 import Toolbox from '@/modules/toolbox/components/Toolbox';
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 function HomePage(): JSX.Element {
   const [originalDocTitle, setOriginalDocTitle] = useState<string>();

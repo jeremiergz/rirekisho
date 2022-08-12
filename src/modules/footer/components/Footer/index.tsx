@@ -4,7 +4,6 @@ import HeartIcon from '@/common/components/svgs/icons/Heart';
 import useSiteMetadata from '@/common/hooks/useSiteMetadata';
 import clsx from 'clsx';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import React from 'react';
 import useFooterData from '../../hooks/useFooterData';
 
 function Footer(): JSX.Element {

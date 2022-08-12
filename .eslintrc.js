@@ -4,4 +4,7 @@ module.exports = {
     jest: true,
   },
   extends: ['@kobionic/eslint-config-typescript-react'],
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
 };

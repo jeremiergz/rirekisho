@@ -1,7 +1,6 @@
 import LayoutComponent from '@/common/components/layout/Layout';
 import useSiteMetadata, * as Layout from '@/common/hooks/useSiteMetadata';
 import NotFoundPage from '@/pages/404';
-import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
 import mockData from './mock.json';
 

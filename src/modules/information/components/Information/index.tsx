@@ -1,6 +1,5 @@
 import Content from '@/common/components/layout/Content';
 import Section from '@/common/components/layout/Section';
-import React from 'react';
 import useInformationData from '../../hooks/useInformationData';
 import Contacts from './Contacts';
 import PersonalDetails from './PersonalDetails';

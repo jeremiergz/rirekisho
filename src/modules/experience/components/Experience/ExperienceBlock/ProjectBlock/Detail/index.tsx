@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import React from 'react';
 
 function Detail({ details, emphasize, information, label }: DetailProps): JSX.Element {
   return (

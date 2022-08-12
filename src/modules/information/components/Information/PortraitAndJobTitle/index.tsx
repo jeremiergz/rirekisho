@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import React from 'react';
 import CertificationStamp from './CertificationStamp';
 
 function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Element {

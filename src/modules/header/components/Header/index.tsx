@@ -1,7 +1,6 @@
 import ThemeSwitch from '@/common/components/misc/ThemeSwitch';
 import useInformationData from '@/modules/information/hooks/useInformationData';
 import clsx from 'clsx';
-import React from 'react';
 import useLanguagesData from '../../hooks/useLanguagesData';
 import Lang from './Lang';
 

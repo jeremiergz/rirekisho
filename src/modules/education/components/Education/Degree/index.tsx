@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import React from 'react';
 
 function Degree({ city, countryCode, name, school }: DegreeProps): JSX.Element {
   return (

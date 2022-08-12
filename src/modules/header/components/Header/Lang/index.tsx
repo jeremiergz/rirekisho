@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import React from 'react';
 import Language from '../../../models/Language';
 import Star from './Star';
 

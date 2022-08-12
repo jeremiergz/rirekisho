@@ -1,14 +1,14 @@
 import Content from '@/common/components/layout/Content';
 import Section from '@/common/components/layout/Section';
 import clsx from 'clsx';
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import useSkillsData from '../../hooks/useSkillsData';
 import SkillBlock from './SkillBlock';
 
 const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref): JSX.Element {
   const skills = useSkillsData();
 
-  // Display only supports 3 skills groups
+  // FIXME: Display only supports 3 skills groups
   const [skillsGroup1, skillsGroup2, skillsGroup3] = skills.sort((a, b) => a.sortOrder - b.sortOrder);
 
   return (

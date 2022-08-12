@@ -10,7 +10,6 @@ import useInterestsData, * as Interests from '@/modules/interests/hooks/useInter
 import useSkillsData, * as Skills from '@/modules/skills/hooks/useSkillsData';
 import useToolboxData, * as Toolbox from '@/modules/toolbox/hooks/useToolboxData';
 import HomePage from '@/pages';
-import React from 'react';
 import ReactTestRenderer from 'react-test-renderer';
 import mockData from './mock.json';
 

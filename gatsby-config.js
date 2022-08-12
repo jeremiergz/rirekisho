@@ -31,6 +31,7 @@ const AUTHOR_TWITTER_USERNAME = informationJSON.twitterUsername;
 });
 
 module.exports = {
+  jsxRuntime: 'automatic',
   siteMetadata: {
     authorName: AUTHOR_NAME,
     color: APP_COLOR,
