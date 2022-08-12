@@ -34,9 +34,12 @@ function HomePage(): JSX.Element {
   useEffect(() => {
     window.onbeforeprint = () => {
       setOriginalDocTitle(document.title);
-      document.title = 'Jeremie Rodriguez - CV (EN)';
+      const theme = window.localStorage.getItem('theme');
+      document.title = `Jeremie Rodriguez - CV (EN-${theme})`;
     };
-    window.onafterprint = () => (document.title = originalDocTitle);
+    window.onafterprint = () => {
+      document.title = originalDocTitle;
+    };
 
     return () => {
       window.onbeforeprint = null;
