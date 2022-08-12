@@ -1,4 +1,5 @@
 import Menu from '@/common/components/misc/Menu';
+import SEO from '@/common/components/misc/SEO';
 import EducationIcon from '@/common/components/svgs/sections/Education';
 import ExperienceIcon from '@/common/components/svgs/sections/Experience';
 import InterestsIcon from '@/common/components/svgs/sections/Interests';
@@ -58,6 +59,10 @@ function HomePage(): JSX.Element {
       <Footer />
     </>
   );
+}
+
+export function Head(): JSX.Element {
+  return <SEO />;
 }
 
 export default HomePage;

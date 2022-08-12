@@ -1,3 +1,4 @@
+import SEO from '@/common/components/misc/SEO';
 import { navigate } from 'gatsby';
 import { useEffect } from 'react';
 
@@ -9,6 +10,10 @@ function NotFoundPage(): JSX.Element {
   }, []);
 
   return null;
+}
+
+export function Head(): JSX.Element {
+  return <SEO />;
 }
 
 export default NotFoundPage;

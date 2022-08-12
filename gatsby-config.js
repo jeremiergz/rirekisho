@@ -46,7 +46,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-postcss',
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
@@ -103,14 +102,6 @@ module.exports = {
         name: `${AUTHOR_NAME} | CV`,
         start_url: '/',
         theme_color: APP_COLOR,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        workboxConfig: {
-          globPatterns: ['**/icons/**'],
-        },
       },
     },
     {
