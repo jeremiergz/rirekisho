@@ -1,41 +1,36 @@
 {
   "company": {
     "img": {
-      "src": "../../assets/company_stacklabs.png"
+      "src": "../../assets/company_irrijardin.png"
     },
-    "name": "Stack Labs",
-    "sector": "Cloud Services",
-    "website": "https://stack-labs.com"
+    "name": "Irrijardin",
+    "sector": "Pools & Spas",
+    "website": "https://irrijardin.fr"
   },
   "projects": [
     {
-      "client": {
-        "name": "N'PY",
-        "sector": "Ski Resorts"
-      },
-      "description": "Ski lift tickets sales data lake",
-      "name": null,
-      "sortOrder": 1,
-      "tasks": ["Create <strong>Cloud Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em>"],
-      "technologies": ["Dataflow", "GCP", "Terraform"]
-    },
-    {
-      "client": {
-        "name": "Irrijardin",
-        "sector": "Pools & Spas"
-      },
+      "client": null,
       "description": "Mobile app & FaaS development",
+      "employer": {
+        "name": "Freelancing",
+        "sector": "IT Services",
+        "website": "https://jeremierodriguez.com"
+      },
       "name": "Joey",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "tasks": [
-        "Create & maintain AWS Lambda cloud functions",
-        "Implement, refactor & maintain native components using React Native"
+        "<em>Create</em> & <em>maintain</em> <strong>AWS Lambda</strong> cloud functions",
+        "<strong>Automate</strong> <em>AWS resources allocation</em> using <strong>CloudFormation</strong>",
+        "<em>Add features</em>, <em>refactor</em> & <em>maintain</em> native app with <strong>React Native</strong>",
+        "<strong>TypeScript expertise</strong> to ensure <strong>code quality</strong> & <strong>maintainability</strong>",
+        "Implement <strong>subscription payment system</strong> on <em>Google Play</em> & <em>Apple App Store</em>",
+        "<em>Debugging</em> & <em>L3 support</em>"
       ],
-      "technologies": ["React Native", "TypeScript", "AWS", "Lambda"]
+      "technologies": ["React Native", "TypeScript", "AWS", "Lambda", "CloudFormation", "DynamoDB"]
     }
   ],
   "timeline": {
-    "endDate": null,
-    "startDate": "2020-10-01"
+    "endDate": "2021-12-15",
+    "startDate": "2020-11-16"
   }
 }

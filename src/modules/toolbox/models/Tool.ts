@@ -1,8 +1,10 @@
 import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 type ToolProps = {
-  img?: { src: IGatsbyImageData };
-  link?: string;
+  img: {
+    src: IGatsbyImageData;
+  } | null;
+  link: string | null;
   name: string;
   sortOrder: number;
 };

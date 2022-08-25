@@ -9,9 +9,9 @@ const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.E
   const experiences = useExperiencesData();
 
   return (
-    <Section className="my-0" ref={ref} title="experience">
+    <Section className="my-0 print:my-0" ref={ref} title="experience">
       <Content reverse>
-        <div>
+        <div className="print:mt-4">
           {experiences
             .sort((a, b) => new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime())
             .map((item, index) => (
@@ -21,7 +21,7 @@ const Experience = forwardRef<HTMLDivElement>(function Experience(_, ref): JSX.E
                   <div
                     className={clsx(
                       'my-4 h-px w-auto bg-gray-200 transition-colors dark:bg-gray-700',
-                      'print:my-[13px] print:bg-transparent print:dark:bg-transparent',
+                      'print:my-2 print:bg-transparent print:dark:bg-transparent',
                     )}
                   />
                 )}

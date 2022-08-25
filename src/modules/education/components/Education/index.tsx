@@ -11,7 +11,7 @@ const Education = forwardRef<HTMLDivElement>(function Education(_, ref): JSX.Ele
   const education = useEducationData();
 
   return (
-    <Section className="print:mt-4" ref={ref} title="education">
+    <Section className="print:mt-2" ref={ref} title="education">
       <Content reverse>
         {education
           .sort((a, b) => new Date(a.issueDate).getTime() - new Date(b.issueDate).getTime())

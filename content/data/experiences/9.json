@@ -1,0 +1,40 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_canb.png"
+    },
+    "name": "canB",
+    "sector": "Banking transactions",
+    "website": "https://canb.eu"
+  },
+  "projects": [
+    {
+      "client": null,
+      "description": "Cloud infrastructure audit & refactor",
+      "employer": {
+        "name": "Freelancing",
+        "sector": "IT Services",
+        "website": "https://jeremierodriguez.com"
+      },
+      "name": null,
+      "sortOrder": 1,
+      "tasks": [
+        "Redo their <em>GKE Kubernetes clusters</em> <strong>from scratch</strong>",
+        "Use a <strong>GitOps</strong> approach to manage the infrastructure",
+        "Use <strong>Kustomize</strong> to organize <em>K8s manifests</em>",
+        "Create custom <strong>VPC network</strong>",
+        "Add the <strong>Linkerd</strong> service mesh to increase security with <strong>mTLS</strong>",
+        "Add <em>Linkerd multicluster extension</em> to <strong>enable encrypted multi-cluster traffic</strong>",
+        "<strong>Put Secrets</strong> & <strong>ConfigMaps in Git</strong>, encrypting Secrets with <strong>Sops</strong> from <em>Mozilla</em>",
+        "<strong>Automate</strong> their <em>Cloud infrastructure</em> resources allocation using <strong>Terraform</strong>",
+        "Create an <strong>automated</strong> <em>CouchDB database</em> <strong>backup</strong> in <em>Bash</em> as a <strong>Kubernetes CronJob</strong>",
+        "<strong>Audit</strong> their existing Cloud infrastructure & <strong>document it</strong>"
+      ],
+      "technologies": ["GCP", "GKE", "Kubernetes", "Kustomize", "GitLab", "Terraform"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2021-11-09",
+    "startDate": "2021-08-10"
+  }
+}

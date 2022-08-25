@@ -1,0 +1,39 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_saasalerts.png"
+    },
+    "name": "SaaS Alerts",
+    "sector": "Cybersecurity",
+    "website": "https://saasalerts.com"
+  },
+  "projects": [
+    {
+      "client": null,
+      "description": "Security events remediation",
+      "employer": {
+        "name": "Stack Labs",
+        "sector": "Cloud Services",
+        "website": "https://stack-labs.com"
+      },
+      "name": "Response",
+      "sortOrder": 1,
+      "tasks": [
+        "Attribute <strong>static IPs</strong> to <em>Cloud Functions</em> with <strong>Serverless VPC Access</strong>, <strong>custom VPC network</strong> & <strong>Cloud NAT</strong>",
+        "Development of a <em>new API from the ground up</em> with a <strong>FaaS architecture</strong> hosted on <strong>GCP</strong> & <strong>Firebase</strong>",
+        "API that enables an UI to <strong>trigger automated remediation actions</strong> depending on <strong>custom cybersecurity events rules</strong> created by the user",
+        "Use the <strong>Elasticsearch Watcher API</strong> to trigger remediation actions when a <em>security event is detected</em>",
+        "Implement <strong>Node.js backends best practices</strong>: <em>tooling</em>, <em>Git hooks</em>, <em>modular architecture</em>, <em>tests</em> with a <strong>99%+ code coverage</strong>",
+        "<strong>CI/CD with GitLab</strong>: automate <em>builds</em>, <em>tests</em>, <em>lints</em> & <em>releases</em>",
+        "Add <strong>Merge Request reports</strong> to GitLab: <em>code coverage</em>, <em>test suites</em> & <em>Terraform</em>",
+        "Automate <em>infrastructure deployments</em> with <strong>Terraform</strong>",
+        "Create a <em>shared monorepo project</em> with <strong>Turborepo</strong> & <strong>Changesets</strong> to manage releases"
+      ],
+      "technologies": ["GCP", "Firebase Functions", "Firestore", "Node.js", "TypeScript", "Elasticsearch"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2022-08-31",
+    "startDate": "2022-04-01"
+  }
+}

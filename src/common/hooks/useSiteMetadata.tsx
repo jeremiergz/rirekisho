@@ -1,9 +1,12 @@
 import { graphql, useStaticQuery } from 'gatsby';
+import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 type SiteMetadataQueryResponse = {
+  banner: IGatsbyImageData;
   site: {
     siteMetadata: {
       authorName: string;
+      authorTwitterUsername: string;
       color: string;
       description: string;
       keywords: string[];
@@ -11,18 +14,25 @@ type SiteMetadataQueryResponse = {
       name: string;
       repositoryURL: string;
       siteUrl: string;
-      twitterUsername: string;
       version: string;
     };
   };
 };
 
-function useSiteMetadata(): SiteMetadataQueryResponse['site']['siteMetadata'] {
+function useSiteMetadata(): {
+  banner: SiteMetadataQueryResponse['banner'];
+} & SiteMetadataQueryResponse['site']['siteMetadata'] {
   const rawData = useStaticQuery<SiteMetadataQueryResponse>(graphql`
     query SiteMetadataQuery {
+      banner: file(relativePath: { eq: "cover.png" }) {
+        childImageSharp {
+          gatsbyImageData(formats: [AUTO, WEBP, AVIF], height: 630, placeholder: BLURRED, quality: 100, width: 1200)
+        }
+      }
       site {
         siteMetadata {
           authorName
+          authorTwitterUsername
           color
           description
           keywords
@@ -30,14 +40,13 @@ function useSiteMetadata(): SiteMetadataQueryResponse['site']['siteMetadata'] {
           name
           repositoryURL
           siteUrl
-          twitterUsername
           version
         }
       }
     }
   `);
 
-  return rawData.site.siteMetadata;
+  return { banner: rawData.banner, ...rawData.site.siteMetadata };
 }
 
 export type { SiteMetadataQueryResponse };

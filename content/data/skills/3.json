@@ -3,7 +3,7 @@
   "sortOrder": 3,
   "items": [
     {
-      "name": "<Koa|Express>.js",
+      "name": "<Express|Koa>.js",
       "proficiencyLevel": 7,
       "sortOrder": 1
     },
@@ -13,7 +13,7 @@
       "sortOrder": 2
     },
     {
-      "name": "React.js",
+      "name": "React",
       "proficiencyLevel": 7,
       "sortOrder": 3
     },

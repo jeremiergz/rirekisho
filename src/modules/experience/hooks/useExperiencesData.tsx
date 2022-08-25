@@ -28,8 +28,14 @@ function useExperiencesData(): Experience[] {
             client {
               name
               sector
+              website
             }
             description
+            employer {
+              name
+              sector
+              website
+            }
             name
             sortOrder
             tasks

@@ -1,7 +1,9 @@
 import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 type LanguageProps = {
-  img: { src: IGatsbyImageData };
+  img: {
+    src: IGatsbyImageData;
+  };
   name: string;
   proficiencyLevel: number;
   sortOrder: number;

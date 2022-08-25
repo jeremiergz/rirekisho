@@ -11,18 +11,20 @@
     {
       "client": {
         "name": "Airbus Defence & Space",
-        "sector": "Space Systems"
+        "sector": "Space Systems",
+        "website": "https://airbus.com/products-services/space"
       },
-      "description": "Web framework - Web portal",
-      "name": "NemEO - DiginEO",
+      "employer": null,
+      "description": "Web framework & portal",
+      "name": "NemEO/DiginEO",
       "sortOrder": 1,
       "tasks": [
         "<strong>Technical manager</strong> of a 3-developer team",
-        "Front-end development: <strong>React.js</strong> & <strong>Redux</strong>",
+        "Front-end development: <strong>React</strong> & <strong>Redux</strong>",
         "Maintenance of the <strong>Architectural Design Document</strong>",
         "<strong>Deployment industrialization</strong> using Docker"
       ],
-      "technologies": ["React.js", "Redux", "Node.js", "TypeScript", "Docker"]
+      "technologies": ["React", "Redux", "Node.js", "TypeScript", "Docker"]
     }
   ],
   "timeline": {

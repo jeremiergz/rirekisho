@@ -8,7 +8,7 @@ const Interests = forwardRef<HTMLDivElement>(function Interests(_, ref): JSX.Ele
   const interests = useInterestsData();
 
   return (
-    <Section className="mt-0 print:mt-4" halfWidth ref={ref} title="interests">
+    <Section className="mt-0 print:mt-2" halfWidth ref={ref} title="interests">
       <Content>
         <LabeledIconsBlock items={interests} />
       </Content>

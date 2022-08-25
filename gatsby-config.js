@@ -4,7 +4,7 @@ const informationJSON = require('./content/data/information/index.json');
 const { description, homepage, keywords, license, name, repository, version } = require('./package.json');
 const tailwind = require('./tailwind.config');
 
-const APP_COLOR = tailwind.theme.extend.colors.primary;
+const APP_COLOR = tailwind.theme.extend.colors['primary'];
 const APP_DESCRIPTION = description;
 const APP_KEYWORDS = keywords;
 const APP_LICENSE = license;
@@ -34,6 +34,7 @@ module.exports = {
   jsxRuntime: 'automatic',
   siteMetadata: {
     authorName: AUTHOR_NAME,
+    authorTwitterUsername: AUTHOR_TWITTER_USERNAME,
     color: APP_COLOR,
     description: APP_DESCRIPTION,
     keywords: APP_KEYWORDS,
@@ -41,7 +42,6 @@ module.exports = {
     name: APP_NAME,
     repositoryURL: APP_REPOSITORY_URL,
     siteUrl: APP_SITE_URL,
-    twitterUsername: AUTHOR_TWITTER_USERNAME,
     version: APP_VERSION,
   },
   plugins: [
@@ -60,37 +60,47 @@ module.exports = {
         icons: [
           {
             sizes: '36x36',
-            src: '/icons/android-icon-36x36.png',
+            src: '/icons/icon-36x36.png',
             type: 'image/png',
           },
           {
             sizes: '48x48',
-            src: '/icons/android-icon-48x48.png',
+            src: '/icons/icon-48x48.png',
             type: 'image/png',
           },
           {
             sizes: '72x72',
-            src: '/icons/android-icon-72x72.png',
+            src: '/icons/icon-72x72.png',
             type: 'image/png',
           },
           {
             sizes: '96x96',
-            src: '/icons/android-icon-96x96.png',
+            src: '/icons/icon-96x96.png',
             type: 'image/png',
           },
           {
             sizes: '144x144',
-            src: '/icons/android-icon-144x144.png',
+            src: '/icons/icon-144x144.png',
             type: 'image/png',
           },
           {
             sizes: '192x192',
-            src: '/icons/android-icon-192x192.png',
+            src: '/icons/icon-192x192.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '256x256',
+            src: '/icons/icon-256x256.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '384x384',
+            src: '/icons/icon-384x384.png',
             type: 'image/png',
           },
           {
             sizes: '512x512',
-            src: '/icons/android-icon-512x512.png',
+            src: '/icons/icon-512x512.png',
             type: 'image/png',
           },
           {
@@ -99,10 +109,33 @@ module.exports = {
             src: '/icons/maskable-icon.png',
             type: 'image/png',
           },
+          {
+            sizes: '70x70',
+            src: '/icons/ms-icon-70x70.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '150x150',
+            src: '/icons/ms-icon-150x150.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '310x310',
+            src: '/icons/ms-icon-310x310.png',
+            type: 'image/png',
+          },
         ],
         name: `${AUTHOR_NAME} | CV`,
         start_url: '/',
         theme_color: APP_COLOR,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          globPatterns: ['**/icons/**'],
+        },
       },
     },
     {

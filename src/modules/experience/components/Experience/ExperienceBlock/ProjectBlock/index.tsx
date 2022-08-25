@@ -3,7 +3,7 @@ import React, { createElement } from 'react';
 import Project from '../../../../models/Project';
 import Detail from './Detail';
 
-const tagRegExp = /(<em>[\s\w&\/._-]+<\/em>|<strong>[\s\w&\/._-]+<\/strong>)/gim;
+const tagRegExp = /(<em>[\%\+\s\w&\/._-]+<\/em>|<strong>[\%\+\s\w&\/._-]+<\/strong>)/gim;
 const tagRemovalRexExp = /<\/?em>|<\/?strong>/gi;
 const tagTypeRexExp = /(?<=<)\w+(?=>)/i;
 
@@ -32,17 +32,38 @@ function getElementsFromTask(task: string) {
 
 function ProjectBlock({
   className,
-  item: { client, description, name, tasks, technologies },
+  item: { client, description, employer, name, tasks, technologies },
   ...rest
 }: ProjectBlockProps): JSX.Element {
   return (
-    <div className={clsx(className, 'flex flex-col md:flex-row', 'print:flex-row')} {...rest}>
-      <ul className="flex-1">
-        {client && <Detail details={client.sector} emphasize="primary" information={client.name} label="Client" />}
-        {description && <Detail details={description} emphasize="secondary" information={name} label="Project" />}
-        {technologies.length > 0 && <Detail details={technologies.join(' | ')} emphasize="all" label="Techs" />}
-      </ul>
-      <ul className={clsx('flex-1 pl-6 text-gray-600 dark:text-gray-300 md:pl-8', 'print:pl-8 print:text-sm')}>
+    <div className={clsx(className, 'flex flex-col')} {...rest}>
+      <div className={clsx('flex w-full flex-col md:flex-row', 'print:flex-row')}>
+        <ul className="flex-1">
+          {employer && (
+            <Detail
+              details={employer.sector}
+              emphasize="primary"
+              information={employer.name}
+              informationWebsite={employer.website}
+              label="Employer"
+            />
+          )}
+          {client && (
+            <Detail
+              details={client.sector}
+              emphasize="primary"
+              information={client.name}
+              informationWebsite={client.website}
+              label="Client"
+            />
+          )}
+          {description && <Detail details={description} emphasize="secondary" information={name} label="Project" />}
+        </ul>
+        <ul className={clsx('flex-1 md:pl-8', 'print:pl-8')}>
+          {technologies.length > 0 && <Detail dense details={technologies.join(' | ')} emphasize="all" label="Techs" />}
+        </ul>
+      </div>
+      <ul className={clsx('mt-4 flex-1 text-gray-600 dark:text-gray-300 md:pl-8', 'print:pl-8 print:text-sm')}>
         {tasks.map((task, index) => {
           const elements = getElementsFromTask(task);
 

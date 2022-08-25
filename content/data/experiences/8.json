@@ -1,0 +1,32 @@
+{
+  "company": {
+    "img": {
+      "src": "../../assets/company_airbus.png"
+    },
+    "name": "Acubed (Airbus California)",
+    "sector": "Aerospace innovation projects",
+    "website": "https://acubed.airbus.com/"
+  },
+  "projects": [
+    {
+      "client": null,
+      "description": "Google Cloud landing zone",
+      "employer": {
+        "name": "Freelancing",
+        "sector": "IT Services",
+        "website": "https://jeremierodriguez.com"
+      },
+      "name": null,
+      "sortOrder": 1,
+      "tasks": [
+        "Creation of a new <strong>Google Cloud Identity</strong>",
+        "Help with the implementation of <strong>best practices</strong> related to <em>GCP Organizations</em>"
+      ],
+      "technologies": ["GCP"]
+    }
+  ],
+  "timeline": {
+    "endDate": "2021-08-31",
+    "startDate": "2021-08-01"
+  }
+}

@@ -2,6 +2,7 @@ import Anchor from '@/common/components/misc/Anchor';
 import Conditional from '@/common/components/misc/Conditional';
 import Experience from '@/modules/experience/models/Experience';
 import clsx from 'clsx';
+import { parse as parseDateString } from 'date-fns';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const months = {
@@ -20,7 +21,7 @@ const months = {
 };
 
 function getFormattedDate(dateString: string) {
-  const date = dateString && new Date(dateString);
+  const date = dateString && parseDateString(dateString, 'yyyy-MM-dd', new Date());
   return dateString ? `${months[date.getMonth()]} ${date.getFullYear()}` : 'PRESENT';
 }
 
@@ -42,7 +43,7 @@ function Header({ company, endDate, startDate }: HeaderProps): JSX.Element {
           'print:min-w-[228px]',
         )}
       >
-        {formattedStartDate} - {formattedEndDate}
+        {formattedStartDate === formattedEndDate ? formattedStartDate : `${formattedStartDate} - ${formattedEndDate}`}
       </span>
       <div
         className={clsx(

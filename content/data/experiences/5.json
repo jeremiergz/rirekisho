@@ -11,21 +11,28 @@
     {
       "client": null,
       "description": "Features development & maintenance of Web platforms",
-      "name": null,
+      "employer": null,
+      "name": "eXperience Design",
       "sortOrder": 1,
-      "tasks": ["Back-end & front-end engineering & development"],
+      "tasks": [
+        "Front-end/back-end engineering using <strong>React</strong>, <strong>Redux</strong>, <strong>Node.js</strong> & <strong>Koa</strong>",
+        "<em>Production</em> <strong>debugging</strong> & <strong>monitoring</strong>",
+        "CI/CD with <strong>GitLab</strong>"
+      ],
       "technologies": ["Node.js", "React", "JavaScript", "Styled-Components", "Gatsby.js"]
     },
     {
       "client": null,
       "description": "Kubernetization & move to GCP of Web platforms",
+      "employer": null,
       "name": "XDoG",
       "sortOrder": 2,
       "tasks": [
-        "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Cloud Platform</strong>",
-        "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc"
+        "Migrate web platforms to <strong>Kubernetes</strong> on <strong>Google Kubernetes Engine</strong>",
+        "Adapt APIs for K8s: <strong>health probes</strong>, <strong>Prometheus metrics</strong>, etc",
+        "Assist in adapting <strong>Jenkins pipelines</strong> to Google Cloud Platform"
       ],
-      "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "Istio"]
+      "technologies": ["Docker", "JavaScript", "Kubernetes", "GCP", "GKE", "Istio", "Jenkins"]
     }
   ],
   "timeline": {

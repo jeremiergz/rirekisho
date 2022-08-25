@@ -12,7 +12,7 @@ const Skills = forwardRef<HTMLDivElement>(function Skills(_, ref): JSX.Element {
   const [skillsGroup1, skillsGroup2, skillsGroup3] = skills.sort((a, b) => a.sortOrder - b.sortOrder);
 
   return (
-    <Section className="mt-4" ref={ref} title="skills">
+    <Section className="print:mt-2" ref={ref} title="skills">
       <Content className="justify-center">
         <SkillBlock
           className={clsx('mx-4 lg:ml-0', 'print:mx-0')}

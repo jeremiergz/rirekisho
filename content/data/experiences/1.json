@@ -11,9 +11,11 @@
     {
       "client": {
         "name": "Omnium Finance",
-        "sector": "Financial Services"
+        "sector": "Financial Services",
+        "website": "https://omnium-finance.com"
       },
-      "description": "Client base management Web interface for tablets and PCs",
+      "description": "Client base management with UI",
+      "employer": null,
       "name": null,
       "sortOrder": 1,
       "tasks": [

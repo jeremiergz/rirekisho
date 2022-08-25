@@ -18,7 +18,7 @@ function Layout({ children }: LayoutProps): JSX.Element {
 
   return (
     <ErrorBoundary>
-      <div className={clsx('transition-opacity duration-300 ease-out', !isInitialized && 'opacity-0')}>
+      <div className={clsx('transition-opacity duration-200 ease-out', !isInitialized && 'opacity-0')}>
         <ThemeProvider>{children}</ThemeProvider>
       </div>
     </ErrorBoundary>

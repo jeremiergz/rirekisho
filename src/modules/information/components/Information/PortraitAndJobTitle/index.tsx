@@ -8,7 +8,7 @@ function PortraitAndJobTitle({ jobTitle }: PortraitAndJobTitleProps): JSX.Elemen
       <span
         className={clsx(
           'my-4 text-center text-4xl font-extrabold text-secondary dark:text-secondary-dark md:-mx-8',
-          'print:-mx-8 print:mb-0',
+          'print:-mx-8 print:my-0',
         )}
       >
         {jobTitle}

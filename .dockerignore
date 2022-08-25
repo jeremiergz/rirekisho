@@ -37,9 +37,12 @@ build/
 coverage/
 dist/
 node_modules/
+package/
+public/
 out/
 .dockerignore
 .env*
 *-report.*
 *.log*
+*.tsbuildinfo
 Dockerfile

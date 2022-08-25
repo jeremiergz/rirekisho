@@ -1,19 +1,21 @@
 {
   "company": {
     "img": {
-      "src": "../../assets/company_cs.png"
+      "src": "../../assets/company_airbusds.png"
     },
-    "name": "CS",
-    "sector": "Aerospace Industry",
-    "website": "https://c-s.fr"
+    "name": "Airbus Defence & Space",
+    "sector": "Space Systems",
+    "website": "https://airbus.com/products-services/space"
   },
   "projects": [
     {
-      "client": {
-        "name": "Airbus Defence & Space",
-        "sector": "Space Systems"
+      "client": null,
+      "description": "Ground-Segment simulators with UI",
+      "employer": {
+        "name": "CS",
+        "sector": "Aerospace Industry",
+        "website": "https://c-s.fr"
       },
-      "description": "Ground-Segment simulators, validation & testing web interface",
       "name": "Pulsar",
       "sortOrder": 1,
       "tasks": [

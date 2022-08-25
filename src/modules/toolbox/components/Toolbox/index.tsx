@@ -8,7 +8,7 @@ const Toolbox = forwardRef<HTMLDivElement>(function Toolbox(_, ref): JSX.Element
   const toolbox = useToolboxData();
 
   return (
-    <Section className="mt-0 print:mt-4" halfWidth ref={ref} title="toolbox">
+    <Section className="mt-0 print:mt-2" halfWidth ref={ref} title="toolbox">
       <Content>
         <LabeledIconsBlock items={toolbox} />
       </Content>

@@ -2,11 +2,13 @@ import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 type CertificationProps = {
   display: boolean;
-  img: { src: IGatsbyImageData };
+  img: {
+    src: IGatsbyImageData;
+  };
   name: string;
   provider: string;
   sortOrder: number;
-  website: string;
+  website: string | null;
 };
 
 interface Certification extends CertificationProps {}

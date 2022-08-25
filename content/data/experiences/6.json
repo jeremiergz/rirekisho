@@ -1,37 +1,58 @@
 {
   "company": {
     "img": null,
-    "name": "Freelancer",
+    "name": "Freelancing",
     "sector": "IT Services",
-    "website": null
+    "website": "https://jeremierodriguez.com"
   },
   "projects": [
     {
       "client": null,
-      "description": null,
+      "description": "Small missions here & there",
+      "employer": null,
       "name": null,
       "sortOrder": 1,
       "tasks": [
-        "Back-end & front-end engineering & development",
-        "Implement Design Systems",
-        "CI/CD pipelines on GitHub/GitLab",
-        "Move software platforms to Kubernetes (GCP)"
+        "<em>Add features</em> on a <strong>React Ecommerce app</strong> to find a <em>local professional gardener</em>",
+        "Implement features on a <em>hybrid mobile app</em> using the <strong>Ionic Framework</strong> & <strong>React</strong>"
       ],
-      "technologies": [
-        "TypeScript",
-        "Golang",
-        "Node.js",
-        "React",
-        "GCP",
-        "Docker",
-        "Kubernetes",
-        "GitHub Actions",
-        "GitLab CI"
-      ]
+      "technologies": ["React", "Ionic Framework", "GitLab"]
+    },
+    {
+      "client": {
+        "name": "N'PY",
+        "sector": "Ski Resorts",
+        "website": "https://n-py.com"
+      },
+      "description": "Ski lift tickets sales data lake",
+      "employer": null,
+      "name": null,
+      "sortOrder": 2,
+      "tasks": [
+        "Create Cloud <strong>Infrastucture as Code</strong> using <em>Terraform</em> & <em>Ansible</em> on <em>Google Cloud Platform</em>"
+      ],
+      "technologies": ["Dataflow", "GCP", "Terraform"]
+    },
+    {
+      "client": {
+        "name": "Ividence",
+        "sector": "Advertising",
+        "website": "https://ividence.com"
+      },
+      "description": "Performance diagnostics",
+      "employer": null,
+      "name": null,
+      "sortOrder": 3,
+      "tasks": [
+        "Analyze <strong>MongoDB performance bottlenecks</strong> on <em>MongoDB Atlas</em>",
+        "Suggest changes on <em>MongoDB queries</em> that end-up with a <em>high CPU usage</em>",
+        "Implement an <em>in-memory cache service</em> in <strong>Golang</strong> for performance improvements with <em>complex</em> <strong>MongoDB</strong> <em>queries</em>"
+      ],
+      "technologies": ["Golang", "MongoDB", "Kubernetes"]
     }
   ],
   "timeline": {
-    "endDate": "2020-09-30",
+    "endDate": "2020-11-13",
     "startDate": "2020-04-01"
   }
 }

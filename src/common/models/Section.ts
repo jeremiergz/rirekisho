@@ -4,7 +4,7 @@ import React from 'react';
 type SectionProps = {
   Component?: React.ForwardRefExoticComponent<React.RefAttributes<HTMLDivElement>>;
   Icon: React.FC<SVGProps>;
-  ref: React.RefObject<HTMLDivElement> | 'top' | 'bottom';
+  ref: React.RefObject<HTMLDivElement> | 'bottom' | 'top';
   title: string;
 };
 

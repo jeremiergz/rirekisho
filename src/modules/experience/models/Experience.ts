@@ -3,10 +3,12 @@ import Project from './Project';
 
 type ExperienceProps = {
   company: {
-    img: { src: IGatsbyImageData };
-    name: string;
+    img: {
+      src: IGatsbyImageData;
+    } | null;
+    name: string | null;
     sector: string;
-    website: string;
+    website: string | null;
   };
   projects: Project[];
   timeline: {
