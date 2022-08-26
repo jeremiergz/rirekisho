@@ -5,7 +5,7 @@ import Detail from './Detail';
 
 const tagRegExp = /(<em>[\%\+\s\w&\/._-]+<\/em>|<strong>[\%\+\s\w&\/._-]+<\/strong>)/gim;
 const tagRemovalRexExp = /<\/?em>|<\/?strong>/gi;
-const tagTypeRexExp = /(?<=<)\w+(?=>)/i;
+const tagTypeRexExp = /<\w+>/i;
 
 function getElementsFromTask(task: string) {
   const matches = [...task.matchAll(tagRegExp)];
@@ -13,7 +13,7 @@ function getElementsFromTask(task: string) {
 
   return matches.reduce<(string | JSX.Element)[]>((acc, match, index) => {
     const text = match[0].replace(tagRemovalRexExp, '');
-    const type = match[0].match(tagTypeRexExp)[0];
+    const type = match[0].match(tagTypeRexExp)[0].replaceAll(/<|>/g, '');
 
     // Save text from start until 1st match
     acc.push(task.substring(previousMatchIndex, match.index));
