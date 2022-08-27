@@ -10,11 +10,7 @@ function Header(): JSX.Element {
 
   return (
     <header
-      className={clsx(
-        'relative box-border flex h-36 items-center justify-center md:h-20',
-        'bg-primary dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark',
-        'print:h-20',
-      )}
+      className={clsx('relative box-border flex h-36 items-center justify-center bg-primary md:h-20', 'print:h-20')}
     >
       <div
         className={clsx(
@@ -28,7 +24,7 @@ function Header(): JSX.Element {
           <span
             className={clsx(
               'whitespace-nowrap pt-1.5 text-3xl',
-              'font-title font-bold uppercase leading-8 tracking-tighter text-gray-100 dark:text-slate-900',
+              'dark:text-text-gray-300 font-title font-bold uppercase leading-8 tracking-tighter text-gray-100',
             )}
           >
             {fullName}

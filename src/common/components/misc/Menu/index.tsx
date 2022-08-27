@@ -15,8 +15,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
   return (
     <div
       className={clsx(
-        'fixed top-0 z-10 flex h-14 w-full items-center justify-center transition will-change-auto',
-        'bg-primary dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark',
+        'fixed top-0 z-10 flex h-14 w-full items-center justify-center bg-primary transition will-change-auto',
         'print:hidden',
         isAbove96px ? 'md:pointer-events-auto md:opacity-100' : 'md:pointer-events-none md:opacity-0',
         isAbove168px ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0',
@@ -27,7 +26,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hidden rotate-180 p-1 transition hover:brightness-75 2xs:flex md:p-2"
         onClick={handleScrollTo('top')}
       >
-        <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />
+        <GoToIcon className="fill-gray-100" height={28} width={28} />
       </button>
       {sections.map((section, i) => {
         const handleClick = () => {
@@ -52,11 +51,11 @@ function Menu({ sections }: MenuProps): JSX.Element {
             key={section.title}
             onClick={handleClick}
           >
-            <section.Icon className="fill-gray-100 dark:fill-slate-900" />
+            <section.Icon className="fill-gray-100" />
             <BiColoredTitle
               className="ml-2 hidden text-lg leading-relaxed md:block"
-              primaryClassName="text-gray-100 dark:text-slate-900"
-              secondaryClassName="text-slate-300 dark:text-[#233662]"
+              primaryClassName="text-gray-100"
+              secondaryClassName="text-slate-500"
               title={section.title}
               variant="no-border"
             />
@@ -68,7 +67,7 @@ function Menu({ sections }: MenuProps): JSX.Element {
         className="hidden p-1 transition hover:brightness-75 2xs:flex md:p-2"
         onClick={handleScrollTo('bottom')}
       >
-        <GoToIcon className="fill-gray-100 dark:fill-slate-900" height={28} width={28} />
+        <GoToIcon className="fill-gray-100" height={28} width={28} />
       </button>
     </div>
   );

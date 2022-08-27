@@ -24,7 +24,7 @@ function ThemeSwitch(props: ThemeSwitchProps): JSX.Element {
       <div
         className={clsx(
           'absolute top-0.5 mx-0.5 h-5 w-6 rounded-3xl transition-colors',
-          'translate-x-0 bg-primary dark:translate-x-5 dark:bg-primary-dark',
+          'translate-x-0 bg-primary dark:translate-x-5',
         )}
       />
     </button>
