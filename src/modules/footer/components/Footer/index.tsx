@@ -39,9 +39,9 @@ function Footer(): JSX.Element {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <span className="text-xs font-semibold text-slate-900">{appDetails}</span>
+        <span className="text-xs font-semibold text-slate-500">{appDetails}</span>
         <Anchor className="leading-3" external href={sourceCodeURL}>
-          <span className="border-b border-dotted border-gray-900 text-2xs text-gray-900">source code</span>
+          <span className="border-b border-dotted border-slate-500 text-2xs text-slate-500">source code</span>
         </Anchor>
       </div>
     </footer>
