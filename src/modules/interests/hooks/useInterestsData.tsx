@@ -10,7 +10,7 @@ type InterestsQueryResponse = {
 function useInterestsData(): Interest[] {
   const rawData = useStaticQuery<InterestsQueryResponse>(graphql`
     query InterestsQuery {
-      interests: allInterestsJson(sort: { fields: sortOrder, order: ASC }) {
+      interests: allInterestsJson(sort: { sortOrder: ASC }) {
         nodes {
           name
           sortOrder

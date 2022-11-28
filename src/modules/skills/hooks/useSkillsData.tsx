@@ -10,7 +10,7 @@ type SkillsQueryResponse = {
 function useSkillsData(): Skill[] {
   const rawData = useStaticQuery<SkillsQueryResponse>(graphql`
     query SkillsQuery {
-      skills: allSkillsJson(sort: { fields: sortOrder, order: ASC }) {
+      skills: allSkillsJson(sort: { sortOrder: ASC }) {
         nodes {
           items {
             name

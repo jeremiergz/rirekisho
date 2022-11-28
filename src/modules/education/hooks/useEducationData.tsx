@@ -10,7 +10,7 @@ type EducationQueryResponse = {
 function useEducationData(): Degree[] {
   const rawData = useStaticQuery<EducationQueryResponse>(graphql`
     query EducationQuery {
-      education: allEducationJson(sort: { fields: issueDate, order: ASC }) {
+      education: allEducationJson(sort: { issueDate: ASC }) {
         nodes {
           city
           countryCode

@@ -10,7 +10,7 @@ type CertificationsQueryResponse = {
 function useCertificationsData(): Certification[] {
   const rawData = useStaticQuery<CertificationsQueryResponse>(graphql`
     query CertificationsQuery {
-      certifications: allCertificationsJson(sort: { fields: sortOrder, order: ASC }) {
+      certifications: allCertificationsJson(sort: { sortOrder: ASC }) {
         nodes {
           display
           img {

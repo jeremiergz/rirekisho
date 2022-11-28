@@ -1,4 +1,4 @@
-DEPENDENCIES			:= cut date git jq npm
+DEPENDENCIES			:= cut date echo git jq mv npm
 $(foreach dependency, ${DEPENDENCIES}, $(if $(shell which ${dependency}),, $(error No ${dependency} in PATH)))
 
 TAG						:= $(shell git describe --abbrev=0)

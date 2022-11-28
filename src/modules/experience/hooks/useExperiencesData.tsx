@@ -10,7 +10,7 @@ type ExperiencesQueryResponse = {
 function useExperiencesData(): Experience[] {
   const rawData = useStaticQuery<ExperiencesQueryResponse>(graphql`
     query ExperiencesQuery {
-      experiences: allExperiencesJson(sort: { fields: timeline___startDate, order: DESC }) {
+      experiences: allExperiencesJson(sort: { timeline: { startDate: DESC } }) {
         nodes {
           company {
             img {

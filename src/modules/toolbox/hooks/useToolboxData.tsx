@@ -10,7 +10,7 @@ type ToolboxQueryResponse = {
 function useToolboxData(): Tool[] {
   const rawData = useStaticQuery<ToolboxQueryResponse>(graphql`
     query ToolboxQuery {
-      toolbox: allToolboxJson(sort: { fields: sortOrder, order: ASC }) {
+      toolbox: allToolboxJson(sort: { sortOrder: ASC }) {
         nodes {
           img {
             src {

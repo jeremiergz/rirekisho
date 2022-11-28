@@ -10,7 +10,7 @@ type LanguagesQueryResponse = {
 function useLanguagesData(): Language[] {
   const rawData = useStaticQuery<LanguagesQueryResponse>(graphql`
     query LanguagesQuery {
-      languages: allLanguagesJson(sort: { fields: sortOrder, order: ASC }) {
+      languages: allLanguagesJson(sort: { sortOrder: ASC }) {
         nodes {
           img {
             src {
