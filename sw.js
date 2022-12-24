@@ -40,7 +40,7 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/icon-36x36.png",
-    "revision": "80d911d4c4d92f22387126eb9ae4eb93"
+    "revision": "9f95190d3e5168086a27f34d4ae0b9ad"
   },
   {
     "url": "icons/icon-384x384.png",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/icon-48x48.png",
-    "revision": "f815b7f63e8dab7bcf05a4e254ac0a56"
+    "revision": "9bfd7afb8c30cb1e7ea37c44efdad4eb"
   },
   {
     "url": "icons/icon-512x512.png",
@@ -56,11 +56,11 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/icon-72x72.png",
-    "revision": "4c0a14f46ad96bf454527b5f542fd7ad"
+    "revision": "ea287125d4454ea62ce187016781f4a3"
   },
   {
     "url": "icons/icon-96x96.png",
-    "revision": "affd5944a3ad8bb363fdf8542346cfd3"
+    "revision": "b4c84bbc4ed99949c830a8f8708d3f7a"
   },
   {
     "url": "icons/maskable-icon.png",
@@ -76,10 +76,10 @@ self.__precacheManifest = [
   },
   {
     "url": "icons/ms-icon-70x70.png",
-    "revision": "7b71ff13b89bb7eb3a4cf5e0a1414ac8"
+    "revision": "ed04190398e994bb6cfd37ef7c85958d"
   },
   {
-    "url": "framework-2bbc817de67616b5320e.js"
+    "url": "framework-865b834ca9ed7fc68550.js"
   },
   {
     "url": "styles.c8304a415b7cefcae925.css"
@@ -89,10 +89,10 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "792f2f529b8a0062111d924510b689c9"
+    "revision": "343f3329f452846913b56a690b455e1c"
   },
   {
-    "url": "webpack-runtime-df153d326613ef26d55f.js"
+    "url": "webpack-runtime-d1b285a915fe99cbca97.js"
   },
   {
     "url": "manifest.webmanifest",
